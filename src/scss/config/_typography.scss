@@ -62,7 +62,10 @@ $fontSizes    : (
 @mixin heading-font($extrabold : false) {
   line-height    : var(--heading-line-height);
   font-family    : var(--heading-font);
-  font-weight    : if($extrabold, 800, 700);
+  font-weight    : 700;
+  @if $extrabold {
+    font-weight  : 800;
+  }
   letter-spacing : 0.015em;
   color          : var(--title-color);
 

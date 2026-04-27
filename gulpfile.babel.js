@@ -50,7 +50,9 @@ gulp.task('styles-dev', () => {
 		.pipe(plumber())
 		.pipe(sass({
 			outputStyle: 'expanded',
-			loadPaths: ['./node_modules']
+			loadPaths: ['./node_modules'],
+			quietDeps: true,
+			silenceDeprecations: ['import', 'global-builtin', 'slash-div']
 		}))
 		.pipe(postcss(postcssPlugins))
 		.pipe(sourcemaps.write('.'))
@@ -63,7 +65,9 @@ gulp.task('styles-build', () => {
 		.pipe(plumber())
 		.pipe(sass({
 			outputStyle: 'compressed',
-			loadPaths: ['./node_modules']
+			loadPaths: ['./node_modules'],
+			quietDeps: true,
+			silenceDeprecations: ['import', 'global-builtin', 'slash-div']
 		}))
 		.pipe(postcss(postcssPlugins))
 		.pipe(cleanCSS({
