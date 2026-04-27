@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "Simple scafolding for statics web projects",
 	"main": "gulpfile.babel.js",
-	"homepage": "https://kikeestradadev.github.io/linkup/",
+	"homepage": "https://kikeestradadev.github.io/trigalmedia/",
 	"scripts": {
 		"start": "gulp",
 		"pug": "gulp pug",
