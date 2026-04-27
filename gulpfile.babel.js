@@ -221,7 +221,6 @@ gulp.task('dev', series(
 		'styles-dev',
 		'pug-dev',
 		'scripts-dev',
-		'images-dev',
 		'audios-dev',
 		'videos-dev',
 		'fonts-dev',

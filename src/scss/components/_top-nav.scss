@@ -22,11 +22,11 @@
 		align-self: center;
 	}
 	&__logo{
-		height: 1rem;
-		width: auto;
+		
+		width: 150px;
 		display: block;
 		@include from(l){
-			height: 1.5rem;
+			width: 200px;
 		}
 	}
 	&__menu{
