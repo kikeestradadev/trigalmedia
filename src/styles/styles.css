@@ -1,0 +1,61 @@
+:root {
+  --bg-body: #fff;
+  --base-color: steelblue;
+  --header-height: 50px;
+  --footer-height: 96px;
+  --first-color: #007BDF;
+  --first-color-alt: #006DC6;
+  --second-color: #00CBFF;
+  --second-color-alt: #00BFF0;
+  --third-color: #FF3C32;
+  --third-color-alt: #FF2419;
+}
+@media (min-width: 960px) {
+  :root {
+    --header-height: 70px;
+    --footer-height: 150px;
+  }
+}
+
+.dark {
+  --bg-body: #18181b;
+  --base-color: #202B3A;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 3500px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+::-moz-selection {
+  color: white;
+  background: #9e852e;
+}
+
+::selection {
+  color: white;
+  background: #9e852e;
+}
+
+html {
+  font-family: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.internal-module-style {
+  color: red;
+}
+
+@media (min-width: 640px) and (max-width: calc(1600px - 1px)) {
+  body {
+    background-color: green !important;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

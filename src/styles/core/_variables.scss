@@ -1,0 +1,43 @@
+// Color Palette Variables
+// These variables define the visual concept and color structure for the project
+
+// Primary colors
+$firstColor: #007BDF;
+$firstColorAlt: #006DC6;
+
+// Secondary colors
+$secondColor: #00CBFF;
+$secondColorAlt: #00BFF0;
+
+// Tertiary colors
+$thirdColor: #FF3C32;
+$thirdColorAlt: #FF2419;
+
+:root {
+	// Layout colors
+	--bg-body: #fff;
+	--base-color: steelblue;
+	
+	// Layout sizes
+	--header-height: 50px;
+	--footer-height: 96px;
+	
+	// Color palette
+	--first-color: #007BDF;
+	--first-color-alt: #006DC6;
+	--second-color: #00CBFF;
+	--second-color-alt: #00BFF0;
+	--third-color: #FF3C32;
+	--third-color-alt: #FF2419;
+	
+	@include from(l) {
+		--header-height: 70px;
+		--footer-height: 150px;
+	}
+}
+
+// Dark mode support with class
+.dark {
+	--bg-body: #18181b;
+	--base-color: #202B3A;
+}
