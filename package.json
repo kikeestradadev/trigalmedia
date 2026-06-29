@@ -9,7 +9,7 @@
 		"deploy": "gh-pages -d public -r https://github.com/kikeestradadev/trigalmedia.git"
 	},
 	"dependencies": {
-		"caniuse-lite": "^1.0.30001770",
+		"caniuse-lite": "^1.0.30001799",
 		"gh-pages": "^6.3.0",
 		"update-browserslist-db": "^1.1.2"
 	},
@@ -24,9 +24,9 @@
 		"url": "https://github.com/kikeestradadev/trigalmedia/issues"
 	},
 	"devDependencies": {
-		"@tailwindcss/cli": "^4.1.18",
-		"@tailwindcss/typography": "^0.5.16",
+		"@tailwindcss/cli": "^4.3.1",
+		"@tailwindcss/typography": "^0.5.20",
 		"jstransformer-markdown-it": "^3.0.0",
-		"tailwindcss": "^4.1.5"
+		"tailwindcss": "^4.3.1"
 	}
 }
