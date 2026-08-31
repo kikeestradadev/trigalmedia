@@ -1,11 +1,11 @@
 {
-	"name": "gulp-boilerplate-2024-sass",
+	"name": "trigalmedia",
 	"version": "1.0.0",
 	"assetVersion": "1.0.23",
 	"description": "Simple scaffolding for static web projects with Gulp + Sass",
 	"type": "module",
 	"main": "gulpfile.js",
-	"homepage": "https://kikeestradadev.github.io/gulp-boilerplate-2024-sass/",
+	"homepage": "https://kikeestradadev.github.io/trigalmedia/",
 	"engines": {
 		"node": ">=22.13.1"
 	},
