@@ -1,0 +1,14 @@
+include ../data/legal-trust-data
+include icons
+
+section(class='legal-trust reveal')
+	div(class='container legal-trust__container')
+		header(class='section-heading')
+			h2(class='section-heading__title')= legalTrustData.title
+			p(class='section-heading__lead')= legalTrustData.lead
+		div(class='legal-trust__grid')
+			each item in legalTrustData.items
+				article(class='legal-trust__card')
+					div(class='legal-trust__icon')
+						+icon(item.icon)
+					p(class='legal-trust__text')= item.text

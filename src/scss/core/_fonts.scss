@@ -1,0 +1,93 @@
+h1, h2, h3, h4, h5, h6 {
+	color: var(--header-color);
+	margin: 0;
+}
+
+body {
+	font-family: Inter, sans-serif;
+}
+
+h1 {
+	font: normal normal 800 36px/43px Inter;
+	letter-spacing: -0.72px;
+
+	@media (width >= $l) {
+		font: normal normal 800 51px/56px Inter;
+		letter-spacing: -0.66px;
+	}
+}
+
+h2 {
+	font: normal normal 800 29px/35px Inter;
+	letter-spacing: -0.58px;
+
+	@media (width >= $l) {
+		font: normal normal 800 41px/49px Inter;
+		letter-spacing: -0.82px;
+	}
+}
+
+h3 {
+	font: normal normal 700 24px/29px Inter;
+	letter-spacing: -0.48px;
+
+	@media (width >= $l) {
+		font: normal normal 700 27px/32px Inter;
+		letter-spacing: -0.54px;
+	}
+}
+
+h4 {
+	font: normal normal 700 20px/28px Inter;
+	letter-spacing: -0.4px;
+
+	@media (width >= $l) {
+		font: normal normal 700 23px/28px Inter;
+		letter-spacing: -0.46px;
+	}
+}
+
+h5 {
+	font: normal normal 600 17px/27px Inter;
+	letter-spacing: -0.34px;
+
+	@media (width >= $l) {
+		font: normal normal 600 19px/23px Inter;
+		letter-spacing: -0.38px;
+	}
+}
+
+h6 {
+	font: normal normal 600 14px/25px Inter;
+	letter-spacing: -0.28px;
+
+	@media (width >= $l) {
+		font: normal normal 600 15px/27px Inter;
+		letter-spacing: -0.3px;
+	}
+}
+
+p {
+	font: normal normal normal 15px/27px Inter;
+	letter-spacing: 0;
+	color: var(--paragraph-color);
+
+	@media (width >= $l) {
+		font: normal normal normal 16px/24px Inter;
+	}
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}

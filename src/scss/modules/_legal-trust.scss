@@ -1,0 +1,55 @@
+.legal-trust {
+	padding: 4rem 0;
+	background: var(--color-bg-section);
+
+	@media (width >= $l) {
+		padding: 5.5rem 0;
+	}
+
+	&__grid {
+		display: grid;
+		gap: 1rem;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+
+		@media (width >= $l) {
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			gap: 1.25rem;
+		}
+	}
+
+	&__card {
+		display: flex;
+		flex-direction: column;
+		gap: 0.85rem;
+		padding: 1.25rem;
+		background: var(--color-bg-card);
+		border: 1px solid var(--color-border);
+		border-radius: 0.75rem;
+		transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+		&:hover {
+			border-color: rgba(225, 29, 46, 0.45);
+			box-shadow: 0 0 18px var(--color-glow);
+		}
+	}
+
+	&__icon {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 2.5rem;
+		height: 2.5rem;
+		border-radius: 0.5rem;
+		background: rgba(225, 29, 46, 0.12);
+		color: var(--color-accent);
+		border: 1px solid rgba(225, 29, 46, 0.3);
+	}
+
+	&__text {
+		margin: 0;
+		color: var(--color-text);
+		font-size: 0.875rem;
+		font-weight: 600;
+		line-height: 1.45;
+	}
+}

@@ -1,0 +1,39 @@
+-
+	const heroDataAll = {
+		en: {
+			eyebrow: 'DEV · AI · AUTOMATION · OUTSOURCING',
+			title: 'Kike Estrada Developer',
+			subtitle: 'Web development, AI agents, automation and team outsourcing for businesses that need concrete results.',
+			primaryCta: { label: 'View projects', href: '#projects' },
+			secondaryCta: { label: "Let's talk about your project", href: '#contact' },
+			badges: [
+				'50+ projects delivered',
+				'100% results-focused',
+				'AI applied to processes',
+				'Custom code',
+				'Development outsourcing',
+				'Web · Ecommerce · Automation',
+				'Technical SEO',
+				'Ongoing support',
+			],
+		},
+		es: {
+			eyebrow: 'DEV · IA · AUTOMATIZACIÓN · OUTSOURCING',
+			title: 'Kike Estrada Developer',
+			subtitle: 'Desarrollo web, agentes de IA, automatización y outsourcing de equipos para negocios que necesitan resultados concretos.',
+			primaryCta: { label: 'Ver proyectos', href: '#projects' },
+			secondaryCta: { label: 'Hablemos de tu proyecto', href: '#contact' },
+			badges: [
+				'50+ proyectos entregados',
+				'100% enfoque en resultados',
+				'IA aplicada a procesos',
+				'Código a medida',
+				'Outsourcing de desarrollo',
+				'Web · Ecommerce · Automatización',
+				'SEO técnico',
+				'Soporte continuo',
+			],
+		},
+	}
+
+	const heroData = heroDataAll[typeof currentLang !== 'undefined' ? currentLang : 'en'] || heroDataAll.en

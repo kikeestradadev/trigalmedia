@@ -1,0 +1,6 @@
+include ../data/floating-button-data
+
+-
+	const floatingButton = floatingButtonData[currentPage] || floatingButtonData.home
+
+a(class='floating-button' href=floatingButton.href)= floatingButton.label

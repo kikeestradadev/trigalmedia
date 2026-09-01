@@ -1,0 +1,105 @@
+-
+	const servicesDataAll = {
+		en: {
+			title: 'Services',
+			lead: 'Web solutions, automation, artificial intelligence and development outsourcing for businesses that need concrete results.',
+			cta: { label: 'See all services', href: '#contact' },
+			items: [
+				{
+					number: '01',
+					title: 'Websites',
+					description: 'Professional digital presence for companies that need to generate leads and present their services.',
+					tags: ['Landing pages', 'Corporate sites', 'E-commerce'],
+				},
+				{
+					number: '02',
+					title: 'E-commerce & payment gateways',
+					description: 'Online stores and integrated payment systems to sell securely online.',
+					tags: ['Stripe', 'PayPal', 'SINPE'],
+				},
+				{
+					number: '03',
+					title: 'WhatsApp Business & Chatbots',
+					description: 'AI-powered automated support so your business can reply 24/7 without losing customers.',
+					tags: ['WhatsApp API', 'AI Chatbots'],
+				},
+				{
+					number: '04',
+					title: 'WordPress development',
+					description: 'WordPress sites and stores, custom themes and performance optimization.',
+					tags: ['WordPress', 'WooCommerce', 'Elementor'],
+				},
+				{
+					number: '05',
+					title: 'Laravel applications',
+					description: 'Custom Laravel backends and systems: APIs, admin panels and integrations.',
+					tags: ['Laravel', 'PHP', 'REST APIs'],
+				},
+				{
+					number: '06',
+					title: 'React JS applications',
+					description: 'Modern, fast and scalable interfaces with React.',
+					tags: ['React', 'Next.js', 'TypeScript'],
+				},
+				{
+					number: '07',
+					title: 'Development outsourcing',
+					description: 'On-demand teams or roles (frontend, backend, WordPress, React, Laravel) to strengthen your product or project without losing control or quality.',
+					tags: ['Staff augmentation', 'Custom teams', 'Nearshore'],
+					featured: true,
+				},
+			],
+		},
+		es: {
+			title: 'Servicios',
+			lead: 'Soluciones web, automatización, inteligencia artificial y outsourcing de desarrollo para negocios que necesitan resultados concretos.',
+			cta: { label: 'Ver todos los servicios', href: '#contact' },
+			items: [
+				{
+					number: '01',
+					title: 'Sitios Web',
+					description: 'Presencia digital profesional para empresas que necesitan generar contacto y presentar servicios.',
+					tags: ['Landing pages', 'Sitios corporativos', 'E-commerce'],
+				},
+				{
+					number: '02',
+					title: 'E-commerce y pasarelas de pago',
+					description: 'Tiendas en línea y sistemas de cobro integrados para vender en línea de forma segura.',
+					tags: ['Stripe', 'PayPal', 'SINPE'],
+				},
+				{
+					number: '03',
+					title: 'WhatsApp Business y Chatbots',
+					description: 'Sistemas de atención automatizados con IA para que tu negocio responda 24/7 sin perder clientes.',
+					tags: ['WhatsApp API', 'Chatbots IA'],
+				},
+				{
+					number: '04',
+					title: 'Desarrollo en WordPress',
+					description: 'Sitios y tiendas en WordPress, temas a medida y optimización de rendimiento.',
+					tags: ['WordPress', 'WooCommerce', 'Elementor'],
+				},
+				{
+					number: '05',
+					title: 'Aplicaciones en Laravel',
+					description: 'Backends y sistemas a medida en Laravel: APIs, paneles de administración, integraciones.',
+					tags: ['Laravel', 'PHP', 'APIs REST'],
+				},
+				{
+					number: '06',
+					title: 'Aplicaciones en React JS',
+					description: 'Interfaces modernas, rápidas y escalables con React.',
+					tags: ['React', 'Next.js', 'TypeScript'],
+				},
+				{
+					number: '07',
+					title: 'Outsourcing de desarrollo',
+					description: 'Equipos o perfiles a demanda (frontend, backend, WordPress, React, Laravel) para reforzar tu producto o proyecto sin perder control ni calidad.',
+					tags: ['Staff augmentation', 'Equipos a medida', 'Nearshore'],
+					featured: true,
+				},
+			],
+		},
+	}
+
+	const servicesData = servicesDataAll[typeof currentLang !== 'undefined' ? currentLang : 'en'] || servicesDataAll.en

@@ -1,0 +1,27 @@
+include ../data/site-footer-data
+include icons
+
+div(class='site-footer')
+	div(class='container site-footer__container')
+		div(class='site-footer__brand')
+			a(class='site-footer__logo' href='#home')
+				img(src=siteData.logo alt='kikeestradadev' width='180' height='40')
+			p(class='site-footer__description')= siteFooterData.description
+			a(class='site-footer__social' href=siteData.whatsapp target='_blank' rel='noopener noreferrer' aria-label='WhatsApp')
+				+icon('whatsapp')
+		div(class='site-footer__columns')
+			div(class='site-footer__column')
+				h3(class='site-footer__title')= siteFooterData.navTitle
+				ul(class='site-footer__list')
+					each item in siteFooterData.nav
+						li
+							a(class='site-footer__link' href=item.href)= item.label
+			div(class='site-footer__column')
+				h3(class='site-footer__title')= siteFooterData.contactTitle
+				ul(class='site-footer__list')
+					li
+						a(class='site-footer__link' href=siteData.whatsapp target='_blank' rel='noopener noreferrer') WhatsApp
+					li
+						a(class='site-footer__link' href=`mailto:${siteData.email}`)= siteData.email
+		div(class='site-footer__bottom')
+			p(class='site-footer__copy')= siteFooterData.copyright

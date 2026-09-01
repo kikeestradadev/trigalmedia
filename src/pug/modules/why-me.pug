@@ -1,0 +1,15 @@
+include ../data/why-me-data
+include icons
+
+section(class='why-me reveal')
+	div(class='container why-me__container')
+		header(class='section-heading')
+			h2(class='section-heading__title')= whyMeData.title
+			p(class='section-heading__lead')= whyMeData.lead
+		div(class='why-me__grid')
+			each item in whyMeData.items
+				article(class=item.featured ? 'why-me__card why-me__card--featured' : 'why-me__card')
+					div(class='why-me__icon')
+						+icon(item.icon)
+					h3(class='why-me__title')= item.title
+					p(class='why-me__description')= item.description

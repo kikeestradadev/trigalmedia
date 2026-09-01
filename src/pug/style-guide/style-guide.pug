@@ -1,0 +1,16 @@
+extends ../config/template
+
+append config
+	-currentLang		= 'en'
+	-currentPage		= "style-guide"
+	-siteName			= 'Kike Estrada Developer'
+	-content			= 'content'
+	-pageTitle			= 'Style Guide | Kike Estrada Developer'
+	-pageDescription	= 'Style guide, typography and color palette for the Kike Estrada Developer site.'
+
+block main-header
+block main-container
+	include color-table
+	include fonts-specimen
+block main-footer
+block scripts

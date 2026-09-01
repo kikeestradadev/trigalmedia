@@ -1,0 +1,47 @@
+-
+	const siteHeaderDataAll = {
+		en: {
+			logoAlt: 'kikeestradadev',
+			navLabel: 'Main',
+			menuOpen: 'Open menu',
+			menuClose: 'Close menu',
+			langLabel: 'Language',
+			nav: [
+				{ label: 'Home', href: '#home' },
+				{ label: 'Services', href: '#services' },
+				{ label: 'Projects', href: '#projects' },
+				{ label: 'Contact', href: '#contact' },
+			],
+			cta: {
+				label: "Let's talk",
+				href: '#contact',
+			},
+			langs: [
+				{ code: 'en', label: 'EN', href: './index.html' },
+				{ code: 'es', label: 'ES', href: './es.html' },
+			],
+		},
+		es: {
+			logoAlt: 'kikeestradadev',
+			navLabel: 'Principal',
+			menuOpen: 'Abrir menú',
+			menuClose: 'Cerrar menú',
+			langLabel: 'Idioma',
+			nav: [
+				{ label: 'Inicio', href: '#home' },
+				{ label: 'Servicios', href: '#services' },
+				{ label: 'Proyectos', href: '#projects' },
+				{ label: 'Contacto', href: '#contact' },
+			],
+			cta: {
+				label: 'Hablemos',
+				href: '#contact',
+			},
+			langs: [
+				{ code: 'en', label: 'EN', href: './index.html' },
+				{ code: 'es', label: 'ES', href: './es.html' },
+			],
+		},
+	}
+
+	const siteHeaderData = siteHeaderDataAll[typeof currentLang !== 'undefined' ? currentLang : 'en'] || siteHeaderDataAll.en

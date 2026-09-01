@@ -1,0 +1,69 @@
+-
+	const whyMeDataAll = {
+		en: {
+			title: 'Why work with me',
+			lead: 'You work directly with me: custom code, clear communication and commitment to results.',
+			items: [
+				{
+					icon: 'code',
+					title: 'Real technical development',
+					description: 'I build custom solutions — no generic templates that limit your business.',
+				},
+				{
+					icon: 'bot',
+					title: 'AI applied to processes',
+					description: 'I automate repetitive tasks and support flows to save time.',
+				},
+				{
+					icon: 'shield',
+					title: 'Security & compliance',
+					description: 'Best practices, protected data and solutions aligned with regulations.',
+				},
+				{
+					icon: 'handshake',
+					title: 'Close support',
+					description: 'Direct communication with me, no middlemen. I personally lead every project.',
+				},
+				{
+					icon: 'users',
+					title: 'Outsourcing & custom teams',
+					description: 'For large projects or ongoing workload, I assemble and coordinate specialist teams (frontend, backend, design) under a close outsourcing model: you talk to me and I handle delivery without losing quality.',
+					featured: true,
+				},
+			],
+		},
+		es: {
+			title: 'Por qué confiar en mí',
+			lead: 'Trabajo directo conmigo: código a medida, comunicación clara y compromiso con el resultado.',
+			items: [
+				{
+					icon: 'code',
+					title: 'Desarrollo técnico real',
+					description: 'Implemento a medida, sin plantillas genéricas que limiten tu negocio.',
+				},
+				{
+					icon: 'bot',
+					title: 'IA aplicada a procesos',
+					description: 'Automatizo tareas repetitivas y flujos de atención para ahorrar tiempo.',
+				},
+				{
+					icon: 'shield',
+					title: 'Seguridad y cumplimiento',
+					description: 'Buenas prácticas, datos protegidos y soluciones alineadas a normativa.',
+				},
+				{
+					icon: 'handshake',
+					title: 'Acompañamiento cercano',
+					description: 'Comunicación directa conmigo, sin intermediarios. Cada proyecto lo llevo personalmente.',
+				},
+				{
+					icon: 'users',
+					title: 'Outsourcing y equipos a medida',
+					description: 'Para proyectos grandes o carga continua, armo y coordino equipos de especialistas (frontend, backend, diseño) bajo un modelo de outsourcing cercano: vos hablás conmigo y yo me encargo de la ejecución sin perder calidad.',
+					featured: true,
+				},
+			],
+		},
+	}
+
+	const whyMeData = whyMeDataAll[typeof currentLang !== 'undefined' ? currentLang : 'en'] || whyMeDataAll.en

@@ -1,0 +1,30 @@
+---
+description: Patrón de módulos JS agrupados por Prepros desde index.js
+globs: src/js/**/*.js
+alwaysApply: false
+---
+
+# Módulos JavaScript
+
+Cada comportamiento vive en `src/js/modules/`:
+
+```js
+const mainMenu = () => {
+	document.querySelectorAll('.main-menu').forEach((root) => {
+		// Consultas y listeners acotados a root.
+	});
+};
+
+export default mainMenu;
+```
+
+Impórtalo desde `src/js/index.js` y ejecútalo en `initComponents`, que corre después de `DOMContentLoaded`.
+
+## Reglas
+
+- Usa nombre de archivo y constante en camelCase.
+- Usa `const`, función flecha y un único `export default`.
+- Soporta múltiples raíces y evita listeners o instancias duplicadas.
+- Valida globals de CDN, como `Swiper` o `Prism`, antes de utilizarlos.
+- No añadas dependencias npm al bundle sin una necesidad explícita.
+- Prepros agrupa únicamente `src/js/index.js` hacia `public/index.js`.

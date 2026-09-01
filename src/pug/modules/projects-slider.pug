@@ -1,0 +1,35 @@
+include ../data/projects-slider-data
+include icons
+
+section(class='projects-slider reveal' id='projects')
+	div(class='container projects-slider__container')
+		header(class='section-heading')
+			h2(class='section-heading__title')= projectsSliderData.title
+			p(class='section-heading__lead')= projectsSliderData.lead
+		div(class='projects-slider__shell')
+			button(class='projects-slider__nav projects-slider__nav--prev' type='button' aria-label=projectsSliderData.prevLabel)
+				+icon('arrow-left')
+			div(class='projects-slider__swiper swiper')
+				div(class='swiper-wrapper')
+					each project in projectsSliderData.items
+						a(
+							class='projects-slider__slide swiper-slide'
+							href=project.href
+							target='_blank'
+							rel='noopener noreferrer'
+							aria-label=`${projectsSliderData.visitLabel}: ${project.name}`
+						)
+							div(class='projects-slider__media')
+								img(class='projects-slider__image' src=project.image alt='' loading='lazy' width='640' height='400' aria-hidden='true')
+							div(class='projects-slider__body')
+								span(class='projects-slider__category')= project.category
+								h3(class='projects-slider__name')= project.name
+								p(class='projects-slider__description')= project.description
+								ul(class='projects-slider__tags')
+									each tag in project.tags
+										li(class='projects-slider__tag')= tag
+								span(class='projects-slider__link')
+									= projectsSliderData.ctaLabel
+			button(class='projects-slider__nav projects-slider__nav--next' type='button' aria-label=projectsSliderData.nextLabel)
+				+icon('arrow-right')
+		div(class='projects-slider__pagination')

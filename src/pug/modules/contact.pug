@@ -1,0 +1,35 @@
+include ../data/contact-data
+include icons
+
+-
+	const contactChannels = contactData.channels.map((channel) => {
+		const value = siteData[channel.valueKey]
+		let href = siteData[channel.hrefKey]
+		if (channel.icon === 'mail') href = `mailto:${siteData.email}`
+		if (channel.icon === 'phone') href = `tel:${String(siteData.phone).replace(/[^\d+]/g, '')}`
+		return { ...channel, value, href }
+	})
+
+section(class='contact reveal' id='contact')
+	div(class='container contact__container')
+		header(class='section-heading')
+			h2(class='section-heading__title')= contactData.title
+			p(class='section-heading__lead')= contactData.lead
+		div(class='contact__layout')
+			div(class='contact__main')
+				ul(class='contact__channels')
+					each channel in contactChannels
+						li(class='contact__channel')
+							a(class='contact__link' href=channel.href)
+								span(class='contact__icon')
+									+icon(channel.icon)
+								span(class='contact__meta')
+									span(class='contact__label')= channel.label
+									span(class='contact__value')= channel.value
+				a(class='btn btn--primary contact__cta' href=siteData.whatsapp target='_blank' rel='noopener noreferrer')
+					+icon('whatsapp')
+					span= contactData.ctaLabel
+			aside(class='contact__qr')
+				a(class='contact__qr-link' href=siteData.whatsapp target='_blank' rel='noopener noreferrer' aria-label=contactData.openWhatsappLabel)
+					img(class='contact__qr-image' src=contactData.qrImage alt='WhatsApp QR' width='180' height='180' loading='lazy')
+				p(class='contact__qr-label')= contactData.qrLabel

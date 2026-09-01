@@ -1,0 +1,18 @@
+include ../data/services-data
+
+section(class='services reveal' id='services')
+	div(class='container services__container')
+		header(class='section-heading')
+			h2(class='section-heading__title')= servicesData.title
+			p(class='section-heading__lead')= servicesData.lead
+		div(class='services__grid')
+			each item in servicesData.items
+				article(class=item.featured ? 'services__card services__card--featured' : 'services__card')
+					span(class='services__number')= item.number
+					h3(class='services__title')= item.title
+					p(class='services__description')= item.description
+					ul(class='services__tags')
+						each tag in item.tags
+							li(class='services__tag')= tag
+		div(class='services__actions')
+			a(class='btn btn--outline' href=servicesData.cta.href)= servicesData.cta.label

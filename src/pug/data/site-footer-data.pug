@@ -1,0 +1,29 @@
+-
+	const siteFooterDataAll = {
+		en: {
+			description: 'Web development, AI agents, automation and outsourcing',
+			navTitle: 'Navigation',
+			contactTitle: 'Contact',
+			nav: [
+				{ label: 'Home', href: '#home' },
+				{ label: 'Services', href: '#services' },
+				{ label: 'Projects', href: '#projects' },
+				{ label: 'Contact', href: '#contact' },
+			],
+			copyright: '© 2026 Kike Estrada Developer. All rights reserved.',
+		},
+		es: {
+			description: 'Desarrollo web, agentes de IA, automatización y outsourcing',
+			navTitle: 'Navegación',
+			contactTitle: 'Contacto',
+			nav: [
+				{ label: 'Inicio', href: '#home' },
+				{ label: 'Servicios', href: '#services' },
+				{ label: 'Proyectos', href: '#projects' },
+				{ label: 'Contacto', href: '#contact' },
+			],
+			copyright: '© 2026 Kike Estrada Developer. Todos los derechos reservados.',
+		},
+	}
+
+	const siteFooterData = siteFooterDataAll[typeof currentLang !== 'undefined' ? currentLang : 'en'] || siteFooterDataAll.en

@@ -1,0 +1,26 @@
+extends ../config/template
+
+append config
+	-currentLang		= 'es'
+	-currentPage		= 'home'
+	-siteName			= 'Kike Estrada Developer'
+	-content			= 'content'
+	-pageTitle			= ''
+	-pageDescription	= ''
+
+block main-header
+	include ../modules/site-header
+
+block main-container
+	include ../modules/hero
+	include ../modules/services
+	include ../modules/why-me
+	include ../modules/projects-slider
+	include ../modules/faq
+	include ../modules/legal-trust
+	include ../modules/contact
+
+block main-footer
+	include ../modules/site-footer
+
+block scripts

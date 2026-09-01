@@ -1,0 +1,35 @@
+include ../data/site-header-data
+include icons
+
+-
+	const activeLangCode = typeof currentLang !== 'undefined' ? currentLang : 'en'
+
+nav(
+	class='site-header'
+	aria-label=siteHeaderData.navLabel
+	data-menu-open=siteHeaderData.menuOpen
+	data-menu-close=siteHeaderData.menuClose
+)
+	div(class='container site-header__container')
+		a(class='site-header__logo' href='#home')
+			img(src=siteData.logo alt=siteHeaderData.logoAlt width='200' height='45')
+		button(class='site-header__toggle' type='button' aria-expanded='false' aria-controls='site-header-nav' aria-label=siteHeaderData.menuOpen)
+			span(class='site-header__toggle-icon site-header__toggle-icon--open')
+				+icon('menu')
+			span(class='site-header__toggle-icon site-header__toggle-icon--close')
+				+icon('close')
+		div(class='site-header__panel' id='site-header-nav')
+			ul(class='site-header__nav')
+				each item in siteHeaderData.nav
+					li(class='site-header__item')
+						a(class='site-header__link' href=item.href)= item.label
+			div(class='site-header__lang' role='group' aria-label=siteHeaderData.langLabel)
+				each langItem in siteHeaderData.langs
+					a(
+						class=langItem.code === activeLangCode ? 'site-header__lang-btn site-header__lang-btn--active' : 'site-header__lang-btn'
+						href=langItem.href
+						hreflang=langItem.code
+						lang=langItem.code
+						aria-current=langItem.code === activeLangCode ? 'true' : 'false'
+					)= langItem.label
+			a(class='btn btn--primary site-header__cta' href=siteHeaderData.cta.href)= siteHeaderData.cta.label

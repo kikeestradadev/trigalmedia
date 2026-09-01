@@ -1,0 +1,29 @@
+-
+	const legalTrustDataAll = {
+		en: {
+			title: 'Legal commitment and responsible data handling',
+			lead: 'I work with privacy, security and compliance best practices for Costa Rica and international markets.',
+			items: [
+				{ icon: 'lock', text: 'Privacy policies' },
+				{ icon: 'file', text: 'Terms of service' },
+				{ icon: 'activity', text: 'Responsible data handling and PROMAD activity protocol' },
+				{ icon: 'scale', text: 'Law 8968 (Costa Rica) compliance and GDPR best practices' },
+				{ icon: 'shield-check', text: 'Security best practices aligned with ISO 27001' },
+				{ icon: 'blocks', text: 'E-commerce and Blockchain' },
+			],
+		},
+		es: {
+			title: 'Compromiso legal y manejo responsable de datos',
+			lead: 'Trabajo con buenas prácticas de privacidad, seguridad y cumplimiento aplicable a Costa Rica y mercados internacionales.',
+			items: [
+				{ icon: 'lock', text: 'Políticas de privacidad' },
+				{ icon: 'file', text: 'Términos de servicio' },
+				{ icon: 'activity', text: 'Manejo responsable de datos y protocolo de actividad ante PROMAD' },
+				{ icon: 'scale', text: 'Cumplimiento Ley 8968 (Costa Rica) y buenas prácticas GDPR' },
+				{ icon: 'shield-check', text: 'Buenas prácticas de seguridad alineadas a ISO 27001' },
+				{ icon: 'blocks', text: 'Comercio Electrónico y Blockchain' },
+			],
+		},
+	}
+
+	const legalTrustData = legalTrustDataAll[typeof currentLang !== 'undefined' ? currentLang : 'en'] || legalTrustDataAll.en

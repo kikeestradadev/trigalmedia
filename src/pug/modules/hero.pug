@@ -1,0 +1,13 @@
+include ../data/hero-data
+
+section(class='hero' id='home')
+	div(class='container hero__container')
+		p(class='hero__eyebrow')= heroData.eyebrow
+		h1(class='hero__title')= heroData.title
+		p(class='hero__subtitle')= heroData.subtitle
+		div(class='hero__actions')
+			a(class='btn btn--primary' href=heroData.primaryCta.href)= heroData.primaryCta.label
+			a(class='btn btn--outline' href=heroData.secondaryCta.href)= heroData.secondaryCta.label
+		ul(class='hero__badges')
+			each badge in heroData.badges
+				li(class='hero__badge')= badge

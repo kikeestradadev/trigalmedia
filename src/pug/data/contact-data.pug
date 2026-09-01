@@ -1,0 +1,33 @@
+-
+	const contactDataAll = {
+		en: {
+			title: "Let's talk about your project",
+			lead: 'You work directly with me — on time, with custom digital solutions.',
+			ctaLabel: 'Message on WhatsApp',
+			qrImage: './assets/whatsapp-qr.png',
+			qrLabel: 'Scan to contact me on WhatsApp',
+			qrHrefKey: 'whatsapp',
+			openWhatsappLabel: 'Open WhatsApp',
+			channels: [
+				{ icon: 'whatsapp', label: 'WhatsApp', valueKey: 'whatsappLabel', hrefKey: 'whatsapp' },
+				{ icon: 'mail', label: 'Email', valueKey: 'email', hrefKey: 'email' },
+				{ icon: 'phone', label: 'Phone', valueKey: 'phone', hrefKey: 'phone' },
+			],
+		},
+		es: {
+			title: 'Hablemos de tu proyecto',
+			lead: 'Trabajo directo conmigo, a tiempo y con soluciones digitales a medida.',
+			ctaLabel: 'Escribir por WhatsApp',
+			qrImage: './assets/whatsapp-qr.png',
+			qrLabel: 'Escaneá para contactarme por WhatsApp',
+			qrHrefKey: 'whatsapp',
+			openWhatsappLabel: 'Abrir WhatsApp',
+			channels: [
+				{ icon: 'whatsapp', label: 'WhatsApp', valueKey: 'whatsappLabel', hrefKey: 'whatsapp' },
+				{ icon: 'mail', label: 'Correo', valueKey: 'email', hrefKey: 'email' },
+				{ icon: 'phone', label: 'Teléfono', valueKey: 'phone', hrefKey: 'phone' },
+			],
+		},
+	}
+
+	const contactData = contactDataAll[typeof currentLang !== 'undefined' ? currentLang : 'en'] || contactDataAll.en

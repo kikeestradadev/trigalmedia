@@ -1,0 +1,29 @@
+---
+description: Obliga sintaxis Pug extendida con atributos explícitos; prohíbe shorthand tag.class y tag#id
+globs: src/pug/**/*.pug
+alwaysApply: false
+---
+
+# Sintaxis Pug extendida
+
+El markup Pug usa siempre sintaxis larga. `class` e `id` se declaran como atributos explícitos.
+
+## Correcto
+
+```pug
+header(class='main-header')
+header(class='class-name' id='idName')
+section(class='color-table')
+div(class='color-table__container')
+```
+
+## Incorrecto
+
+```pug
+header.main-header
+header.class-name#idName
+.solo-clase
+#solo-id
+```
+
+No uses shorthand de Pug. Las clases dinámicas o variables también van dentro del atributo `class`.

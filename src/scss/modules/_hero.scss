@@ -1,0 +1,92 @@
+.hero {
+	position: relative;
+	padding: 3.5rem 0 4rem;
+	background:
+		radial-gradient(ellipse 80% 50% at 50% -20%, rgba(225, 29, 46, 0.18), transparent 55%),
+		linear-gradient(180deg, #0a0a0a 0%, #111111 100%);
+	overflow: hidden;
+
+	@media (width >= $l) {
+		padding: 5rem 0 5.5rem;
+	}
+
+	&__container {
+		position: relative;
+		z-index: 1;
+		text-align: center;
+	}
+
+	&__eyebrow {
+		margin: 0 0 1rem;
+		color: var(--color-accent);
+		font-size: 0.75rem;
+		font-weight: 700;
+		letter-spacing: 0.14em;
+		text-transform: uppercase;
+
+		@media (width >= $l) {
+			font-size: 0.8125rem;
+		}
+	}
+
+	&__title {
+		margin: 0 0 1rem;
+		font-size: clamp(2rem, 7vw, 3.75rem);
+		line-height: 1.05;
+		font-weight: 800;
+		letter-spacing: -0.03em;
+		text-transform: none;
+		color: #fff;
+	}
+
+	&__subtitle {
+		margin: 0 auto 2rem;
+		max-width: 36rem;
+		color: var(--color-text-muted);
+		font-size: 1.0625rem;
+		line-height: 1.65;
+
+		@media (width >= $l) {
+			font-size: 1.1875rem;
+		}
+	}
+
+	&__actions {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 0.75rem;
+		margin-bottom: 2.5rem;
+	}
+
+	&__badges {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 0.75rem;
+		text-align: left;
+
+		@media (width >= $m) {
+			grid-template-columns: repeat(4, minmax(0, 1fr));
+		}
+	}
+
+	&__badge {
+		padding: 0.85rem 0.9rem;
+		background: var(--color-bg-card);
+		border: 1px solid var(--color-border);
+		border-radius: 0.5rem;
+		color: var(--color-text);
+		font-size: 0.8125rem;
+		font-weight: 600;
+		line-height: 1.35;
+		transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+		&:hover {
+			border-color: rgba(225, 29, 46, 0.55);
+			box-shadow: 0 0 18px var(--color-glow);
+		}
+	}
+}
