@@ -2,7 +2,7 @@
 
 Scaffolding for static sites with Gulp 5, Pug, and Sass (Dart Sass).
 
-**Demo (GitHub Pages):** [https://kikeestradadev.github.io/gulp-boilerplate-2024-sass/](https://kikeestradadev.github.io/gulp-boilerplate-2024-sass/)
+**Demo (GitHub Pages):** [https://kikeestradadev.github.io/trigalmedia/](https://kikeestradadev.github.io/trigalmedia/)
 
 ## Stack
 
