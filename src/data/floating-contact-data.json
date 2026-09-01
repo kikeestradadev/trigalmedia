@@ -1,0 +1,22 @@
+{
+	"whatsappHref": "https://wa.me/50670118183",
+	"emailHref": "mailto:trigalmedia@gmail.com",
+	"email": "trigalmedia@gmail.com",
+	"facebookHref": "https://www.facebook.com/profile.php?id=100067163003115",
+	"es": {
+		"openLabel": "Abrir opciones de contacto",
+		"closeLabel": "Cerrar opciones de contacto",
+		"panelTitle": "Hablemos",
+		"emailLabel": "Correo",
+		"whatsappLabel": "WhatsApp",
+		"facebookLabel": "Facebook"
+	},
+	"en": {
+		"openLabel": "Open contact options",
+		"closeLabel": "Close contact options",
+		"panelTitle": "Let’s talk",
+		"emailLabel": "Email",
+		"whatsappLabel": "WhatsApp",
+		"facebookLabel": "Facebook"
+	}
+}

@@ -1,0 +1,21 @@
+section(class='contact', id='contacto')
+	div(class='main-container contact__shell')
+		div(class='container contact__container')
+			header(class='contact__header')
+				p(class='contact__eyebrow', data-i18n='contact.eyebrow')= contactData.es.eyebrow
+				h2(class='contact__title', data-i18n='contact.title')= contactData.es.title
+				p(class='contact__lead', data-i18n='contact.lead')= contactData.es.lead
+
+			div(class='contact__actions')
+				a(
+					class='btn btn--gold',
+					href=contactData.whatsappHref,
+					target='_blank',
+					rel='noopener noreferrer',
+					data-i18n='contact.primaryCta'
+				)= contactData.es.primaryCta
+				a(
+					class='btn btn--outline',
+					href=contactData.emailHref,
+					data-i18n='contact.secondaryCta'
+				)= contactData.es.secondaryCta

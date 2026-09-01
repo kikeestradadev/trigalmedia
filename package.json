@@ -1,7 +1,7 @@
 {
 	"name": "trigalmedia",
 	"version": "1.0.0",
-	"assetVersion": "1.0.23",
+	"assetVersion": "1.0.24",
 	"description": "Simple scaffolding for static web projects with Gulp + Sass",
 	"type": "module",
 	"main": "gulpfile.js",

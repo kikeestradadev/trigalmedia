@@ -1,8 +1,24 @@
 //layout
 :root {
+	/*palette — Trigal Media (muestreada de los logos)*/
+	--color-navy: #021220;
+	--color-teal: #025765;
+	--color-cyan: #00c3da;
+	--color-gold: #fcbe38;
+	--color-white: #fefaf4;
+	--color-gray: #e8ecee;
+
 	/*text set up*/
-	--header-color			: #1F2024;
-	--paragraph-color		:#1F2024;
+	--header-color: var(--color-navy);
+	--paragraph-color: var(--color-navy);
+	--text-muted: color-mix(in srgb, var(--color-navy) 68%, var(--color-white));
+
+	/*surfaces*/
+	--surface: var(--color-white);
+	--surface-alt: var(--color-gray);
+	--accent: var(--color-cyan);
+	--accent-deep: var(--color-teal);
+	--highlight: var(--color-gold);
 
 	/*breakpoints*/
 	--s: #{$s};
@@ -14,38 +30,28 @@
 	--xxl: #{$xxl};
 	--xxxl: #{$xxxl};
 	--xxxxl: #{$xxxxl};
-	--header-height: 3rem;
+	--header-height: 4rem;
 	--main-container: 3000px;
-	--container: 1600px;
-
-	/*palette colors*/
-	--color-yellow: #FFB824;
-	--color-orange: #FF9100;
-	--color-orange-light: #FF4A00;
-	--color-magenta: #F20059;
-	--color-green: #3DF500;
-	--color-green-dark: #00A652;
-	--color-green-deep: #0B3D2E;
-	--color-blue: #00BEDA;
-	--color-purple: #7A29FF;
-	--color-fuchsia: #BA1CFF;
+	--container: 1200px;
 
 	/*buttons & links*/
-	--btn-primary: #8B852E;
-	--btn-primary-hover: #736D2E;
-	--btn-secondary: #7D7D7D;
-	--btn-secondary-hover: #555454;
-	--btn-text: #ffffff;
-	--link-color: #8B852E;
+	--btn-primary: var(--color-teal);
+	--btn-primary-hover: var(--color-navy);
+	--btn-secondary: var(--color-navy);
+	--btn-secondary-hover: var(--color-teal);
+	--btn-gold: var(--color-gold);
+	--btn-gold-hover: color-mix(in srgb, var(--color-gold) 80%, var(--color-navy));
+	--btn-text: var(--color-white);
+	--link-color: var(--color-teal);
 
 	@media (width >= $l) {
-		--header-height: 4rem;
+		--header-height: 5rem;
 	}
 
 	//native color vars
-	--header-bg: #007BDF;
-	--body-bg: #ffffff;
-	--footer-bg: #007BDF;
+	--header-bg: var(--color-white);
+	--body-bg: var(--color-white);
+	--footer-bg: var(--color-navy);
 }
 
 *,
@@ -54,21 +60,72 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-padding-top: calc(var(--header-height) + 0.75rem);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	html {
+		scroll-behavior: smooth;
+	}
+}
+
 ::selection {
-	color: white;
-	background: var(--header-bg);
+	color: var(--color-navy);
+	background: var(--color-cyan);
+}
+
+:focus-visible {
+	outline: 2px solid var(--color-cyan);
+	outline-offset: 3px;
+}
+
+.skip-link {
+	position: absolute;
+	left: 0.75rem;
+	top: -100%;
+	z-index: 400;
+	padding: 0.75rem 1rem;
+	background: var(--color-navy);
+	color: var(--color-white);
+	font-weight: 600;
+	text-decoration: none;
+	border-radius: 0 0 0.5rem 0.5rem;
+
+	&:focus {
+		top: 0;
+		outline: 2px solid var(--color-gold);
+		outline-offset: 2px;
+	}
 }
 
 strong {
 	font-weight: 700;
 }
 
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
 body {
 	margin: var(--header-height) 0 0 0;
 	min-height: calc(100vh - var(--header-height));
 	background: var(--body-bg);
+	color: var(--paragraph-color);
 	display: flex;
 	flex-direction: column;
+
+	&.is-nav-open {
+		overflow: hidden;
+	}
 }
 
 .main-header {
@@ -76,7 +133,10 @@ body {
 	min-height: var(--header-height);
 	position: fixed;
 	top: 0;
+	z-index: 200;
 	width: 100%;
+	border-bottom: 1px solid var(--color-gray);
+	box-shadow: 0 1px 0 color-mix(in srgb, var(--color-gold) 55%, transparent);
 }
 
 .main-container {
@@ -95,8 +155,12 @@ body {
 
 .main-footer {
 	background: var(--footer-bg);
-	color: #FFF;
-	padding: 2rem 0;
-	font-size: fontSize(small);
+	color: var(--color-white);
+	padding: 2rem 0 5.5rem;
+	font-size: 0.875rem;
 	margin-top: auto;
+
+	@media (width >= $sm) {
+		padding-bottom: 2.5rem;
+	}
 }

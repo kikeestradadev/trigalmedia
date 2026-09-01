@@ -1,0 +1,61 @@
+div(class='floating-contact')
+	button(
+		class='floating-contact__toggle',
+		type='button',
+		aria-expanded='false',
+		aria-controls='floating-contact-panel',
+		data-i18n-aria='floatingContact.openLabel'
+	)
+		svg(
+			class='floating-contact__toggle-icon',
+			viewBox='0 0 24 24',
+			fill='none',
+			xmlns='http://www.w3.org/2000/svg',
+			aria-hidden='true',
+			focusable='false'
+		)
+			path(
+				d='M5 6.5 C5 5.12 6.12 4 7.5 4 H16.5 C17.88 4 19 5.12 19 6.5 V14 C19 15.38 17.88 16.5 16.5 16.5 H10 L6 20 V16.5 H7.5 C6.12 16.5 5 15.38 5 14 V6.5 Z',
+				stroke='currentColor',
+				stroke-width='1.8',
+				stroke-linejoin='round'
+			)
+			circle(cx='9', cy='10', r='1', fill='#fcbe38')
+			circle(cx='12', cy='10', r='1', fill='#00c3da')
+			circle(cx='15', cy='10', r='1', fill='#fcbe38')
+		span(class='floating-contact__toggle-text', data-i18n='floatingContact.openLabel')= floatingContactData.es.openLabel
+
+	div(
+		class='floating-contact__panel',
+		id='floating-contact-panel',
+		role='dialog',
+		aria-labelledby='floating-contact-title',
+		hidden
+	)
+		p(class='floating-contact__title', id='floating-contact-title', data-i18n='floatingContact.panelTitle')= floatingContactData.es.panelTitle
+		ul(class='floating-contact__list')
+			li(class='floating-contact__item')
+				a(
+					class='floating-contact__link',
+					href=floatingContactData.emailHref
+				)
+					span(data-i18n='floatingContact.emailLabel')= floatingContactData.es.emailLabel
+					span(class='floating-contact__value')= floatingContactData.email
+			li(class='floating-contact__item')
+				a(
+					class='floating-contact__link',
+					href=floatingContactData.whatsappHref,
+					target='_blank',
+					rel='noopener noreferrer'
+				)
+					span(data-i18n='floatingContact.whatsappLabel')= floatingContactData.es.whatsappLabel
+					span(class='floating-contact__value') +506 7011 8183
+			li(class='floating-contact__item')
+				a(
+					class='floating-contact__link',
+					href=floatingContactData.facebookHref,
+					target='_blank',
+					rel='noopener noreferrer'
+				)
+					span(data-i18n='floatingContact.facebookLabel')= floatingContactData.es.facebookLabel
+					span(class='floating-contact__value') Trigal Media

@@ -1,0 +1,57 @@
+section(class='portfolio', id='portafolio', data-article-grid='')
+	div(class='main-container portfolio__shell')
+		div(class='container portfolio__container')
+			header(class='portfolio__header')
+				p(class='portfolio__eyebrow', data-i18n='portfolio.eyebrow')= portfolioData.es.eyebrow
+				h2(class='portfolio__title', data-i18n='portfolio.title')= portfolioData.es.title
+				p(class='portfolio__lead', data-i18n='portfolio.lead')= portfolioData.es.lead
+				p(class='portfolio__note', data-i18n='portfolio.note')= portfolioData.es.note
+
+			div(class='swiper portfolio__slider')
+				div(class='swiper-wrapper portfolio__track')
+					each item, index in portfolioData.es.items
+						article(class='swiper-slide portfolio__card')
+							a(
+								class='portfolio__card-link',
+								href=item.href,
+								target='_blank',
+								rel='noopener noreferrer'
+							)
+								div(class='portfolio__visual')
+									img(
+										class='portfolio__image',
+										src=`${portfolioData.imageBase}${item.image}`,
+										alt=item.imageAlt,
+										width='640',
+										height='400',
+										loading=index < 2 ? 'eager' : 'lazy',
+										decoding='async',
+										data-i18n-alt=`portfolio.items.${index}.imageAlt`
+									)
+								div(class='portfolio__body')
+									h3(class='portfolio__name')= item.name
+									p(
+										class='portfolio__summary',
+										data-i18n=`portfolio.items.${index}.summary`
+									)= item.summary
+									p(class='portfolio__tech-label', data-i18n='portfolio.techLabel')= portfolioData.es.techLabel
+									ul(class='portfolio__tech')
+										each tech in item.tech
+											li(class='portfolio__tech-item')= tech
+									span(
+										class='btn btn--outline btn--small portfolio__cta',
+										data-i18n='portfolio.visitLabel'
+									)= portfolioData.es.visitLabel
+
+				div(class='article-grid-slider__controls portfolio__controls')
+					div(
+						class='swiper-button-prev article-grid-slider__prev portfolio__prev',
+						data-i18n-aria='site.articleGrid.prevLabel',
+						aria-label=siteData.es.articleGrid.prevLabel
+					)
+					div(class='swiper-pagination article-grid-slider__pagination portfolio__pagination')
+					div(
+						class='swiper-button-next article-grid-slider__next portfolio__next',
+						data-i18n-aria='site.articleGrid.nextLabel',
+						aria-label=siteData.es.articleGrid.nextLabel
+					)

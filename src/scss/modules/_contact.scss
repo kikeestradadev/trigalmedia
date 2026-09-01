@@ -1,0 +1,37 @@
+.contact {
+	padding: 4rem 0;
+	background: var(--color-gray);
+
+	@media (width >= $l) {
+		padding: 5.5rem 0;
+	}
+
+	&__header {
+		max-width: 44rem;
+		margin-bottom: 2rem;
+	}
+
+	&__eyebrow {
+		margin: 0 0 0.65rem;
+		color: var(--color-teal);
+		font-size: 0.8125rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
+
+	&__title {
+		margin: 0 0 0.85rem;
+	}
+
+	&__lead {
+		margin: 0;
+		color: var(--text-muted);
+	}
+
+	&__actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.75rem;
+	}
+}

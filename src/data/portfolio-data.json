@@ -1,0 +1,285 @@
+{
+	"imageBase": "https://kikeestradadev.github.io/kikeestradadev/images/pf/",
+	"es": {
+		"eyebrow": "Trabajo seleccionado",
+		"title": "Portafolio",
+		"lead": "Casos de desarrollo web, plataformas y presencia digital tomados de trabajo verificable.",
+		"note": "Trabajo adicional disponible bajo solicitud, incluidos proyectos SaaS, salud y educación con restricciones de confidencialidad.",
+		"visitLabel": "Ver proyecto",
+		"techLabel": "Tecnologías",
+		"items": [
+			{
+				"id": "betanysports",
+				"name": "BetAnySports",
+				"image": "bet.png",
+				"imageAlt": "Captura del proyecto BetAnySports",
+				"summary": "Modernización y rebrand de una plataforma de apuestas deportivas de alto tráfico.",
+				"tech": [
+					"React",
+					"Remix",
+					"Strapi"
+				],
+				"href": "https://www.betanything.eu/"
+			},
+			{
+				"id": "master-affiliates",
+				"name": "Master Affiliates",
+				"image": "pf_master.png",
+				"imageAlt": "Captura del proyecto Master Affiliates",
+				"summary": "Sitio de adquisición de afiliados en React para un programa de apuestas y casino.",
+				"tech": [
+					"React"
+				],
+				"href": "https://masteraffiliates.eu/"
+			},
+			{
+				"id": "insiders",
+				"name": "Insiders",
+				"image": "insiders.png",
+				"imageAlt": "Captura del proyecto Insiders",
+				"summary": "Plataforma de publicación de medios deportivos para contenido de alto volumen.",
+				"tech": [
+					"WordPress"
+				],
+				"href": "https://insidersbettingdigest.com/"
+			},
+			{
+				"id": "crypto-tutorials",
+				"name": "Crypto Tutorials",
+				"image": "crypto.png",
+				"imageAlt": "Captura del proyecto Crypto Tutorials",
+				"summary": "Producto de content marketing con actualizaciones impulsadas por API.",
+				"tech": [
+					"React"
+				],
+				"href": "https://crypto-tutorials.com/"
+			},
+			{
+				"id": "cryptovig",
+				"name": "Cryptovig",
+				"image": "cryptovig.png",
+				"imageAlt": "Captura del proyecto Cryptovig",
+				"summary": "Sitio WordPress para una marca de apuestas deportivas.",
+				"tech": [
+					"WordPress"
+				],
+				"href": "https://cryptovig.com/"
+			},
+			{
+				"id": "sport-betting-ai",
+				"name": "Sport Betting AI",
+				"image": "sbai.png",
+				"imageAlt": "Captura del proyecto Sport Betting AI",
+				"summary": "Revista WordPress de apuestas deportivas enfocada en contenido y SEO.",
+				"tech": [
+					"WordPress",
+					"SEO"
+				],
+				"href": "https://sportbettingai.com/"
+			},
+			{
+				"id": "my-bookie",
+				"name": "My Bookie",
+				"image": "mb.png",
+				"imageAlt": "Captura del proyecto My Bookie",
+				"summary": "Sistemas de entrega para un sportsbook y casino multi-marca.",
+				"tech": [
+					"WordPress",
+					"PHP",
+					"JavaScript"
+				],
+				"href": "https://www.mybookie.ag/"
+			},
+			{
+				"id": "ahorrando-para-tu-futuro",
+				"name": "Ahorrando para tu Futuro",
+				"image": "pf_ahorrando.png",
+				"imageAlt": "Captura del proyecto Ahorrando para tu Futuro",
+				"summary": "Plataforma educativa en Laravel para BAC San José.",
+				"tech": [
+					"Laravel",
+					"PHP"
+				],
+				"href": "https://kikeestrada.github.io/portfolio-ahorrando/"
+			},
+			{
+				"id": "maratones",
+				"name": "Maratones",
+				"image": "pf_maratones.png",
+				"imageAlt": "Captura del proyecto Maratones",
+				"summary": "Sitio de evento especial para una carrera de maratón.",
+				"tech": [
+					"HTML",
+					"CSS",
+					"JavaScript"
+				],
+				"href": "https://kikeestrada.github.io/portfolio-maratones/"
+			},
+			{
+				"id": "villa-lapas",
+				"name": "Villa Lapas",
+				"image": "pf_villalapas.png",
+				"imageAlt": "Captura del proyecto Villa Lapas",
+				"summary": "Sitio de turismo en WordPress para Hotel Villa Lapas.",
+				"tech": [
+					"WordPress"
+				],
+				"href": "https://kikeestrada.github.io/portfolioVillaLapasWebSite/"
+			},
+			{
+				"id": "esencial-costa-rica",
+				"name": "Esencial Costa Rica",
+				"image": "pf_esencialcr.png",
+				"imageAlt": "Captura del proyecto Esencial Costa Rica",
+				"summary": "Sitio de la marca país de Costa Rica para el programa de marca nacional.",
+				"tech": [
+					"HTML",
+					"CSS",
+					"JavaScript"
+				],
+				"href": "https://kikeestrada.github.io/portfolioEsencialcrWebSite/"
+			}
+		]
+	},
+	"en": {
+		"eyebrow": "Selected work",
+		"title": "Portfolio",
+		"lead": "Web development, platform, and digital presence cases from verifiable work.",
+		"note": "Additional work available on request, including SaaS, healthcare, and education projects with confidentiality restrictions.",
+		"visitLabel": "View project",
+		"techLabel": "Technologies",
+		"items": [
+			{
+				"id": "betanysports",
+				"name": "BetAnySports",
+				"image": "bet.png",
+				"imageAlt": "Screenshot of the BetAnySports project",
+				"summary": "High-traffic sportsbook platform modernization and rebrand.",
+				"tech": [
+					"React",
+					"Remix",
+					"Strapi"
+				],
+				"href": "https://www.betanything.eu/"
+			},
+			{
+				"id": "master-affiliates",
+				"name": "Master Affiliates",
+				"image": "pf_master.png",
+				"imageAlt": "Screenshot of the Master Affiliates project",
+				"summary": "React affiliate acquisition site for a sportsbook and casino program.",
+				"tech": [
+					"React"
+				],
+				"href": "https://masteraffiliates.eu/"
+			},
+			{
+				"id": "insiders",
+				"name": "Insiders",
+				"image": "insiders.png",
+				"imageAlt": "Screenshot of the Insiders project",
+				"summary": "Sports media publishing platform for high-volume content.",
+				"tech": [
+					"WordPress"
+				],
+				"href": "https://insidersbettingdigest.com/"
+			},
+			{
+				"id": "crypto-tutorials",
+				"name": "Crypto Tutorials",
+				"image": "crypto.png",
+				"imageAlt": "Screenshot of the Crypto Tutorials project",
+				"summary": "Content marketing product with API-driven updates.",
+				"tech": [
+					"React"
+				],
+				"href": "https://crypto-tutorials.com/"
+			},
+			{
+				"id": "cryptovig",
+				"name": "Cryptovig",
+				"image": "cryptovig.png",
+				"imageAlt": "Screenshot of the Cryptovig project",
+				"summary": "WordPress site for a sports betting brand.",
+				"tech": [
+					"WordPress"
+				],
+				"href": "https://cryptovig.com/"
+			},
+			{
+				"id": "sport-betting-ai",
+				"name": "Sport Betting AI",
+				"image": "sbai.png",
+				"imageAlt": "Screenshot of the Sport Betting AI project",
+				"summary": "WordPress sportsbook magazine focused on content and SEO.",
+				"tech": [
+					"WordPress",
+					"SEO"
+				],
+				"href": "https://sportbettingai.com/"
+			},
+			{
+				"id": "my-bookie",
+				"name": "My Bookie",
+				"image": "mb.png",
+				"imageAlt": "Screenshot of the My Bookie project",
+				"summary": "Multi-brand sportsbook and casino delivery systems.",
+				"tech": [
+					"WordPress",
+					"PHP",
+					"JavaScript"
+				],
+				"href": "https://www.mybookie.ag/"
+			},
+			{
+				"id": "ahorrando-para-tu-futuro",
+				"name": "Ahorrando para tu Futuro",
+				"image": "pf_ahorrando.png",
+				"imageAlt": "Screenshot of the Ahorrando para tu Futuro project",
+				"summary": "Laravel education platform for BAC San José.",
+				"tech": [
+					"Laravel",
+					"PHP"
+				],
+				"href": "https://kikeestrada.github.io/portfolio-ahorrando/"
+			},
+			{
+				"id": "maratones",
+				"name": "Maratones",
+				"image": "pf_maratones.png",
+				"imageAlt": "Screenshot of the Maratones project",
+				"summary": "Special-event website for a marathon race.",
+				"tech": [
+					"HTML",
+					"CSS",
+					"JavaScript"
+				],
+				"href": "https://kikeestrada.github.io/portfolio-maratones/"
+			},
+			{
+				"id": "villa-lapas",
+				"name": "Villa Lapas",
+				"image": "pf_villalapas.png",
+				"imageAlt": "Screenshot of the Villa Lapas project",
+				"summary": "WordPress tourism site for Hotel Villa Lapas.",
+				"tech": [
+					"WordPress"
+				],
+				"href": "https://kikeestrada.github.io/portfolioVillaLapasWebSite/"
+			},
+			{
+				"id": "esencial-costa-rica",
+				"name": "Esencial Costa Rica",
+				"image": "pf_esencialcr.png",
+				"imageAlt": "Screenshot of the Esencial Costa Rica project",
+				"summary": "Country brand website for Costa Rica’s national brand program.",
+				"tech": [
+					"HTML",
+					"CSS",
+					"JavaScript"
+				],
+				"href": "https://kikeestrada.github.io/portfolioEsencialcrWebSite/"
+			}
+		]
+	}
+}

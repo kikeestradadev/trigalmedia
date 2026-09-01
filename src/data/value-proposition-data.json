@@ -1,0 +1,52 @@
+{
+	"es": {
+		"id": "propuesta",
+		"eyebrow": "Cómo pensamos",
+		"title": "Empezamos por el negocio, no por la herramienta.",
+		"lead": "Trigal Media entiende primero cómo funciona cada cliente y cómo genera valor. Recién entonces identificamos oportunidades y construimos la solución digital adecuada.",
+		"quote": "No desarrollamos tecnología por desarrollar. Construimos soluciones para que negocios con potencial puedan avanzar.",
+		"steps": [
+			{
+				"title": "Entendemos el modelo",
+				"text": "Mapeamos cómo opera el negocio, cómo genera ingresos y cuáles son las restricciones reales."
+			},
+			{
+				"title": "Priorizamos oportunidades",
+				"text": "Identificamos dónde una solución digital puede desbloquear crecimiento, eficiencia o claridad."
+			},
+			{
+				"title": "Construimos lo adecuado",
+				"text": "Diseñamos y desarrollamos una solución a la medida del objetivo, no un paquete genérico."
+			},
+			{
+				"title": "Acompañamos la evolución",
+				"text": "Cuando el proyecto lo requiere, seguimos cerca para mejorar, sostener y escalar."
+			}
+		]
+	},
+	"en": {
+		"id": "propuesta",
+		"eyebrow": "How we think",
+		"title": "We start with the business, not the tool.",
+		"lead": "Trigal Media first understands how each client operates and creates value. Only then do we identify opportunities and build the right digital solution.",
+		"quote": "We don’t build technology for its own sake. We build solutions so businesses with potential can move forward.",
+		"steps": [
+			{
+				"title": "We understand the model",
+				"text": "We map how the business operates, how it generates revenue, and what the real constraints are."
+			},
+			{
+				"title": "We prioritize opportunities",
+				"text": "We identify where a digital solution can unlock growth, efficiency, or clarity."
+			},
+			{
+				"title": "We build what fits",
+				"text": "We design and develop a solution matched to the goal, not a generic package."
+			},
+			{
+				"title": "We stay for the evolution",
+				"text": "When the project needs it, we stay close to improve, support, and scale."
+			}
+		]
+	}
+}

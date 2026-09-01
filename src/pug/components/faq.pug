@@ -1,0 +1,35 @@
+section(class='faq', id='preguntas-frecuentes')
+	div(class='main-container faq__shell')
+		div(class='container faq__container')
+			header(class='faq__header')
+				p(class='faq__eyebrow', data-i18n='faq.eyebrow')= faqData.es.eyebrow
+				h2(class='faq__title', data-i18n='faq.title')= faqData.es.title
+				p(class='faq__lead', data-i18n='faq.lead')= faqData.es.lead
+
+			div(class='faq__list')
+				each item, index in faqData.es.items
+					div(class='faq__item')
+						h3(class='faq__heading')
+							button(
+								class='faq__button',
+								type='button',
+								id=`faq-button-${index}`,
+								aria-expanded='false',
+								aria-controls=`faq-panel-${index}`
+							)
+								span(
+									class='faq__question',
+									data-i18n=`faq.items.${index}.question`
+								)= item.question
+								span(class='faq__icon', aria-hidden='true')
+						div(
+							class='faq__panel',
+							id=`faq-panel-${index}`,
+							role='region',
+							aria-labelledby=`faq-button-${index}`,
+							hidden
+						)
+							p(
+								class='faq__answer',
+								data-i18n=`faq.items.${index}.answer`
+							)= item.answer

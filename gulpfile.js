@@ -220,6 +220,7 @@ const getAssetVersion = () => {
 const pugLocals = () => ({
 	...getJsonData(),
 	assetVersion: getAssetVersion(),
+	currentYear: new Date().getFullYear(),
 });
 
 const pagePathFromFile = (filePath, rootDir) => {

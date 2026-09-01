@@ -4,14 +4,13 @@
 	justify-content: center;
 	gap: 0.5rem;
 	border: 2px solid transparent;
-	border-radius: 0;
+	border-radius: 0.5rem;
 	font-family: inherit;
 	font-weight: 600;
-	letter-spacing: 0.04em;
+	letter-spacing: 0.01em;
 	line-height: 1.2;
 	text-align: center;
 	text-decoration: none;
-	text-transform: uppercase;
 	cursor: pointer;
 	transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 
@@ -62,6 +61,18 @@
 		color: var(--btn-secondary);
 	}
 
+	&--gold {
+		background: var(--btn-gold);
+		border-color: var(--btn-gold);
+		color: var(--color-navy);
+	}
+
+	&--ghost {
+		background: transparent;
+		border-color: var(--color-cyan);
+		color: var(--color-white);
+	}
+
 	// Hover solo en puntero fino (desktop); evita sticky hover / doble tap en touch
 	@media (hover: hover) and (pointer: fine) {
 		&:hover {
@@ -84,6 +95,18 @@
 			border-color: var(--btn-secondary-hover);
 			color: var(--btn-secondary-hover);
 			background: transparent;
+		}
+
+		&--gold:hover {
+			background: var(--btn-gold-hover);
+			border-color: var(--btn-gold-hover);
+			color: var(--color-navy);
+		}
+
+		&--ghost:hover {
+			background: color-mix(in srgb, var(--color-cyan) 16%, transparent);
+			border-color: var(--color-cyan);
+			color: var(--color-white);
 		}
 	}
 }

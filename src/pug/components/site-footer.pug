@@ -1,0 +1,47 @@
+div(class='site-footer')
+	div(class='main-container site-footer__shell')
+		div(class='container site-footer__container')
+			div(class='site-footer__brand')
+				a(class='site-footer__logo', href=siteFooterData.logo.href)
+					img(
+						class='site-footer__logo-image',
+						src=siteFooterData.logo.src,
+						alt=siteFooterData.es.logoAlt,
+						width='200',
+						height='44',
+						data-i18n-alt='siteFooter.logoAlt'
+					)
+
+			nav(class='site-footer__nav', aria-label=siteFooterData.es.navLabel, data-i18n-aria='siteFooter.navLabel')
+				ul(class='site-footer__list')
+					each item, index in siteFooterData.es.nav
+						li(class='site-footer__item')
+							a(
+								class='site-footer__link',
+								href=item.href,
+								data-i18n=`siteFooter.nav.${index}.label`
+							)= item.label
+
+			div(class='site-footer__contact')
+				p(class='site-footer__contact-label', data-i18n='siteFooter.contactLabel')= siteFooterData.es.contactLabel
+				a(class='site-footer__contact-link', href=siteFooterData.emailHref)= siteFooterData.email
+				a(
+					class='site-footer__contact-link',
+					href=siteFooterData.whatsappHref,
+					target='_blank',
+					rel='noopener noreferrer',
+					data-i18n='siteFooter.whatsapp'
+				)= siteFooterData.es.whatsapp
+				a(
+					class='site-footer__contact-link',
+					href=siteFooterData.facebookHref,
+					target='_blank',
+					rel='noopener noreferrer',
+					data-i18n='siteFooter.facebook'
+				)= siteFooterData.es.facebook
+
+			p(class='site-footer__copy')
+				span © #{currentYear} Trigal Media.
+				|
+				|
+				span(data-i18n='siteFooter.rights')= siteFooterData.es.rights

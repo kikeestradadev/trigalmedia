@@ -2,11 +2,28 @@ extends ../config/template
 
 block append config
 	- currentPage = 'home';
-	- siteName = 'Layouts';
-	- content = 'content';
-	- pageDescription = 'Pagina inicial de MyBoilerplate';
+	- siteName = siteData.es.meta.siteName;
+	- pageTitle = siteData.es.meta.title;
+	- pageDescription = siteData.es.meta.description;
 
 block main-header
+	include ../components/site-header
+
 block main-container
+	include ../components/hero
+	include ../components/value-proposition
+	include ../components/services
+	include ../components/work-process
+	include ../components/portfolio
+	include ../components/faq
+	include ../components/contact
+
 block main-footer
-block scripts
+	include ../components/site-footer
+
+block after-footer
+	include ../components/floating-contact
+
+block data
+	script(type='application/json', id='i18n-bundle')
+		!= JSON.stringify({ site: siteData, siteHeader: siteHeaderData, hero: heroData, valueProposition: valuePropositionData, services: servicesData, workProcess: workProcessData, portfolio: portfolioData, faq: faqData, contact: contactData, siteFooter: siteFooterData, floatingContact: floatingContactData })

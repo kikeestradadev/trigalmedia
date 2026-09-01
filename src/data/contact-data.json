@@ -1,0 +1,22 @@
+{
+	"whatsappHref": "https://wa.me/50670118183",
+	"emailHref": "mailto:trigalmedia@gmail.com",
+	"email": "trigalmedia@gmail.com",
+	"facebookHref": "https://www.facebook.com/profile.php?id=100067163003115",
+	"es": {
+		"eyebrow": "Conversemos",
+		"title": "Contacto",
+		"lead": "Contanos el objetivo de tu negocio. Empezamos por entenderlo, no por vender una herramienta.",
+		"primaryCta": "Escribir por WhatsApp",
+		"secondaryCta": "Enviar un correo",
+		"facebookLabel": "Facebook"
+	},
+	"en": {
+		"eyebrow": "Let’s talk",
+		"title": "Contact",
+		"lead": "Tell us the goal of your business. We start by understanding it, not by selling a tool.",
+		"primaryCta": "Message on WhatsApp",
+		"secondaryCta": "Send an email",
+		"facebookLabel": "Facebook"
+	}
+}

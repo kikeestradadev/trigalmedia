@@ -1,0 +1,22 @@
+section(class='work-process', id='como-trabajamos')
+	div(class='main-container work-process__shell')
+		div(class='container work-process__container')
+			header(class='work-process__header')
+				p(class='work-process__eyebrow', data-i18n='workProcess.eyebrow')= workProcessData.es.eyebrow
+				h2(class='work-process__title', data-i18n='workProcess.title')= workProcessData.es.title
+				p(class='work-process__lead', data-i18n='workProcess.lead')= workProcessData.es.lead
+
+			ol(class='work-process__steps')
+				each step, index in workProcessData.es.steps
+					li(class='work-process__step')
+						span(class='work-process__number')= step.number
+						h3(
+							class='work-process__step-title',
+							data-i18n=`workProcess.steps.${index}.title`
+						)= step.title
+						p(
+							class='work-process__step-text',
+							data-i18n=`workProcess.steps.${index}.text`
+						)= step.text
+
+			p(class='work-process__note', data-i18n='workProcess.note')= workProcessData.es.note

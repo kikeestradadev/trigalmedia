@@ -1,0 +1,22 @@
+{
+	"es": {
+		"eyebrow": "Desarrollo digital para negocios con visión",
+		"title": "Tu socio tecnológico para construir, automatizar y crecer.",
+		"text": "Convertimos ideas y procesos en soluciones digitales que impulsan resultados reales.",
+		"primaryCta": "Hablemos de tu proyecto",
+		"primaryHref": "https://wa.me/50670118183",
+		"secondaryCta": "Explorar servicios",
+		"secondaryHref": "#servicios",
+		"visualLabel": "Composición abstracta de nodos y conexiones tecnológicas"
+	},
+	"en": {
+		"eyebrow": "Digital development for businesses with vision",
+		"title": "Your technology partner to build, automate, and grow.",
+		"text": "We turn ideas and processes into digital solutions that drive real results.",
+		"primaryCta": "Let’s talk about your project",
+		"primaryHref": "https://wa.me/50670118183",
+		"secondaryCta": "Explore services",
+		"secondaryHref": "#servicios",
+		"visualLabel": "Abstract composition of technology nodes and connections"
+	}
+}

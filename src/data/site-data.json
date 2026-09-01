@@ -1,0 +1,26 @@
+{
+	"es": {
+		"skip": "Saltar al contenido",
+		"articleGrid": {
+			"prevLabel": "Anterior",
+			"nextLabel": "Siguiente"
+		},
+		"meta": {
+			"siteName": "Trigal Media",
+			"title": "Trigal Media | Tu socio tecnológico",
+			"description": "Trigal Media es tu socio tecnológico. Entendemos tu negocio, identificamos oportunidades y creamos soluciones digitales orientadas a resultados."
+		}
+	},
+	"en": {
+		"skip": "Skip to content",
+		"articleGrid": {
+			"prevLabel": "Previous",
+			"nextLabel": "Next"
+		},
+		"meta": {
+			"siteName": "Trigal Media",
+			"title": "Trigal Media | Your technology partner",
+			"description": "Trigal Media is your technology partner. We understand your business, identify opportunities, and build digital solutions oriented to results."
+		}
+	}
+}

@@ -1,0 +1,37 @@
+section(class='value-proposition', id='propuesta', data-article-grid='')
+	div(class='main-container value-proposition__shell')
+		div(class='container value-proposition__container')
+			header(class='value-proposition__header')
+				p(class='value-proposition__eyebrow', data-i18n='valueProposition.eyebrow')= valuePropositionData.es.eyebrow
+				h2(class='value-proposition__title', data-i18n='valueProposition.title')= valuePropositionData.es.title
+				p(class='value-proposition__lead', data-i18n='valueProposition.lead')= valuePropositionData.es.lead
+
+			blockquote(class='value-proposition__quote')
+				p(data-i18n='valueProposition.quote')= valuePropositionData.es.quote
+
+			div(class='swiper value-proposition__slider')
+				div(class='swiper-wrapper value-proposition__track')
+					each step, index in valuePropositionData.es.steps
+						article(class='swiper-slide value-proposition__card')
+							span(class='value-proposition__index')= index + 1
+							h3(
+								class='value-proposition__card-title',
+								data-i18n=`valueProposition.steps.${index}.title`
+							)= step.title
+							p(
+								class='value-proposition__card-text',
+								data-i18n=`valueProposition.steps.${index}.text`
+							)= step.text
+
+				div(class='article-grid-slider__controls value-proposition__controls')
+					div(
+						class='swiper-button-prev article-grid-slider__prev value-proposition__prev',
+						data-i18n-aria='site.articleGrid.prevLabel',
+						aria-label=siteData.es.articleGrid.prevLabel
+					)
+					div(class='swiper-pagination article-grid-slider__pagination value-proposition__pagination')
+					div(
+						class='swiper-button-next article-grid-slider__next value-proposition__next',
+						data-i18n-aria='site.articleGrid.nextLabel',
+						aria-label=siteData.es.articleGrid.nextLabel
+					)

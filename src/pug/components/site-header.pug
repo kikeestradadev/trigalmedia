@@ -1,0 +1,86 @@
+nav(class='site-header', aria-label=siteHeaderData.es.navLabel, data-i18n-aria='siteHeader.navLabel')
+	div(class='main-container site-header__shell')
+		div(class='container site-header__container')
+			a(class='site-header__logo', href=siteHeaderData.logo.href)
+				img(
+					class='site-header__logo-image',
+					src=siteHeaderData.logo.src,
+					alt=siteHeaderData.es.logoAlt,
+					width='220',
+					height='48',
+					data-i18n-alt='siteHeader.logoAlt'
+				)
+
+			div(class='site-header__desktop')
+				ul(class='site-header__list')
+					each item, index in siteHeaderData.es.nav
+						li(class='site-header__item')
+							a(
+								class='site-header__link',
+								href=item.href,
+								data-i18n=`siteHeader.nav.${index}.label`
+							)= item.label
+
+			div(class='site-header__aside')
+				div(
+					class='site-header__langs',
+					role='group',
+					aria-label=siteHeaderData.es.langLabel,
+					data-i18n-aria='siteHeader.langLabel'
+				)
+					button(
+						class='site-header__lang is-active',
+						type='button',
+						data-lang='es',
+						aria-pressed='true'
+					) ES
+					button(
+						class='site-header__lang',
+						type='button',
+						data-lang='en',
+						aria-pressed='false'
+					) EN
+
+				a(
+					class='btn btn--primary btn--small site-header__cta',
+					href=siteHeaderData.ctaHref,
+					target='_blank',
+					rel='noopener noreferrer',
+					data-i18n='siteHeader.cta',
+					data-i18n-aria='siteHeader.ctaAria'
+				)= siteHeaderData.es.cta
+
+				button(
+					class='site-header__toggle',
+					type='button',
+					aria-expanded='false',
+					aria-controls='site-header-panel',
+					data-i18n-aria='siteHeader.menuOpen'
+				)
+					span(class='site-header__toggle-bars', aria-hidden='true')
+					span(class='visually-hidden', data-i18n='siteHeader.menuOpen')= siteHeaderData.es.menuOpen
+
+	div(
+		class='site-header__panel',
+		id='site-header-panel',
+		hidden
+	)
+		div(class='main-container')
+			div(class='container site-header__panel-inner')
+				ul(class='site-header__panel-list')
+					each item, index in siteHeaderData.es.nav
+						li(class='site-header__panel-item')
+							a(
+								class='site-header__panel-link',
+								href=item.href,
+								data-i18n=`siteHeader.nav.${index}.label`
+							)= item.label
+
+				a(
+					class='btn btn--primary site-header__panel-cta',
+					href=siteHeaderData.ctaHref,
+					target='_blank',
+					rel='noopener noreferrer',
+					data-i18n='siteHeader.cta',
+					data-i18n-aria='siteHeader.ctaAria'
+				)= siteHeaderData.es.cta

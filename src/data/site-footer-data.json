@@ -1,0 +1,42 @@
+{
+	"logo": {
+		"src": "./assets/logo_h_t.png",
+		"href": "#inicio"
+	},
+	"whatsappHref": "https://wa.me/50670118183",
+	"emailHref": "mailto:trigalmedia@gmail.com",
+	"email": "trigalmedia@gmail.com",
+	"facebookHref": "https://www.facebook.com/profile.php?id=100067163003115",
+	"es": {
+		"logoAlt": "Trigal Media",
+		"navLabel": "Pie de página",
+		"contactLabel": "Contacto",
+		"rights": "Todos los derechos reservados.",
+		"whatsapp": "WhatsApp",
+		"facebook": "Facebook",
+		"nav": [
+			{ "href": "#inicio", "label": "Inicio" },
+			{ "href": "#servicios", "label": "Servicios" },
+			{ "href": "#como-trabajamos", "label": "Cómo trabajamos" },
+			{ "href": "#portafolio", "label": "Portafolio" },
+			{ "href": "#preguntas-frecuentes", "label": "Preguntas frecuentes" },
+			{ "href": "#contacto", "label": "Contacto" }
+		]
+	},
+	"en": {
+		"logoAlt": "Trigal Media",
+		"navLabel": "Footer",
+		"contactLabel": "Contact",
+		"rights": "All rights reserved.",
+		"whatsapp": "WhatsApp",
+		"facebook": "Facebook",
+		"nav": [
+			{ "href": "#inicio", "label": "Home" },
+			{ "href": "#servicios", "label": "Services" },
+			{ "href": "#como-trabajamos", "label": "How we work" },
+			{ "href": "#portafolio", "label": "Portfolio" },
+			{ "href": "#preguntas-frecuentes", "label": "FAQ" },
+			{ "href": "#contacto", "label": "Contact" }
+		]
+	}
+}

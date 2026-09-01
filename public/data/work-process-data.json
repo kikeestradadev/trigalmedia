@@ -1,0 +1,58 @@
+{
+	"es": {
+		"eyebrow": "Método",
+		"title": "Cómo trabajamos",
+		"lead": "Una secuencia clara, con espacio para ajustar el alcance a la complejidad real de cada proyecto.",
+		"note": "Cada proyecto se evalúa según su objetivo y complejidad antes de definir alcance, tiempos y propuesta.",
+		"steps": [
+			{
+				"number": "01",
+				"title": "Descubrimiento",
+				"text": "Entendemos objetivos, procesos, restricciones y lo que realmente hay que resolver."
+			},
+			{
+				"number": "02",
+				"title": "Estrategia",
+				"text": "Definimos la oportunidad, el alcance y la solución más adecuada para avanzar."
+			},
+			{
+				"number": "03",
+				"title": "Construcción",
+				"text": "Desarrollamos con visibilidad, comunicación y entregas que se pueden revisar."
+			},
+			{
+				"number": "04",
+				"title": "Evolución",
+				"text": "Damos soporte, mejoras y acompañamiento cuando el proyecto lo requiere."
+			}
+		]
+	},
+	"en": {
+		"eyebrow": "Method",
+		"title": "How we work",
+		"lead": "A clear sequence, with room to fit the scope to the real complexity of each project.",
+		"note": "Every project is evaluated according to its goal and complexity before we define scope, timeline, and proposal.",
+		"steps": [
+			{
+				"number": "01",
+				"title": "Discovery",
+				"text": "We understand goals, processes, constraints, and what actually needs to be solved."
+			},
+			{
+				"number": "02",
+				"title": "Strategy",
+				"text": "We define the opportunity, the scope, and the most suitable solution to move forward."
+			},
+			{
+				"number": "03",
+				"title": "Build",
+				"text": "We develop with visibility, communication, and deliverables that can be reviewed."
+			},
+			{
+				"number": "04",
+				"title": "Evolution",
+				"text": "We provide support, improvements, and partnership when the project requires it."
+			}
+		]
+	}
+}
