@@ -10,9 +10,20 @@ const siteHeader = () => {
 		if (root.dataset.siteHeaderReady === 'true') return;
 
 		const toggle = root.querySelector('.site-header__toggle');
+		const overlay = root.querySelector('.site-header__overlay');
 		const panel = root.querySelector('.site-header__panel');
 		const label = toggle?.querySelector('.visually-hidden');
-		if (!toggle || !panel) return;
+		if (!toggle || !overlay || !panel) return;
+
+		const hideNavLayers = () => {
+			panel.hidden = true;
+			overlay.hidden = true;
+		};
+
+		const showNavLayers = () => {
+			panel.hidden = false;
+			overlay.hidden = false;
+		};
 
 		const setExpandedLabel = (expanded) => {
 			const key = expanded ? 'siteHeader.menuClose' : 'siteHeader.menuOpen';
@@ -25,18 +36,49 @@ const siteHeader = () => {
 			if (text) toggle.setAttribute('aria-label', text);
 		};
 
+		const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+		let closeTransitionHandler = null;
+
+		const clearCloseTransition = () => {
+			if (!closeTransitionHandler) return;
+			panel.removeEventListener('transitionend', closeTransitionHandler);
+			closeTransitionHandler = null;
+		};
+
 		const close = () => {
 			toggle.setAttribute('aria-expanded', 'false');
-			panel.hidden = true;
 			document.body.classList.remove('is-nav-open');
 			setExpandedLabel(false);
+			clearCloseTransition();
+
+			if (prefersReducedMotion) {
+				hideNavLayers();
+				return;
+			}
+
+			closeTransitionHandler = (event) => {
+				if (event.target !== panel || event.propertyName !== 'transform') return;
+				clearCloseTransition();
+				hideNavLayers();
+			};
+
+			panel.addEventListener('transitionend', closeTransitionHandler);
 		};
 
 		const open = () => {
+			clearCloseTransition();
 			toggle.setAttribute('aria-expanded', 'true');
-			panel.hidden = false;
-			document.body.classList.add('is-nav-open');
+			showNavLayers();
 			setExpandedLabel(true);
+
+			if (prefersReducedMotion) {
+				document.body.classList.add('is-nav-open');
+			} else {
+				requestAnimationFrame(() => {
+					document.body.classList.add('is-nav-open');
+				});
+			}
+
 			const focusable = getFocusable(panel);
 			if (focusable[0]) focusable[0].focus();
 		};
@@ -46,6 +88,10 @@ const siteHeader = () => {
 		toggle.addEventListener('click', () => {
 			if (isOpen()) close();
 			else open();
+		});
+
+		overlay.addEventListener('click', () => {
+			if (isOpen()) close();
 		});
 
 		root.querySelectorAll('.site-header__panel-link, .site-header__panel-cta').forEach((link) => {

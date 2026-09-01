@@ -165,17 +165,85 @@
 		box-shadow: 0 -6px 0 currentColor, 0 6px 0 currentColor;
 	}
 
-	&__panel {
-		position: absolute;
+	&__overlay {
+		position: fixed;
 		top: var(--header-height);
 		left: 0;
+		z-index: 198;
 		width: 100%;
-		background: var(--color-white);
-		border-bottom: 1px solid var(--color-gray);
-		box-shadow: 0 12px 32px color-mix(in srgb, var(--color-navy) 12%, transparent);
+		height: calc(100vh - var(--header-height));
+		height: calc(100dvh - var(--header-height));
+		margin: 0;
+		padding: 0;
+		border: 0;
+		background: color-mix(in srgb, var(--color-navy) 35%, transparent);
+		backdrop-filter: blur(8px);
+		cursor: pointer;
+		opacity: 0;
+		visibility: hidden;
+		transition:
+			opacity 0.35s ease,
+			visibility 0s linear 0.35s;
+
+		@media (prefers-reduced-motion: reduce) {
+			transition: none;
+		}
 
 		@media (width >= $lg) {
 			display: none;
+		}
+
+		body.is-nav-open & {
+			opacity: 1;
+			visibility: visible;
+			transition:
+				opacity 0.35s ease,
+				visibility 0s linear 0s;
+		}
+
+		&:focus-visible {
+			outline: 2px solid var(--color-cyan);
+			outline-offset: -2px;
+		}
+	}
+
+	&__panel {
+		position: fixed;
+		top: var(--header-height);
+		right: 0;
+		z-index: 199;
+		width: 100%;
+		max-width: 20rem;
+		height: calc(100vh - var(--header-height));
+		height: calc(100dvh - var(--header-height));
+		margin: 0;
+		padding: 0;
+		border: 0;
+		border-left: 1px solid var(--color-gray);
+		background: var(--color-white);
+		box-shadow: -12px 0 32px color-mix(in srgb, var(--color-navy) 12%, transparent);
+		overflow-y: auto;
+		overscroll-behavior: contain;
+		transform: translateX(100%);
+		visibility: hidden;
+		transition:
+			transform 0.35s ease,
+			visibility 0s linear 0.35s;
+
+		@media (prefers-reduced-motion: reduce) {
+			transition: none;
+		}
+
+		@media (width >= $lg) {
+			display: none;
+		}
+
+		body.is-nav-open & {
+			transform: translateX(0);
+			visibility: visible;
+			transition:
+				transform 0.35s ease,
+				visibility 0s linear 0s;
 		}
 	}
 
@@ -183,6 +251,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 1.25rem;
+		min-height: 100%;
 		padding: 1.25rem 0 1.5rem;
 	}
 

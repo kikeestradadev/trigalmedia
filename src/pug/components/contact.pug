@@ -12,10 +12,14 @@ section(class='contact', id='contacto')
 					href=contactData.whatsappHref,
 					target='_blank',
 					rel='noopener noreferrer',
-					data-i18n='contact.primaryCta'
+					title=contactData.es.primaryCta,
+					data-i18n='contact.primaryCta',
+					data-i18n-title='contact.primaryCta'
 				)= contactData.es.primaryCta
 				a(
 					class='btn btn--outline',
 					href=contactData.emailHref,
-					data-i18n='contact.secondaryCta'
+					title=contactData.es.secondaryCta,
+					data-i18n='contact.secondaryCta',
+					data-i18n-title='contact.secondaryCta'
 				)= contactData.es.secondaryCta

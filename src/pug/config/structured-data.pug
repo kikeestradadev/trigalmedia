@@ -1,0 +1,67 @@
+-
+	const seoOrganizationId = siteData.siteUrl + '/#organization'
+	const seoWebsiteId = siteData.siteUrl + '/#website'
+	const seoServiceId = siteData.siteUrl + '/#service'
+	const seoFaqItems = (faqData.es.items || []).map((item) => ({
+		'@type': 'Question',
+		name: item.question,
+		acceptedAnswer: {
+			'@type': 'Answer',
+			text: item.answer
+		}
+	}))
+	const seoJsonLd = {
+		'@context': 'https://schema.org',
+		'@graph': [
+			{
+				'@type': 'Organization',
+				'@id': seoOrganizationId,
+				name: siteData.es.meta.siteName,
+				url: siteData.siteUrl + '/',
+				logo: siteData.ogImage,
+				email: siteData.email,
+				telephone: '+50670118183',
+				sameAs: [siteData.facebookHref, siteData.whatsappHref],
+				areaServed: {
+					'@type': 'Country',
+					name: 'Costa Rica'
+				}
+			},
+			{
+				'@type': 'WebSite',
+				'@id': seoWebsiteId,
+				url: siteData.siteUrl + '/',
+				name: siteData.es.meta.siteName,
+				description: siteData.es.meta.description,
+				publisher: { '@id': seoOrganizationId },
+				inLanguage: ['es-CR', 'en-US']
+			},
+			{
+				'@type': 'ProfessionalService',
+				'@id': seoServiceId,
+				name: siteData.es.meta.siteName,
+				url: siteData.siteUrl + '/',
+				image: siteData.ogImage,
+				description: siteData.es.meta.description,
+				provider: { '@id': seoOrganizationId },
+				sameAs: [siteData.facebookHref, siteData.whatsappHref],
+				areaServed: {
+					'@type': 'Country',
+					name: 'Costa Rica'
+				},
+				serviceType: [
+					'Desarrollo web',
+					'Ecommerce',
+					'Automatización',
+					'Integraciones de pago',
+					'Chatbots y agentes de IA'
+				]
+			},
+			{
+				'@type': 'FAQPage',
+				'@id': siteData.siteUrl + '/#faq',
+				mainEntity: seoFaqItems
+			}
+		]
+	}
+script(type='application/ld+json')!= JSON.stringify(seoJsonLd)

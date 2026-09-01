@@ -46,8 +46,10 @@ nav(class='site-header', aria-label=siteHeaderData.es.navLabel, data-i18n-aria='
 					href=siteHeaderData.ctaHref,
 					target='_blank',
 					rel='noopener noreferrer',
+					title=siteHeaderData.es.cta,
 					data-i18n='siteHeader.cta',
-					data-i18n-aria='siteHeader.ctaAria'
+					data-i18n-aria='siteHeader.ctaAria',
+					data-i18n-title='siteHeader.cta'
 				)= siteHeaderData.es.cta
 
 				button(
@@ -59,6 +61,14 @@ nav(class='site-header', aria-label=siteHeaderData.es.navLabel, data-i18n-aria='
 				)
 					span(class='site-header__toggle-bars', aria-hidden='true')
 					span(class='visually-hidden', data-i18n='siteHeader.menuOpen')= siteHeaderData.es.menuOpen
+
+	button(
+		class='site-header__overlay',
+		type='button',
+		hidden,
+		aria-label=siteHeaderData.es.menuClose,
+		data-i18n-aria='siteHeader.menuClose'
+	)
 
 	div(
 		class='site-header__panel',
@@ -81,6 +91,8 @@ nav(class='site-header', aria-label=siteHeaderData.es.navLabel, data-i18n-aria='
 					href=siteHeaderData.ctaHref,
 					target='_blank',
 					rel='noopener noreferrer',
+					title=siteHeaderData.es.cta,
 					data-i18n='siteHeader.cta',
-					data-i18n-aria='siteHeader.ctaAria'
+					data-i18n-aria='siteHeader.ctaAria',
+					data-i18n-title='siteHeader.cta'
 				)= siteHeaderData.es.cta

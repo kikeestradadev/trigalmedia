@@ -6,18 +6,22 @@ section(class='hero', id='inicio')
 				h1(class='hero__title', data-i18n='hero.title')= heroData.es.title
 				p(class='hero__text', data-i18n='hero.text')= heroData.es.text
 				div(class='hero__actions')
-					a(
-						class='btn btn--gold',
-						href=heroData.es.primaryHref,
-						target='_blank',
-						rel='noopener noreferrer',
-						data-i18n='hero.primaryCta'
-					)= heroData.es.primaryCta
-					a(
-						class='btn btn--ghost',
-						href=heroData.es.secondaryHref,
-						data-i18n='hero.secondaryCta'
-					)= heroData.es.secondaryCta
+				a(
+					class='btn btn--gold',
+					href=heroData.es.primaryHref,
+					target='_blank',
+					rel='noopener noreferrer',
+					title=heroData.es.primaryCta,
+					data-i18n='hero.primaryCta',
+					data-i18n-title='hero.primaryCta'
+				)= heroData.es.primaryCta
+				a(
+					class='btn btn--ghost',
+					href=heroData.es.secondaryHref,
+					title=heroData.es.secondaryCta,
+					data-i18n='hero.secondaryCta',
+					data-i18n-title='hero.secondaryCta'
+				)= heroData.es.secondaryCta
 
 			div(
 				class='hero__visual',

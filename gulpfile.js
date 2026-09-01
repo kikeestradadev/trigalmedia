@@ -365,7 +365,11 @@ gulp.task(
 		() =>
 			gulp
 				.src('src/data/**/*.json', { allowEmpty: true })
-				.pipe(gulp.dest('public/data'))
+				.pipe(gulp.dest('public/data')),
+		() =>
+			gulp
+				.src('src/static/**/*', { allowEmpty: true })
+				.pipe(gulp.dest('public'))
 	)
 );
 
@@ -421,7 +425,7 @@ gulp.task(
 		gulp.watch('src/js/**/*.js', debounce(gulp.series('scripts', reload), 120));
 		gulp.watch('src/md/**/*.md', debounce(gulp.series('pug', reload), 120));
 		gulp.watch(
-			['src/assets/**/*', 'src/images/**/*', 'src/data/**/*.json'],
+			['src/assets/**/*', 'src/images/**/*', 'src/data/**/*.json', 'src/static/**/*'],
 			debounce(gulp.series('assets', 'pug', reload), 120)
 		);
 

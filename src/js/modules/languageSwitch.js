@@ -44,6 +44,11 @@ const applyText = (lang) => {
 		const value = translate(lang, el.getAttribute('data-i18n-alt'));
 		if (typeof value === 'string') el.setAttribute('alt', value);
 	});
+
+	document.querySelectorAll('[data-i18n-title]').forEach((el) => {
+		const value = translate(lang, el.getAttribute('data-i18n-title'));
+		if (typeof value === 'string') el.setAttribute('title', value);
+	});
 };
 
 const applyDocumentMeta = (lang) => {
@@ -54,16 +59,40 @@ const applyDocumentMeta = (lang) => {
 	const meta = document.querySelector('meta[name="description"]');
 	if (typeof description === 'string' && meta) meta.setAttribute('content', description);
 
+	const keywords = translate(lang, 'site.meta.keywords');
+	const keywordsMeta = document.querySelector('meta[name="keywords"]');
+	if (typeof keywords === 'string' && keywordsMeta) keywordsMeta.setAttribute('content', keywords);
+
+	const ogImageAlt = translate(lang, 'site.meta.ogImageAlt');
 	const ogTitle = document.querySelector('meta[property="og:title"]');
 	const ogDescription = document.querySelector('meta[property="og:description"]');
+	const ogImageAltMeta = document.querySelector('meta[property="og:image:alt"]');
+	const twitterTitle = document.querySelector('meta[name="twitter:title"]');
+	const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+	const twitterImageAlt = document.querySelector('meta[name="twitter:image:alt"]');
+
 	if (typeof title === 'string' && ogTitle) ogTitle.setAttribute('content', title);
 	if (typeof description === 'string' && ogDescription) {
 		ogDescription.setAttribute('content', description);
 	}
+	if (typeof title === 'string' && twitterTitle) twitterTitle.setAttribute('content', title);
+	if (typeof description === 'string' && twitterDescription) {
+		twitterDescription.setAttribute('content', description);
+	}
+	if (typeof ogImageAlt === 'string' && ogImageAltMeta) {
+		ogImageAltMeta.setAttribute('content', ogImageAlt);
+	}
+	if (typeof ogImageAlt === 'string' && twitterImageAlt) {
+		twitterImageAlt.setAttribute('content', ogImageAlt);
+	}
 
 	document.documentElement.lang = lang;
 	const ogLocale = document.querySelector('meta[property="og:locale"]');
+	const ogLocaleAlternate = document.querySelector('meta[property="og:locale:alternate"]');
 	if (ogLocale) ogLocale.setAttribute('content', lang === 'en' ? 'en_US' : 'es_CR');
+	if (ogLocaleAlternate) {
+		ogLocaleAlternate.setAttribute('content', lang === 'en' ? 'es_CR' : 'en_US');
+	}
 };
 
 const syncButtons = (lang) => {

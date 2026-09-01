@@ -14,9 +14,19 @@
 		gap: 2.5rem;
 		align-items: center;
 
+		@media (width < $l) {
+			max-width: 37.5rem;
+		}
+
 		@media (width >= $l) {
 			grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
 			gap: 3rem;
+		}
+	}
+
+	&__copy {
+		@media (width < $l) {
+			text-align: center;
 		}
 	}
 
@@ -33,18 +43,30 @@
 		margin: 0 0 1rem;
 		color: var(--color-white);
 		max-width: 18ch;
+
+		@media (width < $l) {
+			margin-inline: auto;
+		}
 	}
 
 	&__text {
 		margin: 0 0 1.75rem;
 		max-width: 42ch;
 		color: color-mix(in srgb, var(--color-white) 86%, var(--color-cyan));
+
+		@media (width < $l) {
+			margin-inline: auto;
+		}
 	}
 
 	&__actions {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 0.75rem;
+
+		@media (width < $l) {
+			justify-content: center;
+		}
 	}
 
 	&__visual {

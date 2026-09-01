@@ -3,7 +3,19 @@ block config
 	- let content = 'My Page';
 	- let siteName = 'Trigal Media';
 	- let pageTitle = '';
-	- let pageDescription = 'Trigal Media es tu socio tecnológico.';
+	- let pageDescription = '';
+	- let pageKeywords = '';
+	- let pageRobots = 'index, follow';
+-
+	var seoLocale = siteData.es
+	var seoTitle = pageTitle || seoLocale.meta.title
+	var seoDescription = pageDescription || seoLocale.meta.description
+	var seoKeywords = pageKeywords || seoLocale.meta.keywords
+	var seoSiteName = seoLocale.meta.siteName
+	var seoCanonical = siteData.siteUrl + '/'
+	var seoOgImageAlt = seoLocale.meta.ogImageAlt
+	var seoOgLocale = seoLocale.meta.ogLocale
+	var seoOgLocaleAlternate = seoLocale.meta.ogLocaleAlternate
 doctype html
 html(lang='es', prefix='og: http://ogp.me/ns#', class='no-js')
 	head
@@ -11,14 +23,21 @@ html(lang='es', prefix='og: http://ogp.me/ns#', class='no-js')
 		meta(name='viewport', content='width=device-width, initial-scale=1.0')
 		meta(name='format-detection', content='telephone=no')
 		meta(name='theme-color', content='#021220')
+		meta(name='author', content=siteData.author)
+		meta(name='robots', content=pageRobots)
 		link(rel='icon', href='./assets/favico.ico', sizes='any')
 		link(rel='icon', href='./assets/favico.png', type='image/png')
 		link(rel='apple-touch-icon', href='./assets/favico.png')
-		meta(name='description', content=pageDescription)
-		meta(name='robots', content='index, follow')
-		link(rel='canonical', href='https://kikeestradadev.github.io/trigalmedia/')
+		title= seoTitle
+		meta(name='description', content=seoDescription)
+		meta(name='keywords', content=seoKeywords)
+		link(rel='canonical', href=seoCanonical)
+		link(rel='alternate', hreflang='es', href=seoCanonical)
+		link(rel='alternate', hreflang='en', href=seoCanonical)
+		link(rel='alternate', hreflang='x-default', href=seoCanonical)
 		include open-graph
 		include twitter-cards
+		include structured-data
 		link(rel='stylesheet', href='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css')
 		link(rel='preconnect', href='https://fonts.googleapis.com')
 		link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin)
@@ -28,7 +47,6 @@ html(lang='es', prefix='og: http://ogp.me/ns#', class='no-js')
 		)
 		link(rel='stylesheet', href=`./assets/prism.css?v=${assetVersion}`)
 		link(rel='stylesheet', href=`styles.css?v=${assetVersion}`)
-		title= pageTitle || (currentPage.slice(0, 1).toUpperCase() + currentPage.slice(1) + ' | ' + siteName)
 	body(class=currentPage, itemscope, itemtype='http://schema.org/WebPage')
 		a(class='skip-link', href='#contenido', data-i18n='site.skip')= siteData.es.skip
 		header(class='main-header')
