@@ -1,7 +1,7 @@
 {
 	"logo": {
 		"src": "./assets/logo_h_t.png",
-		"href": "#inicio"
+		"href": "/"
 	},
 	"ctaHref": "https://wa.me/50670118183",
 	"es": {
@@ -13,12 +13,12 @@
 		"ctaAria": "Hablemos por WhatsApp",
 		"navLabel": "Principal",
 		"nav": [
-			{ "href": "#inicio", "label": "Inicio" },
-			{ "href": "#servicios", "label": "Servicios" },
-			{ "href": "#como-trabajamos", "label": "Cómo trabajamos" },
-			{ "href": "#portafolio", "label": "Portafolio" },
-			{ "href": "#preguntas-frecuentes", "label": "Preguntas frecuentes" },
-			{ "href": "#contacto", "label": "Contacto" }
+			{ "href": "/#inicio", "label": "Inicio" },
+			{ "href": "/servicios", "label": "Servicios" },
+			{ "href": "/#como-trabajamos", "label": "Cómo trabajamos" },
+			{ "href": "/#portafolio", "label": "Portafolio" },
+			{ "href": "/#preguntas-frecuentes", "label": "Preguntas frecuentes" },
+			{ "href": "/#contacto", "label": "Contacto" }
 		]
 	},
 	"en": {
@@ -30,12 +30,12 @@
 		"ctaAria": "Let’s talk on WhatsApp",
 		"navLabel": "Primary",
 		"nav": [
-			{ "href": "#inicio", "label": "Home" },
-			{ "href": "#servicios", "label": "Services" },
-			{ "href": "#como-trabajamos", "label": "How we work" },
-			{ "href": "#portafolio", "label": "Portfolio" },
-			{ "href": "#preguntas-frecuentes", "label": "FAQ" },
-			{ "href": "#contacto", "label": "Contact" }
+			{ "href": "/#inicio", "label": "Home" },
+			{ "href": "/servicios", "label": "Services" },
+			{ "href": "/#como-trabajamos", "label": "How we work" },
+			{ "href": "/#portafolio", "label": "Portfolio" },
+			{ "href": "/#preguntas-frecuentes", "label": "FAQ" },
+			{ "href": "/#contacto", "label": "Contact" }
 		]
 	}
 }

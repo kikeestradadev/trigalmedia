@@ -1,0 +1,582 @@
+{
+	"es": {
+		"indexLabel": "Índice de capacidades",
+		"indexId": "indice-servicios",
+		"categories": [
+			{
+				"id": "produccion-digital",
+				"number": "01",
+				"theme": "gray",
+				"indexLabel": "Producción digital",
+				"title": "Producción digital para comunicar con claridad en cada canal.",
+				"description": "Creamos piezas visuales y recursos digitales que ayudan a las marcas a mantener consistencia, activar campañas y llegar a sus audiencias con mensajes claros.",
+				"placeholder": "Placeholder — composición de banners, redes sociales y piezas digitales de campaña",
+				"image": {
+					"src": "./images/servicios/producciondigital.webp",
+					"alt": "Producción de assets: iluminación, cámara y laptop para fotografiar productos de marca."
+				},
+				"cta": "Hablemos de producción digital",
+				"ctaHref": "/?servicio=produccion-digital#contacto",
+				"items": [
+					{
+						"title": "Control de calidad digital",
+						"text": "Revisamos formatos, enlaces, legibilidad y comportamiento visual antes de publicar una pieza o campaña."
+					},
+					{
+						"title": "Publicidad digital",
+						"text": "Diseñamos recursos para campañas que buscan visibilidad, interacción y acciones medibles."
+					},
+					{
+						"title": "Composición y retoque digital",
+						"text": "Integramos imágenes, tipografía y elementos gráficos para construir piezas visuales consistentes."
+					},
+					{
+						"title": "Producción de assets",
+						"text": "Creamos los recursos necesarios para sitios, campañas, redes sociales y otros puntos de contacto."
+					},
+					{
+						"title": "Banners estáticos",
+						"text": "Piezas gráficas optimizadas para pauta digital, comunicación comercial y distintos formatos."
+					},
+					{
+						"title": "Banners HTML5",
+						"text": "Anuncios interactivos y responsivos diseñados para funcionar correctamente en entornos digitales."
+					}
+				]
+			},
+			{
+				"id": "animacion-audiovisual",
+				"number": "02",
+				"theme": "cream",
+				"indexLabel": "Animación y contenido audiovisual",
+				"title": "Contenido que explica, conecta y permanece en movimiento.",
+				"description": "Desarrollamos recursos audiovisuales y animaciones que convierten ideas complejas en mensajes más claros, atractivos y fáciles de recordar.",
+				"placeholder": "Placeholder — storyboard, timeline de edición y fotograma de animación",
+				"image": {
+					"src": "./images/servicios/contenidomovimiento.webp",
+					"alt": "Grabación de contenido de producto con un teléfono en trípode, laptop y storyboard sobre la mesa."
+				},
+				"cta": "Hablemos de contenido audiovisual",
+				"ctaHref": "/?servicio=animacion-audiovisual#contacto",
+				"items": [
+					{
+						"title": "Motion graphics",
+						"text": "Animaciones gráficas para campañas, presentaciones, interfaces y contenido de marca."
+					},
+					{
+						"title": "Storyboarding",
+						"text": "Planificamos la narrativa visual, escenas y secuencia antes de producir una animación o video."
+					},
+					{
+						"title": "Animación 2D",
+						"text": "Ilustraciones y gráficos animados para explicar procesos, productos o mensajes de forma dinámica."
+					},
+					{
+						"title": "Animación 3D",
+						"text": "Recursos tridimensionales para productos, espacios, conceptos y experiencias de marca."
+					},
+					{
+						"title": "Edición de video",
+						"text": "Editamos y adaptamos contenido para mejorar ritmo, claridad y desempeño en cada plataforma."
+					}
+				]
+			},
+			{
+				"id": "desarrollo-web",
+				"number": "03",
+				"theme": "navy",
+				"indexLabel": "Diseño y desarrollo web",
+				"title": "Sitios y plataformas creados para vender, operar y evolucionar.",
+				"description": "Diseñamos y construimos experiencias web que integran estrategia, usabilidad, tecnología y operación para resolver necesidades reales de negocio.",
+				"placeholder": "Placeholder — laptop y teléfono mostrando una plataforma web con flujos de datos",
+				"image": {
+					"src": "./images/servicios/sitiosplataformas.webp",
+					"alt": "Dos personas revisando en laptop y tableta el diseño de una plataforma o sitio web."
+				},
+				"cta": "Hablemos de desarrollo web",
+				"ctaHref": "/?servicio=desarrollo-web#contacto",
+				"groups": [
+					{
+						"title": "Presencia y comercio digital",
+						"items": [
+							{
+								"title": "Sitios web profesionales",
+								"text": "Sitios claros y confiables para explicar lo que hace su organización, generar confianza y convertir visitas en oportunidades."
+							},
+							{
+								"title": "WordPress y gestión de contenido",
+								"text": "Sitios administrables para que su equipo pueda actualizar contenido sin depender de desarrollo para cada cambio."
+							},
+							{
+								"title": "Ecommerce",
+								"text": "Canales de venta en línea pensados para mostrar productos, cobrar, gestionar pedidos y acompañar a cada cliente."
+							},
+							{
+								"title": "Integraciones de pago",
+								"text": "Conectamos pasarelas de pago locales e internacionales al flujo real de venta y operación de su negocio."
+							}
+						]
+					},
+					{
+						"title": "Plataformas y aplicaciones",
+						"items": [
+							{
+								"title": "Aplicaciones web",
+								"text": "Herramientas a medida para ordenar procesos, centralizar información y facilitar el trabajo de equipos y clientes."
+							},
+							{
+								"title": "Experiencia de usuario y diseño de interfaz",
+								"text": "Definimos recorridos, pantallas y decisiones visuales para que cada interacción resulte clara y útil."
+							},
+							{
+								"title": "Desarrollo frontend y backend",
+								"text": "Construimos interfaces y sistemas robustos que conectan la experiencia visible con la lógica del negocio."
+							},
+							{
+								"title": "Desarrollo de correos y campañas email",
+								"text": "Creamos correos responsivos y piezas de email pensadas para comunicar, activar y convertir."
+							}
+						]
+					},
+					{
+						"title": "Operación técnica y evolución",
+						"items": [
+							{
+								"title": "Infraestructura y servidores",
+								"text": "Preparamos ambientes, hosting y configuraciones técnicas para una operación confiable y escalable."
+							},
+							{
+								"title": "Datos, APIs e integraciones",
+								"text": "Conectamos plataformas, bases de datos y servicios externos para que la información fluya mejor."
+							},
+							{
+								"title": "Soporte y mantenimiento",
+								"text": "Acompañamos la evolución de plataformas con mejoras, correcciones y revisiones técnicas continuas."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "localizacion",
+				"number": "04",
+				"theme": "cream",
+				"indexLabel": "Localización y adaptación multilingüe",
+				"title": "Experiencias digitales listas para nuevos mercados y audiencias.",
+				"description": "Adaptamos contenido, plataformas y campañas para que conserven su intención, claridad y relevancia al comunicarse en distintos idiomas y contextos.",
+				"placeholder": "Placeholder — interfaz digital con selector de idioma y contenido adaptado a varios mercados",
+				"image": {
+					"src": "./images/servicios/nuevosmercados.webp",
+					"alt": "Equipo revisando un teléfono junto a un mapa mundial y cajas de envío para llegar a nuevos mercados."
+				},
+				"cta": "Hablemos de adaptación multilingüe",
+				"ctaHref": "/?servicio=localizacion#contacto",
+				"items": [
+					{
+						"title": "Control de calidad multilingüe",
+						"text": "Revisamos textos, formatos, funcionalidades y consistencia en cada versión de idioma."
+					},
+					{
+						"title": "Localización de video",
+						"text": "Adaptamos contenido audiovisual con textos, subtítulos y recursos adecuados para cada audiencia."
+					},
+					{
+						"title": "Subtitulación",
+						"text": "Creamos subtítulos claros y sincronizados para ampliar la comprensión y accesibilidad del contenido."
+					},
+					{
+						"title": "Adaptación cultural",
+						"text": "Ajustamos referencias, tono y contexto para que el mensaje funcione de forma natural en cada mercado."
+					},
+					{
+						"title": "Adaptación de copy",
+						"text": "Reescribimos o ajustamos mensajes para conservar intención, relevancia y voz de marca en otros idiomas."
+					}
+				]
+			},
+			{
+				"id": "equipos",
+				"number": "05",
+				"theme": "gray",
+				"indexLabel": "Equipos extendidos y capacidad tecnológica",
+				"title": "Capacidad técnica para avanzar sin sobredimensionar su equipo.",
+				"description": "Integramos perfiles especializados para complementar equipos internos, acelerar entregas y resolver retos de diseño, desarrollo, calidad y gestión.",
+				"placeholder": "Placeholder — equipo multidisciplinario colaborando en un tablero digital",
+				"image": {
+					"src": "./images/servicios/capacidadtecnica.webp",
+					"alt": "Dos personas colaborando frente a un monitor con código y una laptop, con bocetos técnicos en un cuaderno."
+				},
+				"cta": "Hablemos de capacidad tecnológica",
+				"ctaHref": "/?servicio=equipos#contacto",
+				"groups": [
+					{
+						"title": "Colaboración y capacidad",
+						"items": [
+							{
+								"title": "Outsourcing de desarrollo",
+								"text": "Un equipo externo que aporta desarrollo con visibilidad, coordinación y foco en los objetivos del proyecto."
+							},
+							{
+								"title": "Equipos a medida",
+								"text": "Perfiles técnicos seleccionados según el alcance, la tecnología y el tiempo que su organización realmente necesita."
+							},
+							{
+								"title": "Equipos de largo plazo",
+								"text": "Construimos colaboraciones estables para iniciativas que requieren continuidad y evolución técnica."
+							}
+						]
+					},
+					{
+						"title": "Refuerzo e integración",
+						"items": [
+							{
+								"title": "Refuerzo técnico",
+								"text": "Apoyo puntual para resolver necesidades de frontend, backend, WordPress, React, Laravel, calidad o integración."
+							},
+							{
+								"title": "Integración de talento remoto",
+								"text": "Sumamos perfiles especializados que se integran al ritmo, herramientas y objetivos de su equipo."
+							},
+							{
+								"title": "Perfiles especializados",
+								"text": "Acceso a diseño UX/UI, desarrollo, QA y gestión de producto o proyecto según el alcance."
+							}
+						]
+					},
+					{
+						"title": "Incorporación",
+						"items": [
+							{
+								"title": "Capacitación y onboarding",
+								"text": "Facilitamos la incorporación de personas, procesos y herramientas para que el trabajo comience con claridad."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "automatizacion",
+				"number": "06",
+				"theme": "mist",
+				"indexLabel": "Automatización y soluciones a medida",
+				"title": "Automatización y soluciones a medida para operar con más claridad.",
+				"description": "Diseñamos herramientas y flujos digitales que reducen tareas repetitivas, conectan información y ayudan a los equipos a responder, decidir y avanzar mejor.",
+				"placeholder": "Placeholder — flujo de automatización conectado entre WhatsApp, CRM, datos y una aplicación web",
+				"image": {
+					"src": "./images/servicios/automatizacion.webp",
+					"alt": "Persona organizando tarjetas y un flujo en la laptop para diseñar un proceso digital."
+				},
+				"cta": "Hablemos de automatización",
+				"ctaHref": "/?servicio=automatizacion#contacto",
+				"items": [
+					{
+						"title": "WhatsApp Business y chatbots",
+						"text": "Implementamos flujos de atención y seguimiento para responder mejor, ordenar consultas y acompañar a clientes desde canales de mensajería."
+					},
+					{
+						"title": "Automatización de procesos",
+						"text": "Conectamos tareas, herramientas y datos para reducir trabajo manual, evitar duplicaciones y mejorar la operación diaria."
+					},
+					{
+						"title": "Integraciones, CRM, datos e IA",
+						"text": "Integramos sistemas y fuentes de información para construir procesos más conectados, medibles y útiles para el negocio."
+					},
+					{
+						"title": "Soluciones a medida",
+						"text": "Desarrollamos plataformas y herramientas cuando una necesidad específica no puede resolverse con una solución genérica."
+					}
+				]
+			}
+		]
+	},
+	"en": {
+		"indexLabel": "Capabilities index",
+		"indexId": "indice-servicios",
+		"categories": [
+			{
+				"id": "produccion-digital",
+				"number": "01",
+				"theme": "gray",
+				"indexLabel": "Digital production",
+				"title": "Digital production to communicate clearly on every channel.",
+				"description": "We create visual pieces and digital resources that help brands stay consistent, activate campaigns, and reach their audiences with clear messages.",
+				"placeholder": "Placeholder — composition of banners, social posts, and campaign digital assets",
+				"image": {
+					"src": "./images/servicios/producciondigital.webp",
+					"alt": "Asset production: lighting, camera, and laptop set up to photograph branded products."
+				},
+				"cta": "Let’s talk about digital production",
+				"ctaHref": "/?servicio=produccion-digital#contacto",
+				"items": [
+					{
+						"title": "Digital quality control",
+						"text": "We review formats, links, readability, and visual behavior before a piece or campaign goes live."
+					},
+					{
+						"title": "Digital advertising",
+						"text": "We design assets for campaigns that seek visibility, interaction, and measurable actions."
+					},
+					{
+						"title": "Digital composition and retouching",
+						"text": "We combine images, typography, and graphic elements to build consistent visual pieces."
+					},
+					{
+						"title": "Asset production",
+						"text": "We create the resources needed for websites, campaigns, social channels, and other touchpoints."
+					},
+					{
+						"title": "Static banners",
+						"text": "Graphic pieces optimized for digital media, commercial communication, and multiple formats."
+					},
+					{
+						"title": "HTML5 banners",
+						"text": "Interactive, responsive ads designed to work correctly in digital environments."
+					}
+				]
+			},
+			{
+				"id": "animacion-audiovisual",
+				"number": "02",
+				"theme": "cream",
+				"indexLabel": "Animation and audiovisual content",
+				"title": "Content that explains, connects, and stays in motion.",
+				"description": "We develop audiovisual resources and animations that turn complex ideas into clearer, more engaging, and easier-to-remember messages.",
+				"placeholder": "Placeholder — storyboard, editing timeline, and animation frame",
+				"image": {
+					"src": "./images/servicios/contenidomovimiento.webp",
+					"alt": "Product content being filmed with a phone on a tripod, a laptop, and a storyboard on the table."
+				},
+				"cta": "Let’s talk about audiovisual content",
+				"ctaHref": "/?servicio=animacion-audiovisual#contacto",
+				"items": [
+					{
+						"title": "Motion graphics",
+						"text": "Graphic animations for campaigns, presentations, interfaces, and brand content."
+					},
+					{
+						"title": "Storyboarding",
+						"text": "We plan the visual narrative, scenes, and sequence before producing an animation or video."
+					},
+					{
+						"title": "2D animation",
+						"text": "Animated illustrations and graphics to explain processes, products, or messages dynamically."
+					},
+					{
+						"title": "3D animation",
+						"text": "Three-dimensional resources for products, spaces, concepts, and brand experiences."
+					},
+					{
+						"title": "Video editing",
+						"text": "We edit and adapt content to improve pace, clarity, and performance on each platform."
+					}
+				]
+			},
+			{
+				"id": "desarrollo-web",
+				"number": "03",
+				"theme": "navy",
+				"indexLabel": "Web design and development",
+				"title": "Sites and platforms built to sell, operate, and evolve.",
+				"description": "We design and build web experiences that bring together strategy, usability, technology, and operations to solve real business needs.",
+				"placeholder": "Placeholder — laptop and phone showing a web platform with data flows",
+				"image": {
+					"src": "./images/servicios/sitiosplataformas.webp",
+					"alt": "Two people reviewing a website or platform layout on a laptop and a tablet."
+				},
+				"cta": "Let’s talk about web development",
+				"ctaHref": "/?servicio=desarrollo-web#contacto",
+				"groups": [
+					{
+						"title": "Digital presence and commerce",
+						"items": [
+							{
+								"title": "Professional websites",
+								"text": "Clear, trustworthy sites to explain what your organization does, build confidence, and turn visits into opportunities."
+							},
+							{
+								"title": "WordPress and content management",
+								"text": "Manageable sites so your team can update content without depending on development for every change."
+							},
+							{
+								"title": "Ecommerce",
+								"text": "Online sales channels designed to show products, take payments, manage orders, and support each customer."
+							},
+							{
+								"title": "Payment integrations",
+								"text": "We connect local and international payment gateways to the real sales and operations flow of your business."
+							}
+						]
+					},
+					{
+						"title": "Platforms and applications",
+						"items": [
+							{
+								"title": "Web applications",
+								"text": "Custom tools to organize processes, centralize information, and make work easier for teams and customers."
+							},
+							{
+								"title": "User experience and interface design",
+								"text": "We define journeys, screens, and visual decisions so every interaction feels clear and useful."
+							},
+							{
+								"title": "Frontend and backend development",
+								"text": "We build robust interfaces and systems that connect the visible experience with business logic."
+							},
+							{
+								"title": "Email development and campaigns",
+								"text": "We create responsive emails and campaign pieces designed to communicate, activate, and convert."
+							}
+						]
+					},
+					{
+						"title": "Technical operations and evolution",
+						"items": [
+							{
+								"title": "Infrastructure and servers",
+								"text": "We prepare environments, hosting, and technical configurations for reliable, scalable operations."
+							},
+							{
+								"title": "Data, APIs, and integrations",
+								"text": "We connect platforms, databases, and external services so information flows more effectively."
+							},
+							{
+								"title": "Support and maintenance",
+								"text": "We support the evolution of platforms with improvements, fixes, and ongoing technical reviews."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "localizacion",
+				"number": "04",
+				"theme": "cream",
+				"indexLabel": "Localization and multilingual adaptation",
+				"title": "Digital experiences ready for new markets and audiences.",
+				"description": "We adapt content, platforms, and campaigns so they keep their intent, clarity, and relevance when they speak in different languages and contexts.",
+				"placeholder": "Placeholder — digital interface with language selector and content adapted for several markets",
+				"image": {
+					"src": "./images/servicios/nuevosmercados.webp",
+					"alt": "A team reviewing a phone next to a world map and shipping boxes to reach new markets."
+				},
+				"cta": "Let’s talk about multilingual adaptation",
+				"ctaHref": "/?servicio=localizacion#contacto",
+				"items": [
+					{
+						"title": "Multilingual quality control",
+						"text": "We review copy, formats, functionality, and consistency in every language version."
+					},
+					{
+						"title": "Video localization",
+						"text": "We adapt audiovisual content with text, subtitles, and resources suited to each audience."
+					},
+					{
+						"title": "Subtitling",
+						"text": "We create clear, synchronized subtitles to expand comprehension and accessibility."
+					},
+					{
+						"title": "Cultural adaptation",
+						"text": "We adjust references, tone, and context so the message feels natural in each market."
+					},
+					{
+						"title": "Copy adaptation",
+						"text": "We rewrite or adjust messages to keep intent, relevance, and brand voice in other languages."
+					}
+				]
+			},
+			{
+				"id": "equipos",
+				"number": "05",
+				"theme": "gray",
+				"indexLabel": "Extended teams and technology capacity",
+				"title": "Technical capacity to move forward without oversizing your team.",
+				"description": "We bring in specialized profiles to complement internal teams, speed up delivery, and solve design, development, quality, and management challenges.",
+				"placeholder": "Placeholder — multidisciplinary team collaborating on a digital board",
+				"image": {
+					"src": "./images/servicios/capacidadtecnica.webp",
+					"alt": "Two people collaborating in front of a code editor and a laptop, with technical sketches in a notebook."
+				},
+				"cta": "Let’s talk about technology capacity",
+				"ctaHref": "/?servicio=equipos#contacto",
+				"groups": [
+					{
+						"title": "Collaboration and capacity",
+						"items": [
+							{
+								"title": "Development outsourcing",
+								"text": "An external team that brings development with visibility, coordination, and focus on the project goals."
+							},
+							{
+								"title": "Tailored teams",
+								"text": "Technical profiles selected according to the scope, technology, and time your organization actually needs."
+							},
+							{
+								"title": "Long-term teams",
+								"text": "We build stable collaborations for initiatives that need continuity and technical evolution."
+							}
+						]
+					},
+					{
+						"title": "Reinforcement and integration",
+						"items": [
+							{
+								"title": "Technical reinforcement",
+								"text": "Targeted support to solve frontend, backend, WordPress, React, Laravel, quality, or integration needs."
+							},
+							{
+								"title": "Remote talent integration",
+								"text": "We add specialized profiles that fit the pace, tools, and goals of your team."
+							},
+							{
+								"title": "Specialized profiles",
+								"text": "Access to UX/UI design, development, QA, and product or project management according to the scope."
+							}
+						]
+					},
+					{
+						"title": "Onboarding",
+						"items": [
+							{
+								"title": "Training and onboarding",
+								"text": "We support the adoption of people, processes, and tools so the work starts with clarity."
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "automatizacion",
+				"number": "06",
+				"theme": "mist",
+				"indexLabel": "Automation and custom solutions",
+				"title": "Automation and custom solutions to operate with more clarity.",
+				"description": "We design digital tools and flows that reduce repetitive tasks, connect information, and help teams respond, decide, and move forward more effectively.",
+				"placeholder": "Placeholder — automation flow connecting WhatsApp, CRM, data, and a web application",
+				"image": {
+					"src": "./images/servicios/automatizacion.webp",
+					"alt": "Person arranging cards and a flowchart on a laptop to design a digital process."
+				},
+				"cta": "Let’s talk about automation",
+				"ctaHref": "/?servicio=automatizacion#contacto",
+				"items": [
+					{
+						"title": "WhatsApp Business and chatbots",
+						"text": "We implement support and follow-up flows to respond better, organize inquiries, and accompany customers from messaging channels."
+					},
+					{
+						"title": "Process automation",
+						"text": "We connect tasks, tools, and data to reduce manual work, avoid duplication, and improve day-to-day operations."
+					},
+					{
+						"title": "Integrations, CRM, data, and AI",
+						"text": "We integrate systems and information sources to build processes that are more connected, measurable, and useful for the business."
+					},
+					{
+						"title": "Custom solutions",
+						"text": "We develop platforms and tools when a specific need cannot be solved with a generic solution."
+					}
+				]
+			}
+		]
+	}
+}

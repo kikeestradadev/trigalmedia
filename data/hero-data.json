@@ -6,8 +6,12 @@
 		"primaryCta": "Hablemos de tu proyecto",
 		"primaryHref": "https://wa.me/50670118183",
 		"secondaryCta": "Explorar servicios",
-		"secondaryHref": "#servicios",
-		"visualLabel": "Composición abstracta de nodos y conexiones tecnológicas"
+		"secondaryHref": "/servicios",
+		"visualLabel": "Persona trabajando frente a un tablero digital con datos y conexiones",
+		"image": {
+			"src": "./images/home/home.webp",
+			"alt": "Persona concentrada frente a un monitor con tableros de datos, gráficos y un mapa, en un espacio de trabajo iluminado por una lámpara."
+		}
 	},
 	"en": {
 		"eyebrow": "Digital development for businesses with vision",
@@ -16,7 +20,11 @@
 		"primaryCta": "Let’s talk about your project",
 		"primaryHref": "https://wa.me/50670118183",
 		"secondaryCta": "Explore services",
-		"secondaryHref": "#servicios",
-		"visualLabel": "Abstract composition of technology nodes and connections"
+		"secondaryHref": "/servicios",
+		"visualLabel": "Person working in front of a digital dashboard with data and connections",
+		"image": {
+			"src": "./images/home/home.webp",
+			"alt": "Person focused on a monitor showing data dashboards, charts, and a map, in a workspace lit by a desk lamp."
+		}
 	}
 }
