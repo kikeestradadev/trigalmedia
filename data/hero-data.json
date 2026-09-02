@@ -6,7 +6,7 @@
 		"primaryCta": "Hablemos de tu proyecto",
 		"primaryHref": "https://wa.me/50670118183",
 		"secondaryCta": "Explorar servicios",
-		"secondaryHref": "/servicios",
+		"secondaryHref": "/servicios.html",
 		"visualLabel": "Persona trabajando frente a un tablero digital con datos y conexiones",
 		"image": {
 			"src": "./images/home/home.webp",
@@ -20,7 +20,7 @@
 		"primaryCta": "Let’s talk about your project",
 		"primaryHref": "https://wa.me/50670118183",
 		"secondaryCta": "Explore services",
-		"secondaryHref": "/servicios",
+		"secondaryHref": "/servicios.html",
 		"visualLabel": "Person working in front of a digital dashboard with data and connections",
 		"image": {
 			"src": "./images/home/home.webp",

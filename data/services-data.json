@@ -6,13 +6,13 @@
 		"expandLabel": "Ver más",
 		"collapseLabel": "Ver menos",
 		"catalogCta": "Ver todos los servicios",
-		"catalogHref": "/servicios",
+		"catalogHref": "/servicios.html",
 		"groups": [
 			{
 				"icon": "presence",
 				"title": "Presencia y comercio digital",
 				"text": "Una presencia clara y un canal de venta que trabaja a favor del negocio.",
-				"catalogHref": "/servicios#desarrollo-web",
+				"catalogHref": "/servicios.html#desarrollo-web",
 				"items": [
 					{
 						"title": "Sitios web profesionales",
@@ -36,7 +36,7 @@
 				"icon": "automation",
 				"title": "Automatización y soluciones a medida",
 				"text": "Menos trabajo repetido y mejores decisiones, con herramientas que se adaptan al proceso.",
-				"catalogHref": "/servicios#automatizacion",
+				"catalogHref": "/servicios.html#automatizacion",
 				"items": [
 					{
 						"title": "Aplicaciones web",
@@ -60,7 +60,7 @@
 				"icon": "teams",
 				"title": "Equipos y capacidad tecnológica",
 				"text": "Capacidad extra cuando el proyecto lo pide, sin armar una estructura innecesaria.",
-				"catalogHref": "/servicios#equipos",
+				"catalogHref": "/servicios.html#equipos",
 				"items": [
 					{
 						"title": "Outsourcing de desarrollo",
@@ -89,13 +89,13 @@
 		"expandLabel": "See more",
 		"collapseLabel": "Show less",
 		"catalogCta": "See all services",
-		"catalogHref": "/servicios",
+		"catalogHref": "/servicios.html",
 		"groups": [
 			{
 				"icon": "presence",
 				"title": "Digital presence and commerce",
 				"text": "A clear presence and a sales channel that works in favor of the business.",
-				"catalogHref": "/servicios#desarrollo-web",
+				"catalogHref": "/servicios.html#desarrollo-web",
 				"items": [
 					{
 						"title": "Professional websites",
@@ -119,7 +119,7 @@
 				"icon": "automation",
 				"title": "Automation and custom solutions",
 				"text": "Less repetitive work and better decisions, with tools that adapt to the process.",
-				"catalogHref": "/servicios#automatizacion",
+				"catalogHref": "/servicios.html#automatizacion",
 				"items": [
 					{
 						"title": "Web applications",
@@ -143,7 +143,7 @@
 				"icon": "teams",
 				"title": "Teams and technical capacity",
 				"text": "Extra capacity when the project needs it, without building an unnecessary structure.",
-				"catalogHref": "/servicios#equipos",
+				"catalogHref": "/servicios.html#equipos",
 				"items": [
 					{
 						"title": "Development outsourcing",
