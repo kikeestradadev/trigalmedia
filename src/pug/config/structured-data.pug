@@ -46,17 +46,17 @@
 		'@type': 'OfferCatalog',
 		position: index + 1,
 		name: category.indexLabel,
-		url: seoBase + '/servicios#' + category.id,
+		url: seoBase + '/servicios.html#' + category.id,
 		itemListElement: seoCategoryItems(category)
 	}))
 	const seoCatalogId = currentPage === 'servicios'
-		? seoBase + '/servicios#catalog'
+		? seoBase + '/servicios.html#catalog'
 		: seoBase + '/#service-catalog'
 	const seoOfferCatalog = {
 		'@type': 'OfferCatalog',
 		'@id': seoCatalogId,
 		name: 'Servicios de Trigal Media',
-		url: currentPage === 'servicios' ? seoBase + '/servicios' : seoBase + '/',
+		url: currentPage === 'servicios' ? seoBase + '/servicios.html' : seoBase + '/',
 		itemListElement: currentPage === 'servicios' ? seoServiciosCatalog : seoHomeCatalog
 	}
 	const seoPageImageId = seoCanonical.replace(/\/$/, '') + '#primaryimage'

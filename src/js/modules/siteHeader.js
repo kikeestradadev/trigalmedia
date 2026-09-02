@@ -132,7 +132,8 @@ const siteHeader = () => {
 		);
 		const isServiciosPage = currentPath === '/servicios';
 		root.querySelectorAll('.site-header__link, .site-header__panel-link').forEach((link) => {
-			if (isServiciosPage && link.getAttribute('href') === '/servicios') {
+			const hrefPath = (link.getAttribute('href') || '').split('#')[0].replace(/\.html$/, '');
+			if (isServiciosPage && hrefPath === '/servicios') {
 				link.setAttribute('aria-current', 'page');
 			} else {
 				link.removeAttribute('aria-current');

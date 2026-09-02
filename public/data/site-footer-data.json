@@ -17,7 +17,7 @@
 		"facebook": "Facebook",
 		"nav": [
 			{ "href": "/#inicio", "label": "Inicio" },
-			{ "href": "/servicios", "label": "Servicios" },
+			{ "href": "/servicios.html", "label": "Servicios" },
 			{ "href": "/#como-trabajamos", "label": "Cómo trabajamos" },
 			{ "href": "/#portafolio", "label": "Portafolio" },
 			{ "href": "/#preguntas-frecuentes", "label": "Preguntas frecuentes" },
@@ -34,7 +34,7 @@
 		"facebook": "Facebook",
 		"nav": [
 			{ "href": "/#inicio", "label": "Home" },
-			{ "href": "/servicios", "label": "Services" },
+			{ "href": "/servicios.html", "label": "Services" },
 			{ "href": "/#como-trabajamos", "label": "How we work" },
 			{ "href": "/#portafolio", "label": "Portfolio" },
 			{ "href": "/#preguntas-frecuentes", "label": "FAQ" },

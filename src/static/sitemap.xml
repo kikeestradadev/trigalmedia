@@ -11,12 +11,12 @@
 		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.trigal.media/"/>
 	</url>
 	<url>
-		<loc>https://www.trigal.media/servicios</loc>
+		<loc>https://www.trigal.media/servicios.html</loc>
 		<lastmod>2026-09-02</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.9</priority>
-		<xhtml:link rel="alternate" hreflang="es" href="https://www.trigal.media/servicios"/>
-		<xhtml:link rel="alternate" hreflang="en" href="https://www.trigal.media/servicios"/>
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.trigal.media/servicios"/>
+		<xhtml:link rel="alternate" hreflang="es" href="https://www.trigal.media/servicios.html"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.trigal.media/servicios.html"/>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.trigal.media/servicios.html"/>
 	</url>
 </urlset>
