@@ -15,10 +15,9 @@
 			"animacion-audiovisual": "Hola, me interesa conversar sobre contenido audiovisual.",
 			"desarrollo-web": "Hola, me interesa conversar sobre diseño y desarrollo web.",
 			"diseno-desarrollo-web": "Hola, me interesa conversar sobre diseño y desarrollo web.",
-			"localizacion": "Hola, me interesa conversar sobre adaptación multilingüe.",
 			"equipos": "Hola, me interesa conversar sobre capacidad tecnológica.",
 			"equipos-extendidos": "Hola, me interesa conversar sobre capacidad tecnológica.",
-			"automatizacion": "Hola, me interesa conversar sobre automatización y soluciones a medida."
+			"automatizacion": "Hola, me interesa conversar sobre inteligencia artificial y automatización."
 		}
 	},
 	"en": {
@@ -33,10 +32,9 @@
 			"animacion-audiovisual": "Hi, I’d like to talk about audiovisual content.",
 			"desarrollo-web": "Hi, I’d like to talk about web design and development.",
 			"diseno-desarrollo-web": "Hi, I’d like to talk about web design and development.",
-			"localizacion": "Hi, I’d like to talk about multilingual adaptation.",
 			"equipos": "Hi, I’d like to talk about technology capacity.",
 			"equipos-extendidos": "Hi, I’d like to talk about technology capacity.",
-			"automatizacion": "Hi, I’d like to talk about automation and custom solutions."
+			"automatizacion": "Hi, I’d like to talk about artificial intelligence and automation."
 		}
 	}
 }
