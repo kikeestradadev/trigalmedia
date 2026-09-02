@@ -19,7 +19,10 @@
 				"title": "Contratación pública",
 				"text": "Participamos en procesos de contratación pública en Costa Rica, con una forma de trabajo ordenada y orientada a entregables verificables."
 			}
-		]
+		],
+		"ctaPrompt": "¿Su organización necesita una solución digital? Conversemos.",
+		"cta": "Conversemos sobre su organización",
+		"ctaHref": "#contacto"
 	},
 	"en": {
 		"eyebrow": "Reach and trust",
@@ -41,6 +44,9 @@
 				"title": "Public procurement",
 				"text": "We participate in public procurement processes in Costa Rica, with an orderly way of working focused on verifiable deliverables."
 			}
-		]
+		],
+		"ctaPrompt": "Does your organization need a digital solution? Let’s talk.",
+		"cta": "Let’s talk about your organization",
+		"ctaHref": "#contacto"
 	}
 }

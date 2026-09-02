@@ -1,4 +1,4 @@
-section(class='reach', id='alcance', data-article-grid='')
+section(class='reach', id='alcance')
 	div(class='main-container reach__shell')
 		div(class='container reach__container')
 			header(class='reach__header')
@@ -6,51 +6,48 @@ section(class='reach', id='alcance', data-article-grid='')
 				h2(class='reach__title', data-i18n='reach.title')= reachData.es.title
 				p(class='reach__lead', data-i18n='reach.lead')= reachData.es.lead
 
-			div(class='swiper reach__slider')
-				div(class='swiper-wrapper reach__track')
-					each card, index in reachData.es.cards
-						article(class=`swiper-slide reach__card reach__card--${card.icon}`)
-							div(class='reach__icon', aria-hidden='true')
-								if card.icon === 'globe'
-									svg(viewBox='0 0 48 48', fill='none', xmlns='http://www.w3.org/2000/svg')
-										circle(cx='24', cy='24', r='14', stroke='currentColor', stroke-width='2')
-										path(d='M10 24 H38', stroke='currentColor', stroke-width='2')
-										path(d='M24 10 C18 16, 18 32, 24 38 C30 32, 30 16, 24 10 Z', stroke='currentColor', stroke-width='2')
-										circle(cx='34', cy='14', r='3', fill='currentColor')
-										circle(cx='38', cy='28', r='2', fill='currentColor')
-										path(d='M34 14 L38 28', stroke='currentColor', stroke-width='2')
-								else if card.icon === 'impact'
-									svg(viewBox='0 0 48 48', fill='none', xmlns='http://www.w3.org/2000/svg')
-										circle(cx='16', cy='16', r='5', stroke='currentColor', stroke-width='2')
-										circle(cx='32', cy='16', r='5', stroke='currentColor', stroke-width='2')
-										circle(cx='24', cy='28', r='5', stroke='currentColor', stroke-width='2')
-										path(d='M11 34 C11 29 13 27 16 27 C19 27 21 29 21 34', stroke='currentColor', stroke-width='2', stroke-linecap='round')
-										path(d='M27 34 C27 29 29 27 32 27 C35 27 37 29 37 34', stroke='currentColor', stroke-width='2', stroke-linecap='round')
-										path(d='M24 33 V40', stroke='currentColor', stroke-width='2', stroke-linecap='round')
-								else
-									svg(viewBox='0 0 48 48', fill='none', xmlns='http://www.w3.org/2000/svg')
-										rect(x='12', y='8', width='24', height='32', rx='3', stroke='currentColor', stroke-width='2')
-										path(d='M18 18 H30', stroke='currentColor', stroke-width='2', stroke-linecap='round')
-										path(d='M18 24 H30', stroke='currentColor', stroke-width='2', stroke-linecap='round')
-										path(d='M18 30 L22 34 L30 26', stroke='currentColor', stroke-width='2', stroke-linecap='round', stroke-linejoin='round')
-							h3(
-								class='reach__card-title',
-								data-i18n=`reach.cards.${index}.title`
-							)= card.title
-							p(
-								class='reach__card-text',
-								data-i18n=`reach.cards.${index}.text`
-							)= card.text
+			div(class='reach__cards')
+				each card, index in reachData.es.cards
+					article(class=`reach__card reach__card--${card.icon}`)
+						div(class='reach__icon', aria-hidden='true')
+							if card.icon === 'globe'
+								svg(viewBox='0 0 48 48', fill='none', xmlns='http://www.w3.org/2000/svg')
+									circle(cx='24', cy='24', r='14', stroke='currentColor', stroke-width='2')
+									path(d='M10 24 H38', stroke='currentColor', stroke-width='2')
+									path(d='M24 10 C18 16, 18 32, 24 38 C30 32, 30 16, 24 10 Z', stroke='currentColor', stroke-width='2')
+									circle(cx='34', cy='14', r='3', fill='currentColor')
+									circle(cx='38', cy='28', r='2', fill='currentColor')
+									path(d='M34 14 L38 28', stroke='currentColor', stroke-width='2')
+							else if card.icon === 'impact'
+								svg(viewBox='0 0 48 48', fill='none', xmlns='http://www.w3.org/2000/svg')
+									circle(cx='16', cy='16', r='5', stroke='currentColor', stroke-width='2')
+									circle(cx='32', cy='16', r='5', stroke='currentColor', stroke-width='2')
+									circle(cx='24', cy='28', r='5', stroke='currentColor', stroke-width='2')
+									path(d='M11 34 C11 29 13 27 16 27 C19 27 21 29 21 34', stroke='currentColor', stroke-width='2', stroke-linecap='round')
+									path(d='M27 34 C27 29 29 27 32 27 C35 27 37 29 37 34', stroke='currentColor', stroke-width='2', stroke-linecap='round')
+									path(d='M24 33 V40', stroke='currentColor', stroke-width='2', stroke-linecap='round')
+							else
+								svg(viewBox='0 0 48 48', fill='none', xmlns='http://www.w3.org/2000/svg')
+									rect(x='12', y='8', width='24', height='32', rx='3', stroke='currentColor', stroke-width='2')
+									path(d='M18 18 H30', stroke='currentColor', stroke-width='2', stroke-linecap='round')
+									path(d='M18 24 H30', stroke='currentColor', stroke-width='2', stroke-linecap='round')
+									path(d='M18 30 L22 34 L30 26', stroke='currentColor', stroke-width='2', stroke-linecap='round', stroke-linejoin='round')
+						h3(
+							class='reach__card-title',
+							data-i18n=`reach.cards.${index}.title`
+						)= card.title
+						p(
+							class='reach__card-text',
+							data-i18n=`reach.cards.${index}.text`
+						)= card.text
 
-				div(class='article-grid-slider__controls reach__controls')
-					div(
-						class='swiper-button-prev article-grid-slider__prev reach__prev',
-						data-i18n-aria='site.articleGrid.prevLabel',
-						aria-label=siteData.es.articleGrid.prevLabel
-					)
-					div(class='swiper-pagination article-grid-slider__pagination reach__pagination')
-					div(
-						class='swiper-button-next article-grid-slider__next reach__next',
-						data-i18n-aria='site.articleGrid.nextLabel',
-						aria-label=siteData.es.articleGrid.nextLabel
-					)
+			div(class='reach__cta')
+				p(class='reach__cta-prompt', data-i18n='reach.ctaPrompt')= reachData.es.ctaPrompt
+				a(
+					class='btn btn--outline reach__cta-button',
+					href=reachData.es.ctaHref,
+					title=reachData.es.cta,
+					data-i18n='reach.cta',
+					data-i18n-title='reach.cta',
+					data-i18n-href='reach.ctaHref'
+				)= reachData.es.cta

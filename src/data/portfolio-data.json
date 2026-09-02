@@ -9,6 +9,55 @@
 		"techLabel": "Tecnologías",
 		"items": [
 			{
+				"id": "ahorrando-para-tu-futuro",
+				"name": "Ahorrando para tu Futuro",
+				"image": "pf_ahorrando.png",
+				"imageAlt": "Captura del proyecto Ahorrando para tu Futuro",
+				"summary": "Plataforma educativa en Laravel para BAC San José.",
+				"tech": [
+					"Laravel",
+					"PHP"
+				],
+				"href": "https://kikeestrada.github.io/portfolio-ahorrando/"
+			},
+			{
+				"id": "esencial-costa-rica",
+				"name": "Esencial Costa Rica",
+				"image": "pf_esencialcr.png",
+				"imageAlt": "Captura del proyecto Esencial Costa Rica",
+				"summary": "Sitio de la marca país de Costa Rica para el programa de marca nacional.",
+				"tech": [
+					"HTML",
+					"CSS",
+					"JavaScript"
+				],
+				"href": "https://kikeestrada.github.io/portfolioEsencialcrWebSite/"
+			},
+			{
+				"id": "villa-lapas",
+				"name": "Villa Lapas",
+				"image": "pf_villalapas.png",
+				"imageAlt": "Captura del proyecto Villa Lapas",
+				"summary": "Sitio de turismo en WordPress para Hotel Villa Lapas.",
+				"tech": [
+					"WordPress"
+				],
+				"href": "https://kikeestrada.github.io/portfolioVillaLapasWebSite/"
+			},
+			{
+				"id": "maratones",
+				"name": "Maratones",
+				"image": "pf_maratones.png",
+				"imageAlt": "Captura del proyecto Maratones",
+				"summary": "Sitio de evento especial para una carrera de maratón.",
+				"tech": [
+					"HTML",
+					"CSS",
+					"JavaScript"
+				],
+				"href": "https://kikeestrada.github.io/portfolio-maratones/"
+			},
+			{
 				"id": "betanysports",
 				"name": "BetAnySports",
 				"image": "bet.png",
@@ -89,55 +138,6 @@
 					"JavaScript"
 				],
 				"href": "https://www.mybookie.ag/"
-			},
-			{
-				"id": "ahorrando-para-tu-futuro",
-				"name": "Ahorrando para tu Futuro",
-				"image": "pf_ahorrando.png",
-				"imageAlt": "Captura del proyecto Ahorrando para tu Futuro",
-				"summary": "Plataforma educativa en Laravel para BAC San José.",
-				"tech": [
-					"Laravel",
-					"PHP"
-				],
-				"href": "https://kikeestrada.github.io/portfolio-ahorrando/"
-			},
-			{
-				"id": "maratones",
-				"name": "Maratones",
-				"image": "pf_maratones.png",
-				"imageAlt": "Captura del proyecto Maratones",
-				"summary": "Sitio de evento especial para una carrera de maratón.",
-				"tech": [
-					"HTML",
-					"CSS",
-					"JavaScript"
-				],
-				"href": "https://kikeestrada.github.io/portfolio-maratones/"
-			},
-			{
-				"id": "villa-lapas",
-				"name": "Villa Lapas",
-				"image": "pf_villalapas.png",
-				"imageAlt": "Captura del proyecto Villa Lapas",
-				"summary": "Sitio de turismo en WordPress para Hotel Villa Lapas.",
-				"tech": [
-					"WordPress"
-				],
-				"href": "https://kikeestrada.github.io/portfolioVillaLapasWebSite/"
-			},
-			{
-				"id": "esencial-costa-rica",
-				"name": "Esencial Costa Rica",
-				"image": "pf_esencialcr.png",
-				"imageAlt": "Captura del proyecto Esencial Costa Rica",
-				"summary": "Sitio de la marca país de Costa Rica para el programa de marca nacional.",
-				"tech": [
-					"HTML",
-					"CSS",
-					"JavaScript"
-				],
-				"href": "https://kikeestrada.github.io/portfolioEsencialcrWebSite/"
 			}
 		]
 	},
@@ -149,6 +149,55 @@
 		"visitLabel": "View project",
 		"techLabel": "Technologies",
 		"items": [
+			{
+				"id": "ahorrando-para-tu-futuro",
+				"name": "Ahorrando para tu Futuro",
+				"image": "pf_ahorrando.png",
+				"imageAlt": "Screenshot of the Ahorrando para tu Futuro project",
+				"summary": "Laravel education platform for BAC San José.",
+				"tech": [
+					"Laravel",
+					"PHP"
+				],
+				"href": "https://kikeestrada.github.io/portfolio-ahorrando/"
+			},
+			{
+				"id": "esencial-costa-rica",
+				"name": "Esencial Costa Rica",
+				"image": "pf_esencialcr.png",
+				"imageAlt": "Screenshot of the Esencial Costa Rica project",
+				"summary": "Country brand website for Costa Rica’s national brand program.",
+				"tech": [
+					"HTML",
+					"CSS",
+					"JavaScript"
+				],
+				"href": "https://kikeestrada.github.io/portfolioEsencialcrWebSite/"
+			},
+			{
+				"id": "villa-lapas",
+				"name": "Villa Lapas",
+				"image": "pf_villalapas.png",
+				"imageAlt": "Screenshot of the Villa Lapas project",
+				"summary": "WordPress tourism site for Hotel Villa Lapas.",
+				"tech": [
+					"WordPress"
+				],
+				"href": "https://kikeestrada.github.io/portfolioVillaLapasWebSite/"
+			},
+			{
+				"id": "maratones",
+				"name": "Maratones",
+				"image": "pf_maratones.png",
+				"imageAlt": "Screenshot of the Maratones project",
+				"summary": "Special-event website for a marathon race.",
+				"tech": [
+					"HTML",
+					"CSS",
+					"JavaScript"
+				],
+				"href": "https://kikeestrada.github.io/portfolio-maratones/"
+			},
 			{
 				"id": "betanysports",
 				"name": "BetAnySports",
@@ -230,55 +279,6 @@
 					"JavaScript"
 				],
 				"href": "https://www.mybookie.ag/"
-			},
-			{
-				"id": "ahorrando-para-tu-futuro",
-				"name": "Ahorrando para tu Futuro",
-				"image": "pf_ahorrando.png",
-				"imageAlt": "Screenshot of the Ahorrando para tu Futuro project",
-				"summary": "Laravel education platform for BAC San José.",
-				"tech": [
-					"Laravel",
-					"PHP"
-				],
-				"href": "https://kikeestrada.github.io/portfolio-ahorrando/"
-			},
-			{
-				"id": "maratones",
-				"name": "Maratones",
-				"image": "pf_maratones.png",
-				"imageAlt": "Screenshot of the Maratones project",
-				"summary": "Special-event website for a marathon race.",
-				"tech": [
-					"HTML",
-					"CSS",
-					"JavaScript"
-				],
-				"href": "https://kikeestrada.github.io/portfolio-maratones/"
-			},
-			{
-				"id": "villa-lapas",
-				"name": "Villa Lapas",
-				"image": "pf_villalapas.png",
-				"imageAlt": "Screenshot of the Villa Lapas project",
-				"summary": "WordPress tourism site for Hotel Villa Lapas.",
-				"tech": [
-					"WordPress"
-				],
-				"href": "https://kikeestrada.github.io/portfolioVillaLapasWebSite/"
-			},
-			{
-				"id": "esencial-costa-rica",
-				"name": "Esencial Costa Rica",
-				"image": "pf_esencialcr.png",
-				"imageAlt": "Screenshot of the Esencial Costa Rica project",
-				"summary": "Country brand website for Costa Rica’s national brand program.",
-				"tech": [
-					"HTML",
-					"CSS",
-					"JavaScript"
-				],
-				"href": "https://kikeestrada.github.io/portfolioEsencialcrWebSite/"
 			}
 		]
 	}

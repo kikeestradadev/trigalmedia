@@ -8,7 +8,11 @@
 
 	&__header {
 		max-width: 44rem;
-		margin-bottom: 2rem;
+		margin-bottom: 2.75rem;
+
+		@media (width >= $l) {
+			margin-bottom: 3.5rem;
+		}
 	}
 
 	&__eyebrow {
@@ -29,20 +33,22 @@
 		color: var(--text-muted);
 	}
 
-	&__slider {
-		overflow: hidden;
-		margin: 0;
-	}
+	&__cards {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 1.15rem;
 
-	&__track {
-		align-items: stretch;
+		@media (width >= $l) {
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			gap: 1.35rem;
+		}
 	}
 
 	&__card {
 		display: flex;
 		flex-direction: column;
 		height: auto;
-		padding: 1.35rem 1.25rem 1.25rem;
+		padding: 1.45rem 1.3rem 1.35rem;
 		background: var(--color-white);
 		border: 1px solid color-mix(in srgb, var(--color-navy) 8%, var(--color-gray));
 		border-radius: 1rem;
@@ -67,21 +73,48 @@
 	}
 
 	&__card-title {
-		margin: 0 0 0.45rem;
+		margin: 0 0 0.5rem;
 		font-size: 1.0625rem;
 	}
 
 	&__card-text {
 		margin: 0;
 		color: var(--text-muted);
-		font-size: 0.9375rem;
+		font-size: 1rem;
+		line-height: 1.55;
+	}
+
+	&__cta {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 0.85rem;
+		max-width: 36rem;
+		margin-top: 2.25rem;
+
+		@media (width >= $l) {
+			margin-top: 2.75rem;
+		}
+	}
+
+	&__cta-prompt {
+		margin: 0;
+		color: var(--text-muted);
+		font-size: 1rem;
 		line-height: 1.5;
 	}
 
-	@media (width >= $l) {
-		&__track.swiper-wrapper {
-			grid-template-columns: repeat(3, minmax(0, 1fr));
-			gap: 1.25rem;
+	&__cta-button {
+		width: 100%;
+		min-height: 2.75rem;
+
+		@media (width >= $m) {
+			width: auto;
+		}
+
+		&:focus-visible {
+			outline: 2px solid var(--color-cyan);
+			outline-offset: 3px;
 		}
 	}
 }
