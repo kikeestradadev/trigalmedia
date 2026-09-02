@@ -1,8 +1,10 @@
 {
-	"siteUrl": "https://kikeestradadev.github.io/trigalmedia",
+	"siteUrl": "https://www.trigal.media",
 	"author": "Trigal Media",
-	"ogImage": "https://kikeestradadev.github.io/trigalmedia/assets/logo_h.png",
+	"ogImage": "https://www.trigal.media/assets/logo_h.png",
 	"email": "trigalmedia@gmail.com",
+	"telephone": "+50670118183",
+	"alternateName": "Trigal Media Costa Rica",
 	"whatsappHref": "https://wa.me/50670118183",
 	"facebookHref": "https://www.facebook.com/profile.php?id=100067163003115",
 	"es": {
@@ -13,12 +15,34 @@
 		},
 		"meta": {
 			"siteName": "Trigal Media",
-			"title": "Trigal Media | Tu socio tecnológico",
-			"description": "Trigal Media es tu socio tecnológico en Costa Rica. Desarrollo web, ecommerce, automatización, integraciones de pago, chatbots, agentes de IA y software a medida orientado a resultados.",
-			"keywords": "Trigal Media, desarrollo web Costa Rica, diseño web, ecommerce Costa Rica, WordPress, automatización de procesos, aplicaciones web, integración Stripe, PayPal, BAC Credomatic, SINPE Móvil, chatbots WhatsApp, agentes de IA, socio tecnológico, software a medida, agencia digital Costa Rica",
-			"ogImageAlt": "Logotipo de Trigal Media",
+			"title": "Trigal Media | Socio tecnológico en Costa Rica",
+			"description": "Trigal Media es un socio tecnológico con sede en Costa Rica. Desarrollo web, ecommerce, automatización, integraciones de pago, chatbots, agentes de IA y software a medida para empresas y organizaciones.",
+			"keywords": "Trigal Media, Trigal Media Costa Rica, socio tecnológico Costa Rica, desarrollo web Costa Rica, diseño web, ecommerce Costa Rica, WordPress, automatización de procesos, aplicaciones web, integración Stripe, PayPal, BAC Credomatic, SINPE Móvil, chatbots WhatsApp, agentes de IA, software a medida, agencia digital Costa Rica",
+			"ogImageAlt": "Logotipo de Trigal Media, socio tecnológico en Costa Rica",
 			"ogLocale": "es_CR",
 			"ogLocaleAlternate": "en_US"
+		},
+		"seo": {
+			"slogan": "Tu socio tecnológico para construir, automatizar y crecer.",
+			"disambiguatingDescription": "Socio tecnológico con sede en Costa Rica, especializado en desarrollo web, ecommerce, automatización y software a medida para empresas, fundaciones e instituciones.",
+			"knowsAbout": [
+				"Desarrollo web",
+				"Ecommerce",
+				"Automatización de procesos",
+				"Integraciones de pago",
+				"Chatbots",
+				"Agentes de IA",
+				"Software a medida",
+				"WordPress"
+			],
+			"serviceType": [
+				"Desarrollo web",
+				"Ecommerce",
+				"Automatización",
+				"Integraciones de pago",
+				"Chatbots y agentes de IA",
+				"Software a medida"
+			]
 		}
 	},
 	"en": {
@@ -29,12 +53,34 @@
 		},
 		"meta": {
 			"siteName": "Trigal Media",
-			"title": "Trigal Media | Your technology partner",
-			"description": "Trigal Media is your technology partner in Costa Rica. Web development, ecommerce, automation, payment integrations, chatbots, AI agents, and custom software built for results.",
-			"keywords": "Trigal Media, web development Costa Rica, web design, ecommerce Costa Rica, WordPress, process automation, web applications, Stripe integration, PayPal, payment gateways, WhatsApp chatbots, AI agents, technology partner, custom software, digital agency Costa Rica",
-			"ogImageAlt": "Trigal Media logo",
+			"title": "Trigal Media | Technology partner in Costa Rica",
+			"description": "Trigal Media is a technology partner based in Costa Rica. Web development, ecommerce, automation, payment integrations, chatbots, AI agents, and custom software for companies and organizations.",
+			"keywords": "Trigal Media, Trigal Media Costa Rica, technology partner Costa Rica, web development Costa Rica, web design, ecommerce Costa Rica, WordPress, process automation, web applications, Stripe integration, PayPal, payment gateways, WhatsApp chatbots, AI agents, custom software, digital agency Costa Rica",
+			"ogImageAlt": "Trigal Media logo, technology partner in Costa Rica",
 			"ogLocale": "en_US",
 			"ogLocaleAlternate": "es_CR"
+		},
+		"seo": {
+			"slogan": "Your technology partner to build, automate, and grow.",
+			"disambiguatingDescription": "Technology partner based in Costa Rica, specialized in web development, ecommerce, automation, and custom software for companies, foundations, and institutions.",
+			"knowsAbout": [
+				"Web development",
+				"Ecommerce",
+				"Process automation",
+				"Payment integrations",
+				"Chatbots",
+				"AI agents",
+				"Custom software",
+				"WordPress"
+			],
+			"serviceType": [
+				"Web development",
+				"Ecommerce",
+				"Automation",
+				"Payment integrations",
+				"Chatbots and AI agents",
+				"Custom software"
+			]
 		}
 	}
 }
