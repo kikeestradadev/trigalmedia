@@ -23,34 +23,14 @@ section(class='hero', id='inicio')
 						data-i18n-title='hero.secondaryCta'
 					)= heroData.es.secondaryCta
 
-			div(
-				class='hero__visual',
-				aria-hidden='true'
-			)
-				div(class='hero__orb hero__orb--cyan')
-				div(class='hero__orb hero__orb--gold')
-				div(class='hero__orb hero__orb--teal')
-				svg(
-					class='hero__circuit',
-					viewBox='0 0 480 420',
-					fill='none',
-					xmlns='http://www.w3.org/2000/svg',
-					focusable='false'
+			figure(class='hero__visual')
+				img(
+					class='hero__image',
+					src=heroData.es.image.src,
+					alt=heroData.es.image.alt,
+					width='1254',
+					height='1254',
+					decoding='async',
+					fetchpriority='high',
+					data-i18n-alt='hero.image.alt'
 				)
-					title(data-i18n='hero.visualLabel')= heroData.es.visualLabel
-					rect(x='40', y='48', width='400', height='324', rx='24', stroke='#00c3da', stroke-opacity='0.28')
-					path(d='M88 96 H392', stroke='#00c3da', stroke-opacity='0.45', stroke-width='2')
-					path(d='M88 96 V324', stroke='#025765', stroke-width='6')
-					path(d='M88 96 H210', stroke='#021220', stroke-width='14')
-					path(d='M88 96 H176', stroke='#fcbe38', stroke-width='8')
-					circle(cx='88', cy='324', r='8', fill='#00c3da')
-					circle(cx='210', cy='96', r='8', fill='#00c3da')
-					circle(cx='392', cy='210', r='8', fill='#00c3da')
-					path(d='M210 96 C 286 96, 320 148, 392 210', stroke='#00c3da', stroke-opacity='0.7', stroke-width='2')
-					path(d='M88 210 H260', stroke='#025765', stroke-opacity='0.8', stroke-width='2')
-					circle(cx='260', cy='210', r='6', fill='#fcbe38')
-					path(d='M160 324 H320 V250', stroke='#00c3da', stroke-opacity='0.5', stroke-width='2')
-					circle(cx='320', cy='250', r='6', fill='#00c3da')
-					rect(x='176', y='84', width='10', height='24', rx='1', transform='rotate(-28 176 84)', fill='#fcbe38')
-					rect(x='196', y='84', width='10', height='24', rx='1', transform='rotate(-28 196 84)', fill='#fcbe38')
-					rect(x='216', y='84', width='10', height='24', rx='1', transform='rotate(-28 216 84)', fill='#fcbe38')

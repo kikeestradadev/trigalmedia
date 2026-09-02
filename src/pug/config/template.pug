@@ -1,10 +1,14 @@
 block config
 	- let currentPage = 'home';
+	- let pagePath = '/';
+	- let pageMetaPath = 'site.meta';
 	- let content = 'My Page';
 	- let siteName = 'Trigal Media';
 	- let pageTitle = '';
 	- let pageDescription = '';
 	- let pageKeywords = '';
+	- let pageOgImage = '';
+	- let pageOgImageAlt = '';
 	- let pageRobots = 'index, follow';
 -
 	var seoLocale = siteData.es
@@ -12,8 +16,9 @@ block config
 	var seoDescription = pageDescription || seoLocale.meta.description
 	var seoKeywords = pageKeywords || seoLocale.meta.keywords
 	var seoSiteName = seoLocale.meta.siteName
-	var seoCanonical = siteData.siteUrl + '/'
-	var seoOgImageAlt = seoLocale.meta.ogImageAlt
+	var seoCanonical = siteData.siteUrl + (pagePath === '/' ? '/' : pagePath)
+	var seoOgImage = pageOgImage || siteData.ogImage
+	var seoOgImageAlt = pageOgImageAlt || seoLocale.meta.ogImageAlt
 	var seoOgLocale = seoLocale.meta.ogLocale
 	var seoOgLocaleAlternate = seoLocale.meta.ogLocaleAlternate
 doctype html
@@ -49,7 +54,7 @@ html(lang='es-CR', prefix='og: http://ogp.me/ns#', class='no-js')
 		)
 		link(rel='stylesheet', href=`./assets/prism.css?v=${assetVersion}`)
 		link(rel='stylesheet', href=`styles.css?v=${assetVersion}`)
-	body(class=currentPage, itemscope, itemtype='http://schema.org/WebPage')
+	body(class=currentPage, data-i18n-meta=pageMetaPath, itemscope, itemtype='http://schema.org/WebPage')
 		a(class='skip-link', href='#contenido', data-i18n='site.skip')= siteData.es.skip
 		header(class='main-header')
 			block main-header

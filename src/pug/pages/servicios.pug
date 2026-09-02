@@ -1,0 +1,31 @@
+extends ../config/template
+
+block append config
+	- currentPage = 'servicios';
+	- pagePath = '/servicios';
+	- pageMetaPath = 'serviciosHero.meta';
+	- siteName = siteData.es.meta.siteName;
+	- pageTitle = serviciosHeroData.es.meta.title;
+	- pageDescription = serviciosHeroData.es.meta.description;
+	- pageKeywords = serviciosHeroData.es.meta.keywords;
+	- pageOgImage = siteData.siteUrl + '/images/servicios/banner.webp';
+	- pageOgImageAlt = serviciosHeroData.es.meta.ogImageAlt;
+
+block main-header
+	include ../components/site-header
+
+block main-container
+	include ../components/servicios-hero
+	include ../components/servicios-catalog
+	include ../components/servicios-applied-work
+	include ../components/servicios-next-step
+
+block main-footer
+	include ../components/site-footer
+
+block after-footer
+	include ../components/floating-contact
+
+block data
+	script(type='application/json', id='i18n-bundle')
+		!= JSON.stringify({ site: siteData, siteHeader: siteHeaderData, serviciosHero: serviciosHeroData, serviciosCatalog: serviciosCatalogData, serviciosAppliedWork: serviciosAppliedWorkData, serviciosNextStep: serviciosNextStepData, siteFooter: siteFooterData, floatingContact: floatingContactData, contact: contactData })

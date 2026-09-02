@@ -145,28 +145,50 @@ const startDevServer = () => {
 			return;
 		}
 
-		fs.readFile(filePath, (error, fileData) => {
-			if (error) {
+		const sendHtml = (htmlBuffer) => {
+			const html = htmlBuffer.toString('utf8');
+			const injected = html.includes('</body>')
+				? html.replace('</body>', `${LIVE_RELOAD_SNIPPET}</body>`)
+				: `${html}${LIVE_RELOAD_SNIPPET}`;
+			res.writeHead(200, { 'Content-Type': mimeTypes['.html'] });
+			res.end(injected);
+		};
+
+		const sendFromPath = (targetPath) => {
+			fs.readFile(targetPath, (error, fileData) => {
+				if (!error) {
+					const ext = path.extname(targetPath).toLowerCase();
+					if (ext === '.html') {
+						sendHtml(fileData);
+						return;
+					}
+
+					const contentType = mimeTypes[ext] || 'application/octet-stream';
+					res.writeHead(200, { 'Content-Type': contentType });
+					res.end(fileData);
+					return;
+				}
+
+				if (!path.extname(targetPath)) {
+					fs.readFile(`${targetPath}.html`, (htmlError, htmlData) => {
+						if (!htmlError) {
+							sendHtml(htmlData);
+							return;
+						}
+
+						res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
+						res.end('Not found');
+					});
+					return;
+				}
+
 				res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
 				res.end('Not found');
-				return;
-			}
+			});
+		};
 
-			const ext = path.extname(filePath).toLowerCase();
-			const contentType = mimeTypes[ext] || 'application/octet-stream';
-			res.writeHead(200, { 'Content-Type': contentType });
+		sendFromPath(filePath);
 
-			if (ext === '.html') {
-				const html = fileData.toString('utf8');
-				const injected = html.includes('</body>')
-					? html.replace('</body>', `${LIVE_RELOAD_SNIPPET}</body>`)
-					: `${html}${LIVE_RELOAD_SNIPPET}`;
-				res.end(injected);
-				return;
-			}
-
-			res.end(fileData);
-		});
 	});
 
 	server.listen(DEV_PORT, () => {

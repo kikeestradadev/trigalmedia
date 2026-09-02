@@ -1,0 +1,147 @@
+-
+	const serviciosIndexId = serviciosCatalogData.es.indexId
+
+mixin serviciosCatalogItem(category, categoryIndex, group, groupIndex, item, itemIndex)
+	- const groupHasTitle = Boolean(group.title)
+	- const i18nItemBase = groupHasTitle ? `serviciosCatalog.categories.${categoryIndex}.groups.${groupIndex}.items.${itemIndex}` : `serviciosCatalog.categories.${categoryIndex}.items.${itemIndex}`
+	- const buttonId = `servicios-acc-${category.id}-${groupIndex}-${itemIndex}`
+	- const panelId = `servicios-panel-${category.id}-${groupIndex}-${itemIndex}`
+	- const headingTag = groupHasTitle ? 'h4' : 'h3'
+	div(class='servicios-catalog__item')
+		#{headingTag}(class='servicios-catalog__item-heading')
+			button(
+				class='servicios-catalog__item-button',
+				type='button',
+				id=buttonId,
+				aria-expanded='false',
+				aria-controls=panelId
+			)
+				span(
+					class='servicios-catalog__item-title',
+					data-i18n=`${i18nItemBase}.title`
+				)= item.title
+				span(class='servicios-catalog__item-icon', aria-hidden='true')
+		div(
+			class='servicios-catalog__item-panel',
+			id=panelId,
+			role='region',
+			aria-labelledby=buttonId,
+			hidden
+		)
+			p(
+				class='servicios-catalog__item-text',
+				data-i18n=`${i18nItemBase}.text`
+			)= item.text
+
+div(class='servicios-catalog')
+	nav(
+		class='servicios-catalog__index',
+		id=serviciosIndexId,
+		aria-label=serviciosCatalogData.es.indexLabel,
+		data-i18n-aria='serviciosCatalog.indexLabel'
+	)
+		div(class='main-container servicios-catalog__index-shell')
+			div(class='container servicios-catalog__index-container')
+				p(class='visually-hidden', data-i18n='serviciosCatalog.indexLabel')= serviciosCatalogData.es.indexLabel
+				ul(class='servicios-catalog__index-list')
+					each category, categoryIndex in serviciosCatalogData.es.categories
+						li(class='servicios-catalog__index-item')
+							a(
+								class='servicios-catalog__index-link',
+								href=`#${category.id}`
+							)
+								span(class='servicios-catalog__index-number', aria-hidden='true')= category.number
+								span(
+									class='servicios-catalog__index-text',
+									data-i18n=`serviciosCatalog.categories.${categoryIndex}.indexLabel`
+								)= category.indexLabel
+
+	each category, categoryIndex in serviciosCatalogData.es.categories
+		- const sectionId = category.id
+		- const headingId = `servicios-heading-${category.id}`
+		- const ctaClass = category.theme === 'navy' ? 'btn btn--gold btn--small' : 'btn btn--outline btn--small'
+		- const hasImage = category.image && category.image.src
+		- const catalogGroups = category.groups || [{ title: '', items: category.items }]
+		- const mediaSide = categoryIndex % 2 === 0 ? 'left' : 'right'
+		section(
+			class=`servicios-catalog__section servicios-catalog__section--${category.theme}`,
+			id=sectionId,
+			aria-labelledby=headingId
+		)
+			div(class='main-container servicios-catalog__shell')
+				div(class='container servicios-catalog__container')
+					div(class=`servicios-catalog__layout servicios-catalog__layout--media-${mediaSide}`)
+						div(class='servicios-catalog__intro')
+							p(class='servicios-catalog__number', aria-hidden='true')= category.number
+							h2(
+								class='servicios-catalog__title',
+								id=headingId,
+								data-i18n=`serviciosCatalog.categories.${categoryIndex}.title`
+							)= category.title
+							p(
+								class='servicios-catalog__description',
+								data-i18n=`serviciosCatalog.categories.${categoryIndex}.description`
+							)= category.description
+
+						figure(class='servicios-catalog__media')
+							if hasImage
+								img(
+									class='servicios-catalog__image',
+									src=category.image.src,
+									alt=category.image.alt,
+									width='1254',
+									height='1254',
+									loading='lazy',
+									decoding='async',
+									data-i18n-alt=`serviciosCatalog.categories.${categoryIndex}.image.alt`
+								)
+							else
+								div(
+									class=`servicios-catalog__placeholder servicios-catalog__placeholder--${category.id}`,
+									role='img',
+									aria-label=category.placeholder,
+									data-i18n-aria=`serviciosCatalog.categories.${categoryIndex}.placeholder`
+								)
+									div(class='servicios-catalog__placeholder-orb servicios-catalog__placeholder-orb--cyan', aria-hidden='true')
+									div(class='servicios-catalog__placeholder-orb servicios-catalog__placeholder-orb--gold', aria-hidden='true')
+									svg(
+										class='servicios-catalog__placeholder-svg',
+										viewBox='0 0 360 240',
+										fill='none',
+										xmlns='http://www.w3.org/2000/svg',
+										focusable='false',
+										aria-hidden='true'
+									)
+										rect(x='28', y='36', width='120', height='72', rx='12', stroke='currentColor', stroke-opacity='0.55')
+										rect(x='148', y='64', width='84', height='128', rx='16', stroke='currentColor', stroke-opacity='0.7')
+										rect(x='48', y='132', width='88', height='56', rx='10', stroke='currentColor', stroke-opacity='0.45')
+										circle(cx='88', cy='72', r='6', fill='currentColor')
+										circle(cx='190', cy='96', r='6', fill='currentColor')
+										circle(cx='92', cy='160', r='6', fill='currentColor')
+										path(d='M88 72 C 120 72, 148 88, 190 96', stroke='currentColor', stroke-opacity='0.7')
+										path(d='M92 160 C 128 148, 160 140, 190 128', stroke='currentColor', stroke-opacity='0.45')
+										rect(x='252', y='52', width='80', height='52', rx='10', stroke='currentColor', stroke-opacity='0.4')
+										path(d='M232 96 H252', stroke='currentColor', stroke-opacity='0.5')
+								figcaption(
+									class='servicios-catalog__placeholder-label',
+									data-i18n=`serviciosCatalog.categories.${categoryIndex}.placeholder`
+								)= category.placeholder
+
+					div(class='servicios-catalog__accordion')
+						each group, groupIndex in catalogGroups
+							div(class=group.title ? 'servicios-catalog__group' : 'servicios-catalog__group servicios-catalog__group--ungrouped')
+								if group.title
+									h3(
+										class='servicios-catalog__group-title',
+										data-i18n=`serviciosCatalog.categories.${categoryIndex}.groups.${groupIndex}.title`
+									)= group.title
+								each item, itemIndex in group.items
+									+serviciosCatalogItem(category, categoryIndex, group, groupIndex, item, itemIndex)
+
+					a(
+						class=ctaClass,
+						href=category.ctaHref,
+						title=category.cta,
+						data-i18n=`serviciosCatalog.categories.${categoryIndex}.cta`,
+						data-i18n-title=`serviciosCatalog.categories.${categoryIndex}.cta`
+					)= category.cta

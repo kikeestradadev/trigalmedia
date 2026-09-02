@@ -4,7 +4,7 @@
 	const seoWebsiteId = seoBase + '/#website'
 	const seoServiceId = seoBase + '/#service'
 	const seoLogoId = seoBase + '/#logo'
-	const seoWebpageId = seoBase + '/#webpage'
+	const seoWebpageId = seoCanonical.replace(/\/$/, '') + '#webpage'
 	const seoAddress = {
 		'@type': 'PostalAddress',
 		addressCountry: 'CR'
@@ -17,119 +17,183 @@
 			text: item.answer
 		}
 	}))
+	const seoServiceOffer = (item, itemIndex) => ({
+		'@type': 'Offer',
+		position: itemIndex + 1,
+		itemOffered: {
+			'@type': 'Service',
+			name: item.title,
+			description: item.text,
+			provider: { '@id': seoOrganizationId },
+			areaServed: {
+				'@type': 'Country',
+				name: 'Costa Rica'
+			}
+		}
+	})
+	const seoCategoryItems = (category) => {
+		const grouped = (category.groups || []).flatMap((group) => group.items || [])
+		const items = grouped.length ? grouped : (category.items || [])
+		return items.map(seoServiceOffer)
+	}
+	const seoHomeCatalog = (servicesData.es.groups || []).map((group, index) => ({
+		'@type': 'OfferCatalog',
+		position: index + 1,
+		name: group.title,
+		itemListElement: (group.items || []).map(seoServiceOffer)
+	}))
+	const seoServiciosCatalog = (serviciosCatalogData.es.categories || []).map((category, index) => ({
+		'@type': 'OfferCatalog',
+		position: index + 1,
+		name: category.indexLabel,
+		url: seoBase + '/servicios#' + category.id,
+		itemListElement: seoCategoryItems(category)
+	}))
+	const seoCatalogId = currentPage === 'servicios'
+		? seoBase + '/servicios#catalog'
+		: seoBase + '/#service-catalog'
 	const seoOfferCatalog = {
 		'@type': 'OfferCatalog',
+		'@id': seoCatalogId,
 		name: 'Servicios de Trigal Media',
-		itemListElement: (servicesData.es.groups || []).map((group, index) => ({
-			'@type': 'OfferCatalog',
-			position: index + 1,
-			name: group.title,
-			itemListElement: (group.items || []).map((item) => ({
-				'@type': 'Offer',
-				itemOffered: {
-					'@type': 'Service',
-					name: item.title,
-					description: item.text
+		url: currentPage === 'servicios' ? seoBase + '/servicios' : seoBase + '/',
+		itemListElement: currentPage === 'servicios' ? seoServiciosCatalog : seoHomeCatalog
+	}
+	const seoPageImageId = seoCanonical.replace(/\/$/, '') + '#primaryimage'
+	const seoBreadcrumbId = seoCanonical.replace(/\/$/, '') + '#breadcrumb'
+	const seoWebpage = {
+		'@type': currentPage === 'servicios' ? 'CollectionPage' : 'WebPage',
+		'@id': seoWebpageId,
+		url: seoCanonical,
+		name: seoTitle,
+		description: seoDescription,
+		inLanguage: 'es-CR',
+		isPartOf: { '@id': seoWebsiteId },
+		about: { '@id': seoOrganizationId },
+		primaryImageOfPage: {
+			'@id': currentPage === 'servicios' ? seoPageImageId : seoLogoId
+		}
+	}
+	if (currentPage === 'servicios') {
+		seoWebpage.breadcrumb = { '@id': seoBreadcrumbId }
+		seoWebpage.mainEntity = { '@id': seoCatalogId }
+	}
+	const seoGraph = [
+		{
+			'@type': 'Organization',
+			'@id': seoOrganizationId,
+			name: siteData.es.meta.siteName,
+			alternateName: siteData.alternateName,
+			legalName: siteData.es.meta.siteName,
+			url: seoBase + '/',
+			logo: { '@id': seoLogoId },
+			image: { '@id': seoLogoId },
+			email: siteData.email,
+			telephone: siteData.telephone,
+			description: siteData.es.meta.description,
+			disambiguatingDescription: siteData.es.seo.disambiguatingDescription,
+			slogan: siteData.es.seo.slogan,
+			address: seoAddress,
+			foundingLocation: {
+				'@type': 'Country',
+				name: 'Costa Rica'
+			},
+			areaServed: [
+				{
+					'@type': 'Country',
+					name: 'Costa Rica'
 				}
-			}))
-		}))
+			],
+			knowsAbout: siteData.es.seo.knowsAbout,
+			availableLanguage: ['es', 'en'],
+			contactPoint: {
+				'@type': 'ContactPoint',
+				contactType: 'sales',
+				telephone: siteData.telephone,
+				email: siteData.email,
+				availableLanguage: ['Spanish', 'English'],
+				areaServed: 'CR'
+			},
+			sameAs: [siteData.facebookHref, siteData.whatsappHref]
+		},
+		{
+			'@type': 'ImageObject',
+			'@id': seoLogoId,
+			url: siteData.ogImage,
+			contentUrl: siteData.ogImage,
+			caption: siteData.es.meta.siteName
+		},
+		{
+			'@type': 'WebSite',
+			'@id': seoWebsiteId,
+			url: seoBase + '/',
+			name: siteData.es.meta.siteName,
+			alternateName: siteData.alternateName,
+			description: siteData.es.meta.description,
+			inLanguage: ['es-CR', 'en-US'],
+			publisher: { '@id': seoOrganizationId },
+			about: { '@id': seoOrganizationId }
+		},
+		seoWebpage,
+		{
+			'@type': 'ProfessionalService',
+			'@id': seoServiceId,
+			name: siteData.es.meta.siteName,
+			alternateName: siteData.alternateName,
+			url: seoBase + '/',
+			image: { '@id': seoLogoId },
+			description: siteData.es.meta.description,
+			disambiguatingDescription: siteData.es.seo.disambiguatingDescription,
+			provider: { '@id': seoOrganizationId },
+			address: seoAddress,
+			areaServed: {
+				'@type': 'Country',
+				name: 'Costa Rica'
+			},
+			availableLanguage: ['es', 'en'],
+			serviceType: siteData.es.seo.serviceType,
+			hasOfferCatalog: seoOfferCatalog,
+			sameAs: [siteData.facebookHref, siteData.whatsappHref]
+		}
+	]
+	if (currentPage === 'servicios') {
+		seoGraph.push({
+			'@type': 'ImageObject',
+			'@id': seoPageImageId,
+			url: seoOgImage,
+			contentUrl: seoOgImage,
+			caption: seoOgImageAlt
+		})
+		seoGraph.push({
+			'@type': 'BreadcrumbList',
+			'@id': seoBreadcrumbId,
+			itemListElement: [
+				{
+					'@type': 'ListItem',
+					position: 1,
+					name: 'Inicio',
+					item: seoBase + '/'
+				},
+				{
+					'@type': 'ListItem',
+					position: 2,
+					name: 'Servicios',
+					item: seoCanonical
+				}
+			]
+		})
+	}
+	if (currentPage === 'home') {
+		seoGraph.push({
+			'@type': 'FAQPage',
+			'@id': seoBase + '/#faq',
+			url: seoBase + '/#preguntas-frecuentes',
+			isPartOf: { '@id': seoWebpageId },
+			mainEntity: seoFaqItems
+		})
 	}
 	const seoJsonLd = {
 		'@context': 'https://schema.org',
-		'@graph': [
-			{
-				'@type': 'Organization',
-				'@id': seoOrganizationId,
-				name: siteData.es.meta.siteName,
-				alternateName: siteData.alternateName,
-				legalName: siteData.es.meta.siteName,
-				url: seoBase + '/',
-				logo: { '@id': seoLogoId },
-				image: { '@id': seoLogoId },
-				email: siteData.email,
-				telephone: siteData.telephone,
-				description: siteData.es.meta.description,
-				disambiguatingDescription: siteData.es.seo.disambiguatingDescription,
-				slogan: siteData.es.seo.slogan,
-				address: seoAddress,
-				foundingLocation: {
-					'@type': 'Country',
-					name: 'Costa Rica'
-				},
-				areaServed: [
-					{
-						'@type': 'Country',
-						name: 'Costa Rica'
-					}
-				],
-				knowsAbout: siteData.es.seo.knowsAbout,
-				availableLanguage: ['es', 'en'],
-				contactPoint: {
-					'@type': 'ContactPoint',
-					contactType: 'sales',
-					telephone: siteData.telephone,
-					email: siteData.email,
-					availableLanguage: ['Spanish', 'English'],
-					areaServed: 'CR'
-				},
-				sameAs: [siteData.facebookHref, siteData.whatsappHref]
-			},
-			{
-				'@type': 'ImageObject',
-				'@id': seoLogoId,
-				url: siteData.ogImage,
-				contentUrl: siteData.ogImage,
-				caption: siteData.es.meta.siteName
-			},
-			{
-				'@type': 'WebSite',
-				'@id': seoWebsiteId,
-				url: seoBase + '/',
-				name: siteData.es.meta.siteName,
-				alternateName: siteData.alternateName,
-				description: siteData.es.meta.description,
-				inLanguage: ['es-CR', 'en-US'],
-				publisher: { '@id': seoOrganizationId },
-				about: { '@id': seoOrganizationId }
-			},
-			{
-				'@type': 'WebPage',
-				'@id': seoWebpageId,
-				url: seoBase + '/',
-				name: siteData.es.meta.title,
-				description: siteData.es.meta.description,
-				inLanguage: 'es-CR',
-				isPartOf: { '@id': seoWebsiteId },
-				about: { '@id': seoOrganizationId },
-				primaryImageOfPage: { '@id': seoLogoId }
-			},
-			{
-				'@type': 'ProfessionalService',
-				'@id': seoServiceId,
-				name: siteData.es.meta.siteName,
-				alternateName: siteData.alternateName,
-				url: seoBase + '/',
-				image: { '@id': seoLogoId },
-				description: siteData.es.meta.description,
-				disambiguatingDescription: siteData.es.seo.disambiguatingDescription,
-				provider: { '@id': seoOrganizationId },
-				address: seoAddress,
-				areaServed: {
-					'@type': 'Country',
-					name: 'Costa Rica'
-				},
-				availableLanguage: ['es', 'en'],
-				serviceType: siteData.es.seo.serviceType,
-				hasOfferCatalog: seoOfferCatalog,
-				sameAs: [siteData.facebookHref, siteData.whatsappHref]
-			},
-			{
-				'@type': 'FAQPage',
-				'@id': seoBase + '/#faq',
-				url: seoBase + '/#preguntas-frecuentes',
-				isPartOf: { '@id': seoWebpageId },
-				mainEntity: seoFaqItems
-			}
-		]
+		'@graph': seoGraph
 	}
 script(type='application/ld+json')!= JSON.stringify(seoJsonLd)

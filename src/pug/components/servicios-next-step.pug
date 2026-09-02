@@ -1,0 +1,45 @@
+section(class='servicios-next-step')
+	div(class='main-container servicios-next-step__shell')
+		div(class='container servicios-next-step__container servicios-next-step__container--media-left')
+			div(class='servicios-next-step__copy')
+				p(
+					class='servicios-next-step__eyebrow',
+					data-i18n='serviciosNextStep.eyebrow'
+				)= serviciosNextStepData.es.eyebrow
+				h2(
+					class='servicios-next-step__title',
+					data-i18n='serviciosNextStep.title'
+				)= serviciosNextStepData.es.title
+				p(
+					class='servicios-next-step__text',
+					data-i18n='serviciosNextStep.text'
+				)= serviciosNextStepData.es.text
+				div(class='servicios-next-step__actions')
+					a(
+						class='btn btn--gold',
+						href=serviciosNextStepData.es.primaryHref,
+						title=serviciosNextStepData.es.primaryCta,
+						data-i18n='serviciosNextStep.primaryCta',
+						data-i18n-title='serviciosNextStep.primaryCta'
+					)= serviciosNextStepData.es.primaryCta
+					a(
+						class='btn btn--ghost',
+						href=serviciosNextStepData.whatsappHref,
+						target='_blank',
+						rel='noopener noreferrer',
+						title=serviciosNextStepData.es.secondaryCta,
+						data-i18n='serviciosNextStep.secondaryCta',
+						data-i18n-title='serviciosNextStep.secondaryCta'
+					)= serviciosNextStepData.es.secondaryCta
+
+			figure(class='servicios-next-step__visual')
+				img(
+					class='servicios-next-step__image',
+					src=serviciosNextStepData.es.image.src,
+					alt=serviciosNextStepData.es.image.alt,
+					width='1254',
+					height='1254',
+					loading='lazy',
+					decoding='async',
+					data-i18n-alt='serviciosNextStep.image.alt'
+				)

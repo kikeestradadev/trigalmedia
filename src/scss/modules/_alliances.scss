@@ -66,66 +66,19 @@
 
 	&__visual {
 		position: relative;
-		min-height: 14rem;
+		margin: 0;
 		overflow: hidden;
 		border: 1px solid color-mix(in srgb, var(--color-cyan) 28%, transparent);
 		border-radius: 1.25rem;
-		background:
-			radial-gradient(circle at 18% 24%, color-mix(in srgb, var(--color-cyan) 28%, transparent), transparent 42%),
-			radial-gradient(circle at 82% 22%, color-mix(in srgb, var(--color-gold) 20%, transparent), transparent 38%),
-			radial-gradient(circle at 58% 82%, color-mix(in srgb, var(--color-teal) 32%, transparent), transparent 46%),
-			color-mix(in srgb, var(--color-navy) 70%, #000);
-
-		@media (width >= $l) {
-			min-height: 20rem;
-		}
+		background: color-mix(in srgb, var(--color-navy) 70%, #000);
+		aspect-ratio: 1;
 	}
 
-	&__orb {
-		position: absolute;
-		border-radius: 50%;
-		filter: blur(18px);
-		opacity: 0.7;
-		pointer-events: none;
-
-		&--cyan {
-			top: 14%;
-			left: 16%;
-			width: 7rem;
-			height: 7rem;
-			background: var(--color-cyan);
-		}
-
-		&--gold {
-			top: 16%;
-			right: 14%;
-			width: 5.5rem;
-			height: 5.5rem;
-			background: var(--color-gold);
-		}
-
-		&--teal {
-			right: 20%;
-			bottom: 12%;
-			width: 9rem;
-			height: 9rem;
-			background: var(--color-teal);
-		}
-	}
-
-	&__diagram {
-		position: relative;
-		z-index: 1;
+	&__image {
 		display: block;
 		width: 100%;
-		height: auto;
-		padding: 1.15rem;
-	}
-}
-
-@media (prefers-reduced-motion: reduce) {
-	.alliances__orb {
-		filter: none;
-		opacity: 0.35;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
 	}
 }

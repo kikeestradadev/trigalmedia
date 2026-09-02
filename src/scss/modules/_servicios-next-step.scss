@@ -1,0 +1,110 @@
+.servicios-next-step {
+	position: relative;
+	overflow: hidden;
+	padding: 4rem 0;
+	background: var(--color-navy);
+	color: var(--color-white);
+
+	@media (width >= $l) {
+		padding: 5.5rem 0;
+	}
+
+	&__container {
+		display: grid;
+		gap: 2.5rem;
+		align-items: center;
+
+		@media (width < $l) {
+			max-width: 37.5rem;
+		}
+
+		@media (width >= $l) {
+			grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+			gap: 3rem;
+		}
+
+		&--media-left {
+			@media (width >= $l) {
+				grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+
+				.servicios-next-step__copy {
+					grid-column: 2;
+				}
+
+				.servicios-next-step__visual {
+					grid-column: 1;
+					grid-row: 1;
+				}
+			}
+		}
+	}
+
+	&__copy,
+	&__visual {
+		min-width: 0;
+	}
+
+	&__copy {
+		@media (width < $l) {
+			text-align: center;
+		}
+	}
+
+	&__eyebrow {
+		margin: 0 0 0.65rem;
+		color: var(--color-cyan);
+		font-size: 0.8125rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
+
+	&__title {
+		margin: 0 0 0.85rem;
+		color: var(--color-white);
+		max-width: 16ch;
+
+		@media (width < $l) {
+			margin-inline: auto;
+		}
+	}
+
+	&__text {
+		margin: 0 0 1.5rem;
+		max-width: 44ch;
+		color: color-mix(in srgb, var(--color-white) 86%, var(--color-cyan));
+
+		@media (width < $l) {
+			margin-inline: auto;
+		}
+	}
+
+	&__actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 15px;
+
+		@media (width < $l) {
+			justify-content: center;
+		}
+	}
+
+	&__visual {
+		position: relative;
+		display: block;
+		margin: 0;
+		overflow: hidden;
+		border: 1px solid color-mix(in srgb, var(--color-cyan) 28%, transparent);
+		border-radius: 1.25rem;
+		background: color-mix(in srgb, var(--color-navy) 70%, #000);
+		aspect-ratio: 1;
+	}
+
+	&__image {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+}

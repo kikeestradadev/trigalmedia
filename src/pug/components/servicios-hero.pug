@@ -1,0 +1,39 @@
+section(class='servicios-hero')
+	div(class='main-container servicios-hero__shell')
+		div(class='container servicios-hero__container')
+			div(class='servicios-hero__copy')
+				a(
+					class='servicios-hero__back',
+					href=serviciosHeroData.es.backHref,
+					data-i18n='serviciosHero.backLabel'
+				)= serviciosHeroData.es.backLabel
+				p(class='servicios-hero__eyebrow', data-i18n='serviciosHero.eyebrow')= serviciosHeroData.es.eyebrow
+				h1(class='servicios-hero__title', data-i18n='serviciosHero.title')= serviciosHeroData.es.title
+				p(class='servicios-hero__text', data-i18n='serviciosHero.text')= serviciosHeroData.es.text
+				div(class='servicios-hero__actions')
+					a(
+						class='btn btn--gold',
+						href=serviciosHeroData.es.primaryHref,
+						title=serviciosHeroData.es.primaryCta,
+						data-i18n='serviciosHero.primaryCta',
+						data-i18n-title='serviciosHero.primaryCta'
+					)= serviciosHeroData.es.primaryCta
+					a(
+						class='btn btn--ghost',
+						href=serviciosHeroData.es.secondaryHref,
+						title=serviciosHeroData.es.secondaryCta,
+						data-i18n='serviciosHero.secondaryCta',
+						data-i18n-title='serviciosHero.secondaryCta'
+					)= serviciosHeroData.es.secondaryCta
+
+			figure(class='servicios-hero__visual')
+				img(
+					class='servicios-hero__image',
+					src=serviciosHeroData.es.image.src,
+					alt=serviciosHeroData.es.image.alt,
+					width='1254',
+					height='1254',
+					decoding='async',
+					fetchpriority='high',
+					data-i18n-alt='serviciosHero.image.alt'
+				)

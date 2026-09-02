@@ -3,13 +3,16 @@
 		"eyebrow": "Qué hacemos",
 		"title": "Servicios para construir, vender y operar mejor.",
 		"lead": "Tres áreas claras. En todas, el punto de partida es el resultado de negocio, no la lista de tecnologías.",
-		"expandLabel": "Ver todos los servicios",
+		"expandLabel": "Ver más",
 		"collapseLabel": "Ver menos",
+		"catalogCta": "Ver todos los servicios",
+		"catalogHref": "/servicios",
 		"groups": [
 			{
 				"icon": "presence",
 				"title": "Presencia y comercio digital",
 				"text": "Una presencia clara y un canal de venta que trabaja a favor del negocio.",
+				"catalogHref": "/servicios#desarrollo-web",
 				"items": [
 					{
 						"title": "Sitios web profesionales",
@@ -33,6 +36,7 @@
 				"icon": "automation",
 				"title": "Automatización y soluciones a medida",
 				"text": "Menos trabajo repetido y mejores decisiones, con herramientas que se adaptan al proceso.",
+				"catalogHref": "/servicios#automatizacion",
 				"items": [
 					{
 						"title": "Aplicaciones web",
@@ -56,6 +60,7 @@
 				"icon": "teams",
 				"title": "Equipos y capacidad tecnológica",
 				"text": "Capacidad extra cuando el proyecto lo pide, sin armar una estructura innecesaria.",
+				"catalogHref": "/servicios#equipos",
 				"items": [
 					{
 						"title": "Outsourcing de desarrollo",
@@ -81,13 +86,16 @@
 		"eyebrow": "What we do",
 		"title": "Services to build, sell, and operate better.",
 		"lead": "Three clear areas. In all of them, the starting point is the business outcome, not a list of technologies.",
-		"expandLabel": "See all services",
+		"expandLabel": "See more",
 		"collapseLabel": "Show less",
+		"catalogCta": "See all services",
+		"catalogHref": "/servicios",
 		"groups": [
 			{
 				"icon": "presence",
 				"title": "Digital presence and commerce",
 				"text": "A clear presence and a sales channel that works in favor of the business.",
+				"catalogHref": "/servicios#desarrollo-web",
 				"items": [
 					{
 						"title": "Professional websites",
@@ -111,6 +119,7 @@
 				"icon": "automation",
 				"title": "Automation and custom solutions",
 				"text": "Less repetitive work and better decisions, with tools that adapt to the process.",
+				"catalogHref": "/servicios#automatizacion",
 				"items": [
 					{
 						"title": "Web applications",
@@ -134,6 +143,7 @@
 				"icon": "teams",
 				"title": "Teams and technical capacity",
 				"text": "Extra capacity when the project needs it, without building an unnecessary structure.",
+				"catalogHref": "/servicios#equipos",
 				"items": [
 					{
 						"title": "Development outsourcing",

@@ -4,6 +4,8 @@ import languageSwitch from './modules/languageSwitch';
 import siteHeader from './modules/siteHeader';
 import faq from './modules/faq';
 import services from './modules/services';
+import serviciosCatalog from './modules/serviciosCatalog';
+import contactContext from './modules/contactContext';
 import smoothScroll from './modules/smoothScroll';
 import floatingContact from './modules/floatingContact';
 import articleGridSlider from './modules/articleGridSlider';
@@ -13,6 +15,8 @@ const initComponents = () => {
 	siteHeader();
 	faq();
 	services();
+	serviciosCatalog();
+	contactContext();
 	smoothScroll();
 	floatingContact();
 	articleGridSlider();

@@ -60,13 +60,28 @@ section(class='services', id='servicios')
 										class='services__item-text',
 										data-i18n=`services.groups.${groupIndex}.items.${itemIndex}.text`
 									)= item.text
-						button(
-							class='services__toggle',
-							type='button',
-							id=toggleId,
-							aria-expanded='false',
-							aria-controls=panelId
-						)
-							span(class='services__toggle-show', data-i18n='services.expandLabel')= servicesData.es.expandLabel
-							span(class='services__toggle-hide', data-i18n='services.collapseLabel')= servicesData.es.collapseLabel
-							span(class='services__toggle-icon', aria-hidden='true')
+						div(class='services__card-actions')
+							button(
+								class='services__toggle',
+								type='button',
+								id=toggleId,
+								aria-expanded='false',
+								aria-controls=panelId
+							)
+								span(class='services__toggle-show', data-i18n='services.expandLabel')= servicesData.es.expandLabel
+								span(class='services__toggle-hide', data-i18n='services.collapseLabel')= servicesData.es.collapseLabel
+								span(class='services__toggle-icon', aria-hidden='true')
+							a(
+								class='services__catalog-link',
+								href=group.catalogHref,
+								data-i18n='services.catalogCta'
+							)= servicesData.es.catalogCta
+
+			div(class='services__footer')
+				a(
+					class='btn btn--primary services__catalog-cta',
+					href=servicesData.es.catalogHref,
+					title=servicesData.es.catalogCta,
+					data-i18n='services.catalogCta',
+					data-i18n-title='services.catalogCta'
+				)= servicesData.es.catalogCta

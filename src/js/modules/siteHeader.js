@@ -125,6 +125,20 @@ const siteHeader = () => {
 		});
 
 		close();
+
+		const currentPath = (window.location.pathname.replace(/\/+$/, '') || '/').replace(
+			/\.html$/,
+			''
+		);
+		const isServiciosPage = currentPath === '/servicios';
+		root.querySelectorAll('.site-header__link, .site-header__panel-link').forEach((link) => {
+			if (isServiciosPage && link.getAttribute('href') === '/servicios') {
+				link.setAttribute('aria-current', 'page');
+			} else {
+				link.removeAttribute('aria-current');
+			}
+		});
+
 		root.dataset.siteHeaderReady = 'true';
 	});
 };

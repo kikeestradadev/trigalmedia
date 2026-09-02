@@ -17,44 +17,14 @@ section(class='alliances', id='alianzas')
 					data-i18n-href='alliances.ctaHref'
 				)= alliancesData.es.cta
 
-			div(class='alliances__visual', aria-hidden='true')
-				div(class='alliances__orb alliances__orb--cyan')
-				div(class='alliances__orb alliances__orb--gold')
-				div(class='alliances__orb alliances__orb--teal')
-				svg(
-					class='alliances__diagram',
-					viewBox='0 0 480 360',
-					fill='none',
-					xmlns='http://www.w3.org/2000/svg',
-					focusable='false'
+			figure(class='alliances__visual')
+				img(
+					class='alliances__image',
+					src=alliancesData.es.image.src,
+					alt=alliancesData.es.image.alt,
+					width='1254',
+					height='1254',
+					loading='lazy',
+					decoding='async',
+					data-i18n-alt='alliances.image.alt'
 				)
-					title(data-i18n='alliances.visualLabel')= alliancesData.es.visualLabel
-					path(
-						d='M86 248 C 150 248, 168 168, 240 150 C 312 132, 338 88, 394 72',
-						stroke='#00c3da',
-						stroke-opacity='0.55',
-						stroke-width='2'
-					)
-					path(
-						d='M110 278 C 186 250, 214 210, 268 188 C 322 166, 360 128, 404 118',
-						stroke='#025765',
-						stroke-width='6'
-					)
-					path(
-						d='M132 210 C 188 196, 228 176, 276 128',
-						stroke='#fcbe38',
-						stroke-opacity='0.85',
-						stroke-width='2'
-					)
-					circle(cx='86', cy='248', r='10', fill='#00c3da')
-					circle(cx='132', cy='210', r='7', fill='#fcbe38')
-					circle(cx='240', cy='150', r='12', fill='#021220', stroke='#00c3da', stroke-width='2')
-					circle(cx='276', cy='128', r='6', fill='#00c3da')
-					circle(cx='394', cy='72', r='9', fill='#fcbe38')
-					circle(cx='110', cy='278', r='6', fill='#025765')
-					circle(cx='268', cy='188', r='8', fill='#00c3da')
-					circle(cx='404', cy='118', r='7', fill='#025765')
-					rect(x='228', y='214', width='88', height='64', rx='10', stroke='#00c3da', stroke-opacity='0.35')
-					path(d='M246 246 H298', stroke='#fcbe38', stroke-width='3', stroke-linecap='round')
-					path(d='M246 260 H278', stroke='#00c3da', stroke-opacity='0.7', stroke-width='2', stroke-linecap='round')
-					circle(cx='240', cy='150', r='3', fill='#fcbe38')

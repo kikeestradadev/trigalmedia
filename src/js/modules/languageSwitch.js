@@ -57,18 +57,20 @@ const applyText = (lang) => {
 };
 
 const applyDocumentMeta = (lang) => {
-	const title = translate(lang, 'site.meta.title');
+	const metaRoot = document.body.getAttribute('data-i18n-meta') || 'site.meta';
+	const title = translate(lang, `${metaRoot}.title`);
 	if (typeof title === 'string') document.title = title;
 
-	const description = translate(lang, 'site.meta.description');
+	const description = translate(lang, `${metaRoot}.description`);
 	const meta = document.querySelector('meta[name="description"]');
 	if (typeof description === 'string' && meta) meta.setAttribute('content', description);
 
-	const keywords = translate(lang, 'site.meta.keywords');
+	const keywords = translate(lang, `${metaRoot}.keywords`);
 	const keywordsMeta = document.querySelector('meta[name="keywords"]');
 	if (typeof keywords === 'string' && keywordsMeta) keywordsMeta.setAttribute('content', keywords);
 
-	const ogImageAlt = translate(lang, 'site.meta.ogImageAlt');
+	const ogImageAlt =
+		translate(lang, `${metaRoot}.ogImageAlt`) || translate(lang, 'site.meta.ogImageAlt');
 	const ogTitle = document.querySelector('meta[property="og:title"]');
 	const ogDescription = document.querySelector('meta[property="og:description"]');
 	const ogImageAltMeta = document.querySelector('meta[property="og:image:alt"]');

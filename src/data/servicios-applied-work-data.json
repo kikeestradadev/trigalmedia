@@ -1,0 +1,16 @@
+{
+	"es": {
+		"eyebrow": "Trabajo aplicado",
+		"title": "Las capacidades se entienden mejor cuando se ven en acción.",
+		"text": "Explore proyectos donde combinamos diseño, desarrollo, plataformas, integraciones y soporte para resolver necesidades concretas.",
+		"cta": "Ver portafolio",
+		"ctaHref": "/#portafolio"
+	},
+	"en": {
+		"eyebrow": "Work in practice",
+		"title": "Capabilities are easier to understand when you see them in action.",
+		"text": "Explore projects where we combine design, development, platforms, integrations, and support to solve concrete needs.",
+		"cta": "View portfolio",
+		"ctaHref": "/#portafolio"
+	}
+}
