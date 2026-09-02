@@ -49,6 +49,11 @@ const applyText = (lang) => {
 		const value = translate(lang, el.getAttribute('data-i18n-title'));
 		if (typeof value === 'string') el.setAttribute('title', value);
 	});
+
+	document.querySelectorAll('[data-i18n-href]').forEach((el) => {
+		const value = translate(lang, el.getAttribute('data-i18n-href'));
+		if (typeof value === 'string') el.setAttribute('href', value);
+	});
 };
 
 const applyDocumentMeta = (lang) => {

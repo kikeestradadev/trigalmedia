@@ -3,6 +3,8 @@
 		"eyebrow": "Qué hacemos",
 		"title": "Servicios para construir, vender y operar mejor.",
 		"lead": "Tres áreas claras. En todas, el punto de partida es el resultado de negocio, no la lista de tecnologías.",
+		"expandLabel": "Ver todos los servicios",
+		"collapseLabel": "Ver menos",
 		"groups": [
 			{
 				"icon": "presence",
@@ -11,7 +13,7 @@
 				"items": [
 					{
 						"title": "Sitios web profesionales",
-						"text": "Una web que explica lo que hacés, genera confianza y convierte visitas en conversaciones."
+						"text": "Explica lo que hacés, genera confianza y convierte visitas en conversaciones."
 					},
 					{
 						"title": "WordPress",
@@ -19,7 +21,7 @@
 					},
 					{
 						"title": "Ecommerce",
-						"text": "Un canal de venta en línea alineado con cómo cobrás, entregás y das seguimiento."
+						"text": "Un canal de venta alineado con cómo cobrás, entregás y das seguimiento."
 					},
 					{
 						"title": "Integraciones de pago",
@@ -34,26 +36,26 @@
 				"items": [
 					{
 						"title": "Aplicaciones web",
-						"text": "Productos digitales que ordenan un proceso, un servicio o una operación interna."
+						"text": "Productos digitales que ordenan un proceso, un servicio o una operación."
 					},
 					{
 						"title": "WhatsApp Business y chatbots",
-						"text": "Atención y seguimiento donde ya están tus clientes, con flujos claros y medibles."
+						"text": "Atención y seguimiento donde ya están tus clientes, con flujos claros."
 					},
 					{
 						"title": "Automatización de procesos",
-						"text": "Menos tareas manuales entre herramientas, equipos y datos que ya usás."
+						"text": "Menos tareas manuales entre las herramientas, equipos y datos que ya usás."
 					},
 					{
 						"title": "Integraciones, CRM, datos e IA",
-						"text": "Conectamos sistemas y, cuando aporta valor, incorporamos inteligencia artificial de forma prudente."
+						"text": "Conectamos sistemas e incorporamos inteligencia artificial cuando aporta valor."
 					}
 				]
 			},
 			{
 				"icon": "teams",
 				"title": "Equipos y capacidad tecnológica",
-				"text": "Capacidad extra cuando el proyecto lo pide, sin armar una estructura que el negocio no necesita.",
+				"text": "Capacidad extra cuando el proyecto lo pide, sin armar una estructura innecesaria.",
 				"items": [
 					{
 						"title": "Outsourcing de desarrollo",
@@ -61,11 +63,11 @@
 					},
 					{
 						"title": "Equipos a medida",
-						"text": "La mezcla de perfiles que el objetivo requiere, por el tiempo que realmente hace falta."
+						"text": "Los perfiles que el objetivo requiere, por el tiempo que realmente hace falta."
 					},
 					{
 						"title": "Refuerzo técnico",
-						"text": "Apoyo puntual en frontend, backend, WordPress, React y Laravel."
+						"text": "Apoyo puntual para avanzar sin contratar una estructura permanente."
 					},
 					{
 						"title": "Talento según demanda",
@@ -79,6 +81,8 @@
 		"eyebrow": "What we do",
 		"title": "Services to build, sell, and operate better.",
 		"lead": "Three clear areas. In all of them, the starting point is the business outcome, not a list of technologies.",
+		"expandLabel": "See all services",
+		"collapseLabel": "Show less",
 		"groups": [
 			{
 				"icon": "presence",
@@ -87,7 +91,7 @@
 				"items": [
 					{
 						"title": "Professional websites",
-						"text": "A site that explains what you do, builds trust, and turns visits into conversations."
+						"text": "Explain what you do, build trust, and turn visits into conversations."
 					},
 					{
 						"title": "WordPress",
@@ -110,11 +114,11 @@
 				"items": [
 					{
 						"title": "Web applications",
-						"text": "Digital products that organize a process, a service, or an internal operation."
+						"text": "Digital products that organize a process, a service, or an operation."
 					},
 					{
 						"title": "WhatsApp Business and chatbots",
-						"text": "Support and follow-up where your customers already are, with clear, measurable flows."
+						"text": "Support and follow-up where your customers already are, with clear flows."
 					},
 					{
 						"title": "Process automation",
@@ -122,14 +126,14 @@
 					},
 					{
 						"title": "Integrations, CRM, data, and AI",
-						"text": "We connect systems and, when it adds value, introduce artificial intelligence with care."
+						"text": "We connect systems and add artificial intelligence when it adds real value."
 					}
 				]
 			},
 			{
 				"icon": "teams",
 				"title": "Teams and technical capacity",
-				"text": "Extra capacity when the project needs it, without building a structure the business does not need.",
+				"text": "Extra capacity when the project needs it, without building an unnecessary structure.",
 				"items": [
 					{
 						"title": "Development outsourcing",
@@ -141,7 +145,7 @@
 					},
 					{
 						"title": "Technical reinforcement",
-						"text": "Targeted support in frontend, backend, WordPress, React, and Laravel."
+						"text": "Targeted support to move forward without a permanent extra structure."
 					},
 					{
 						"title": "Talent on demand",

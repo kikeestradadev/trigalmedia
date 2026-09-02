@@ -14,7 +14,9 @@ block main-container
 	include ../components/value-proposition
 	include ../components/services
 	include ../components/work-process
+	include ../components/reach
 	include ../components/portfolio
+	include ../components/alliances
 	include ../components/faq
 	include ../components/contact
 
@@ -26,4 +28,4 @@ block after-footer
 
 block data
 	script(type='application/json', id='i18n-bundle')
-		!= JSON.stringify({ site: siteData, siteHeader: siteHeaderData, hero: heroData, valueProposition: valuePropositionData, services: servicesData, workProcess: workProcessData, portfolio: portfolioData, faq: faqData, contact: contactData, siteFooter: siteFooterData, floatingContact: floatingContactData })
+		!= JSON.stringify({ site: siteData, siteHeader: siteHeaderData, hero: heroData, valueProposition: valuePropositionData, services: servicesData, workProcess: workProcessData, reach: reachData, portfolio: portfolioData, alliances: alliancesData, faq: faqData, contact: contactData, siteFooter: siteFooterData, floatingContact: floatingContactData })

@@ -21,6 +21,10 @@
 				"answer": "Sí. Trigal Media está en Costa Rica y trabaja con clientes locales y de forma remota. Cada colaboración se acuerda según el contexto del proyecto."
 			},
 			{
+				"question": "¿Trabajan con fundaciones, organizaciones de impacto o instituciones públicas?",
+				"answer": "Sí. Trabajamos con empresas, fundaciones y organizaciones de impacto, tanto en Costa Rica como en otros mercados. También participamos en procesos de contratación pública en Costa Rica. En cada caso, definimos el alcance, los entregables, la comunicación y la forma de trabajo según las necesidades del proyecto."
+			},
+			{
 				"question": "¿Qué diferencia a Trigal Media de una agencia tradicional?",
 				"answer": "No empezamos por un paquete de páginas ni por vender tecnología por volumen. Somos un socio tecnológico: entendemos el modelo de negocio, identificamos oportunidades y construimos la solución adecuada para avanzar."
 			},
@@ -66,6 +70,10 @@
 			{
 				"question": "Do you work with clients in Costa Rica and other countries?",
 				"answer": "Yes. Trigal Media is based in Costa Rica and works with local clients and remotely. Each collaboration is agreed according to the project context."
+			},
+			{
+				"question": "Do you work with foundations, impact organizations, or public institutions?",
+				"answer": "Yes. We work with companies, foundations, and impact organizations, both in Costa Rica and in other markets. We also participate in public procurement processes in Costa Rica. In each case, we define the scope, deliverables, communication, and way of working according to the project's needs."
 			},
 			{
 				"question": "What makes Trigal Media different from a traditional agency?",

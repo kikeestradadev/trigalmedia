@@ -1,0 +1,87 @@
+.reach {
+	padding: 4rem 0;
+	background: var(--color-gray);
+
+	@media (width >= $l) {
+		padding: 5.5rem 0;
+	}
+
+	&__header {
+		max-width: 44rem;
+		margin-bottom: 2rem;
+	}
+
+	&__eyebrow {
+		margin: 0 0 0.65rem;
+		color: var(--color-teal);
+		font-size: 0.8125rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
+
+	&__title {
+		margin: 0 0 0.85rem;
+	}
+
+	&__lead {
+		margin: 0;
+		color: var(--text-muted);
+	}
+
+	&__slider {
+		overflow: hidden;
+		margin: 0;
+	}
+
+	&__track {
+		align-items: stretch;
+	}
+
+	&__card {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		padding: 1.35rem 1.25rem 1.25rem;
+		background: var(--color-white);
+		border: 1px solid color-mix(in srgb, var(--color-navy) 8%, var(--color-gray));
+		border-radius: 1rem;
+		box-shadow: 0 8px 24px color-mix(in srgb, var(--color-navy) 6%, transparent);
+	}
+
+	&__icon {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 2.75rem;
+		height: 2.75rem;
+		margin-bottom: 0.85rem;
+		border-radius: 0.75rem;
+		color: var(--color-cyan);
+		background: var(--color-navy);
+
+		svg {
+			width: 1.6rem;
+			height: 1.6rem;
+		}
+	}
+
+	&__card-title {
+		margin: 0 0 0.45rem;
+		font-size: 1.0625rem;
+	}
+
+	&__card-text {
+		margin: 0;
+		color: var(--text-muted);
+		font-size: 0.9375rem;
+		line-height: 1.5;
+	}
+
+	@media (width >= $l) {
+		&__track.swiper-wrapper {
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			gap: 1.25rem;
+		}
+	}
+}

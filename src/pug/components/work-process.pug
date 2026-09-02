@@ -1,4 +1,4 @@
-section(class='work-process', id='como-trabajamos')
+section(class='work-process', id='como-trabajamos', data-article-grid='')
 	div(class='main-container work-process__shell')
 		div(class='container work-process__container')
 			header(class='work-process__header')
@@ -6,17 +6,31 @@ section(class='work-process', id='como-trabajamos')
 				h2(class='work-process__title', data-i18n='workProcess.title')= workProcessData.es.title
 				p(class='work-process__lead', data-i18n='workProcess.lead')= workProcessData.es.lead
 
-			ol(class='work-process__steps')
-				each step, index in workProcessData.es.steps
-					li(class='work-process__step')
-						span(class='work-process__number')= step.number
-						h3(
-							class='work-process__step-title',
-							data-i18n=`workProcess.steps.${index}.title`
-						)= step.title
-						p(
-							class='work-process__step-text',
-							data-i18n=`workProcess.steps.${index}.text`
-						)= step.text
+			div(class='swiper work-process__slider')
+				div(class='swiper-wrapper work-process__track')
+					each step, index in workProcessData.es.steps
+						article(class='swiper-slide work-process__step')
+							span(class='work-process__number')= step.number
+							h3(
+								class='work-process__step-title',
+								data-i18n=`workProcess.steps.${index}.title`
+							)= step.title
+							p(
+								class='work-process__step-text',
+								data-i18n=`workProcess.steps.${index}.text`
+							)= step.text
+
+				div(class='article-grid-slider__controls work-process__controls')
+					div(
+						class='swiper-button-prev article-grid-slider__prev work-process__prev',
+						data-i18n-aria='site.articleGrid.prevLabel',
+						aria-label=siteData.es.articleGrid.prevLabel
+					)
+					div(class='swiper-pagination article-grid-slider__pagination work-process__pagination')
+					div(
+						class='swiper-button-next article-grid-slider__next work-process__next',
+						data-i18n-aria='site.articleGrid.nextLabel',
+						aria-label=siteData.es.articleGrid.nextLabel
+					)
 
 			p(class='work-process__note', data-i18n='workProcess.note')= workProcessData.es.note
