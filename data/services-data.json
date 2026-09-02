@@ -1,0 +1,158 @@
+{
+	"es": {
+		"eyebrow": "Qué hacemos",
+		"title": "Servicios para construir, vender y operar mejor.",
+		"lead": "Tres áreas claras. En todas, el punto de partida es el resultado de negocio, no la lista de tecnologías.",
+		"expandLabel": "Ver todos los servicios",
+		"collapseLabel": "Ver menos",
+		"groups": [
+			{
+				"icon": "presence",
+				"title": "Presencia y comercio digital",
+				"text": "Una presencia clara y un canal de venta que trabaja a favor del negocio.",
+				"items": [
+					{
+						"title": "Sitios web profesionales",
+						"text": "Explica lo que hacés, genera confianza y convierte visitas en conversaciones."
+					},
+					{
+						"title": "WordPress",
+						"text": "Un sitio que el equipo puede actualizar sin frenar la operación diaria."
+					},
+					{
+						"title": "Ecommerce",
+						"text": "Un canal de venta alineado con cómo cobrás, entregás y das seguimiento."
+					},
+					{
+						"title": "Integraciones de pago",
+						"text": "Pagos locales e internacionales conectados al flujo real del negocio."
+					}
+				]
+			},
+			{
+				"icon": "automation",
+				"title": "Automatización y soluciones a medida",
+				"text": "Menos trabajo repetido y mejores decisiones, con herramientas que se adaptan al proceso.",
+				"items": [
+					{
+						"title": "Aplicaciones web",
+						"text": "Productos digitales que ordenan un proceso, un servicio o una operación."
+					},
+					{
+						"title": "WhatsApp Business y chatbots",
+						"text": "Atención y seguimiento donde ya están tus clientes, con flujos claros."
+					},
+					{
+						"title": "Automatización de procesos",
+						"text": "Menos tareas manuales entre las herramientas, equipos y datos que ya usás."
+					},
+					{
+						"title": "Integraciones, CRM, datos e IA",
+						"text": "Conectamos sistemas e incorporamos inteligencia artificial cuando aporta valor."
+					}
+				]
+			},
+			{
+				"icon": "teams",
+				"title": "Equipos y capacidad tecnológica",
+				"text": "Capacidad extra cuando el proyecto lo pide, sin armar una estructura innecesaria.",
+				"items": [
+					{
+						"title": "Outsourcing de desarrollo",
+						"text": "Un equipo externo que entrega con visibilidad, no una caja negra."
+					},
+					{
+						"title": "Equipos a medida",
+						"text": "Los perfiles que el objetivo requiere, por el tiempo que realmente hace falta."
+					},
+					{
+						"title": "Refuerzo técnico",
+						"text": "Apoyo puntual para avanzar sin contratar una estructura permanente."
+					},
+					{
+						"title": "Talento según demanda",
+						"text": "Reclutamiento y coordinación de talento técnico cuando el crecimiento lo pide."
+					}
+				]
+			}
+		]
+	},
+	"en": {
+		"eyebrow": "What we do",
+		"title": "Services to build, sell, and operate better.",
+		"lead": "Three clear areas. In all of them, the starting point is the business outcome, not a list of technologies.",
+		"expandLabel": "See all services",
+		"collapseLabel": "Show less",
+		"groups": [
+			{
+				"icon": "presence",
+				"title": "Digital presence and commerce",
+				"text": "A clear presence and a sales channel that works in favor of the business.",
+				"items": [
+					{
+						"title": "Professional websites",
+						"text": "Explain what you do, build trust, and turn visits into conversations."
+					},
+					{
+						"title": "WordPress",
+						"text": "A site your team can update without slowing day-to-day operations."
+					},
+					{
+						"title": "Ecommerce",
+						"text": "An online sales channel aligned with how you charge, fulfill, and follow up."
+					},
+					{
+						"title": "Payment integrations",
+						"text": "Local and international payments connected to the real business flow."
+					}
+				]
+			},
+			{
+				"icon": "automation",
+				"title": "Automation and custom solutions",
+				"text": "Less repetitive work and better decisions, with tools that adapt to the process.",
+				"items": [
+					{
+						"title": "Web applications",
+						"text": "Digital products that organize a process, a service, or an operation."
+					},
+					{
+						"title": "WhatsApp Business and chatbots",
+						"text": "Support and follow-up where your customers already are, with clear flows."
+					},
+					{
+						"title": "Process automation",
+						"text": "Fewer manual tasks between the tools, teams, and data you already use."
+					},
+					{
+						"title": "Integrations, CRM, data, and AI",
+						"text": "We connect systems and add artificial intelligence when it adds real value."
+					}
+				]
+			},
+			{
+				"icon": "teams",
+				"title": "Teams and technical capacity",
+				"text": "Extra capacity when the project needs it, without building an unnecessary structure.",
+				"items": [
+					{
+						"title": "Development outsourcing",
+						"text": "An external team that delivers with visibility, not a black box."
+					},
+					{
+						"title": "Tailored teams",
+						"text": "The mix of profiles the goal requires, for as long as it is actually needed."
+					},
+					{
+						"title": "Technical reinforcement",
+						"text": "Targeted support to move forward without a permanent extra structure."
+					},
+					{
+						"title": "Talent on demand",
+						"text": "Recruiting and coordinating technical talent when growth requires it."
+					}
+				]
+			}
+		]
+	}
+}

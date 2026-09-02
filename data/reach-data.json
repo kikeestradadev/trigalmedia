@@ -1,0 +1,52 @@
+{
+	"es": {
+		"eyebrow": "Alcance y confianza",
+		"title": "Tecnología para negocios, instituciones e iniciativas con impacto.",
+		"lead": "Trabajamos con organizaciones de Costa Rica y otros mercados, adaptando cada solución a su contexto, objetivos y forma de operar.",
+		"cards": [
+			{
+				"icon": "globe",
+				"title": "Alcance nacional e internacional",
+				"text": "Colaboramos con clientes en Costa Rica y otros mercados, con procesos claros para equipos locales, remotos e internacionales."
+			},
+			{
+				"icon": "impact",
+				"title": "Tecnología para el impacto",
+				"text": "Acompañamos a fundaciones y organizaciones de impacto con plataformas, automatizaciones y herramientas que ayudan a ampliar el alcance de su misión."
+			},
+			{
+				"icon": "public",
+				"title": "Contratación pública",
+				"text": "Participamos en procesos de contratación pública en Costa Rica, con una forma de trabajo ordenada y orientada a entregables verificables."
+			}
+		],
+		"ctaPrompt": "¿Su organización necesita una solución digital? Conversemos.",
+		"cta": "Conversemos sobre su organización",
+		"ctaHref": "#contacto"
+	},
+	"en": {
+		"eyebrow": "Reach and trust",
+		"title": "Technology for businesses, institutions, and impact initiatives.",
+		"lead": "We work with organizations in Costa Rica and other markets, adapting each solution to their context, goals, and way of operating.",
+		"cards": [
+			{
+				"icon": "globe",
+				"title": "National and international reach",
+				"text": "We collaborate with clients in Costa Rica and other markets, with clear processes for local, remote, and international teams."
+			},
+			{
+				"icon": "impact",
+				"title": "Technology for impact",
+				"text": "We support foundations and impact organizations with platforms, automations, and tools that help expand the reach of their mission."
+			},
+			{
+				"icon": "public",
+				"title": "Public procurement",
+				"text": "We participate in public procurement processes in Costa Rica, with an orderly way of working focused on verifiable deliverables."
+			}
+		],
+		"ctaPrompt": "Does your organization need a digital solution? Let’s talk.",
+		"cta": "Let’s talk about your organization",
+		"ctaHref": "#contacto"
+	}
+}

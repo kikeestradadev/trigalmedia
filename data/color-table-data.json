@@ -1,0 +1,11 @@
+{
+	"title": "Paleta de colores",
+	"items": [
+		{ "name": "Azul marino", "hex": "var(--color-navy)" },
+		{ "name": "Teal profundo", "hex": "var(--color-teal)" },
+		{ "name": "Turquesa", "hex": "var(--color-cyan)" },
+		{ "name": "Dorado", "hex": "var(--color-gold)" },
+		{ "name": "Blanco cálido", "hex": "var(--color-white)" },
+		{ "name": "Gris claro", "hex": "var(--color-gray)" }
+	]
+}

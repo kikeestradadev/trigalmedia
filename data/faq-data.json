@@ -1,0 +1,104 @@
+{
+	"es": {
+		"eyebrow": "Dudas frecuentes",
+		"title": "Preguntas frecuentes",
+		"lead": "Respuestas directas para decidir con claridad. El alcance de cada proyecto se define después de un descubrimiento.",
+		"items": [
+			{
+				"question": "¿Cuánto cuesta desarrollar un sitio web o solución digital?",
+				"answer": "El costo depende del objetivo, el alcance y la complejidad. No tenemos un precio único. Primero hacemos un descubrimiento para entender el negocio y, a partir de ahí, preparamos una propuesta formal."
+			},
+			{
+				"question": "¿Qué servicios digitales ofrece Trigal Media?",
+				"answer": "Trabajamos en tres áreas: presencia y comercio digital, automatización y soluciones a medida, y equipos o capacidad tecnológica. El punto de partida siempre es el resultado que el negocio necesita, no un paquete cerrado de herramientas."
+			},
+			{
+				"question": "¿Cuánto tarda un proyecto?",
+				"answer": "Los tiempos dependen del objetivo y de la complejidad. Después del descubrimiento compartimos una estimación realista junto con el alcance y la propuesta."
+			},
+			{
+				"question": "¿Trabajan con clientes en Costa Rica y otros países?",
+				"answer": "Sí. Trigal Media está en Costa Rica y trabaja con clientes locales y de forma remota. Cada colaboración se acuerda según el contexto del proyecto."
+			},
+			{
+				"question": "¿Trabajan con fundaciones, organizaciones de impacto o instituciones públicas?",
+				"answer": "Sí. Trabajamos con empresas, fundaciones y organizaciones de impacto en Costa Rica y otros mercados. Podemos desarrollar plataformas, sitios web, automatizaciones e integraciones que faciliten la gestión, amplíen el alcance de una iniciativa y mejoren la comunicación con sus audiencias. También participamos en procesos de contratación pública en Costa Rica. El alcance, los entregables y la forma de trabajo se definen según las necesidades de cada proyecto."
+			},
+			{
+				"question": "¿Qué diferencia a Trigal Media de una agencia tradicional?",
+				"answer": "No empezamos por un paquete de páginas ni por vender tecnología por volumen. Somos un socio tecnológico: entendemos el modelo de negocio, identificamos oportunidades y construimos la solución adecuada para avanzar."
+			},
+			{
+				"question": "¿Qué es un agente de IA y cómo puede beneficiar a mi empresa?",
+				"answer": "Un agente de IA es un software que puede interpretar contexto y ejecutar acciones hacia un objetivo, no solo responder preguntas. Puede apoyar atención, operaciones o consulta de información. Lo evaluamos caso por caso y solo lo proponemos cuando aporta valor real."
+			},
+			{
+				"question": "¿Pueden integrar Stripe, PayPal, BAC Credomatic, SINPE Móvil u otras pasarelas?",
+				"answer": "Sí. Podemos integrar esas y otras pasarelas según el modelo de cobro, el país y los requisitos técnicos del proyecto. La opción concreta se define en la propuesta."
+			},
+			{
+				"question": "¿Qué diferencia hay entre un chatbot y un agente de IA?",
+				"answer": "Un chatbot suele seguir flujos, preguntas frecuentes o guiones definidos. Un agente de IA puede razonar sobre contexto y ejecutar tareas. Recomendamos uno u otro según el problema a resolver, no por moda."
+			},
+			{
+				"question": "¿Cómo inicia un proyecto?",
+				"answer": "Escribinos por WhatsApp o correo. Conversamos para entender el objetivo, hacemos un descubrimiento y, si hay fit, enviamos una propuesta con alcance, tiempos y siguientes pasos."
+			},
+			{
+				"question": "¿Ofrecen soporte después de entregar un proyecto?",
+				"answer": "Sí. Podemos acompañar con soporte, mejoras y evolución cuando el proyecto lo requiere. Ese acompañamiento se define en la propuesta, según el objetivo y la complejidad."
+			}
+		]
+	},
+	"en": {
+		"eyebrow": "Common questions",
+		"title": "Frequently asked questions",
+		"lead": "Direct answers to help you decide with clarity. The scope of each project is defined after discovery.",
+		"items": [
+			{
+				"question": "How much does it cost to build a website or digital solution?",
+				"answer": "Cost depends on the goal, scope, and complexity. There is no single price. We start with discovery to understand the business and then prepare a formal proposal."
+			},
+			{
+				"question": "What digital services does Trigal Media offer?",
+				"answer": "We work across three areas: digital presence and commerce, automation and custom solutions, and teams or technical capacity. The starting point is always the outcome the business needs, not a closed package of tools."
+			},
+			{
+				"question": "How long does a project take?",
+				"answer": "Timelines depend on the goal and complexity. After discovery, we share a realistic estimate together with the scope and proposal."
+			},
+			{
+				"question": "Do you work with clients in Costa Rica and other countries?",
+				"answer": "Yes. Trigal Media is based in Costa Rica and works with local clients and remotely. Each collaboration is agreed according to the project context."
+			},
+			{
+				"question": "Do you work with foundations, impact organizations, or public institutions?",
+				"answer": "Yes. We work with companies, foundations, and impact organizations in Costa Rica and other markets. We can develop platforms, websites, automations, and integrations that facilitate operations, expand the reach of an initiative, and improve communication with their audiences. We also participate in public procurement processes in Costa Rica. Scope, deliverables, and the way of working are defined according to each project's needs."
+			},
+			{
+				"question": "What makes Trigal Media different from a traditional agency?",
+				"answer": "We do not start with a package of pages or sell technology at volume. We are a technology partner: we understand the business model, identify opportunities, and build the right solution to move forward."
+			},
+			{
+				"question": "What is an AI agent and how can it benefit my company?",
+				"answer": "An AI agent is software that can interpret context and take actions toward a goal, not only answer questions. It can support customer care, operations, or information lookup. We evaluate it case by case and only propose it when it adds real value."
+			},
+			{
+				"question": "Can you integrate Stripe, PayPal, BAC Credomatic, SINPE Móvil, or other gateways?",
+				"answer": "Yes. We can integrate those and other gateways according to the payment model, country, and technical requirements of the project. The specific option is defined in the proposal."
+			},
+			{
+				"question": "What is the difference between a chatbot and an AI agent?",
+				"answer": "A chatbot usually follows flows, FAQs, or defined scripts. An AI agent can reason over context and execute tasks. We recommend one or the other based on the problem to solve, not on trend."
+			},
+			{
+				"question": "How does a project start?",
+				"answer": "Write to us on WhatsApp or email. We talk to understand the goal, run a discovery, and, if there is a fit, send a proposal with scope, timeline, and next steps."
+			},
+			{
+				"question": "Do you offer support after delivering a project?",
+				"answer": "Yes. We can provide support, improvements, and ongoing partnership when the project requires it. That accompaniment is defined in the proposal, according to the goal and complexity."
+			}
+		]
+	}
+}
