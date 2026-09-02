@@ -1,9 +1,7 @@
--
-	const serviciosIndexId = serviciosCatalogData.es.indexId
-
 mixin serviciosCatalogItem(category, categoryIndex, group, groupIndex, item, itemIndex)
 	- const groupHasTitle = Boolean(group.title)
-	- const i18nItemBase = groupHasTitle ? `serviciosCatalog.categories.${categoryIndex}.groups.${groupIndex}.items.${itemIndex}` : `serviciosCatalog.categories.${categoryIndex}.items.${itemIndex}`
+	- const usesGroups = Boolean(category.groups)
+	- const i18nItemBase = usesGroups ? `serviciosCatalog.categories.${categoryIndex}.groups.${groupIndex}.items.${itemIndex}` : `serviciosCatalog.categories.${categoryIndex}.items.${itemIndex}`
 	- const buttonId = `servicios-acc-${category.id}-${groupIndex}-${itemIndex}`
 	- const panelId = `servicios-panel-${category.id}-${groupIndex}-${itemIndex}`
 	- const headingTag = groupHasTitle ? 'h4' : 'h3'
@@ -34,28 +32,6 @@ mixin serviciosCatalogItem(category, categoryIndex, group, groupIndex, item, ite
 			)= item.text
 
 div(class='servicios-catalog')
-	nav(
-		class='servicios-catalog__index',
-		id=serviciosIndexId,
-		aria-label=serviciosCatalogData.es.indexLabel,
-		data-i18n-aria='serviciosCatalog.indexLabel'
-	)
-		div(class='main-container servicios-catalog__index-shell')
-			div(class='container servicios-catalog__index-container')
-				p(class='visually-hidden', data-i18n='serviciosCatalog.indexLabel')= serviciosCatalogData.es.indexLabel
-				ul(class='servicios-catalog__index-list')
-					each category, categoryIndex in serviciosCatalogData.es.categories
-						li(class='servicios-catalog__index-item')
-							a(
-								class='servicios-catalog__index-link',
-								href=`#${category.id}`
-							)
-								span(class='servicios-catalog__index-number', aria-hidden='true')= category.number
-								span(
-									class='servicios-catalog__index-text',
-									data-i18n=`serviciosCatalog.categories.${categoryIndex}.indexLabel`
-								)= category.indexLabel
-
 	each category, categoryIndex in serviciosCatalogData.es.categories
 		- const sectionId = category.id
 		- const headingId = `servicios-heading-${category.id}`

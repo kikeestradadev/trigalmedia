@@ -1,79 +1,4 @@
 .servicios-catalog {
-	&__index {
-		background: var(--color-white);
-		padding: 1.25rem 0 1.5rem;
-		border-bottom: 1px solid var(--color-gray);
-	}
-
-	&__index-list {
-		display: grid;
-		grid-template-columns: 1fr;
-		gap: 0.75rem;
-		margin: 0;
-		padding: 0;
-		list-style: none;
-
-		@media (width >= $m) {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-		}
-
-		@media (width >= $l) {
-			grid-template-columns: repeat(3, minmax(0, 1fr));
-		}
-	}
-
-	&__index-item {
-		min-width: 0;
-		margin: 0;
-	}
-
-	&__index-link {
-		display: flex;
-		flex-direction: column;
-		gap: 0.35rem;
-		min-height: 100%;
-		padding: 0.9rem 1rem;
-		border: 1px solid color-mix(in srgb, var(--color-navy) 10%, var(--color-gray));
-		border-radius: 1rem;
-		background: var(--color-white);
-		color: var(--color-navy);
-		text-decoration: none;
-		box-shadow: 0 8px 20px color-mix(in srgb, var(--color-navy) 5%, transparent);
-
-		@media (hover: hover) and (pointer: fine) {
-			&:hover {
-				border-color: var(--color-cyan);
-				color: var(--color-navy);
-				text-decoration: none;
-			}
-		}
-
-		&:focus-visible {
-			outline: 2px solid var(--color-cyan);
-			outline-offset: 3px;
-		}
-
-		&[aria-current='true'] {
-			border-color: var(--color-cyan);
-			background: color-mix(in srgb, var(--color-cyan) 10%, var(--color-white));
-			box-shadow: inset 0 0 0 1px var(--color-cyan);
-		}
-	}
-
-	&__index-number {
-		color: var(--color-teal);
-		font-size: 0.75rem;
-		font-weight: 700;
-		letter-spacing: 0.08em;
-	}
-
-	&__index-text {
-		overflow-wrap: break-word;
-		font-size: 0.9375rem;
-		font-weight: 600;
-		line-height: 1.3;
-	}
-
 	&__section {
 		scroll-margin-top: calc(var(--header-height) + 0.75rem);
 		padding: 3.5rem 0;
@@ -297,7 +222,11 @@
 	}
 
 	&__item {
-		border-bottom: 1px solid var(--color-gray);
+		border-bottom: 1px solid color-mix(in srgb, var(--color-navy) 16%, transparent);
+
+		&:first-child {
+			border-top: 1px solid color-mix(in srgb, var(--color-navy) 16%, transparent);
+		}
 	}
 
 	&__item-heading {

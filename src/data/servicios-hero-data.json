@@ -2,8 +2,8 @@
 	"es": {
 		"meta": {
 			"title": "Servicios digitales, desarrollo web y equipos tecnológicos | Trigal Media",
-			"description": "Trigal Media acompaña a organizaciones con producción digital, animación, desarrollo web, localización y capacidad tecnológica para construir, comunicar y crecer.",
-			"keywords": "servicios digitales Costa Rica, producción digital, animación audiovisual, desarrollo web Costa Rica, WordPress, ecommerce, localización, equipos tecnológicos, automatización, Trigal Media",
+			"description": "Trigal Media acompaña a organizaciones con producción digital, animación, desarrollo web, capacidad tecnológica, inteligencia artificial y automatización para construir, comunicar y crecer.",
+			"keywords": "servicios digitales Costa Rica, producción digital, animación audiovisual, desarrollo web Costa Rica, WordPress, ecommerce, equipos tecnológicos, inteligencia artificial, automatización, Trigal Media",
 			"ogImageAlt": "Persona trabajando con una laptop en un entorno de operación digital de Trigal Media"
 		},
 		"backLabel": "← Volver al inicio",
@@ -14,7 +14,7 @@
 		"primaryCta": "Hablemos de su proyecto",
 		"primaryHref": "/#contacto",
 		"secondaryCta": "Explorar capacidades",
-		"secondaryHref": "#indice-servicios",
+		"secondaryHref": "#produccion-digital",
 		"visualLabel": "Persona trabajando con laptop y teléfono en un entorno de operación digital",
 		"image": {
 			"src": "./images/servicios/banner.webp",
@@ -24,8 +24,8 @@
 	"en": {
 		"meta": {
 			"title": "Digital services, web development, and technology teams | Trigal Media",
-			"description": "Trigal Media supports organizations with digital production, animation, web development, localization, and technology capacity to build, communicate, and grow.",
-			"keywords": "digital services Costa Rica, digital production, motion graphics, web development Costa Rica, WordPress, ecommerce, localization, technology teams, automation, Trigal Media",
+			"description": "Trigal Media supports organizations with digital production, animation, web development, technology capacity, artificial intelligence, and automation to build, communicate, and grow.",
+			"keywords": "digital services Costa Rica, digital production, motion graphics, web development Costa Rica, WordPress, ecommerce, technology teams, artificial intelligence, automation, Trigal Media",
 			"ogImageAlt": "Person working on a laptop in a Trigal Media digital operations setting"
 		},
 		"backLabel": "← Back to home",
@@ -36,7 +36,7 @@
 		"primaryCta": "Let’s talk about your project",
 		"primaryHref": "/#contacto",
 		"secondaryCta": "Explore capabilities",
-		"secondaryHref": "#indice-servicios",
+		"secondaryHref": "#produccion-digital",
 		"visualLabel": "Person working with a laptop and phone in a digital operations setting",
 		"image": {
 			"src": "./images/servicios/banner.webp",

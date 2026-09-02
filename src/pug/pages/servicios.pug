@@ -17,7 +17,6 @@ block main-header
 block main-container
 	include ../components/servicios-hero
 	include ../components/servicios-catalog
-	include ../components/servicios-applied-work
 	include ../components/servicios-next-step
 
 block main-footer
@@ -28,4 +27,4 @@ block after-footer
 
 block data
 	script(type='application/json', id='i18n-bundle')
-		!= JSON.stringify({ site: siteData, siteHeader: siteHeaderData, serviciosHero: serviciosHeroData, serviciosCatalog: serviciosCatalogData, serviciosAppliedWork: serviciosAppliedWorkData, serviciosNextStep: serviciosNextStepData, siteFooter: siteFooterData, floatingContact: floatingContactData, contact: contactData })
+		!= JSON.stringify({ site: siteData, siteHeader: siteHeaderData, serviciosHero: serviciosHeroData, serviciosCatalog: serviciosCatalogData, serviciosNextStep: serviciosNextStepData, siteFooter: siteFooterData, floatingContact: floatingContactData, contact: contactData })

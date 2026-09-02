@@ -22,21 +22,6 @@
 			grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
 			gap: 3rem;
 		}
-
-		&--media-left {
-			@media (width >= $l) {
-				grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
-
-				.servicios-next-step__copy {
-					grid-column: 2;
-				}
-
-				.servicios-next-step__visual {
-					grid-column: 1;
-					grid-row: 1;
-				}
-			}
-		}
 	}
 
 	&__copy,

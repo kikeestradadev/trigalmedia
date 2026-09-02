@@ -21,32 +21,6 @@ const serviciosCatalog = () => {
 	document.querySelectorAll('.servicios-catalog').forEach((root) => {
 		if (root.dataset.serviciosCatalogReady === 'true') return;
 
-		const indexLinks = [...root.querySelectorAll('.servicios-catalog__index-link')];
-
-		const setCurrentIndex = (id) => {
-			indexLinks.forEach((link) => {
-				const href = link.getAttribute('href') || '';
-				const isCurrent = href === `#${id}`;
-				if (isCurrent) link.setAttribute('aria-current', 'true');
-				else link.removeAttribute('aria-current');
-			});
-		};
-
-		indexLinks.forEach((link) => {
-			link.addEventListener('click', () => {
-				const href = link.getAttribute('href') || '';
-				if (href.startsWith('#')) setCurrentIndex(href.slice(1));
-			});
-		});
-
-		const applyHash = () => {
-			const id = window.location.hash.replace('#', '');
-			if (id) setCurrentIndex(id);
-		};
-
-		applyHash();
-		window.addEventListener('hashchange', applyHash);
-
 		root.querySelectorAll('.servicios-catalog__section').forEach((section) => {
 			const buttons = getButtons(section);
 
@@ -71,24 +45,6 @@ const serviciosCatalog = () => {
 				});
 			});
 		});
-
-		if ('IntersectionObserver' in window) {
-			const sections = [...root.querySelectorAll('.servicios-catalog__section[id]')];
-			const observer = new IntersectionObserver(
-				(entries) => {
-					const visible = entries
-						.filter((entry) => entry.isIntersecting)
-						.sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-					if (visible?.target?.id) setCurrentIndex(visible.target.id);
-				},
-				{
-					rootMargin: '-35% 0px -45% 0px',
-					threshold: [0.15, 0.35, 0.6],
-				}
-			);
-
-			sections.forEach((section) => observer.observe(section));
-		}
 
 		root.dataset.serviciosCatalogReady = 'true';
 	});

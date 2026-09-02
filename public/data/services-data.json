@@ -3,8 +3,6 @@
 		"eyebrow": "Qué hacemos",
 		"title": "Servicios para construir, vender y operar mejor.",
 		"lead": "Tres áreas claras. En todas, el punto de partida es el resultado de negocio, no la lista de tecnologías.",
-		"expandLabel": "Ver más",
-		"collapseLabel": "Ver menos",
 		"catalogCta": "Ver todos los servicios",
 		"catalogHref": "/servicios.html",
 		"groups": [
@@ -15,18 +13,22 @@
 				"catalogHref": "/servicios.html#desarrollo-web",
 				"items": [
 					{
+						"icon": "website",
 						"title": "Sitios web profesionales",
 						"text": "Explica lo que hacés, genera confianza y convierte visitas en conversaciones."
 					},
 					{
+						"icon": "cms",
 						"title": "WordPress",
 						"text": "Un sitio que el equipo puede actualizar sin frenar la operación diaria."
 					},
 					{
+						"icon": "commerce",
 						"title": "Ecommerce",
 						"text": "Un canal de venta alineado con cómo cobrás, entregás y das seguimiento."
 					},
 					{
+						"icon": "payments",
 						"title": "Integraciones de pago",
 						"text": "Pagos locales e internacionales conectados al flujo real del negocio."
 					}
@@ -39,18 +41,22 @@
 				"catalogHref": "/servicios.html#automatizacion",
 				"items": [
 					{
+						"icon": "apps",
 						"title": "Aplicaciones web",
 						"text": "Productos digitales que ordenan un proceso, un servicio o una operación."
 					},
 					{
+						"icon": "chat",
 						"title": "WhatsApp Business y chatbots",
 						"text": "Atención y seguimiento donde ya están tus clientes, con flujos claros."
 					},
 					{
+						"icon": "flow",
 						"title": "Automatización de procesos",
 						"text": "Menos tareas manuales entre las herramientas, equipos y datos que ya usás."
 					},
 					{
+						"icon": "data",
 						"title": "Integraciones, CRM, datos e IA",
 						"text": "Conectamos sistemas e incorporamos inteligencia artificial cuando aporta valor."
 					}
@@ -63,18 +69,22 @@
 				"catalogHref": "/servicios.html#equipos",
 				"items": [
 					{
+						"icon": "laptop",
 						"title": "Outsourcing de desarrollo",
 						"text": "Un equipo externo que entrega con visibilidad, no una caja negra."
 					},
 					{
+						"icon": "people",
 						"title": "Equipos a medida",
 						"text": "Los perfiles que el objetivo requiere, por el tiempo que realmente hace falta."
 					},
 					{
+						"icon": "wrench",
 						"title": "Refuerzo técnico",
 						"text": "Apoyo puntual para avanzar sin contratar una estructura permanente."
 					},
 					{
+						"icon": "talent",
 						"title": "Talento según demanda",
 						"text": "Reclutamiento y coordinación de talento técnico cuando el crecimiento lo pide."
 					}
@@ -86,8 +96,6 @@
 		"eyebrow": "What we do",
 		"title": "Services to build, sell, and operate better.",
 		"lead": "Three clear areas. In all of them, the starting point is the business outcome, not a list of technologies.",
-		"expandLabel": "See more",
-		"collapseLabel": "Show less",
 		"catalogCta": "See all services",
 		"catalogHref": "/servicios.html",
 		"groups": [
@@ -98,18 +106,22 @@
 				"catalogHref": "/servicios.html#desarrollo-web",
 				"items": [
 					{
+						"icon": "website",
 						"title": "Professional websites",
 						"text": "Explain what you do, build trust, and turn visits into conversations."
 					},
 					{
+						"icon": "cms",
 						"title": "WordPress",
 						"text": "A site your team can update without slowing day-to-day operations."
 					},
 					{
+						"icon": "commerce",
 						"title": "Ecommerce",
 						"text": "An online sales channel aligned with how you charge, fulfill, and follow up."
 					},
 					{
+						"icon": "payments",
 						"title": "Payment integrations",
 						"text": "Local and international payments connected to the real business flow."
 					}
@@ -122,18 +134,22 @@
 				"catalogHref": "/servicios.html#automatizacion",
 				"items": [
 					{
+						"icon": "apps",
 						"title": "Web applications",
 						"text": "Digital products that organize a process, a service, or an operation."
 					},
 					{
+						"icon": "chat",
 						"title": "WhatsApp Business and chatbots",
 						"text": "Support and follow-up where your customers already are, with clear flows."
 					},
 					{
+						"icon": "flow",
 						"title": "Process automation",
 						"text": "Fewer manual tasks between the tools, teams, and data you already use."
 					},
 					{
+						"icon": "data",
 						"title": "Integrations, CRM, data, and AI",
 						"text": "We connect systems and add artificial intelligence when it adds real value."
 					}
@@ -146,18 +162,22 @@
 				"catalogHref": "/servicios.html#equipos",
 				"items": [
 					{
+						"icon": "laptop",
 						"title": "Development outsourcing",
 						"text": "An external team that delivers with visibility, not a black box."
 					},
 					{
+						"icon": "people",
 						"title": "Tailored teams",
 						"text": "The mix of profiles the goal requires, for as long as it is actually needed."
 					},
 					{
+						"icon": "wrench",
 						"title": "Technical reinforcement",
 						"text": "Targeted support to move forward without a permanent extra structure."
 					},
 					{
+						"icon": "talent",
 						"title": "Talent on demand",
 						"text": "Recruiting and coordinating technical talent when growth requires it."
 					}

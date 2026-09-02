@@ -1,7 +1,5 @@
 {
 	"es": {
-		"indexLabel": "Índice de capacidades",
-		"indexId": "indice-servicios",
 		"categories": [
 			{
 				"id": "produccion-digital",
@@ -19,28 +17,12 @@
 				"ctaHref": "/?servicio=produccion-digital#contacto",
 				"items": [
 					{
-						"title": "Control de calidad digital",
-						"text": "Revisamos formatos, enlaces, legibilidad y comportamiento visual antes de publicar una pieza o campaña."
-					},
-					{
 						"title": "Publicidad digital",
 						"text": "Diseñamos recursos para campañas que buscan visibilidad, interacción y acciones medibles."
 					},
 					{
-						"title": "Composición y retoque digital",
-						"text": "Integramos imágenes, tipografía y elementos gráficos para construir piezas visuales consistentes."
-					},
-					{
-						"title": "Producción de assets",
-						"text": "Creamos los recursos necesarios para sitios, campañas, redes sociales y otros puntos de contacto."
-					},
-					{
-						"title": "Banners estáticos",
-						"text": "Piezas gráficas optimizadas para pauta digital, comunicación comercial y distintos formatos."
-					},
-					{
-						"title": "Banners HTML5",
-						"text": "Anuncios interactivos y responsivos diseñados para funcionar correctamente en entornos digitales."
+						"title": "Banners HTML5 estáticos y animados",
+						"text": "Piezas gráficas e interactivas para pauta digital: formatos estáticos y animados, responsivos y listos para distintos entornos."
 					}
 				]
 			},
@@ -48,36 +30,38 @@
 				"id": "animacion-audiovisual",
 				"number": "02",
 				"theme": "cream",
-				"indexLabel": "Animación y contenido audiovisual",
-				"title": "Contenido que explica, conecta y permanece en movimiento.",
-				"description": "Desarrollamos recursos audiovisuales y animaciones que convierten ideas complejas en mensajes más claros, atractivos y fáciles de recordar.",
-				"placeholder": "Placeholder — storyboard, timeline de edición y fotograma de animación",
+				"indexLabel": "Animación 3D y edición audiovisual",
+				"title": "Animación 3D y edición audiovisual para explicar, conectar y permanecer en movimiento.",
+				"description": "Producimos animación digital 3D y edición audiovisual para convertir ideas complejas en mensajes claros, atractivos y fáciles de recordar.",
+				"placeholder": "Placeholder — grabación de producto, estudio y edición audiovisual",
 				"image": {
 					"src": "./images/servicios/contenidomovimiento.webp",
 					"alt": "Grabación de contenido de producto con un teléfono en trípode, laptop y storyboard sobre la mesa."
 				},
-				"cta": "Hablemos de contenido audiovisual",
+				"cta": "Hablemos de animación y edición audiovisual",
 				"ctaHref": "/?servicio=animacion-audiovisual#contacto",
-				"items": [
+				"groups": [
 					{
-						"title": "Motion graphics",
-						"text": "Animaciones gráficas para campañas, presentaciones, interfaces y contenido de marca."
+						"title": "",
+						"items": [
+							{
+								"title": "Animación digital 3D",
+								"text": "Recursos tridimensionales para productos, espacios, conceptos y experiencias de marca."
+							}
+						]
 					},
 					{
-						"title": "Storyboarding",
-						"text": "Planificamos la narrativa visual, escenas y secuencia antes de producir una animación o video."
-					},
-					{
-						"title": "Animación 2D",
-						"text": "Ilustraciones y gráficos animados para explicar procesos, productos o mensajes de forma dinámica."
-					},
-					{
-						"title": "Animación 3D",
-						"text": "Recursos tridimensionales para productos, espacios, conceptos y experiencias de marca."
-					},
-					{
-						"title": "Edición de video",
-						"text": "Editamos y adaptamos contenido para mejorar ritmo, claridad y desempeño en cada plataforma."
+						"title": "Edición visual",
+						"items": [
+							{
+								"title": "Estudio de grabación y producción",
+								"text": "Planificamos y producimos en estudio: iluminación, captura, dirección y recursos para obtener material listo para editar."
+							},
+							{
+								"title": "Producción de video",
+								"text": "Producimos video para documentales, redes sociales y otros formatos, con un enfoque claro en el mensaje, el ritmo y el canal donde se va a publicar."
+							}
+						]
 					}
 				]
 			},
@@ -129,74 +113,16 @@
 								"text": "Definimos recorridos, pantallas y decisiones visuales para que cada interacción resulte clara y útil."
 							},
 							{
-								"title": "Desarrollo frontend y backend",
-								"text": "Construimos interfaces y sistemas robustos que conectan la experiencia visible con la lógica del negocio."
-							},
-							{
 								"title": "Desarrollo de correos y campañas email",
 								"text": "Creamos correos responsivos y piezas de email pensadas para comunicar, activar y convertir."
 							}
 						]
-					},
-					{
-						"title": "Operación técnica y evolución",
-						"items": [
-							{
-								"title": "Infraestructura y servidores",
-								"text": "Preparamos ambientes, hosting y configuraciones técnicas para una operación confiable y escalable."
-							},
-							{
-								"title": "Datos, APIs e integraciones",
-								"text": "Conectamos plataformas, bases de datos y servicios externos para que la información fluya mejor."
-							},
-							{
-								"title": "Soporte y mantenimiento",
-								"text": "Acompañamos la evolución de plataformas con mejoras, correcciones y revisiones técnicas continuas."
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": "localizacion",
-				"number": "04",
-				"theme": "cream",
-				"indexLabel": "Localización y adaptación multilingüe",
-				"title": "Experiencias digitales listas para nuevos mercados y audiencias.",
-				"description": "Adaptamos contenido, plataformas y campañas para que conserven su intención, claridad y relevancia al comunicarse en distintos idiomas y contextos.",
-				"placeholder": "Placeholder — interfaz digital con selector de idioma y contenido adaptado a varios mercados",
-				"image": {
-					"src": "./images/servicios/nuevosmercados.webp",
-					"alt": "Equipo revisando un teléfono junto a un mapa mundial y cajas de envío para llegar a nuevos mercados."
-				},
-				"cta": "Hablemos de adaptación multilingüe",
-				"ctaHref": "/?servicio=localizacion#contacto",
-				"items": [
-					{
-						"title": "Control de calidad multilingüe",
-						"text": "Revisamos textos, formatos, funcionalidades y consistencia en cada versión de idioma."
-					},
-					{
-						"title": "Localización de video",
-						"text": "Adaptamos contenido audiovisual con textos, subtítulos y recursos adecuados para cada audiencia."
-					},
-					{
-						"title": "Subtitulación",
-						"text": "Creamos subtítulos claros y sincronizados para ampliar la comprensión y accesibilidad del contenido."
-					},
-					{
-						"title": "Adaptación cultural",
-						"text": "Ajustamos referencias, tono y contexto para que el mensaje funcione de forma natural en cada mercado."
-					},
-					{
-						"title": "Adaptación de copy",
-						"text": "Reescribimos o ajustamos mensajes para conservar intención, relevancia y voz de marca en otros idiomas."
 					}
 				]
 			},
 			{
 				"id": "equipos",
-				"number": "05",
+				"number": "04",
 				"theme": "gray",
 				"indexLabel": "Equipos extendidos y capacidad tecnológica",
 				"title": "Capacidad técnica para avanzar sin sobredimensionar su equipo.",
@@ -256,42 +182,40 @@
 			},
 			{
 				"id": "automatizacion",
-				"number": "06",
-				"theme": "mist",
-				"indexLabel": "Automatización y soluciones a medida",
-				"title": "Automatización y soluciones a medida para operar con más claridad.",
-				"description": "Diseñamos herramientas y flujos digitales que reducen tareas repetitivas, conectan información y ayudan a los equipos a responder, decidir y avanzar mejor.",
+				"number": "05",
+				"theme": "cream",
+				"indexLabel": "Inteligencia artificial y automatización",
+				"title": "Inteligencia artificial integrada en la atención, la operación y el software que construimos.",
+				"description": "La IA no es un complemento: la incorporamos en chatbots, flujos, datos y soluciones a medida para que cada proceso responda con más criterio, menos fricción y mejor información.",
 				"placeholder": "Placeholder — flujo de automatización conectado entre WhatsApp, CRM, datos y una aplicación web",
 				"image": {
 					"src": "./images/servicios/automatizacion.webp",
 					"alt": "Persona organizando tarjetas y un flujo en la laptop para diseñar un proceso digital."
 				},
-				"cta": "Hablemos de automatización",
+				"cta": "Hablemos de inteligencia artificial",
 				"ctaHref": "/?servicio=automatizacion#contacto",
 				"items": [
 					{
-						"title": "WhatsApp Business y chatbots",
-						"text": "Implementamos flujos de atención y seguimiento para responder mejor, ordenar consultas y acompañar a clientes desde canales de mensajería."
+						"title": "WhatsApp Business, chatbots y agentes de IA",
+						"text": "Diseñamos conversaciones y agentes que entienden contexto, ordenan consultas y acompañan a cada cliente desde los canales de mensajería."
 					},
 					{
-						"title": "Automatización de procesos",
-						"text": "Conectamos tareas, herramientas y datos para reducir trabajo manual, evitar duplicaciones y mejorar la operación diaria."
+						"title": "Automatización de procesos con IA",
+						"text": "Conectamos tareas, herramientas y modelos de inteligencia artificial para reducir trabajo manual, evitar duplicaciones y mantener la operación en movimiento."
 					},
 					{
-						"title": "Integraciones, CRM, datos e IA",
-						"text": "Integramos sistemas y fuentes de información para construir procesos más conectados, medibles y útiles para el negocio."
+						"title": "Integraciones, CRM y datos con inteligencia artificial",
+						"text": "Unimos sistemas y fuentes de información con IA para construir procesos más conectados, medibles y capaces de anticipar lo que el negocio necesita."
 					},
 					{
-						"title": "Soluciones a medida",
-						"text": "Desarrollamos plataformas y herramientas cuando una necesidad específica no puede resolverse con una solución genérica."
+						"title": "Soluciones a medida con inteligencia artificial",
+						"text": "Desarrollamos plataformas y herramientas propias cuando una necesidad no se resuelve con un producto genérico, con IA integrada desde el diseño."
 					}
 				]
 			}
 		]
 	},
 	"en": {
-		"indexLabel": "Capabilities index",
-		"indexId": "indice-servicios",
 		"categories": [
 			{
 				"id": "produccion-digital",
@@ -309,28 +233,12 @@
 				"ctaHref": "/?servicio=produccion-digital#contacto",
 				"items": [
 					{
-						"title": "Digital quality control",
-						"text": "We review formats, links, readability, and visual behavior before a piece or campaign goes live."
-					},
-					{
 						"title": "Digital advertising",
 						"text": "We design assets for campaigns that seek visibility, interaction, and measurable actions."
 					},
 					{
-						"title": "Digital composition and retouching",
-						"text": "We combine images, typography, and graphic elements to build consistent visual pieces."
-					},
-					{
-						"title": "Asset production",
-						"text": "We create the resources needed for websites, campaigns, social channels, and other touchpoints."
-					},
-					{
-						"title": "Static banners",
-						"text": "Graphic pieces optimized for digital media, commercial communication, and multiple formats."
-					},
-					{
-						"title": "HTML5 banners",
-						"text": "Interactive, responsive ads designed to work correctly in digital environments."
+						"title": "Static and animated HTML5 banners",
+						"text": "Graphic and interactive pieces for digital media: static and animated formats, responsive and ready for different environments."
 					}
 				]
 			},
@@ -338,36 +246,38 @@
 				"id": "animacion-audiovisual",
 				"number": "02",
 				"theme": "cream",
-				"indexLabel": "Animation and audiovisual content",
-				"title": "Content that explains, connects, and stays in motion.",
-				"description": "We develop audiovisual resources and animations that turn complex ideas into clearer, more engaging, and easier-to-remember messages.",
-				"placeholder": "Placeholder — storyboard, editing timeline, and animation frame",
+				"indexLabel": "3D animation and audiovisual editing",
+				"title": "3D animation and audiovisual editing to explain, connect, and stay in motion.",
+				"description": "We produce digital 3D animation and audiovisual editing to turn complex ideas into clearer, more engaging, and easier-to-remember messages.",
+				"placeholder": "Placeholder — product filming, studio work, and audiovisual editing",
 				"image": {
 					"src": "./images/servicios/contenidomovimiento.webp",
 					"alt": "Product content being filmed with a phone on a tripod, a laptop, and a storyboard on the table."
 				},
-				"cta": "Let’s talk about audiovisual content",
+				"cta": "Let’s talk about animation and audiovisual editing",
 				"ctaHref": "/?servicio=animacion-audiovisual#contacto",
-				"items": [
+				"groups": [
 					{
-						"title": "Motion graphics",
-						"text": "Graphic animations for campaigns, presentations, interfaces, and brand content."
+						"title": "",
+						"items": [
+							{
+								"title": "Digital 3D animation",
+								"text": "Three-dimensional resources for products, spaces, concepts, and brand experiences."
+							}
+						]
 					},
 					{
-						"title": "Storyboarding",
-						"text": "We plan the visual narrative, scenes, and sequence before producing an animation or video."
-					},
-					{
-						"title": "2D animation",
-						"text": "Animated illustrations and graphics to explain processes, products, or messages dynamically."
-					},
-					{
-						"title": "3D animation",
-						"text": "Three-dimensional resources for products, spaces, concepts, and brand experiences."
-					},
-					{
-						"title": "Video editing",
-						"text": "We edit and adapt content to improve pace, clarity, and performance on each platform."
+						"title": "Visual editing",
+						"items": [
+							{
+								"title": "Recording studio and production",
+								"text": "We plan and produce in studio: lighting, capture, direction, and resources to obtain footage ready to edit."
+							},
+							{
+								"title": "Video production",
+								"text": "We produce video for documentaries, social media, and other formats, with a clear focus on the message, pace, and the channel where it will be published."
+							}
+						]
 					}
 				]
 			},
@@ -419,74 +329,16 @@
 								"text": "We define journeys, screens, and visual decisions so every interaction feels clear and useful."
 							},
 							{
-								"title": "Frontend and backend development",
-								"text": "We build robust interfaces and systems that connect the visible experience with business logic."
-							},
-							{
 								"title": "Email development and campaigns",
 								"text": "We create responsive emails and campaign pieces designed to communicate, activate, and convert."
 							}
 						]
-					},
-					{
-						"title": "Technical operations and evolution",
-						"items": [
-							{
-								"title": "Infrastructure and servers",
-								"text": "We prepare environments, hosting, and technical configurations for reliable, scalable operations."
-							},
-							{
-								"title": "Data, APIs, and integrations",
-								"text": "We connect platforms, databases, and external services so information flows more effectively."
-							},
-							{
-								"title": "Support and maintenance",
-								"text": "We support the evolution of platforms with improvements, fixes, and ongoing technical reviews."
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": "localizacion",
-				"number": "04",
-				"theme": "cream",
-				"indexLabel": "Localization and multilingual adaptation",
-				"title": "Digital experiences ready for new markets and audiences.",
-				"description": "We adapt content, platforms, and campaigns so they keep their intent, clarity, and relevance when they speak in different languages and contexts.",
-				"placeholder": "Placeholder — digital interface with language selector and content adapted for several markets",
-				"image": {
-					"src": "./images/servicios/nuevosmercados.webp",
-					"alt": "A team reviewing a phone next to a world map and shipping boxes to reach new markets."
-				},
-				"cta": "Let’s talk about multilingual adaptation",
-				"ctaHref": "/?servicio=localizacion#contacto",
-				"items": [
-					{
-						"title": "Multilingual quality control",
-						"text": "We review copy, formats, functionality, and consistency in every language version."
-					},
-					{
-						"title": "Video localization",
-						"text": "We adapt audiovisual content with text, subtitles, and resources suited to each audience."
-					},
-					{
-						"title": "Subtitling",
-						"text": "We create clear, synchronized subtitles to expand comprehension and accessibility."
-					},
-					{
-						"title": "Cultural adaptation",
-						"text": "We adjust references, tone, and context so the message feels natural in each market."
-					},
-					{
-						"title": "Copy adaptation",
-						"text": "We rewrite or adjust messages to keep intent, relevance, and brand voice in other languages."
 					}
 				]
 			},
 			{
 				"id": "equipos",
-				"number": "05",
+				"number": "04",
 				"theme": "gray",
 				"indexLabel": "Extended teams and technology capacity",
 				"title": "Technical capacity to move forward without oversizing your team.",
@@ -546,34 +398,34 @@
 			},
 			{
 				"id": "automatizacion",
-				"number": "06",
-				"theme": "mist",
-				"indexLabel": "Automation and custom solutions",
-				"title": "Automation and custom solutions to operate with more clarity.",
-				"description": "We design digital tools and flows that reduce repetitive tasks, connect information, and help teams respond, decide, and move forward more effectively.",
+				"number": "05",
+				"theme": "cream",
+				"indexLabel": "Artificial intelligence and automation",
+				"title": "Artificial intelligence built into the support, operations, and software we create.",
+				"description": "AI is not an add-on: we weave it into chatbots, workflows, data, and custom solutions so every process can respond with more judgment, less friction, and better information.",
 				"placeholder": "Placeholder — automation flow connecting WhatsApp, CRM, data, and a web application",
 				"image": {
 					"src": "./images/servicios/automatizacion.webp",
 					"alt": "Person arranging cards and a flowchart on a laptop to design a digital process."
 				},
-				"cta": "Let’s talk about automation",
+				"cta": "Let’s talk about artificial intelligence",
 				"ctaHref": "/?servicio=automatizacion#contacto",
 				"items": [
 					{
-						"title": "WhatsApp Business and chatbots",
-						"text": "We implement support and follow-up flows to respond better, organize inquiries, and accompany customers from messaging channels."
+						"title": "WhatsApp Business, chatbots, and AI agents",
+						"text": "We design conversations and agents that understand context, organize inquiries, and accompany every customer from messaging channels."
 					},
 					{
-						"title": "Process automation",
-						"text": "We connect tasks, tools, and data to reduce manual work, avoid duplication, and improve day-to-day operations."
+						"title": "Process automation with AI",
+						"text": "We connect tasks, tools, and AI models to reduce manual work, avoid duplication, and keep operations moving."
 					},
 					{
-						"title": "Integrations, CRM, data, and AI",
-						"text": "We integrate systems and information sources to build processes that are more connected, measurable, and useful for the business."
+						"title": "Integrations, CRM, and data with artificial intelligence",
+						"text": "We bring systems and information sources together with AI to build processes that are more connected, measurable, and able to anticipate what the business needs."
 					},
 					{
-						"title": "Custom solutions",
-						"text": "We develop platforms and tools when a specific need cannot be solved with a generic solution."
+						"title": "Custom solutions with artificial intelligence",
+						"text": "We develop platforms and tools when a specific need cannot be solved with a generic product, with AI integrated from the design—not added later."
 					}
 				]
 			}
