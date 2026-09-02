@@ -91,7 +91,7 @@ const applyDocumentMeta = (lang) => {
 		twitterImageAlt.setAttribute('content', ogImageAlt);
 	}
 
-	document.documentElement.lang = lang;
+	document.documentElement.lang = lang === 'en' ? 'en-US' : 'es-CR';
 	const ogLocale = document.querySelector('meta[property="og:locale"]');
 	const ogLocaleAlternate = document.querySelector('meta[property="og:locale:alternate"]');
 	if (ogLocale) ogLocale.setAttribute('content', lang === 'en' ? 'en_US' : 'es_CR');

@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /style-guide.html
 
-Sitemap: https://kikeestradadev.github.io/trigalmedia/sitemap.xml
+Sitemap: https://www.trigal.media/sitemap.xml

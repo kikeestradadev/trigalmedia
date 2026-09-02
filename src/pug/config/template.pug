@@ -17,13 +17,15 @@ block config
 	var seoOgLocale = seoLocale.meta.ogLocale
 	var seoOgLocaleAlternate = seoLocale.meta.ogLocaleAlternate
 doctype html
-html(lang='es', prefix='og: http://ogp.me/ns#', class='no-js')
+html(lang='es-CR', prefix='og: http://ogp.me/ns#', class='no-js')
 	head
 		meta(charset='utf-8')
 		meta(name='viewport', content='width=device-width, initial-scale=1.0')
 		meta(name='format-detection', content='telephone=no')
 		meta(name='theme-color', content='#021220')
 		meta(name='author', content=siteData.author)
+		meta(name='geo.region', content='CR')
+		meta(name='geo.placename', content='Costa Rica')
 		meta(name='robots', content=pageRobots)
 		link(rel='icon', href='./assets/favico.ico', sizes='any')
 		link(rel='icon', href='./assets/favico.png', type='image/png')

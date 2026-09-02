@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<url>
-		<loc>https://kikeestradadev.github.io/trigalmedia/</loc>
-		<lastmod>2026-09-01</lastmod>
-		<changefreq>monthly</changefreq>
+		<loc>https://www.trigal.media/</loc>
+		<lastmod>2026-09-02</lastmod>
+		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
-		<xhtml:link rel="alternate" hreflang="es" href="https://kikeestradadev.github.io/trigalmedia/"/>
-		<xhtml:link rel="alternate" hreflang="en" href="https://kikeestradadev.github.io/trigalmedia/"/>
-		<xhtml:link rel="alternate" hreflang="x-default" href="https://kikeestradadev.github.io/trigalmedia/"/>
+		<xhtml:link rel="alternate" hreflang="es" href="https://www.trigal.media/"/>
+		<xhtml:link rel="alternate" hreflang="en" href="https://www.trigal.media/"/>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://www.trigal.media/"/>
 	</url>
 </urlset>

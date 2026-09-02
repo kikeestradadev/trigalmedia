@@ -1,7 +1,14 @@
 -
-	const seoOrganizationId = siteData.siteUrl + '/#organization'
-	const seoWebsiteId = siteData.siteUrl + '/#website'
-	const seoServiceId = siteData.siteUrl + '/#service'
+	const seoBase = siteData.siteUrl
+	const seoOrganizationId = seoBase + '/#organization'
+	const seoWebsiteId = seoBase + '/#website'
+	const seoServiceId = seoBase + '/#service'
+	const seoLogoId = seoBase + '/#logo'
+	const seoWebpageId = seoBase + '/#webpage'
+	const seoAddress = {
+		'@type': 'PostalAddress',
+		addressCountry: 'CR'
+	}
 	const seoFaqItems = (faqData.es.items || []).map((item) => ({
 		'@type': 'Question',
 		name: item.question,
@@ -10,6 +17,23 @@
 			text: item.answer
 		}
 	}))
+	const seoOfferCatalog = {
+		'@type': 'OfferCatalog',
+		name: 'Servicios de Trigal Media',
+		itemListElement: (servicesData.es.groups || []).map((group, index) => ({
+			'@type': 'OfferCatalog',
+			position: index + 1,
+			name: group.title,
+			itemListElement: (group.items || []).map((item) => ({
+				'@type': 'Offer',
+				itemOffered: {
+					'@type': 'Service',
+					name: item.title,
+					description: item.text
+				}
+			}))
+		}))
+	}
 	const seoJsonLd = {
 		'@context': 'https://schema.org',
 		'@graph': [
@@ -17,49 +41,93 @@
 				'@type': 'Organization',
 				'@id': seoOrganizationId,
 				name: siteData.es.meta.siteName,
-				url: siteData.siteUrl + '/',
-				logo: siteData.ogImage,
+				alternateName: siteData.alternateName,
+				legalName: siteData.es.meta.siteName,
+				url: seoBase + '/',
+				logo: { '@id': seoLogoId },
+				image: { '@id': seoLogoId },
 				email: siteData.email,
-				telephone: '+50670118183',
-				sameAs: [siteData.facebookHref, siteData.whatsappHref],
-				areaServed: {
+				telephone: siteData.telephone,
+				description: siteData.es.meta.description,
+				disambiguatingDescription: siteData.es.seo.disambiguatingDescription,
+				slogan: siteData.es.seo.slogan,
+				address: seoAddress,
+				foundingLocation: {
 					'@type': 'Country',
 					name: 'Costa Rica'
-				}
+				},
+				areaServed: [
+					{
+						'@type': 'Country',
+						name: 'Costa Rica'
+					}
+				],
+				knowsAbout: siteData.es.seo.knowsAbout,
+				availableLanguage: ['es', 'en'],
+				contactPoint: {
+					'@type': 'ContactPoint',
+					contactType: 'sales',
+					telephone: siteData.telephone,
+					email: siteData.email,
+					availableLanguage: ['Spanish', 'English'],
+					areaServed: 'CR'
+				},
+				sameAs: [siteData.facebookHref, siteData.whatsappHref]
+			},
+			{
+				'@type': 'ImageObject',
+				'@id': seoLogoId,
+				url: siteData.ogImage,
+				contentUrl: siteData.ogImage,
+				caption: siteData.es.meta.siteName
 			},
 			{
 				'@type': 'WebSite',
 				'@id': seoWebsiteId,
-				url: siteData.siteUrl + '/',
+				url: seoBase + '/',
 				name: siteData.es.meta.siteName,
+				alternateName: siteData.alternateName,
 				description: siteData.es.meta.description,
+				inLanguage: ['es-CR', 'en-US'],
 				publisher: { '@id': seoOrganizationId },
-				inLanguage: ['es-CR', 'en-US']
+				about: { '@id': seoOrganizationId }
+			},
+			{
+				'@type': 'WebPage',
+				'@id': seoWebpageId,
+				url: seoBase + '/',
+				name: siteData.es.meta.title,
+				description: siteData.es.meta.description,
+				inLanguage: 'es-CR',
+				isPartOf: { '@id': seoWebsiteId },
+				about: { '@id': seoOrganizationId },
+				primaryImageOfPage: { '@id': seoLogoId }
 			},
 			{
 				'@type': 'ProfessionalService',
 				'@id': seoServiceId,
 				name: siteData.es.meta.siteName,
-				url: siteData.siteUrl + '/',
-				image: siteData.ogImage,
+				alternateName: siteData.alternateName,
+				url: seoBase + '/',
+				image: { '@id': seoLogoId },
 				description: siteData.es.meta.description,
+				disambiguatingDescription: siteData.es.seo.disambiguatingDescription,
 				provider: { '@id': seoOrganizationId },
-				sameAs: [siteData.facebookHref, siteData.whatsappHref],
+				address: seoAddress,
 				areaServed: {
 					'@type': 'Country',
 					name: 'Costa Rica'
 				},
-				serviceType: [
-					'Desarrollo web',
-					'Ecommerce',
-					'Automatización',
-					'Integraciones de pago',
-					'Chatbots y agentes de IA'
-				]
+				availableLanguage: ['es', 'en'],
+				serviceType: siteData.es.seo.serviceType,
+				hasOfferCatalog: seoOfferCatalog,
+				sameAs: [siteData.facebookHref, siteData.whatsappHref]
 			},
 			{
 				'@type': 'FAQPage',
-				'@id': siteData.siteUrl + '/#faq',
+				'@id': seoBase + '/#faq',
+				url: seoBase + '/#preguntas-frecuentes',
+				isPartOf: { '@id': seoWebpageId },
 				mainEntity: seoFaqItems
 			}
 		]
