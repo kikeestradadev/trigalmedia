@@ -1,5 +1,6 @@
 {
 	"es": {
+		"itemPlaceholder": "Imagen de referencia del servicio",
 		"categories": [
 			{
 				"id": "produccion-digital",
@@ -18,11 +19,19 @@
 				"items": [
 					{
 						"title": "Publicidad digital",
-						"text": "Diseñamos recursos para campañas que buscan visibilidad, interacción y acciones medibles."
+						"text": "Diseñamos recursos para campañas que buscan visibilidad, interacción y acciones medibles.",
+						"image": {
+							"src": "./images/servicios/acordeones/publicidad-digital.webp",
+							"alt": "Persona revisando una grilla de fotografías de producto y lifestyle en monitor y tableta."
+						}
 					},
 					{
 						"title": "Banners HTML5 estáticos y animados",
-						"text": "Piezas gráficas e interactivas para pauta digital: formatos estáticos y animados, responsivos y listos para distintos entornos."
+						"text": "Piezas gráficas e interactivas para pauta digital: formatos estáticos y animados, responsivos y listos para distintos entornos.",
+						"image": {
+							"src": "./images/servicios/acordeones/banners-html5-estaticos-animados.webp",
+							"alt": "Diseño de banners HTML5 estáticos y animados sobre un escritorio de trabajo digital."
+						}
 					}
 				]
 			},
@@ -46,7 +55,11 @@
 						"items": [
 							{
 								"title": "Animación digital 3D",
-								"text": "Recursos tridimensionales para productos, espacios, conceptos y experiencias de marca."
+								"text": "Recursos tridimensionales para productos, espacios, conceptos y experiencias de marca.",
+								"image": {
+									"src": "./images/servicios/acordeones/animacion-digital-3d.webp",
+									"alt": "Persona modelando un objeto tridimensional en pantalla junto a un prototipo físico."
+								}
 							}
 						]
 					},
@@ -55,11 +68,19 @@
 						"items": [
 							{
 								"title": "Estudio de grabación y producción",
-								"text": "Planificamos y producimos en estudio: iluminación, captura, dirección y recursos para obtener material listo para editar."
+								"text": "Planificamos y producimos en estudio: iluminación, captura, dirección y recursos para obtener material listo para editar.",
+								"image": {
+									"src": "./images/servicios/acordeones/estudio-grabacion-produccion.webp",
+									"alt": "Estudio de grabación y producción con iluminación, cámara y equipo listo para capturar."
+								}
 							},
 							{
 								"title": "Producción de video",
-								"text": "Producimos video para documentales, redes sociales y otros formatos, con un enfoque claro en el mensaje, el ritmo y el canal donde se va a publicar."
+								"text": "Producimos video para documentales, redes sociales y otros formatos, con un enfoque claro en el mensaje, el ritmo y el canal donde se va a publicar.",
+								"image": {
+									"src": "./images/servicios/acordeones/produccion-video.webp",
+									"alt": "Producción de video en un entorno de trabajo con cámara, monitor y material de edición."
+								}
 							}
 						]
 					}
@@ -85,19 +106,35 @@
 						"items": [
 							{
 								"title": "Sitios web profesionales",
-								"text": "Sitios claros y confiables para explicar lo que hace su organización, generar confianza y convertir visitas en oportunidades."
+								"text": "Sitios claros y confiables para explicar lo que hace su organización, generar confianza y convertir visitas en oportunidades.",
+								"image": {
+									"src": "./images/servicios/acordeones/sitios-web-profesionales.webp",
+									"alt": "Dos personas revisando en un monitor el diseño de un sitio web profesional."
+								}
 							},
 							{
 								"title": "WordPress y gestión de contenido",
-								"text": "Sitios administrables para que su equipo pueda actualizar contenido sin depender de desarrollo para cada cambio."
+								"text": "Sitios administrables para que su equipo pueda actualizar contenido sin depender de desarrollo para cada cambio.",
+								"image": {
+									"src": "./images/servicios/acordeones/wordpress-gestion-contenido.webp",
+									"alt": "Persona administrando contenido de un sitio WordPress desde una laptop."
+								}
 							},
 							{
 								"title": "Ecommerce",
-								"text": "Canales de venta en línea pensados para mostrar productos, cobrar, gestionar pedidos y acompañar a cada cliente."
+								"text": "Canales de venta en línea pensados para mostrar productos, cobrar, gestionar pedidos y acompañar a cada cliente.",
+								"image": {
+									"src": "./images/servicios/acordeones/ecommerce.webp",
+									"alt": "Canal de venta en línea con productos, pedidos y flujo de compra en pantalla."
+								}
 							},
 							{
 								"title": "Integraciones de pago",
-								"text": "Conectamos pasarelas de pago locales e internacionales al flujo real de venta y operación de su negocio."
+								"text": "Conectamos pasarelas de pago locales e internacionales al flujo real de venta y operación de su negocio.",
+								"image": {
+									"src": "./images/servicios/acordeones/integraciones-pago.webp",
+									"alt": "Integración de pagos en un flujo digital de cobro y operación."
+								}
 							}
 						]
 					},
@@ -106,15 +143,27 @@
 						"items": [
 							{
 								"title": "Aplicaciones web",
-								"text": "Herramientas a medida para ordenar procesos, centralizar información y facilitar el trabajo de equipos y clientes."
+								"text": "Herramientas a medida para ordenar procesos, centralizar información y facilitar el trabajo de equipos y clientes.",
+								"image": {
+									"src": "./images/servicios/acordeones/experiencia-usuario-diseno-interfaz.webp",
+									"alt": "Persona trabajando en una aplicación web a medida sobre una laptop."
+								}
 							},
 							{
 								"title": "Experiencia de usuario y diseño de interfaz",
-								"text": "Definimos recorridos, pantallas y decisiones visuales para que cada interacción resulte clara y útil."
+								"text": "Definimos recorridos, pantallas y decisiones visuales para que cada interacción resulte clara y útil.",
+								"image": {
+									"src": "./images/servicios/acordeones/aplicaciones-web.webp",
+									"alt": "Diseño de interfaz y experiencia de usuario con pantallas y recorridos en revisión."
+								}
 							},
 							{
 								"title": "Desarrollo de correos y campañas email",
-								"text": "Creamos correos responsivos y piezas de email pensadas para comunicar, activar y convertir."
+								"text": "Creamos correos responsivos y piezas de email pensadas para comunicar, activar y convertir.",
+								"image": {
+									"src": "./images/servicios/acordeones/desarrollo-correos-campanas-email.webp",
+									"alt": "Diseño y desarrollo de correos y campañas email en un entorno de trabajo."
+								}
 							}
 						]
 					}
@@ -140,15 +189,27 @@
 						"items": [
 							{
 								"title": "Outsourcing de desarrollo",
-								"text": "Un equipo externo que aporta desarrollo con visibilidad, coordinación y foco en los objetivos del proyecto."
+								"text": "Un equipo externo que aporta desarrollo con visibilidad, coordinación y foco en los objetivos del proyecto.",
+								"image": {
+									"src": "./images/servicios/acordeones/outsourcing-desarrollo.webp",
+									"alt": "Equipo de desarrollo colaborando de forma remota en un proyecto."
+								}
 							},
 							{
 								"title": "Equipos a medida",
-								"text": "Perfiles técnicos seleccionados según el alcance, la tecnología y el tiempo que su organización realmente necesita."
+								"text": "Perfiles técnicos seleccionados según el alcance, la tecnología y el tiempo que su organización realmente necesita.",
+								"image": {
+									"src": "./images/servicios/acordeones/equipos-medida.webp",
+									"alt": "Equipo técnico reunido para definir perfiles y alcance de un proyecto."
+								}
 							},
 							{
 								"title": "Equipos de largo plazo",
-								"text": "Construimos colaboraciones estables para iniciativas que requieren continuidad y evolución técnica."
+								"text": "Construimos colaboraciones estables para iniciativas que requieren continuidad y evolución técnica.",
+								"image": {
+									"src": "./images/servicios/acordeones/equipos-largo-plazo.webp",
+									"alt": "Colaboración de largo plazo entre un equipo técnico y un cliente."
+								}
 							}
 						]
 					},
@@ -157,15 +218,27 @@
 						"items": [
 							{
 								"title": "Refuerzo técnico",
-								"text": "Apoyo puntual para resolver necesidades de frontend, backend, WordPress, React, Laravel, calidad o integración."
+								"text": "Apoyo puntual para resolver necesidades de frontend, backend, WordPress, React, Laravel, calidad o integración.",
+								"image": {
+									"src": "./images/servicios/acordeones/refuerzo-tecnico.webp",
+									"alt": "Persona aportando refuerzo técnico frente a un monitor con código."
+								}
 							},
 							{
 								"title": "Integración de talento remoto",
-								"text": "Sumamos perfiles especializados que se integran al ritmo, herramientas y objetivos de su equipo."
+								"text": "Sumamos perfiles especializados que se integran al ritmo, herramientas y objetivos de su equipo.",
+								"image": {
+									"src": "./images/servicios/acordeones/integracion-talento-remoto.webp",
+									"alt": "Integración de talento remoto colaborando por videollamada y herramientas digitales."
+								}
 							},
 							{
 								"title": "Perfiles especializados",
-								"text": "Acceso a diseño UX/UI, desarrollo, QA y gestión de producto o proyecto según el alcance."
+								"text": "Acceso a diseño UX/UI, desarrollo, QA y gestión de producto o proyecto según el alcance.",
+								"image": {
+									"src": "./images/servicios/acordeones/perfiles-especializados.webp",
+									"alt": "Perfiles especializados de diseño, desarrollo y calidad trabajando en conjunto."
+								}
 							}
 						]
 					},
@@ -174,7 +247,11 @@
 						"items": [
 							{
 								"title": "Capacitación y onboarding",
-								"text": "Facilitamos la incorporación de personas, procesos y herramientas para que el trabajo comience con claridad."
+								"text": "Facilitamos la incorporación de personas, procesos y herramientas para que el trabajo comience con claridad.",
+								"image": {
+									"src": "./images/servicios/acordeones/capacitacion-onboarding.webp",
+									"alt": "Sesión de capacitación y onboarding con un equipo frente a una laptop."
+								}
 							}
 						]
 					}
@@ -197,25 +274,42 @@
 				"items": [
 					{
 						"title": "WhatsApp Business, chatbots y agentes de IA",
-						"text": "Diseñamos conversaciones y agentes que entienden contexto, ordenan consultas y acompañan a cada cliente desde los canales de mensajería."
+						"text": "Diseñamos conversaciones y agentes que entienden contexto, ordenan consultas y acompañan a cada cliente desde los canales de mensajería.",
+						"image": {
+							"src": "./images/servicios/acordeones/whatsapp-chatbots-agentes-ia.webp",
+							"alt": "Persona usando el teléfono junto a una laptop con burbujas de chat y notificaciones de atención."
+						}
 					},
 					{
 						"title": "Automatización de procesos con IA",
-						"text": "Conectamos tareas, herramientas y modelos de inteligencia artificial para reducir trabajo manual, evitar duplicaciones y mantener la operación en movimiento."
+						"text": "Conectamos tareas, herramientas y modelos de inteligencia artificial para reducir trabajo manual, evitar duplicaciones y mantener la operación en movimiento.",
+						"image": {
+							"src": "./images/servicios/acordeones/automatizacion-procesos-ia.webp",
+							"alt": "Flujo de automatización de procesos con inteligencia artificial en una laptop."
+						}
 					},
 					{
 						"title": "Integraciones, CRM y datos con inteligencia artificial",
-						"text": "Unimos sistemas y fuentes de información con IA para construir procesos más conectados, medibles y capaces de anticipar lo que el negocio necesita."
+						"text": "Unimos sistemas y fuentes de información con IA para construir procesos más conectados, medibles y capaces de anticipar lo que el negocio necesita.",
+						"image": {
+							"src": "./images/servicios/acordeones/integraciones-crm-datos-ia.webp",
+							"alt": "Integración de CRM, datos e inteligencia artificial en un tablero digital."
+						}
 					},
 					{
 						"title": "Soluciones a medida con inteligencia artificial",
-						"text": "Desarrollamos plataformas y herramientas propias cuando una necesidad no se resuelve con un producto genérico, con IA integrada desde el diseño."
+						"text": "Desarrollamos plataformas y herramientas propias cuando una necesidad no se resuelve con un producto genérico, con IA integrada desde el diseño.",
+						"image": {
+							"src": "./images/servicios/acordeones/soluciones-medida-ia.webp",
+							"alt": "Desarrollo de una solución a medida con inteligencia artificial integrada."
+						}
 					}
 				]
 			}
 		]
 	},
 	"en": {
+		"itemPlaceholder": "Service reference image",
 		"categories": [
 			{
 				"id": "produccion-digital",
@@ -234,11 +328,19 @@
 				"items": [
 					{
 						"title": "Digital advertising",
-						"text": "We design assets for campaigns that seek visibility, interaction, and measurable actions."
+						"text": "We design assets for campaigns that seek visibility, interaction, and measurable actions.",
+						"image": {
+							"src": "./images/servicios/acordeones/publicidad-digital.webp",
+							"alt": "Person reviewing a grid of product and lifestyle photos on a monitor and tablet."
+						}
 					},
 					{
 						"title": "Static and animated HTML5 banners",
-						"text": "Graphic and interactive pieces for digital media: static and animated formats, responsive and ready for different environments."
+						"text": "Graphic and interactive pieces for digital media: static and animated formats, responsive and ready for different environments.",
+						"image": {
+							"src": "./images/servicios/acordeones/banners-html5-estaticos-animados.webp",
+							"alt": "Design of static and animated HTML5 banners on a digital workspace."
+						}
 					}
 				]
 			},
@@ -262,7 +364,11 @@
 						"items": [
 							{
 								"title": "Digital 3D animation",
-								"text": "Three-dimensional resources for products, spaces, concepts, and brand experiences."
+								"text": "Three-dimensional resources for products, spaces, concepts, and brand experiences.",
+								"image": {
+									"src": "./images/servicios/acordeones/animacion-digital-3d.webp",
+									"alt": "Person modeling a three-dimensional object on screen next to a physical prototype."
+								}
 							}
 						]
 					},
@@ -271,11 +377,19 @@
 						"items": [
 							{
 								"title": "Recording studio and production",
-								"text": "We plan and produce in studio: lighting, capture, direction, and resources to obtain footage ready to edit."
+								"text": "We plan and produce in studio: lighting, capture, direction, and resources to obtain footage ready to edit.",
+								"image": {
+									"src": "./images/servicios/acordeones/estudio-grabacion-produccion.webp",
+									"alt": "Recording and production studio with lighting, camera, and capture equipment."
+								}
 							},
 							{
 								"title": "Video production",
-								"text": "We produce video for documentaries, social media, and other formats, with a clear focus on the message, pace, and the channel where it will be published."
+								"text": "We produce video for documentaries, social media, and other formats, with a clear focus on the message, pace, and the channel where it will be published.",
+								"image": {
+									"src": "./images/servicios/acordeones/produccion-video.webp",
+									"alt": "Video production setup with camera, monitor, and editing materials."
+								}
 							}
 						]
 					}
@@ -301,19 +415,35 @@
 						"items": [
 							{
 								"title": "Professional websites",
-								"text": "Clear, trustworthy sites to explain what your organization does, build confidence, and turn visits into opportunities."
+								"text": "Clear, trustworthy sites to explain what your organization does, build confidence, and turn visits into opportunities.",
+								"image": {
+									"src": "./images/servicios/acordeones/sitios-web-profesionales.webp",
+									"alt": "Two people reviewing a professional website design on a monitor."
+								}
 							},
 							{
 								"title": "WordPress and content management",
-								"text": "Manageable sites so your team can update content without depending on development for every change."
+								"text": "Manageable sites so your team can update content without depending on development for every change.",
+								"image": {
+									"src": "./images/servicios/acordeones/wordpress-gestion-contenido.webp",
+									"alt": "Person managing WordPress content from a laptop."
+								}
 							},
 							{
 								"title": "Ecommerce",
-								"text": "Online sales channels designed to show products, take payments, manage orders, and support each customer."
+								"text": "Online sales channels designed to show products, take payments, manage orders, and support each customer.",
+								"image": {
+									"src": "./images/servicios/acordeones/ecommerce.webp",
+									"alt": "Online sales channel with products, orders, and a checkout flow on screen."
+								}
 							},
 							{
 								"title": "Payment integrations",
-								"text": "We connect local and international payment gateways to the real sales and operations flow of your business."
+								"text": "We connect local and international payment gateways to the real sales and operations flow of your business.",
+								"image": {
+									"src": "./images/servicios/acordeones/integraciones-pago.webp",
+									"alt": "Payment integration in a digital checkout and operations flow."
+								}
 							}
 						]
 					},
@@ -322,15 +452,27 @@
 						"items": [
 							{
 								"title": "Web applications",
-								"text": "Custom tools to organize processes, centralize information, and make work easier for teams and customers."
+								"text": "Custom tools to organize processes, centralize information, and make work easier for teams and customers.",
+								"image": {
+									"src": "./images/servicios/acordeones/experiencia-usuario-diseno-interfaz.webp",
+									"alt": "Person working on a custom web application on a laptop."
+								}
 							},
 							{
 								"title": "User experience and interface design",
-								"text": "We define journeys, screens, and visual decisions so every interaction feels clear and useful."
+								"text": "We define journeys, screens, and visual decisions so every interaction feels clear and useful.",
+								"image": {
+									"src": "./images/servicios/acordeones/aplicaciones-web.webp",
+									"alt": "User experience and interface design with screens and journeys under review."
+								}
 							},
 							{
 								"title": "Email development and campaigns",
-								"text": "We create responsive emails and campaign pieces designed to communicate, activate, and convert."
+								"text": "We create responsive emails and campaign pieces designed to communicate, activate, and convert.",
+								"image": {
+									"src": "./images/servicios/acordeones/desarrollo-correos-campanas-email.webp",
+									"alt": "Email and campaign design being developed in a workspace."
+								}
 							}
 						]
 					}
@@ -356,15 +498,27 @@
 						"items": [
 							{
 								"title": "Development outsourcing",
-								"text": "An external team that brings development with visibility, coordination, and focus on the project goals."
+								"text": "An external team that brings development with visibility, coordination, and focus on the project goals.",
+								"image": {
+									"src": "./images/servicios/acordeones/outsourcing-desarrollo.webp",
+									"alt": "Development team collaborating remotely on a project."
+								}
 							},
 							{
 								"title": "Tailored teams",
-								"text": "Technical profiles selected according to the scope, technology, and time your organization actually needs."
+								"text": "Technical profiles selected according to the scope, technology, and time your organization actually needs.",
+								"image": {
+									"src": "./images/servicios/acordeones/equipos-medida.webp",
+									"alt": "Technical team meeting to define profiles and project scope."
+								}
 							},
 							{
 								"title": "Long-term teams",
-								"text": "We build stable collaborations for initiatives that need continuity and technical evolution."
+								"text": "We build stable collaborations for initiatives that need continuity and technical evolution.",
+								"image": {
+									"src": "./images/servicios/acordeones/equipos-largo-plazo.webp",
+									"alt": "Long-term collaboration between a technical team and a client."
+								}
 							}
 						]
 					},
@@ -373,15 +527,27 @@
 						"items": [
 							{
 								"title": "Technical reinforcement",
-								"text": "Targeted support to solve frontend, backend, WordPress, React, Laravel, quality, or integration needs."
+								"text": "Targeted support to solve frontend, backend, WordPress, React, Laravel, quality, or integration needs.",
+								"image": {
+									"src": "./images/servicios/acordeones/refuerzo-tecnico.webp",
+									"alt": "Person providing technical reinforcement in front of a code editor."
+								}
 							},
 							{
 								"title": "Remote talent integration",
-								"text": "We add specialized profiles that fit the pace, tools, and goals of your team."
+								"text": "We add specialized profiles that fit the pace, tools, and goals of your team.",
+								"image": {
+									"src": "./images/servicios/acordeones/integracion-talento-remoto.webp",
+									"alt": "Remote talent collaborating by video call and digital tools."
+								}
 							},
 							{
 								"title": "Specialized profiles",
-								"text": "Access to UX/UI design, development, QA, and product or project management according to the scope."
+								"text": "Access to UX/UI design, development, QA, and product or project management according to the scope.",
+								"image": {
+									"src": "./images/servicios/acordeones/perfiles-especializados.webp",
+									"alt": "Specialized design, development, and quality profiles working together."
+								}
 							}
 						]
 					},
@@ -390,7 +556,11 @@
 						"items": [
 							{
 								"title": "Training and onboarding",
-								"text": "We support the adoption of people, processes, and tools so the work starts with clarity."
+								"text": "We support the adoption of people, processes, and tools so the work starts with clarity.",
+								"image": {
+									"src": "./images/servicios/acordeones/capacitacion-onboarding.webp",
+									"alt": "Training and onboarding session with a team around a laptop."
+								}
 							}
 						]
 					}
@@ -413,19 +583,35 @@
 				"items": [
 					{
 						"title": "WhatsApp Business, chatbots, and AI agents",
-						"text": "We design conversations and agents that understand context, organize inquiries, and accompany every customer from messaging channels."
+						"text": "We design conversations and agents that understand context, organize inquiries, and accompany every customer from messaging channels.",
+						"image": {
+							"src": "./images/servicios/acordeones/whatsapp-chatbots-agentes-ia.webp",
+							"alt": "Person using a phone next to a laptop with chat bubbles and support notifications."
+						}
 					},
 					{
 						"title": "Process automation with AI",
-						"text": "We connect tasks, tools, and AI models to reduce manual work, avoid duplication, and keep operations moving."
+						"text": "We connect tasks, tools, and AI models to reduce manual work, avoid duplication, and keep operations moving.",
+						"image": {
+							"src": "./images/servicios/acordeones/automatizacion-procesos-ia.webp",
+							"alt": "Process automation flow with artificial intelligence on a laptop."
+						}
 					},
 					{
 						"title": "Integrations, CRM, and data with artificial intelligence",
-						"text": "We bring systems and information sources together with AI to build processes that are more connected, measurable, and able to anticipate what the business needs."
+						"text": "We bring systems and information sources together with AI to build processes that are more connected, measurable, and able to anticipate what the business needs.",
+						"image": {
+							"src": "./images/servicios/acordeones/integraciones-crm-datos-ia.webp",
+							"alt": "CRM, data, and artificial intelligence integration on a digital dashboard."
+						}
 					},
 					{
 						"title": "Custom solutions with artificial intelligence",
-						"text": "We develop platforms and tools when a specific need cannot be solved with a generic product, with AI integrated from the design—not added later."
+						"text": "We develop platforms and tools when a specific need cannot be solved with a generic product, with AI integrated from the design—not added later.",
+						"image": {
+							"src": "./images/servicios/acordeones/soluciones-medida-ia.webp",
+							"alt": "Custom solution being developed with artificial intelligence built in."
+						}
 					}
 				]
 			}

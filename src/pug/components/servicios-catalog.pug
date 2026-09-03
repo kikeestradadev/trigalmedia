@@ -5,6 +5,7 @@ mixin serviciosCatalogItem(category, categoryIndex, group, groupIndex, item, ite
 	- const buttonId = `servicios-acc-${category.id}-${groupIndex}-${itemIndex}`
 	- const panelId = `servicios-panel-${category.id}-${groupIndex}-${itemIndex}`
 	- const headingTag = groupHasTitle ? 'h4' : 'h3'
+	- const itemImage = item.image && item.image.src
 	div(class='servicios-catalog__item')
 		#{headingTag}(class='servicios-catalog__item-heading')
 			button(
@@ -26,10 +27,36 @@ mixin serviciosCatalogItem(category, categoryIndex, group, groupIndex, item, ite
 			aria-labelledby=buttonId,
 			hidden
 		)
-			p(
-				class='servicios-catalog__item-text',
-				data-i18n=`${i18nItemBase}.text`
-			)= item.text
+			div(class='servicios-catalog__item-body')
+				figure(class='servicios-catalog__item-media')
+					if itemImage
+						img(
+							class='servicios-catalog__item-image',
+							src=item.image.src,
+							alt=item.image.alt || item.title,
+							width='527',
+							height='395',
+							loading='lazy',
+							decoding='async',
+							data-i18n-alt=`${i18nItemBase}.image.alt`
+						)
+					else
+						div(
+							class='servicios-catalog__item-placeholder',
+							role='img',
+							aria-label=serviciosCatalogData.es.itemPlaceholder,
+							data-i18n-aria='serviciosCatalog.itemPlaceholder'
+						)
+				div(class='servicios-catalog__item-copy')
+					p(
+						class='servicios-catalog__item-detail-title',
+						aria-hidden='true',
+						data-i18n=`${i18nItemBase}.title`
+					)= item.title
+					p(
+						class='servicios-catalog__item-text',
+						data-i18n=`${i18nItemBase}.text`
+					)= item.text
 
 div(class='servicios-catalog')
 	each category, categoryIndex in serviciosCatalogData.es.categories
