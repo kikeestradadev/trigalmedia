@@ -1,13 +1,13 @@
 {
 	"es": {
-		"eyebrow": "Desarrollo digital para negocios que quieren avanzar",
-		"title": "Convertimos procesos, ideas y oportunidades en soluciones digitales que ayudan a vender, atender y operar mejor.",
-		"text": "Creamos sitios web, e-commerce, automatizaciones y software a medida para negocios y organizaciones que necesitan resultados claros, no tecnología innecesaria.",
-		"note": "Sin compromiso. Empezamos entendiendo tu necesidad y te indicamos si hay una solución adecuada.",
-		"primaryCta": "Contanos qué querés mejorar",
+		"eyebrow": "Inteligencia artificial aplicada a negocios",
+		"title": "IA para vender, atender y operar mejor.",
+		"text": "Creamos sitios web, automatizaciones y agentes de IA que ayudan a convertir consultas en oportunidades, responder más rápido y reducir tareas manuales.",
+		"note": "Agentes de IA · WhatsApp · Automatización · Integraciones · Software a medida",
+		"primaryCta": "Hablemos por WhatsApp",
 		"primaryHref": "https://wa.me/50670118183",
-		"secondaryCta": "Ver soluciones",
-		"secondaryHref": "/servicios.html",
+		"secondaryCta": "Ver soluciones con IA",
+		"secondaryHref": "/servicios.html#automatizacion",
 		"visualLabel": "Persona trabajando frente a un tablero digital con datos y conexiones",
 		"image": {
 			"src": "./images/home/home.webp",
@@ -15,14 +15,14 @@
 		}
 	},
 	"en": {
-		"eyebrow": "Digital development for businesses ready to move forward",
-		"title": "We turn processes, ideas, and opportunities into digital solutions that help you sell, serve, and operate better.",
-		"text": "We create websites, e-commerce, automations, and custom software for businesses and organizations that need clear results, not unnecessary technology.",
-		"note": "No commitment. We start by understanding your need and tell you if there is a suitable solution.",
-		"primaryCta": "Tell us what you want to improve",
+		"eyebrow": "Artificial intelligence applied to business",
+		"title": "AI to sell, serve, and operate better.",
+		"text": "We create websites, automations, and AI agents that help turn inquiries into opportunities, respond faster, and reduce manual work.",
+		"note": "AI agents · WhatsApp · Automation · Integrations · Custom software",
+		"primaryCta": "Let’s talk on WhatsApp",
 		"primaryHref": "https://wa.me/50670118183",
-		"secondaryCta": "See solutions",
-		"secondaryHref": "/servicios.html",
+		"secondaryCta": "See AI solutions",
+		"secondaryHref": "/servicios.html#automatizacion",
 		"visualLabel": "Person working in front of a digital dashboard with data and connections",
 		"image": {
 			"src": "./images/home/home.webp",

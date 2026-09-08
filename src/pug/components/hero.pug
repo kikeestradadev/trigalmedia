@@ -16,11 +16,12 @@ section(class='hero', id='inicio')
 						data-i18n-title='hero.primaryCta'
 					)= heroData.es.primaryCta
 					a(
-						class='btn btn--ghost',
+						class='hero__secondary',
 						href=heroData.es.secondaryHref,
 						title=heroData.es.secondaryCta,
 						data-i18n='hero.secondaryCta',
-						data-i18n-title='hero.secondaryCta'
+						data-i18n-title='hero.secondaryCta',
+						data-i18n-href='hero.secondaryHref'
 					)= heroData.es.secondaryCta
 				p(class='hero__note', data-i18n='hero.note')= heroData.es.note
 

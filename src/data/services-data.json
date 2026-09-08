@@ -36,8 +36,8 @@
 			},
 			{
 				"icon": "automation",
-				"title": "Quiero ordenar o automatizar mi operación",
-				"text": "Procesos, CRM, integraciones, chatbots y agentes de IA para reducir trabajo manual y atender mejor.",
+				"title": "Quiero automatizar mi negocio con IA",
+				"text": "Agentes de IA, WhatsApp, CRM e integraciones para reducir trabajo manual, atender mejor y no perder oportunidades.",
 				"catalogHref": "/servicios.html#automatizacion",
 				"items": [
 					{
@@ -129,8 +129,8 @@
 			},
 			{
 				"icon": "automation",
-				"title": "I want to organize or automate my operation",
-				"text": "Processes, CRM, integrations, chatbots, and AI agents to reduce manual work and serve people better.",
+				"title": "I want to automate my business with AI",
+				"text": "AI agents, WhatsApp, CRM, and integrations to reduce manual work, serve people better, and avoid lost opportunities.",
 				"catalogHref": "/servicios.html#automatizacion",
 				"items": [
 					{

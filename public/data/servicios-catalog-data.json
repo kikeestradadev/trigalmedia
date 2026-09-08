@@ -263,13 +263,13 @@
 				"theme": "cream",
 				"indexLabel": "Inteligencia artificial y automatización",
 				"title": "Automatizá tareas y atendé mejor",
-				"description": "Conectamos WhatsApp, formularios, CRM, datos e inteligencia artificial para reducir trabajo manual, responder con rapidez y no perder oportunidades. Integramos IA cuando permite responder más rápido, automatizar tareas o tomar mejores decisiones.",
+				"description": "Conectamos WhatsApp, formularios, CRM y datos para reducir trabajo manual, responder más rápido y no perder oportunidades. Integramos IA cuando aporta valor real al proceso.",
 				"placeholder": "Placeholder — flujo de automatización conectado entre WhatsApp, CRM, datos y una aplicación web",
 				"image": {
 					"src": "./images/servicios/automatizacion.webp",
 					"alt": "Persona organizando tarjetas y un flujo en la laptop para diseñar un proceso digital."
 				},
-				"cta": "Evaluemos tu idea o proceso",
+				"cta": "Explorá soluciones con IA",
 				"ctaHref": "/?servicio=automatizacion#contacto",
 				"items": [
 					{
@@ -572,13 +572,13 @@
 				"theme": "cream",
 				"indexLabel": "Artificial intelligence and automation",
 				"title": "Automate tasks and serve people better",
-				"description": "We connect WhatsApp, forms, CRM, data, and artificial intelligence to reduce manual work, respond quickly, and avoid lost opportunities. We integrate AI when it helps you respond faster, automate tasks, or make better decisions.",
+				"description": "We connect WhatsApp, forms, CRM, and data to reduce manual work, respond faster, and avoid lost opportunities. We integrate AI when it adds real value to the process.",
 				"placeholder": "Placeholder — automation flow connecting WhatsApp, CRM, data, and a web application",
 				"image": {
 					"src": "./images/servicios/automatizacion.webp",
 					"alt": "Person arranging cards and a flowchart on a laptop to design a digital process."
 				},
-				"cta": "Let’s evaluate your idea or process",
+				"cta": "Explore AI solutions",
 				"ctaHref": "/?servicio=automatizacion#contacto",
 				"items": [
 					{
