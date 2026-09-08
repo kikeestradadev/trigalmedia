@@ -90,6 +90,18 @@
 		}
 	}
 
+	&__note {
+		margin: 1rem 0 0;
+		max-width: 42ch;
+		color: color-mix(in srgb, var(--color-white) 72%, var(--color-cyan));
+		font-size: 0.875rem;
+		line-height: 1.45;
+
+		@media (width < $l) {
+			margin-inline: auto;
+		}
+	}
+
 	&__visual {
 		position: relative;
 		display: block;

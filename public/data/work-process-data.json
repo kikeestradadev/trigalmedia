@@ -2,18 +2,18 @@
 	"es": {
 		"eyebrow": "Método",
 		"title": "Cómo trabajamos",
-		"lead": "Una secuencia clara, con espacio para ajustar el alcance a la complejidad real de cada proyecto.",
+		"lead": "Una secuencia clara, con espacio para ajustar el alcance a lo que tu proyecto realmente necesita.",
 		"note": "Cada proyecto se evalúa según su objetivo y complejidad antes de definir alcance, tiempos y propuesta.",
 		"steps": [
 			{
 				"number": "01",
 				"title": "Descubrimiento",
-				"text": "Entendemos objetivos, procesos, restricciones y lo que realmente hay que resolver."
+				"text": "Entendemos tus objetivos, procesos, restricciones y lo que realmente hay que resolver."
 			},
 			{
 				"number": "02",
 				"title": "Estrategia",
-				"text": "Definimos la oportunidad, el alcance y la solución más adecuada para avanzar."
+				"text": "Definimos la oportunidad, el alcance y la solución más adecuada para que avances."
 			},
 			{
 				"number": "03",

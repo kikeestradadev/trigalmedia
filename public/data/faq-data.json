@@ -6,11 +6,11 @@
 		"items": [
 			{
 				"question": "¿Cuánto cuesta desarrollar un sitio web o solución digital?",
-				"answer": "El costo depende del objetivo, el alcance y la complejidad. No tenemos un precio único. Primero hacemos un descubrimiento para entender el negocio y, a partir de ahí, preparamos una propuesta formal."
+				"answer": "El presupuesto depende del objetivo, las funcionalidades y la complejidad del proyecto. Antes de cotizar, hacemos una conversación inicial para entender qué necesitás resolver y recomendar el alcance adecuado. Si ya tenés un presupuesto estimado, también podemos orientarte sobre qué solución es realista construir con esa inversión."
 			},
 			{
 				"question": "¿Qué servicios digitales ofrece Trigal Media?",
-				"answer": "Trabajamos en tres áreas: presencia y comercio digital, automatización y soluciones a medida, y equipos o capacidad tecnológica. El punto de partida siempre es el resultado que el negocio necesita, no un paquete cerrado de herramientas."
+				"answer": "Te ayudamos a atraer y convertir más clientes, a ordenar o automatizar tu operación, o a sumar capacidad técnica a tu equipo. El punto de partida siempre es el resultado que tu negocio necesita, no un paquete cerrado de herramientas."
 			},
 			{
 				"question": "¿Cuánto tarda un proyecto?",
@@ -26,11 +26,11 @@
 			},
 			{
 				"question": "¿Qué diferencia a Trigal Media de una agencia tradicional?",
-				"answer": "No empezamos por un paquete de páginas ni por vender tecnología por volumen. Somos un socio tecnológico: entendemos el modelo de negocio, identificamos oportunidades y construimos la solución adecuada para avanzar."
+				"answer": "No empezamos por un paquete de páginas ni por vender tecnología por volumen. Empezamos por el negocio, no por la herramienta: entendemos tu modelo, identificamos oportunidades y construimos la solución adecuada para avanzar."
 			},
 			{
 				"question": "¿Qué es un agente de IA y cómo puede beneficiar a mi empresa?",
-				"answer": "Un agente de IA es un software que puede interpretar contexto y ejecutar acciones hacia un objetivo, no solo responder preguntas. Puede apoyar atención, operaciones o consulta de información. Lo evaluamos caso por caso y solo lo proponemos cuando aporta valor real."
+				"answer": "Un agente de IA es un software que puede interpretar contexto y ejecutar acciones hacia un objetivo, no solo responder preguntas. Puede apoyar atención, operaciones o consulta de información. Lo evaluamos caso por caso y solo lo proponemos cuando permite responder más rápido, automatizar tareas o tomar mejores decisiones."
 			},
 			{
 				"question": "¿Pueden integrar Stripe, PayPal, BAC Credomatic, SINPE Móvil u otras pasarelas?",
@@ -46,7 +46,7 @@
 			},
 			{
 				"question": "¿Ofrecen soporte después de entregar un proyecto?",
-				"answer": "Sí. Podemos acompañar con soporte, mejoras y evolución cuando el proyecto lo requiere. Ese acompañamiento se define en la propuesta, según el objetivo y la complejidad."
+				"answer": "Sí. Podemos acompañarte con soporte, mejoras y evolución cuando el proyecto lo requiere. Ese acompañamiento se define en la propuesta, según el objetivo y la complejidad."
 			}
 		]
 	},
@@ -57,11 +57,11 @@
 		"items": [
 			{
 				"question": "How much does it cost to build a website or digital solution?",
-				"answer": "Cost depends on the goal, scope, and complexity. There is no single price. We start with discovery to understand the business and then prepare a formal proposal."
+				"answer": "The budget depends on the goal, the features, and the complexity of the project. Before quoting, we have an initial conversation to understand what you need to solve and recommend the right scope. If you already have an estimated budget, we can also help you see what solution is realistic to build with that investment."
 			},
 			{
 				"question": "What digital services does Trigal Media offer?",
-				"answer": "We work across three areas: digital presence and commerce, automation and custom solutions, and teams or technical capacity. The starting point is always the outcome the business needs, not a closed package of tools."
+				"answer": "We help you attract and convert more customers, organize or automate your operation, or add technical capacity to your team. The starting point is always the outcome your business needs, not a closed package of tools."
 			},
 			{
 				"question": "How long does a project take?",
@@ -77,11 +77,11 @@
 			},
 			{
 				"question": "What makes Trigal Media different from a traditional agency?",
-				"answer": "We do not start with a package of pages or sell technology at volume. We are a technology partner: we understand the business model, identify opportunities, and build the right solution to move forward."
+				"answer": "We do not start with a package of pages or sell technology at volume. We start with the business, not the tool: we understand your model, identify opportunities, and build the right solution to move forward."
 			},
 			{
 				"question": "What is an AI agent and how can it benefit my company?",
-				"answer": "An AI agent is software that can interpret context and take actions toward a goal, not only answer questions. It can support customer care, operations, or information lookup. We evaluate it case by case and only propose it when it adds real value."
+				"answer": "An AI agent is software that can interpret context and take actions toward a goal, not only answer questions. It can support customer care, operations, or information lookup. We evaluate it case by case and only propose it when it helps you respond faster, automate tasks, or make better decisions."
 			},
 			{
 				"question": "Can you integrate Stripe, PayPal, BAC Credomatic, SINPE Móvil, or other gateways?",

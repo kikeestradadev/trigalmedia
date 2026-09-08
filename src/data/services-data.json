@@ -1,15 +1,15 @@
 {
 	"es": {
-		"eyebrow": "Qué hacemos",
-		"title": "Servicios para construir, vender y operar mejor.",
-		"lead": "Tres áreas claras. En todas, el punto de partida es el resultado de negocio, no la lista de tecnologías.",
-		"catalogCta": "Ver todos los servicios",
+		"eyebrow": "Por dónde empezar",
+		"title": "Elegí el resultado que necesitás lograr",
+		"lead": "Tres caminos claros según lo que tu negocio necesita hoy. En todos, el punto de partida es el resultado, no una lista de tecnologías.",
+		"catalogCta": "Ver todas las soluciones",
 		"catalogHref": "/servicios.html",
 		"groups": [
 			{
 				"icon": "presence",
-				"title": "Presencia y comercio digital",
-				"text": "Una presencia clara y un canal de venta que trabaja a favor del negocio.",
+				"title": "Quiero atraer y convertir más clientes",
+				"text": "Sitio web, e-commerce, campañas, contenido y WhatsApp para convertir interés en consultas o ventas.",
 				"catalogHref": "/servicios.html#desarrollo-web",
 				"items": [
 					{
@@ -20,7 +20,7 @@
 					{
 						"icon": "cms",
 						"title": "WordPress",
-						"text": "Un sitio que el equipo puede actualizar sin frenar la operación diaria."
+						"text": "Un sitio que tu equipo puede actualizar sin frenar la operación diaria."
 					},
 					{
 						"icon": "commerce",
@@ -36,8 +36,8 @@
 			},
 			{
 				"icon": "automation",
-				"title": "Automatización y soluciones a medida",
-				"text": "Menos trabajo repetido y mejores decisiones, con herramientas que se adaptan al proceso.",
+				"title": "Quiero ordenar o automatizar mi operación",
+				"text": "Procesos, CRM, integraciones, chatbots y agentes de IA para reducir trabajo manual y atender mejor.",
 				"catalogHref": "/servicios.html#automatizacion",
 				"items": [
 					{
@@ -58,14 +58,14 @@
 					{
 						"icon": "data",
 						"title": "Integraciones, CRM, datos e IA",
-						"text": "Conectamos sistemas e incorporamos inteligencia artificial cuando aporta valor."
+						"text": "Integramos inteligencia artificial cuando permite responder más rápido, automatizar tareas o tomar mejores decisiones."
 					}
 				]
 			},
 			{
 				"icon": "teams",
-				"title": "Equipos y capacidad tecnológica",
-				"text": "Capacidad extra cuando el proyecto lo pide, sin armar una estructura innecesaria.",
+				"title": "Necesito capacidad técnica para mi equipo",
+				"text": "Refuerzo especializado, equipos a medida y desarrollo continuo para avanzar sin construir una estructura interna completa.",
 				"catalogHref": "/servicios.html#equipos",
 				"items": [
 					{
@@ -93,16 +93,16 @@
 		]
 	},
 	"en": {
-		"eyebrow": "What we do",
-		"title": "Services to build, sell, and operate better.",
-		"lead": "Three clear areas. In all of them, the starting point is the business outcome, not a list of technologies.",
-		"catalogCta": "See all services",
+		"eyebrow": "Where to start",
+		"title": "Choose the outcome you need to achieve",
+		"lead": "Three clear paths based on what your business needs today. In all of them, the starting point is the outcome, not a list of technologies.",
+		"catalogCta": "See all solutions",
 		"catalogHref": "/servicios.html",
 		"groups": [
 			{
 				"icon": "presence",
-				"title": "Digital presence and commerce",
-				"text": "A clear presence and a sales channel that works in favor of the business.",
+				"title": "I want to attract and convert more customers",
+				"text": "Website, e-commerce, campaigns, content, and WhatsApp to turn interest into inquiries or sales.",
 				"catalogHref": "/servicios.html#desarrollo-web",
 				"items": [
 					{
@@ -129,8 +129,8 @@
 			},
 			{
 				"icon": "automation",
-				"title": "Automation and custom solutions",
-				"text": "Less repetitive work and better decisions, with tools that adapt to the process.",
+				"title": "I want to organize or automate my operation",
+				"text": "Processes, CRM, integrations, chatbots, and AI agents to reduce manual work and serve people better.",
 				"catalogHref": "/servicios.html#automatizacion",
 				"items": [
 					{
@@ -151,14 +151,14 @@
 					{
 						"icon": "data",
 						"title": "Integrations, CRM, data, and AI",
-						"text": "We connect systems and add artificial intelligence when it adds real value."
+						"text": "We integrate artificial intelligence when it helps you respond faster, automate tasks, or make better decisions."
 					}
 				]
 			},
 			{
 				"icon": "teams",
-				"title": "Teams and technical capacity",
-				"text": "Extra capacity when the project needs it, without building an unnecessary structure.",
+				"title": "I need technical capacity for my team",
+				"text": "Specialized reinforcement, tailored teams, and ongoing development to move forward without building a full internal structure.",
 				"catalogHref": "/servicios.html#equipos",
 				"items": [
 					{

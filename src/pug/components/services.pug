@@ -79,7 +79,12 @@ section(class='services', id='servicios', data-article-grid='')
 			div(class='swiper services__slider')
 				div(class='swiper-wrapper services__track')
 					each group, groupIndex in servicesData.es.groups
-						article(class=`swiper-slide services__card services__card--${group.icon}`)
+						a(
+							class=`swiper-slide services__card services__card--${group.icon}`,
+							href=group.catalogHref,
+							title=group.title,
+							data-i18n-title=`services.groups.${groupIndex}.title`
+						)
 							div(class='services__icon', aria-hidden='true')
 								if group.icon === 'presence'
 									svg(viewBox='0 0 48 48', fill='none', xmlns='http://www.w3.org/2000/svg')
@@ -106,6 +111,10 @@ section(class='services', id='servicios', data-article-grid='')
 								id=`services-title-${groupIndex}`,
 								data-i18n=`services.groups.${groupIndex}.title`
 							)= group.title
+							p(
+								class='services__card-text',
+								data-i18n=`services.groups.${groupIndex}.text`
+							)= group.text
 							ul(
 								class='services__list',
 								aria-labelledby=`services-title-${groupIndex}`

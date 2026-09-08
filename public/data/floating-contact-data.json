@@ -6,7 +6,7 @@
 	"es": {
 		"openLabel": "Abrir opciones de contacto",
 		"closeLabel": "Cerrar opciones de contacto",
-		"panelTitle": "Hablemos",
+		"panelTitle": "Escribinos",
 		"emailLabel": "Correo",
 		"whatsappLabel": "WhatsApp",
 		"facebookLabel": "Facebook"
@@ -14,7 +14,7 @@
 	"en": {
 		"openLabel": "Open contact options",
 		"closeLabel": "Close contact options",
-		"panelTitle": "Let’s talk",
+		"panelTitle": "Write to us",
 		"emailLabel": "Email",
 		"whatsappLabel": "WhatsApp",
 		"facebookLabel": "Facebook"

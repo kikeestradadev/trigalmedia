@@ -3,8 +3,8 @@
 	"es": {
 		"eyebrow": "Trabajo seleccionado",
 		"title": "Portafolio",
-		"lead": "Casos de desarrollo web, plataformas y presencia digital tomados de trabajo verificable.",
-		"note": "Trabajo adicional disponible bajo solicitud, incluidos proyectos SaaS, salud y educación con restricciones de confidencialidad.",
+		"lead": "Casos de educación, turismo, marca país y plataformas digitales. En cada uno priorizamos la necesidad y la solución; las tecnologías quedan como referencia.",
+		"note": "Hay trabajo adicional disponible bajo solicitud, incluidos proyectos de software, salud y educación con restricciones de confidencialidad.",
 		"visitLabel": "Ver proyecto",
 		"techLabel": "Tecnologías",
 		"items": [
@@ -13,7 +13,7 @@
 				"name": "Ahorrando para tu Futuro",
 				"image": "pf_ahorrando.png",
 				"imageAlt": "Captura del proyecto Ahorrando para tu Futuro",
-				"summary": "Plataforma educativa en Laravel para BAC San José.",
+				"summary": "Plataforma educativa para que las personas aprendan a ahorrar, desarrollada para BAC San José.",
 				"tech": [
 					"Laravel",
 					"PHP"
@@ -25,7 +25,7 @@
 				"name": "Esencial Costa Rica",
 				"image": "pf_esencialcr.png",
 				"imageAlt": "Captura del proyecto Esencial Costa Rica",
-				"summary": "Sitio de la marca país de Costa Rica para el programa de marca nacional.",
+				"summary": "Sitio de la marca país de Costa Rica para presentar el programa de marca nacional.",
 				"tech": [
 					"HTML",
 					"CSS",
@@ -38,7 +38,7 @@
 				"name": "Villa Lapas",
 				"image": "pf_villalapas.png",
 				"imageAlt": "Captura del proyecto Villa Lapas",
-				"summary": "Sitio de turismo en WordPress para Hotel Villa Lapas.",
+				"summary": "Sitio de turismo para Hotel Villa Lapas, pensado para mostrar la experiencia y facilitar la consulta.",
 				"tech": [
 					"WordPress"
 				],
@@ -49,7 +49,7 @@
 				"name": "Maratones",
 				"image": "pf_maratones.png",
 				"imageAlt": "Captura del proyecto Maratones",
-				"summary": "Sitio de evento especial para una carrera de maratón.",
+				"summary": "Sitio de un evento especial para informar y convocar a una carrera de maratón.",
 				"tech": [
 					"HTML",
 					"CSS",
@@ -58,11 +58,22 @@
 				"href": "https://kikeestrada.github.io/portfolio-maratones/"
 			},
 			{
+				"id": "crypto-tutorials",
+				"name": "Crypto Tutorials",
+				"image": "crypto.png",
+				"imageAlt": "Captura del proyecto Crypto Tutorials",
+				"summary": "Producto de contenido para explicar temas de cripto y mantener actualizaciones de forma continua.",
+				"tech": [
+					"React"
+				],
+				"href": "https://crypto-tutorials.com/"
+			},
+			{
 				"id": "betanysports",
 				"name": "BetAnySports",
 				"image": "bet.png",
 				"imageAlt": "Captura del proyecto BetAnySports",
-				"summary": "Modernización y rebrand de una plataforma de apuestas deportivas de alto tráfico.",
+				"summary": "Modernización de una plataforma de apuestas deportivas de alto tráfico, con nueva identidad y experiencia de uso.",
 				"tech": [
 					"React",
 					"Remix",
@@ -75,7 +86,7 @@
 				"name": "Master Affiliates",
 				"image": "pf_master.png",
 				"imageAlt": "Captura del proyecto Master Affiliates",
-				"summary": "Sitio de adquisición de afiliados en React para un programa de apuestas y casino.",
+				"summary": "Sitio para atraer y convertir afiliados de un programa de apuestas y casino.",
 				"tech": [
 					"React"
 				],
@@ -86,29 +97,18 @@
 				"name": "Insiders",
 				"image": "insiders.png",
 				"imageAlt": "Captura del proyecto Insiders",
-				"summary": "Plataforma de publicación de medios deportivos para contenido de alto volumen.",
+				"summary": "Plataforma editorial para publicar y organizar contenido deportivo de alto volumen.",
 				"tech": [
 					"WordPress"
 				],
 				"href": "https://insidersbettingdigest.com/"
 			},
 			{
-				"id": "crypto-tutorials",
-				"name": "Crypto Tutorials",
-				"image": "crypto.png",
-				"imageAlt": "Captura del proyecto Crypto Tutorials",
-				"summary": "Producto de content marketing con actualizaciones impulsadas por API.",
-				"tech": [
-					"React"
-				],
-				"href": "https://crypto-tutorials.com/"
-			},
-			{
 				"id": "cryptovig",
 				"name": "Cryptovig",
 				"image": "cryptovig.png",
 				"imageAlt": "Captura del proyecto Cryptovig",
-				"summary": "Sitio WordPress para una marca de apuestas deportivas.",
+				"summary": "Sitio para presentar una marca de apuestas deportivas y orientar a sus visitantes.",
 				"tech": [
 					"WordPress"
 				],
@@ -119,7 +119,7 @@
 				"name": "Sport Betting AI",
 				"image": "sbai.png",
 				"imageAlt": "Captura del proyecto Sport Betting AI",
-				"summary": "Revista WordPress de apuestas deportivas enfocada en contenido y SEO.",
+				"summary": "Revista digital de apuestas deportivas, enfocada en contenido y visibilidad en buscadores.",
 				"tech": [
 					"WordPress",
 					"SEO"
@@ -131,7 +131,7 @@
 				"name": "My Bookie",
 				"image": "mb.png",
 				"imageAlt": "Captura del proyecto My Bookie",
-				"summary": "Sistemas de entrega para un sportsbook y casino multi-marca.",
+				"summary": "Sistemas de entrega digital para un sportsbook y casino con varias marcas.",
 				"tech": [
 					"WordPress",
 					"PHP",
@@ -144,8 +144,8 @@
 	"en": {
 		"eyebrow": "Selected work",
 		"title": "Portfolio",
-		"lead": "Web development, platform, and digital presence cases from verifiable work.",
-		"note": "Additional work available on request, including SaaS, healthcare, and education projects with confidentiality restrictions.",
+		"lead": "Education, tourism, country-brand, and digital platform cases. In each one we prioritize the need and the solution; technologies remain as reference.",
+		"note": "Additional work available on request, including software, healthcare, and education projects with confidentiality restrictions.",
 		"visitLabel": "View project",
 		"techLabel": "Technologies",
 		"items": [
@@ -154,7 +154,7 @@
 				"name": "Ahorrando para tu Futuro",
 				"image": "pf_ahorrando.png",
 				"imageAlt": "Screenshot of the Ahorrando para tu Futuro project",
-				"summary": "Laravel education platform for BAC San José.",
+				"summary": "Educational platform that helps people learn to save, built for BAC San José.",
 				"tech": [
 					"Laravel",
 					"PHP"
@@ -179,7 +179,7 @@
 				"name": "Villa Lapas",
 				"image": "pf_villalapas.png",
 				"imageAlt": "Screenshot of the Villa Lapas project",
-				"summary": "WordPress tourism site for Hotel Villa Lapas.",
+				"summary": "Tourism website for Hotel Villa Lapas, designed to present the experience and make inquiries easier.",
 				"tech": [
 					"WordPress"
 				],
@@ -190,7 +190,7 @@
 				"name": "Maratones",
 				"image": "pf_maratones.png",
 				"imageAlt": "Screenshot of the Maratones project",
-				"summary": "Special-event website for a marathon race.",
+				"summary": "Special-event website to inform and invite people to a marathon race.",
 				"tech": [
 					"HTML",
 					"CSS",
@@ -199,11 +199,22 @@
 				"href": "https://kikeestrada.github.io/portfolio-maratones/"
 			},
 			{
+				"id": "crypto-tutorials",
+				"name": "Crypto Tutorials",
+				"image": "crypto.png",
+				"imageAlt": "Screenshot of the Crypto Tutorials project",
+				"summary": "Content product to explain crypto topics and keep updates flowing over time.",
+				"tech": [
+					"React"
+				],
+				"href": "https://crypto-tutorials.com/"
+			},
+			{
 				"id": "betanysports",
 				"name": "BetAnySports",
 				"image": "bet.png",
 				"imageAlt": "Screenshot of the BetAnySports project",
-				"summary": "High-traffic sportsbook platform modernization and rebrand.",
+				"summary": "Modernization of a high-traffic sports betting platform, with a new identity and user experience.",
 				"tech": [
 					"React",
 					"Remix",
@@ -216,7 +227,7 @@
 				"name": "Master Affiliates",
 				"image": "pf_master.png",
 				"imageAlt": "Screenshot of the Master Affiliates project",
-				"summary": "React affiliate acquisition site for a sportsbook and casino program.",
+				"summary": "Website to attract and convert affiliates for a sportsbook and casino program.",
 				"tech": [
 					"React"
 				],
@@ -227,29 +238,18 @@
 				"name": "Insiders",
 				"image": "insiders.png",
 				"imageAlt": "Screenshot of the Insiders project",
-				"summary": "Sports media publishing platform for high-volume content.",
+				"summary": "Publishing platform to organize and publish high-volume sports content.",
 				"tech": [
 					"WordPress"
 				],
 				"href": "https://insidersbettingdigest.com/"
 			},
 			{
-				"id": "crypto-tutorials",
-				"name": "Crypto Tutorials",
-				"image": "crypto.png",
-				"imageAlt": "Screenshot of the Crypto Tutorials project",
-				"summary": "Content marketing product with API-driven updates.",
-				"tech": [
-					"React"
-				],
-				"href": "https://crypto-tutorials.com/"
-			},
-			{
 				"id": "cryptovig",
 				"name": "Cryptovig",
 				"image": "cryptovig.png",
 				"imageAlt": "Screenshot of the Cryptovig project",
-				"summary": "WordPress site for a sports betting brand.",
+				"summary": "Website to present a sports betting brand and guide its visitors.",
 				"tech": [
 					"WordPress"
 				],
@@ -260,7 +260,7 @@
 				"name": "Sport Betting AI",
 				"image": "sbai.png",
 				"imageAlt": "Screenshot of the Sport Betting AI project",
-				"summary": "WordPress sportsbook magazine focused on content and SEO.",
+				"summary": "Digital sports betting magazine focused on content and search visibility.",
 				"tech": [
 					"WordPress",
 					"SEO"
@@ -272,7 +272,7 @@
 				"name": "My Bookie",
 				"image": "mb.png",
 				"imageAlt": "Screenshot of the My Bookie project",
-				"summary": "Multi-brand sportsbook and casino delivery systems.",
+				"summary": "Digital delivery systems for a multi-brand sportsbook and casino.",
 				"tech": [
 					"WordPress",
 					"PHP",

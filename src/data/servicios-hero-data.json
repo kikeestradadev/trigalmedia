@@ -1,19 +1,20 @@
 {
 	"es": {
 		"meta": {
-			"title": "Servicios digitales, desarrollo web y equipos tecnológicos | Trigal Media",
-			"description": "Trigal Media acompaña a organizaciones con producción digital, animación, desarrollo web, capacidad tecnológica, inteligencia artificial y automatización para construir, comunicar y crecer.",
-			"keywords": "servicios digitales Costa Rica, producción digital, animación audiovisual, desarrollo web Costa Rica, WordPress, ecommerce, equipos tecnológicos, inteligencia artificial, automatización, Trigal Media",
+			"title": "Servicios digitales para vender, atender y operar mejor | Trigal Media",
+			"description": "Sitios web, e-commerce, automatización, inteligencia artificial y equipos técnicos para negocios y organizaciones. Elegí el resultado que necesitás lograr y conversemos.",
+			"keywords": "servicios digitales Costa Rica, desarrollo web Costa Rica, ecommerce, WordPress, automatización, WhatsApp, inteligencia artificial, equipos tecnológicos, Trigal Media",
 			"ogImageAlt": "Persona trabajando con una laptop en un entorno de operación digital de Trigal Media"
 		},
 		"backLabel": "← Volver al inicio",
 		"backHref": "/",
 		"eyebrow": "Servicios",
-		"title": "Capacidades digitales para convertir oportunidades en resultados.",
-		"text": "Combinamos estrategia, diseño, contenido y desarrollo para ayudar a organizaciones a comunicar mejor, operar con claridad y crecer con una base tecnológica sólida.",
-		"primaryCta": "Hablemos de su proyecto",
+		"title": "Elegí el resultado que necesitás lograr",
+		"text": "Creamos sitios web, e-commerce, automatizaciones y software a medida. Integramos inteligencia artificial cuando permite responder más rápido, automatizar tareas o tomar mejores decisiones.",
+		"note": "Sin compromiso. Empezamos entendiendo tu necesidad y te indicamos si hay una solución adecuada.",
+		"primaryCta": "Contanos qué querés mejorar",
 		"primaryHref": "/#contacto",
-		"secondaryCta": "Explorar capacidades",
+		"secondaryCta": "Ver soluciones",
 		"secondaryHref": "#produccion-digital",
 		"visualLabel": "Persona trabajando con laptop y teléfono en un entorno de operación digital",
 		"image": {
@@ -23,19 +24,20 @@
 	},
 	"en": {
 		"meta": {
-			"title": "Digital services, web development, and technology teams | Trigal Media",
-			"description": "Trigal Media supports organizations with digital production, animation, web development, technology capacity, artificial intelligence, and automation to build, communicate, and grow.",
-			"keywords": "digital services Costa Rica, digital production, motion graphics, web development Costa Rica, WordPress, ecommerce, technology teams, artificial intelligence, automation, Trigal Media",
+			"title": "Digital services to sell, serve, and operate better | Trigal Media",
+			"description": "Websites, e-commerce, automation, artificial intelligence, and technical teams for businesses and organizations. Choose the outcome you need and let’s talk.",
+			"keywords": "digital services Costa Rica, web development Costa Rica, ecommerce, WordPress, automation, WhatsApp, artificial intelligence, technology teams, Trigal Media",
 			"ogImageAlt": "Person working on a laptop in a Trigal Media digital operations setting"
 		},
 		"backLabel": "← Back to home",
 		"backHref": "/",
 		"eyebrow": "Services",
-		"title": "Digital capabilities to turn opportunities into results.",
-		"text": "We combine strategy, design, content, and development to help organizations communicate better, operate with clarity, and grow on a solid technology foundation.",
-		"primaryCta": "Let’s talk about your project",
+		"title": "Choose the outcome you need to achieve",
+		"text": "We create websites, e-commerce, automations, and custom software. We integrate artificial intelligence when it helps you respond faster, automate tasks, or make better decisions.",
+		"note": "No commitment. We start by understanding your need and tell you if there is a suitable solution.",
+		"primaryCta": "Tell us what you want to improve",
 		"primaryHref": "/#contacto",
-		"secondaryCta": "Explore capabilities",
+		"secondaryCta": "See solutions",
 		"secondaryHref": "#produccion-digital",
 		"visualLabel": "Person working with a laptop and phone in a digital operations setting",
 		"image": {

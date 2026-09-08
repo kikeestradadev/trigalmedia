@@ -7,19 +7,19 @@
 				"number": "01",
 				"theme": "gray",
 				"indexLabel": "Producción digital",
-				"title": "Producción digital para comunicar con claridad en cada canal.",
-				"description": "Creamos piezas visuales y recursos digitales que ayudan a las marcas a mantener consistencia, activar campañas y llegar a sus audiencias con mensajes claros.",
+				"title": "Contenido y campañas para que más personas te encuentren y te entiendan.",
+				"description": "Diseñamos piezas visuales y recursos digitales para que tu oferta se vea clara, consistente y lista para generar consultas o ventas en cada canal.",
 				"placeholder": "Placeholder — composición de banners, redes sociales y piezas digitales de campaña",
 				"image": {
 					"src": "./images/servicios/producciondigital.webp",
 					"alt": "Producción de assets: iluminación, cámara y laptop para fotografiar productos de marca."
 				},
-				"cta": "Hablemos de producción digital",
+				"cta": "Contanos qué querés comunicar",
 				"ctaHref": "/?servicio=produccion-digital#contacto",
 				"items": [
 					{
 						"title": "Publicidad digital",
-						"text": "Diseñamos recursos para campañas que buscan visibilidad, interacción y acciones medibles.",
+						"text": "Diseñamos recursos para campañas que buscan visibilidad, interacción y una acción concreta: una consulta, una visita o una venta.",
 						"image": {
 							"src": "./images/servicios/acordeones/publicidad-digital.webp",
 							"alt": "Persona revisando una grilla de fotografías de producto y lifestyle en monitor y tableta."
@@ -27,7 +27,7 @@
 					},
 					{
 						"title": "Banners HTML5 estáticos y animados",
-						"text": "Piezas gráficas e interactivas para pauta digital: formatos estáticos y animados, responsivos y listos para distintos entornos.",
+						"text": "Banners estáticos y animados, listos para pauta digital, para que tu anuncio se vea bien y invite a dar el siguiente paso.",
 						"image": {
 							"src": "./images/servicios/acordeones/banners-html5-estaticos-animados.webp",
 							"alt": "Diseño de banners HTML5 estáticos y animados sobre un escritorio de trabajo digital."
@@ -40,14 +40,14 @@
 				"number": "02",
 				"theme": "cream",
 				"indexLabel": "Animación 3D y edición audiovisual",
-				"title": "Animación 3D y edición audiovisual para explicar, conectar y permanecer en movimiento.",
-				"description": "Producimos animación digital 3D y edición audiovisual para convertir ideas complejas en mensajes claros, atractivos y fáciles de recordar.",
+				"title": "Video y animación para explicar tu oferta con claridad y quedarte en la mente de quien te ve.",
+				"description": "Producimos animación 3D y video para convertir ideas complejas en mensajes claros, atractivos y fáciles de compartir.",
 				"placeholder": "Placeholder — grabación de producto, estudio y edición audiovisual",
 				"image": {
 					"src": "./images/servicios/contenidomovimiento.webp",
 					"alt": "Grabación de contenido de producto con un teléfono en trípode, laptop y storyboard sobre la mesa."
 				},
-				"cta": "Hablemos de animación y edición audiovisual",
+				"cta": "Evaluemos tu idea o proceso",
 				"ctaHref": "/?servicio=animacion-audiovisual#contacto",
 				"groups": [
 					{
@@ -55,7 +55,7 @@
 						"items": [
 							{
 								"title": "Animación digital 3D",
-								"text": "Recursos tridimensionales para productos, espacios, conceptos y experiencias de marca.",
+								"text": "Recursos tridimensionales para mostrar productos, espacios o ideas de forma más clara y memorable.",
 								"image": {
 									"src": "./images/servicios/acordeones/animacion-digital-3d.webp",
 									"alt": "Persona modelando un objeto tridimensional en pantalla junto a un prototipo físico."
@@ -68,7 +68,7 @@
 						"items": [
 							{
 								"title": "Estudio de grabación y producción",
-								"text": "Planificamos y producimos en estudio: iluminación, captura, dirección y recursos para obtener material listo para editar.",
+								"text": "Planificamos y producimos en estudio para que tengas material listo para editar, publicar y usar en tus canales.",
 								"image": {
 									"src": "./images/servicios/acordeones/estudio-grabacion-produccion.webp",
 									"alt": "Estudio de grabación y producción con iluminación, cámara y equipo listo para capturar."
@@ -76,7 +76,7 @@
 							},
 							{
 								"title": "Producción de video",
-								"text": "Producimos video para documentales, redes sociales y otros formatos, con un enfoque claro en el mensaje, el ritmo y el canal donde se va a publicar.",
+								"text": "Producimos video para documentales, redes y otros formatos, con un mensaje claro y pensado para el canal donde lo vas a publicar.",
 								"image": {
 									"src": "./images/servicios/acordeones/produccion-video.webp",
 									"alt": "Producción de video en un entorno de trabajo con cámara, monitor y material de edición."
@@ -91,14 +91,14 @@
 				"number": "03",
 				"theme": "navy",
 				"indexLabel": "Diseño y desarrollo web",
-				"title": "Sitios y plataformas creados para vender, operar y evolucionar.",
-				"description": "Diseñamos y construimos experiencias web que integran estrategia, usabilidad, tecnología y operación para resolver necesidades reales de negocio.",
+				"title": "Atraé y convertí más clientes",
+				"description": "Creamos sitios web, tiendas en línea y experiencias de contacto que hacen más fácil que una persona entienda tu oferta, confíe y avance hacia una compra o consulta.",
 				"placeholder": "Placeholder — laptop y teléfono mostrando una plataforma web con flujos de datos",
 				"image": {
 					"src": "./images/servicios/sitiosplataformas.webp",
 					"alt": "Dos personas revisando en laptop y tableta el diseño de una plataforma o sitio web."
 				},
-				"cta": "Hablemos de desarrollo web",
+				"cta": "Contanos qué querés mejorar",
 				"ctaHref": "/?servicio=desarrollo-web#contacto",
 				"groups": [
 					{
@@ -106,7 +106,7 @@
 						"items": [
 							{
 								"title": "Sitios web profesionales",
-								"text": "Sitios claros y confiables para explicar lo que hace su organización, generar confianza y convertir visitas en oportunidades.",
+								"text": "Sitios claros y confiables para explicar lo que hacés, generar confianza y convertir visitas en consultas o ventas.",
 								"image": {
 									"src": "./images/servicios/acordeones/sitios-web-profesionales.webp",
 									"alt": "Dos personas revisando en un monitor el diseño de un sitio web profesional."
@@ -114,7 +114,7 @@
 							},
 							{
 								"title": "WordPress y gestión de contenido",
-								"text": "Sitios administrables para que su equipo pueda actualizar contenido sin depender de desarrollo para cada cambio.",
+								"text": "Sitios administrables para que tu equipo pueda actualizar contenido sin depender de desarrollo para cada cambio.",
 								"image": {
 									"src": "./images/servicios/acordeones/wordpress-gestion-contenido.webp",
 									"alt": "Persona administrando contenido de un sitio WordPress desde una laptop."
@@ -122,7 +122,7 @@
 							},
 							{
 								"title": "Ecommerce",
-								"text": "Canales de venta en línea pensados para mostrar productos, cobrar, gestionar pedidos y acompañar a cada cliente.",
+								"text": "Canales de venta en línea para mostrar productos, cobrar, gestionar pedidos y acompañar a cada cliente.",
 								"image": {
 									"src": "./images/servicios/acordeones/ecommerce.webp",
 									"alt": "Canal de venta en línea con productos, pedidos y flujo de compra en pantalla."
@@ -130,7 +130,7 @@
 							},
 							{
 								"title": "Integraciones de pago",
-								"text": "Conectamos pasarelas de pago locales e internacionales al flujo real de venta y operación de su negocio.",
+								"text": "Conectamos pasarelas de pago locales e internacionales al flujo real de venta y operación de tu negocio.",
 								"image": {
 									"src": "./images/servicios/acordeones/integraciones-pago.webp",
 									"alt": "Integración de pagos en un flujo digital de cobro y operación."
@@ -143,7 +143,7 @@
 						"items": [
 							{
 								"title": "Aplicaciones web",
-								"text": "Herramientas a medida para ordenar procesos, centralizar información y facilitar el trabajo de equipos y clientes.",
+								"text": "Herramientas a medida para ordenar procesos, centralizar información y facilitar el trabajo de tu equipo y tus clientes.",
 								"image": {
 									"src": "./images/servicios/acordeones/experiencia-usuario-diseno-interfaz.webp",
 									"alt": "Persona trabajando en una aplicación web a medida sobre una laptop."
@@ -151,7 +151,7 @@
 							},
 							{
 								"title": "Experiencia de usuario y diseño de interfaz",
-								"text": "Definimos recorridos, pantallas y decisiones visuales para que cada interacción resulte clara y útil.",
+								"text": "Definimos recorridos, pantallas y decisiones visuales para que cada interacción resulte clara y útil para quien te visita.",
 								"image": {
 									"src": "./images/servicios/acordeones/aplicaciones-web.webp",
 									"alt": "Diseño de interfaz y experiencia de usuario con pantallas y recorridos en revisión."
@@ -174,14 +174,14 @@
 				"number": "04",
 				"theme": "gray",
 				"indexLabel": "Equipos extendidos y capacidad tecnológica",
-				"title": "Capacidad técnica para avanzar sin sobredimensionar su equipo.",
-				"description": "Integramos perfiles especializados para complementar equipos internos, acelerar entregas y resolver retos de diseño, desarrollo, calidad y gestión.",
+				"title": "Sumá capacidad técnica cuando la necesitás",
+				"description": "Incorporamos diseño, desarrollo y perfiles especializados para que tu equipo avance sin asumir el costo o la complejidad de contratar una estructura completa.",
 				"placeholder": "Placeholder — equipo multidisciplinario colaborando en un tablero digital",
 				"image": {
 					"src": "./images/servicios/capacidadtecnica.webp",
 					"alt": "Dos personas colaborando frente a un monitor con código y una laptop, con bocetos técnicos en un cuaderno."
 				},
-				"cta": "Hablemos de capacidad tecnológica",
+				"cta": "Solicitá un diagnóstico inicial",
 				"ctaHref": "/?servicio=equipos#contacto",
 				"groups": [
 					{
@@ -189,7 +189,7 @@
 						"items": [
 							{
 								"title": "Outsourcing de desarrollo",
-								"text": "Un equipo externo que aporta desarrollo con visibilidad, coordinación y foco en los objetivos del proyecto.",
+								"text": "Un equipo externo que aporta desarrollo con visibilidad, coordinación y foco en los objetivos de tu proyecto.",
 								"image": {
 									"src": "./images/servicios/acordeones/outsourcing-desarrollo.webp",
 									"alt": "Equipo de desarrollo colaborando de forma remota en un proyecto."
@@ -197,7 +197,7 @@
 							},
 							{
 								"title": "Equipos a medida",
-								"text": "Perfiles técnicos seleccionados según el alcance, la tecnología y el tiempo que su organización realmente necesita.",
+								"text": "Perfiles técnicos seleccionados según el alcance, la tecnología y el tiempo que tu negocio realmente necesita.",
 								"image": {
 									"src": "./images/servicios/acordeones/equipos-medida.webp",
 									"alt": "Equipo técnico reunido para definir perfiles y alcance de un proyecto."
@@ -218,7 +218,7 @@
 						"items": [
 							{
 								"title": "Refuerzo técnico",
-								"text": "Apoyo puntual para resolver necesidades de frontend, backend, WordPress, React, Laravel, calidad o integración.",
+								"text": "Apoyo puntual para resolver necesidades de frontend, backend, WordPress, calidad o integración, sin contratar una estructura permanente.",
 								"image": {
 									"src": "./images/servicios/acordeones/refuerzo-tecnico.webp",
 									"alt": "Persona aportando refuerzo técnico frente a un monitor con código."
@@ -226,7 +226,7 @@
 							},
 							{
 								"title": "Integración de talento remoto",
-								"text": "Sumamos perfiles especializados que se integran al ritmo, herramientas y objetivos de su equipo.",
+								"text": "Sumamos perfiles especializados que se integran al ritmo, las herramientas y los objetivos de tu equipo.",
 								"image": {
 									"src": "./images/servicios/acordeones/integracion-talento-remoto.webp",
 									"alt": "Integración de talento remoto colaborando por videollamada y herramientas digitales."
@@ -234,7 +234,7 @@
 							},
 							{
 								"title": "Perfiles especializados",
-								"text": "Acceso a diseño UX/UI, desarrollo, QA y gestión de producto o proyecto según el alcance.",
+								"text": "Acceso a diseño UX/UI, desarrollo, QA y gestión de producto o proyecto según el alcance que necesitás.",
 								"image": {
 									"src": "./images/servicios/acordeones/perfiles-especializados.webp",
 									"alt": "Perfiles especializados de diseño, desarrollo y calidad trabajando en conjunto."
@@ -247,7 +247,7 @@
 						"items": [
 							{
 								"title": "Capacitación y onboarding",
-								"text": "Facilitamos la incorporación de personas, procesos y herramientas para que el trabajo comience con claridad.",
+								"text": "Facilitamos la incorporación de personas, procesos y herramientas para que el trabajo empiece con claridad.",
 								"image": {
 									"src": "./images/servicios/acordeones/capacitacion-onboarding.webp",
 									"alt": "Sesión de capacitación y onboarding con un equipo frente a una laptop."
@@ -262,19 +262,19 @@
 				"number": "05",
 				"theme": "cream",
 				"indexLabel": "Inteligencia artificial y automatización",
-				"title": "Inteligencia artificial integrada en la atención, la operación y el software que construimos.",
-				"description": "La IA no es un complemento: la incorporamos en chatbots, flujos, datos y soluciones a medida para que cada proceso responda con más criterio, menos fricción y mejor información.",
+				"title": "Automatizá tareas y atendé mejor",
+				"description": "Conectamos WhatsApp, formularios, CRM, datos e inteligencia artificial para reducir trabajo manual, responder con rapidez y no perder oportunidades. Integramos IA cuando permite responder más rápido, automatizar tareas o tomar mejores decisiones.",
 				"placeholder": "Placeholder — flujo de automatización conectado entre WhatsApp, CRM, datos y una aplicación web",
 				"image": {
 					"src": "./images/servicios/automatizacion.webp",
 					"alt": "Persona organizando tarjetas y un flujo en la laptop para diseñar un proceso digital."
 				},
-				"cta": "Hablemos de inteligencia artificial",
+				"cta": "Evaluemos tu idea o proceso",
 				"ctaHref": "/?servicio=automatizacion#contacto",
 				"items": [
 					{
 						"title": "WhatsApp Business, chatbots y agentes de IA",
-						"text": "Diseñamos conversaciones y agentes que entienden contexto, ordenan consultas y acompañan a cada cliente desde los canales de mensajería.",
+						"text": "Diseñamos conversaciones y agentes que ordenan consultas, responden con rapidez y acompañan a cada persona desde WhatsApp y otros canales de mensajería.",
 						"image": {
 							"src": "./images/servicios/acordeones/whatsapp-chatbots-agentes-ia.webp",
 							"alt": "Persona usando el teléfono junto a una laptop con burbujas de chat y notificaciones de atención."
@@ -282,7 +282,7 @@
 					},
 					{
 						"title": "Automatización de procesos con IA",
-						"text": "Conectamos tareas, herramientas y modelos de inteligencia artificial para reducir trabajo manual, evitar duplicaciones y mantener la operación en movimiento.",
+						"text": "Conectamos tareas, herramientas y, cuando aporta valor, inteligencia artificial para reducir trabajo manual, evitar duplicaciones y mantener la operación en movimiento.",
 						"image": {
 							"src": "./images/servicios/acordeones/automatizacion-procesos-ia.webp",
 							"alt": "Flujo de automatización de procesos con inteligencia artificial en una laptop."
@@ -290,7 +290,7 @@
 					},
 					{
 						"title": "Integraciones, CRM y datos con inteligencia artificial",
-						"text": "Unimos sistemas y fuentes de información con IA para construir procesos más conectados, medibles y capaces de anticipar lo que el negocio necesita.",
+						"text": "Unimos sistemas y fuentes de información para que tus datos trabajen a favor del negocio y, cuando corresponde, con inteligencia artificial para anticipar lo que necesitás.",
 						"image": {
 							"src": "./images/servicios/acordeones/integraciones-crm-datos-ia.webp",
 							"alt": "Integración de CRM, datos e inteligencia artificial en un tablero digital."
@@ -298,7 +298,7 @@
 					},
 					{
 						"title": "Soluciones a medida con inteligencia artificial",
-						"text": "Desarrollamos plataformas y herramientas propias cuando una necesidad no se resuelve con un producto genérico, con IA integrada desde el diseño.",
+						"text": "Desarrollamos plataformas y herramientas propias cuando una necesidad no se resuelve con un producto genérico. La inteligencia artificial entra solo si ayuda a vender, atender u operar mejor.",
 						"image": {
 							"src": "./images/servicios/acordeones/soluciones-medida-ia.webp",
 							"alt": "Desarrollo de una solución a medida con inteligencia artificial integrada."
@@ -316,14 +316,14 @@
 				"number": "01",
 				"theme": "gray",
 				"indexLabel": "Digital production",
-				"title": "Digital production to communicate clearly on every channel.",
-				"description": "We create visual pieces and digital resources that help brands stay consistent, activate campaigns, and reach their audiences with clear messages.",
+				"title": "Content and campaigns so more people find you and understand your offer.",
+				"description": "We design visual pieces and digital resources so your offer looks clear, consistent, and ready to generate inquiries or sales on every channel.",
 				"placeholder": "Placeholder — composition of banners, social posts, and campaign digital assets",
 				"image": {
 					"src": "./images/servicios/producciondigital.webp",
 					"alt": "Asset production: lighting, camera, and laptop set up to photograph branded products."
 				},
-				"cta": "Let’s talk about digital production",
+				"cta": "Tell us what you want to communicate",
 				"ctaHref": "/?servicio=produccion-digital#contacto",
 				"items": [
 					{
@@ -349,14 +349,14 @@
 				"number": "02",
 				"theme": "cream",
 				"indexLabel": "3D animation and audiovisual editing",
-				"title": "3D animation and audiovisual editing to explain, connect, and stay in motion.",
-				"description": "We produce digital 3D animation and audiovisual editing to turn complex ideas into clearer, more engaging, and easier-to-remember messages.",
+				"title": "Video and animation to explain your offer clearly and stay in people’s minds.",
+				"description": "We produce 3D animation and video to turn complex ideas into clear, engaging, easy-to-share messages.",
 				"placeholder": "Placeholder — product filming, studio work, and audiovisual editing",
 				"image": {
 					"src": "./images/servicios/contenidomovimiento.webp",
 					"alt": "Product content being filmed with a phone on a tripod, a laptop, and a storyboard on the table."
 				},
-				"cta": "Let’s talk about animation and audiovisual editing",
+				"cta": "Let’s evaluate your idea or process",
 				"ctaHref": "/?servicio=animacion-audiovisual#contacto",
 				"groups": [
 					{
@@ -400,14 +400,14 @@
 				"number": "03",
 				"theme": "navy",
 				"indexLabel": "Web design and development",
-				"title": "Sites and platforms built to sell, operate, and evolve.",
-				"description": "We design and build web experiences that bring together strategy, usability, technology, and operations to solve real business needs.",
+				"title": "Attract and convert more customers",
+				"description": "We create websites, online stores, and contact experiences that make it easier for someone to understand your offer, trust it, and move toward a purchase or inquiry.",
 				"placeholder": "Placeholder — laptop and phone showing a web platform with data flows",
 				"image": {
 					"src": "./images/servicios/sitiosplataformas.webp",
 					"alt": "Two people reviewing a website or platform layout on a laptop and a tablet."
 				},
-				"cta": "Let’s talk about web development",
+				"cta": "Tell us what you want to improve",
 				"ctaHref": "/?servicio=desarrollo-web#contacto",
 				"groups": [
 					{
@@ -483,14 +483,14 @@
 				"number": "04",
 				"theme": "gray",
 				"indexLabel": "Extended teams and technology capacity",
-				"title": "Technical capacity to move forward without oversizing your team.",
-				"description": "We bring in specialized profiles to complement internal teams, speed up delivery, and solve design, development, quality, and management challenges.",
+				"title": "Add technical capacity when you need it",
+				"description": "We bring in design, development, and specialized profiles so your team can move forward without taking on the cost or complexity of hiring a full internal structure.",
 				"placeholder": "Placeholder — multidisciplinary team collaborating on a digital board",
 				"image": {
 					"src": "./images/servicios/capacidadtecnica.webp",
 					"alt": "Two people collaborating in front of a code editor and a laptop, with technical sketches in a notebook."
 				},
-				"cta": "Let’s talk about technology capacity",
+				"cta": "Request an initial diagnosis",
 				"ctaHref": "/?servicio=equipos#contacto",
 				"groups": [
 					{
@@ -571,14 +571,14 @@
 				"number": "05",
 				"theme": "cream",
 				"indexLabel": "Artificial intelligence and automation",
-				"title": "Artificial intelligence built into the support, operations, and software we create.",
-				"description": "AI is not an add-on: we weave it into chatbots, workflows, data, and custom solutions so every process can respond with more judgment, less friction, and better information.",
+				"title": "Automate tasks and serve people better",
+				"description": "We connect WhatsApp, forms, CRM, data, and artificial intelligence to reduce manual work, respond quickly, and avoid lost opportunities. We integrate AI when it helps you respond faster, automate tasks, or make better decisions.",
 				"placeholder": "Placeholder — automation flow connecting WhatsApp, CRM, data, and a web application",
 				"image": {
 					"src": "./images/servicios/automatizacion.webp",
 					"alt": "Person arranging cards and a flowchart on a laptop to design a digital process."
 				},
-				"cta": "Let’s talk about artificial intelligence",
+				"cta": "Let’s evaluate your idea or process",
 				"ctaHref": "/?servicio=automatizacion#contacto",
 				"items": [
 					{

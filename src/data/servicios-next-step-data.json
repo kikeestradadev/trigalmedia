@@ -2,11 +2,11 @@
 	"whatsappHref": "https://wa.me/50670118183",
 	"es": {
 		"eyebrow": "Siguiente paso",
-		"title": "Empecemos por entender qué necesita resolver.",
-		"text": "No necesita llegar con una solución definida. Cuéntenos el objetivo, el contexto y el reto; le ayudamos a encontrar el punto de partida adecuado.",
-		"primaryCta": "Hablemos de su proyecto",
+		"title": "Veamos qué necesitás resolver.",
+		"text": "No necesitás llegar con una solución definida. Contanos el objetivo, el contexto y el reto; te ayudamos a encontrar el punto de partida adecuado.",
+		"primaryCta": "Contanos qué querés mejorar",
 		"primaryHref": "/#contacto",
-		"secondaryCta": "Escribir por WhatsApp",
+		"secondaryCta": "Escribinos por WhatsApp y te orientamos",
 		"visualLabel": "Dos personas revisando un mapa de proceso para definir el siguiente paso",
 		"image": {
 			"src": "./images/servicios/capaciddes.webp",
@@ -15,11 +15,11 @@
 	},
 	"en": {
 		"eyebrow": "Next step",
-		"title": "Let’s start by understanding what you need to solve.",
+		"title": "Let’s see what you need to solve.",
 		"text": "You don’t need to arrive with a defined solution. Tell us the goal, the context, and the challenge; we help you find the right starting point.",
-		"primaryCta": "Let’s talk about your project",
+		"primaryCta": "Tell us what you want to improve",
 		"primaryHref": "/#contacto",
-		"secondaryCta": "Message on WhatsApp",
+		"secondaryCta": "Message us on WhatsApp and we’ll guide you",
 		"visualLabel": "Two people reviewing a process map to define the next step",
 		"image": {
 			"src": "./images/servicios/capaciddes.webp",

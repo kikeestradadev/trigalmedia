@@ -3,12 +3,12 @@
 		"id": "propuesta",
 		"eyebrow": "Cómo pensamos",
 		"title": "Empezamos por el negocio, no por la herramienta.",
-		"lead": "Trigal Media entiende primero cómo funciona cada cliente y cómo genera valor. Recién entonces identificamos oportunidades y construimos la solución digital adecuada.",
+		"lead": "Entendemos primero cómo funciona tu negocio y cómo genera valor. Recién entonces identificamos oportunidades y construimos la solución digital adecuada.",
 		"quote": "No desarrollamos tecnología por desarrollar. Construimos soluciones para que negocios con potencial puedan avanzar.",
 		"steps": [
 			{
 				"title": "Entendemos el modelo",
-				"text": "Mapeamos cómo opera el negocio, cómo genera ingresos y cuáles son las restricciones reales."
+				"text": "Mapeamos cómo opera tu negocio, cómo genera ingresos y cuáles son las restricciones reales."
 			},
 			{
 				"title": "Priorizamos oportunidades",
@@ -16,7 +16,7 @@
 			},
 			{
 				"title": "Construimos lo adecuado",
-				"text": "Diseñamos y desarrollamos una solución a la medida del objetivo, no un paquete genérico."
+				"text": "Diseñamos y desarrollamos una solución a la medida de tu objetivo, no un paquete genérico."
 			},
 			{
 				"title": "Acompañamos la evolución",
@@ -28,7 +28,7 @@
 		"id": "propuesta",
 		"eyebrow": "How we think",
 		"title": "We start with the business, not the tool.",
-		"lead": "Trigal Media first understands how each client operates and creates value. Only then do we identify opportunities and build the right digital solution.",
+		"lead": "We first understand how your business works and how it creates value. Only then do we identify opportunities and build the right digital solution.",
 		"quote": "We don’t build technology for its own sake. We build solutions so businesses with potential can move forward.",
 		"steps": [
 			{
