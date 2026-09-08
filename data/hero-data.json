@@ -1,12 +1,13 @@
 {
 	"es": {
-		"eyebrow": "Desarrollo digital para negocios con visión",
-		"title": "Tu socio tecnológico, con la inteligencia artificial como principal aliado.",
-		"text": "Integramos IA en cada solución digital para construir, automatizar y crecer con más claridad y resultados reales.",
-		"primaryCta": "Hablemos de tu proyecto",
+		"eyebrow": "Inteligencia artificial aplicada a negocios",
+		"title": "IA para vender, atender y operar mejor.",
+		"text": "Creamos sitios web, automatizaciones y agentes de IA que ayudan a convertir consultas en oportunidades, responder más rápido y reducir tareas manuales.",
+		"note": "Agentes de IA · WhatsApp · Automatización · Integraciones · Software a medida",
+		"primaryCta": "Hablemos por WhatsApp",
 		"primaryHref": "https://wa.me/50670118183",
-		"secondaryCta": "Explorar servicios",
-		"secondaryHref": "/servicios.html",
+		"secondaryCta": "Ver soluciones con IA",
+		"secondaryHref": "/servicios.html#automatizacion",
 		"visualLabel": "Persona trabajando frente a un tablero digital con datos y conexiones",
 		"image": {
 			"src": "./images/home/home.webp",
@@ -14,13 +15,14 @@
 		}
 	},
 	"en": {
-		"eyebrow": "Digital development for businesses with vision",
-		"title": "Your technology partner, with artificial intelligence as our main ally.",
-		"text": "We integrate AI into every digital solution to build, automate, and grow with more clarity and real results.",
-		"primaryCta": "Let’s talk about your project",
+		"eyebrow": "Artificial intelligence applied to business",
+		"title": "AI to sell, serve, and operate better.",
+		"text": "We create websites, automations, and AI agents that help turn inquiries into opportunities, respond faster, and reduce manual work.",
+		"note": "AI agents · WhatsApp · Automation · Integrations · Custom software",
+		"primaryCta": "Let’s talk on WhatsApp",
 		"primaryHref": "https://wa.me/50670118183",
-		"secondaryCta": "Explore services",
-		"secondaryHref": "/servicios.html",
+		"secondaryCta": "See AI solutions",
+		"secondaryHref": "/servicios.html#automatizacion",
 		"visualLabel": "Person working in front of a digital dashboard with data and connections",
 		"image": {
 			"src": "./images/home/home.webp",

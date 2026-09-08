@@ -1,10 +1,10 @@
 {
 	"es": {
 		"eyebrow": "Alianzas con potencial",
-		"title": "¿Tenés una idea con potencial? Construyámosla con criterio.",
-		"lead": "Además de acompañar a nuestros clientes, buscamos colaborar con emprendimientos e ideas de negocio que necesitan un socio tecnológico para transformar una oportunidad en una solución real, validable y preparada para crecer.",
-		"highlight": "Evaluamos cada oportunidad según su problema, mercado, viabilidad y la forma en que podemos aportar valor como socios tecnológicos.",
-		"cta": "Conversemos sobre tu idea",
+		"title": "¿Buscás un socio tecnológico para validar un nuevo producto digital?",
+		"lead": "Además de vender y ejecutar servicios profesionales para clientes, evaluamos alianzas selectivas con emprendimientos que ya tienen un problema, mercado y compromiso de ejecución definidos.",
+		"highlight": "Esta vía no reemplaza nuestro trabajo por proyecto. Si necesitás un sitio, una automatización o un equipo técnico, empezamos por un servicio. Las alianzas son solo para casos muy específicos, cuando hay un problema real y capacidad de ejecutarlo juntos.",
+		"cta": "Evaluemos tu idea o proceso",
 		"ctaHref": "https://wa.me/50670118183?text=Hola%2C%20quiero%20conversar%20sobre%20una%20idea%20de%20negocio%20y%20una%20posible%20alianza%20tecnol%C3%B3gica.",
 		"visualLabel": "Dos personas colaborando sobre bocetos y una laptop para dar forma a una idea",
 		"image": {
@@ -14,10 +14,10 @@
 	},
 	"en": {
 		"eyebrow": "Alliances with potential",
-		"title": "Do you have an idea with potential? Let’s build it with judgment.",
-		"lead": "In addition to supporting our clients, we look to collaborate with ventures and business ideas that need a technology partner to turn an opportunity into a real, validatable solution that is ready to grow.",
-		"highlight": "We evaluate each opportunity according to its problem, market, viability, and how we can add value as technology partners.",
-		"cta": "Let’s talk about your idea",
+		"title": "Are you looking for a technology partner to validate a new digital product?",
+		"lead": "In addition to selling and delivering professional services for clients, we evaluate selective alliances with ventures that already have a defined problem, market, and commitment to execution.",
+		"highlight": "This path does not replace our project work. If you need a website, an automation, or a technical team, we start with a service. Alliances are only for very specific cases, when there is a real problem and the capacity to execute it together.",
+		"cta": "Let’s evaluate your idea or process",
 		"ctaHref": "https://wa.me/50670118183?text=Hi%2C%20I%20want%20to%20talk%20about%20a%20business%20idea%20and%20a%20possible%20technology%20partnership.",
 		"visualLabel": "Two people collaborating over sketches and a laptop to shape an idea",
 		"image": {

@@ -9,8 +9,8 @@
 		"menuOpen": "Abrir menú de navegación",
 		"menuClose": "Cerrar menú de navegación",
 		"langLabel": "Idioma",
-		"cta": "Hablemos",
-		"ctaAria": "Hablemos por WhatsApp",
+		"cta": "Escribinos",
+		"ctaAria": "Escribinos por WhatsApp",
 		"navLabel": "Principal",
 		"nav": [
 			{ "href": "/#inicio", "label": "Inicio" },
@@ -26,8 +26,8 @@
 		"menuOpen": "Open navigation menu",
 		"menuClose": "Close navigation menu",
 		"langLabel": "Language",
-		"cta": "Let’s talk",
-		"ctaAria": "Let’s talk on WhatsApp",
+		"cta": "Write to us",
+		"ctaAria": "Write to us on WhatsApp",
 		"navLabel": "Primary",
 		"nav": [
 			{ "href": "/#inicio", "label": "Home" },
