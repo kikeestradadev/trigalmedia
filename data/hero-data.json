@@ -1,32 +1,28 @@
 {
 	"es": {
-		"eyebrow": "Inteligencia artificial aplicada a negocios",
-		"title": "IA para vender, atender y operar mejor.",
-		"text": "Creamos sitios web, automatizaciones y agentes de IA que ayudan a convertir consultas en oportunidades, responder más rápido y reducir tareas manuales.",
-		"note": "Agentes de IA · WhatsApp · Automatización · Integraciones · Software a medida",
-		"primaryCta": "Hablemos por WhatsApp",
+		"eyebrow": "Soluciones digitales para negocios",
+		"title": "Más clientes, mejores procesos y tecnología que impulsa tu negocio.",
+		"text": "Creamos y entregamos sitios web, e-commerce, contenido, automatizaciones, soluciones con IA y desarrollo a la medida para ayudarte a atraer, vender y operar mejor.",
+		"primaryCta": "Conversemos sobre tu negocio",
 		"primaryHref": "https://wa.me/50670118183",
-		"secondaryCta": "Ver soluciones con IA",
-		"secondaryHref": "/servicios.html#automatizacion",
-		"visualLabel": "Persona trabajando frente a un tablero digital con datos y conexiones",
+		"secondaryCta": "Conocé nuestras soluciones",
+		"secondaryHref": "#soluciones",
 		"image": {
-			"src": "./images/home/home.webp",
-			"alt": "Persona concentrada frente a un monitor con tableros de datos, gráficos y un mapa, en un espacio de trabajo iluminado por una lámpara."
+			"src": "./images/servicios/nuevosmercados.webp",
+			"alt": "Tres personas de un equipo revisan un teléfono y una laptop junto a productos empacados, mientras deciden cómo vender en línea."
 		}
 	},
 	"en": {
-		"eyebrow": "Artificial intelligence applied to business",
-		"title": "AI to sell, serve, and operate better.",
-		"text": "We create websites, automations, and AI agents that help turn inquiries into opportunities, respond faster, and reduce manual work.",
-		"note": "AI agents · WhatsApp · Automation · Integrations · Custom software",
-		"primaryCta": "Let’s talk on WhatsApp",
+		"eyebrow": "Digital solutions for businesses",
+		"title": "More customers, better processes, and technology that moves your business forward.",
+		"text": "We create and deliver websites, e-commerce, content, automations, AI solutions, and custom development to help you attract, sell, and operate better.",
+		"primaryCta": "Let’s talk about your business",
 		"primaryHref": "https://wa.me/50670118183",
-		"secondaryCta": "See AI solutions",
-		"secondaryHref": "/servicios.html#automatizacion",
-		"visualLabel": "Person working in front of a digital dashboard with data and connections",
+		"secondaryCta": "See our solutions",
+		"secondaryHref": "#soluciones",
 		"image": {
-			"src": "./images/home/home.webp",
-			"alt": "Person focused on a monitor showing data dashboards, charts, and a map, in a workspace lit by a desk lamp."
+			"src": "./images/servicios/nuevosmercados.webp",
+			"alt": "Three teammates review a phone and a laptop next to packed products while deciding how to sell online."
 		}
 	}
 }

@@ -1,187 +1,143 @@
 {
 	"es": {
 		"eyebrow": "Por dónde empezar",
-		"title": "Elegí el resultado que necesitás lograr",
-		"lead": "Tres caminos claros según lo que tu negocio necesita hoy. En todos, el punto de partida es el resultado, no una lista de tecnologías.",
-		"catalogCta": "Ver todas las soluciones",
-		"catalogHref": "/servicios.html",
-		"groups": [
+		"title": "Contanos qué querés mejorar.",
+		"lead": "Empezamos por entender el objetivo de tu negocio y definimos la solución digital más adecuada.",
+		"needs": [
 			{
-				"icon": "presence",
-				"title": "Quiero atraer y convertir más clientes",
-				"text": "Sitio web, e-commerce, campañas, contenido y WhatsApp para convertir interés en consultas o ventas.",
-				"catalogHref": "/servicios.html#desarrollo-web",
-				"items": [
-					{
-						"icon": "website",
-						"title": "Sitios web profesionales",
-						"text": "Explica lo que hacés, genera confianza y convierte visitas en conversaciones."
-					},
-					{
-						"icon": "cms",
-						"title": "WordPress",
-						"text": "Un sitio que tu equipo puede actualizar sin frenar la operación diaria."
-					},
-					{
-						"icon": "commerce",
-						"title": "Ecommerce",
-						"text": "Un canal de venta alineado con cómo cobrás, entregás y das seguimiento."
-					},
-					{
-						"icon": "payments",
-						"title": "Integraciones de pago",
-						"text": "Pagos locales e internacionales conectados al flujo real del negocio."
-					}
-				]
+				"title": "Quiero que más personas conozcan y entiendan mi negocio."
 			},
 			{
-				"icon": "automation",
-				"title": "Quiero automatizar mi negocio con IA",
-				"text": "Agentes de IA, WhatsApp, CRM e integraciones para reducir trabajo manual, atender mejor y no perder oportunidades.",
-				"catalogHref": "/servicios.html#automatizacion",
-				"items": [
-					{
-						"icon": "apps",
-						"title": "Aplicaciones web",
-						"text": "Productos digitales que ordenan un proceso, un servicio o una operación."
-					},
-					{
-						"icon": "chat",
-						"title": "WhatsApp Business y chatbots",
-						"text": "Atención y seguimiento donde ya están tus clientes, con flujos claros."
-					},
-					{
-						"icon": "flow",
-						"title": "Automatización de procesos",
-						"text": "Menos tareas manuales entre las herramientas, equipos y datos que ya usás."
-					},
-					{
-						"icon": "data",
-						"title": "Integraciones, CRM, datos e IA",
-						"text": "Integramos inteligencia artificial cuando permite responder más rápido, automatizar tareas o tomar mejores decisiones."
-					}
-				]
+				"title": "Quiero vender mis productos o servicios en línea."
 			},
 			{
-				"icon": "teams",
-				"title": "Necesito capacidad técnica para mi equipo",
-				"text": "Refuerzo especializado, equipos a medida y desarrollo continuo para avanzar sin construir una estructura interna completa.",
-				"catalogHref": "/servicios.html#equipos",
-				"items": [
-					{
-						"icon": "laptop",
-						"title": "Outsourcing de desarrollo",
-						"text": "Un equipo externo que entrega con visibilidad, no una caja negra."
-					},
-					{
-						"icon": "people",
-						"title": "Equipos a medida",
-						"text": "Los perfiles que el objetivo requiere, por el tiempo que realmente hace falta."
-					},
-					{
-						"icon": "wrench",
-						"title": "Refuerzo técnico",
-						"text": "Apoyo puntual para avanzar sin contratar una estructura permanente."
-					},
-					{
-						"icon": "talent",
-						"title": "Talento según demanda",
-						"text": "Reclutamiento y coordinación de talento técnico cuando el crecimiento lo pide."
-					}
-				]
+				"title": "Quiero atender mejor y ahorrar tiempo."
+			},
+			{
+				"title": "Necesito convertir una idea digital en un proyecto real."
+			}
+		],
+		"areas": [
+			{
+				"label": "Contenido y campañas",
+				"title": "Contenido y campañas para que más personas encuentren, entiendan y recuerden tu negocio.",
+				"text": "Creamos piezas visuales, contenido para campañas y publicidad digital orientada a explicar tu oferta, captar atención y generar interés.",
+				"href": "/servicios.html#produccion-digital",
+				"image": {
+					"src": "./images/servicios/producciondigital.webp",
+					"alt": "Producción de assets: iluminación, cámara y laptop para fotografiar productos de marca."
+				}
+			},
+			{
+				"label": "Video y animación",
+				"title": "Video y animación para explicar tu oferta y quedarte en la mente de quien te ve.",
+				"text": "Desarrollamos piezas audiovisuales y animadas para presentar productos, servicios e ideas de forma clara, atractiva y fácil de recordar.",
+				"href": "/servicios.html#animacion-audiovisual",
+				"image": {
+					"src": "./images/servicios/contenidomovimiento.webp",
+					"alt": "Grabación de contenido de producto con un teléfono en trípode, laptop y storyboard sobre la mesa."
+				}
+			},
+			{
+				"label": "Sitios web y e-commerce",
+				"title": "Sitios web y tiendas en línea que ayudan a tu negocio a vender.",
+				"text": "Creamos páginas web claras y fáciles de administrar, desde sitios informativos y páginas de contenido hasta tiendas en línea con catálogo, proceso de compra, opciones de pago y formularios de consulta.",
+				"href": "/servicios.html#desarrollo-web",
+				"image": {
+					"src": "./images/servicios/sitiosplataformas.webp",
+					"alt": "Dos personas revisando en laptop y tableta el diseño de una plataforma o sitio web."
+				}
+			},
+			{
+				"label": "Desarrollo a la medida",
+				"title": "Desarrollo a la medida para convertir ideas en proyectos reales.",
+				"text": "Impulsamos proyectos digitales que necesitan avanzar con soluciones a la medida, una ejecución organizada y acompañamiento según los objetivos de cada negocio.",
+				"href": "/servicios.html#equipos",
+				"image": {
+					"src": "./images/servicios/capacidadtecnica.webp",
+					"alt": "Dos personas revisan juntas un proyecto digital en un monitor y una laptop."
+				}
+			},
+			{
+				"label": "Automatización e IA",
+				"title": "Automatización e IA para atender mejor y reducir trabajo manual.",
+				"text": "Diseñamos soluciones para ordenar procesos, responder consultas, conectar herramientas y liberar tiempo para que el equipo se enfoque en lo importante.",
+				"href": "/servicios.html#automatizacion",
+				"image": {
+					"src": "./images/servicios/automatizacion.webp",
+					"alt": "Persona organizando tarjetas y un flujo en la laptop para diseñar un proceso digital."
+				}
 			}
 		]
 	},
 	"en": {
 		"eyebrow": "Where to start",
-		"title": "Choose the outcome you need to achieve",
-		"lead": "Three clear paths based on what your business needs today. In all of them, the starting point is the outcome, not a list of technologies.",
-		"catalogCta": "See all solutions",
-		"catalogHref": "/servicios.html",
-		"groups": [
+		"title": "Tell us what you want to improve.",
+		"lead": "We start by understanding your business goal and defining the most suitable digital solution.",
+		"needs": [
 			{
-				"icon": "presence",
-				"title": "I want to attract and convert more customers",
-				"text": "Website, e-commerce, campaigns, content, and WhatsApp to turn interest into inquiries or sales.",
-				"catalogHref": "/servicios.html#desarrollo-web",
-				"items": [
-					{
-						"icon": "website",
-						"title": "Professional websites",
-						"text": "Explain what you do, build trust, and turn visits into conversations."
-					},
-					{
-						"icon": "cms",
-						"title": "WordPress",
-						"text": "A site your team can update without slowing day-to-day operations."
-					},
-					{
-						"icon": "commerce",
-						"title": "Ecommerce",
-						"text": "An online sales channel aligned with how you charge, fulfill, and follow up."
-					},
-					{
-						"icon": "payments",
-						"title": "Payment integrations",
-						"text": "Local and international payments connected to the real business flow."
-					}
-				]
+				"title": "I want more people to know and understand my business."
 			},
 			{
-				"icon": "automation",
-				"title": "I want to automate my business with AI",
-				"text": "AI agents, WhatsApp, CRM, and integrations to reduce manual work, serve people better, and avoid lost opportunities.",
-				"catalogHref": "/servicios.html#automatizacion",
-				"items": [
-					{
-						"icon": "apps",
-						"title": "Web applications",
-						"text": "Digital products that organize a process, a service, or an operation."
-					},
-					{
-						"icon": "chat",
-						"title": "WhatsApp Business and chatbots",
-						"text": "Support and follow-up where your customers already are, with clear flows."
-					},
-					{
-						"icon": "flow",
-						"title": "Process automation",
-						"text": "Fewer manual tasks between the tools, teams, and data you already use."
-					},
-					{
-						"icon": "data",
-						"title": "Integrations, CRM, data, and AI",
-						"text": "We integrate artificial intelligence when it helps you respond faster, automate tasks, or make better decisions."
-					}
-				]
+				"title": "I want to sell my products or services online."
 			},
 			{
-				"icon": "teams",
-				"title": "I need technical capacity for my team",
-				"text": "Specialized reinforcement, tailored teams, and ongoing development to move forward without building a full internal structure.",
-				"catalogHref": "/servicios.html#equipos",
-				"items": [
-					{
-						"icon": "laptop",
-						"title": "Development outsourcing",
-						"text": "An external team that delivers with visibility, not a black box."
-					},
-					{
-						"icon": "people",
-						"title": "Tailored teams",
-						"text": "The mix of profiles the goal requires, for as long as it is actually needed."
-					},
-					{
-						"icon": "wrench",
-						"title": "Technical reinforcement",
-						"text": "Targeted support to move forward without a permanent extra structure."
-					},
-					{
-						"icon": "talent",
-						"title": "Talent on demand",
-						"text": "Recruiting and coordinating technical talent when growth requires it."
-					}
-				]
+				"title": "I want to serve people better and save time."
+			},
+			{
+				"title": "I need to turn a digital idea into a real project."
+			}
+		],
+		"areas": [
+			{
+				"label": "Content and campaigns",
+				"title": "Content and campaigns so more people find, understand, and remember your business.",
+				"text": "We create visual pieces, campaign content, and digital advertising aimed at explaining your offer, capturing attention, and generating interest.",
+				"href": "/servicios.html#produccion-digital",
+				"image": {
+					"src": "./images/servicios/producciondigital.webp",
+					"alt": "Asset production: lighting, camera, and laptop set up to photograph branded products."
+				}
+			},
+			{
+				"label": "Video and animation",
+				"title": "Video and animation to explain your offer and stay in the mind of whoever sees it.",
+				"text": "We develop audiovisual and animated pieces to present products, services, and ideas in a clear, attractive, and memorable way.",
+				"href": "/servicios.html#animacion-audiovisual",
+				"image": {
+					"src": "./images/servicios/contenidomovimiento.webp",
+					"alt": "Product content being filmed with a phone on a tripod, a laptop, and a storyboard on the table."
+				}
+			},
+			{
+				"label": "Websites and e-commerce",
+				"title": "Websites and online stores that help your business sell.",
+				"text": "We create clear pages that are easy to manage, from informational and content sites to online stores with a catalog, checkout, payment options, and inquiry forms.",
+				"href": "/servicios.html#desarrollo-web",
+				"image": {
+					"src": "./images/servicios/sitiosplataformas.webp",
+					"alt": "Two people reviewing a website or platform layout on a laptop and a tablet."
+				}
+			},
+			{
+				"label": "Custom development",
+				"title": "Custom development to turn ideas into real projects.",
+				"text": "We move digital projects forward with tailored solutions, an organized execution, and accompaniment matched to each business’s goals.",
+				"href": "/servicios.html#equipos",
+				"image": {
+					"src": "./images/servicios/capacidadtecnica.webp",
+					"alt": "Two people review a digital project together on a monitor and a laptop."
+				}
+			},
+			{
+				"label": "Automation and AI",
+				"title": "Automation and AI to serve people better and reduce manual work.",
+				"text": "We design solutions to organize processes, answer inquiries, connect tools, and free time so the team can focus on what matters.",
+				"href": "/servicios.html#automatizacion",
+				"image": {
+					"src": "./images/servicios/automatizacion.webp",
+					"alt": "Person arranging cards and a flowchart on a laptop to design a digital process."
+				}
 			}
 		]
 	}

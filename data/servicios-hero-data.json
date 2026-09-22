@@ -1,16 +1,16 @@
 {
 	"es": {
 		"meta": {
-			"title": "Servicios digitales para vender, atender y operar mejor | Trigal Media",
-			"description": "Sitios web, e-commerce, automatización, inteligencia artificial y equipos técnicos para negocios y organizaciones. Elegí el resultado que necesitás lograr y conversemos.",
-			"keywords": "servicios digitales Costa Rica, desarrollo web Costa Rica, ecommerce, WordPress, automatización, WhatsApp, inteligencia artificial, equipos tecnológicos, Trigal Media",
+			"title": "Servicios digitales para negocios | Trigal Media",
+			"description": "Sitios web, e-commerce, contenido, automatizaciones, soluciones con IA y desarrollo a la medida. Empezamos por el objetivo de tu negocio.",
+			"keywords": "servicios digitales, sitios web, ecommerce, contenido, campañas, video, automatización, inteligencia artificial aplicada, desarrollo a medida, Trigal Media",
 			"ogImageAlt": "Persona trabajando con una laptop en un entorno de operación digital de Trigal Media"
 		},
 		"backLabel": "← Volver al inicio",
 		"backHref": "/",
 		"eyebrow": "Servicios",
-		"title": "Elegí el resultado que necesitás lograr",
-		"text": "Creamos sitios web, e-commerce, automatizaciones y software a medida. Integramos inteligencia artificial cuando permite responder más rápido, automatizar tareas o tomar mejores decisiones.",
+		"title": "Soluciones digitales para lo que tu negocio necesita mejorar",
+		"text": "Creamos y entregamos sitios web, e-commerce, contenido, automatizaciones, soluciones con IA y desarrollo a la medida. Empezamos por el objetivo de tu negocio.",
 		"note": "Sin compromiso. Empezamos entendiendo tu necesidad y te indicamos si hay una solución adecuada.",
 		"primaryCta": "Contanos qué querés mejorar",
 		"primaryHref": "/#contacto",
@@ -24,16 +24,16 @@
 	},
 	"en": {
 		"meta": {
-			"title": "Digital services to sell, serve, and operate better | Trigal Media",
-			"description": "Websites, e-commerce, automation, artificial intelligence, and technical teams for businesses and organizations. Choose the outcome you need and let’s talk.",
-			"keywords": "digital services Costa Rica, web development Costa Rica, ecommerce, WordPress, automation, WhatsApp, artificial intelligence, technology teams, Trigal Media",
+			"title": "Digital services for businesses | Trigal Media",
+			"description": "Websites, e-commerce, content, automations, AI solutions, and custom development. We start with your business goal.",
+			"keywords": "digital services, websites, ecommerce, content, campaigns, video, automation, applied artificial intelligence, custom development, Trigal Media",
 			"ogImageAlt": "Person working on a laptop in a Trigal Media digital operations setting"
 		},
 		"backLabel": "← Back to home",
 		"backHref": "/",
 		"eyebrow": "Services",
-		"title": "Choose the outcome you need to achieve",
-		"text": "We create websites, e-commerce, automations, and custom software. We integrate artificial intelligence when it helps you respond faster, automate tasks, or make better decisions.",
+		"title": "Digital solutions for what your business needs to improve",
+		"text": "We create and deliver websites, e-commerce, content, automations, AI solutions, and custom development. We start with your business goal.",
 		"note": "No commitment. We start by understanding your need and tell you if there is a suitable solution.",
 		"primaryCta": "Tell us what you want to improve",
 		"primaryHref": "/#contacto",

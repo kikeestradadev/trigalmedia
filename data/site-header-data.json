@@ -16,7 +16,7 @@
 			{ "href": "/#inicio", "label": "Inicio" },
 			{ "href": "/servicios.html", "label": "Servicios" },
 			{ "href": "/#como-trabajamos", "label": "Cómo trabajamos" },
-			{ "href": "/#portafolio", "label": "Portafolio" },
+			{ "href": "/portafolio.html", "label": "Portafolio" },
 			{ "href": "/#preguntas-frecuentes", "label": "Preguntas frecuentes" },
 			{ "href": "/#contacto", "label": "Contacto" }
 		]
@@ -33,7 +33,7 @@
 			{ "href": "/#inicio", "label": "Home" },
 			{ "href": "/servicios.html", "label": "Services" },
 			{ "href": "/#como-trabajamos", "label": "How we work" },
-			{ "href": "/#portafolio", "label": "Portfolio" },
+			{ "href": "/portafolio.html", "label": "Portfolio" },
 			{ "href": "/#preguntas-frecuentes", "label": "FAQ" },
 			{ "href": "/#contacto", "label": "Contact" }
 		]
