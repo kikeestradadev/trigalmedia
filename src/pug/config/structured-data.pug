@@ -36,12 +36,15 @@
 		const items = grouped.length ? grouped : (category.items || [])
 		return items.map(seoServiceOffer)
 	}
-	const seoHomeCatalog = (servicesData.es.groups || []).map((group, index) => ({
-		'@type': 'OfferCatalog',
-		position: index + 1,
-		name: group.title,
-		itemListElement: (group.items || []).map(seoServiceOffer)
-	}))
+	const seoHomeCatalog = (servicesData.es.areas || []).map((area, index) =>
+		seoServiceOffer(
+			{
+				title: area.label,
+				text: area.text
+			},
+			index
+		)
+	)
 	const seoServiciosCatalog = (serviciosCatalogData.es.categories || []).map((category, index) => ({
 		'@type': 'OfferCatalog',
 		position: index + 1,
@@ -62,7 +65,7 @@
 	const seoPageImageId = seoCanonical.replace(/\/$/, '') + '#primaryimage'
 	const seoBreadcrumbId = seoCanonical.replace(/\/$/, '') + '#breadcrumb'
 	const seoWebpage = {
-		'@type': currentPage === 'servicios' ? 'CollectionPage' : 'WebPage',
+		'@type': currentPage === 'servicios' || currentPage === 'portafolio' ? 'CollectionPage' : 'WebPage',
 		'@id': seoWebpageId,
 		url: seoCanonical,
 		name: seoTitle,
@@ -77,6 +80,9 @@
 	if (currentPage === 'servicios') {
 		seoWebpage.breadcrumb = { '@id': seoBreadcrumbId }
 		seoWebpage.mainEntity = { '@id': seoCatalogId }
+	}
+	if (currentPage === 'portafolio') {
+		seoWebpage.breadcrumb = { '@id': seoBreadcrumbId }
 	}
 	const seoGraph = [
 		{
@@ -178,6 +184,26 @@
 					'@type': 'ListItem',
 					position: 2,
 					name: 'Servicios',
+					item: seoCanonical
+				}
+			]
+		})
+	}
+	if (currentPage === 'portafolio') {
+		seoGraph.push({
+			'@type': 'BreadcrumbList',
+			'@id': seoBreadcrumbId,
+			itemListElement: [
+				{
+					'@type': 'ListItem',
+					position: 1,
+					name: 'Inicio',
+					item: seoBase + '/'
+				},
+				{
+					'@type': 'ListItem',
+					position: 2,
+					name: 'Portafolio',
 					item: seoCanonical
 				}
 			]

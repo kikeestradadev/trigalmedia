@@ -26,7 +26,7 @@
 						}
 					},
 					{
-						"title": "Banners HTML5 estáticos y animados",
+						"title": "Banners estáticos y animados",
 						"text": "Banners estáticos y animados, listos para pauta digital, para que tu anuncio se vea bien y invite a dar el siguiente paso.",
 						"image": {
 							"src": "./images/servicios/acordeones/banners-html5-estaticos-animados.webp",
@@ -113,11 +113,11 @@
 								}
 							},
 							{
-								"title": "WordPress y gestión de contenido",
-								"text": "Sitios administrables para que tu equipo pueda actualizar contenido sin depender de desarrollo para cada cambio.",
+								"title": "Sitios fáciles de administrar",
+								"text": "Sitios que tu equipo puede actualizar sin depender de un desarrollo para cada cambio.",
 								"image": {
 									"src": "./images/servicios/acordeones/wordpress-gestion-contenido.webp",
-									"alt": "Persona administrando contenido de un sitio WordPress desde una laptop."
+									"alt": "Persona actualizando el contenido de un sitio desde una laptop."
 								}
 							},
 							{
@@ -173,39 +173,39 @@
 				"id": "equipos",
 				"number": "04",
 				"theme": "gray",
-				"indexLabel": "Equipos extendidos y capacidad tecnológica",
-				"title": "Sumá capacidad técnica cuando la necesitás",
-				"description": "Incorporamos diseño, desarrollo y perfiles especializados para que tu equipo avance sin asumir el costo o la complejidad de contratar una estructura completa.",
+				"indexLabel": "Desarrollo a la medida",
+				"title": "Convertí una idea digital en un proyecto real.",
+				"description": "Impulsamos proyectos digitales que necesitan avanzar con soluciones a la medida, una ejecución organizada y acompañamiento según los objetivos de cada negocio.",
 				"placeholder": "Placeholder — equipo multidisciplinario colaborando en un tablero digital",
 				"image": {
 					"src": "./images/servicios/capacidadtecnica.webp",
-					"alt": "Dos personas colaborando frente a un monitor con código y una laptop, con bocetos técnicos en un cuaderno."
+					"alt": "Dos personas revisan juntas un proyecto digital en un monitor y una laptop."
 				},
-				"cta": "Solicitá un diagnóstico inicial",
+				"cta": "Contanos qué querés resolver",
 				"ctaHref": "/?servicio=equipos#contacto",
 				"groups": [
 					{
-						"title": "Colaboración y capacidad",
+						"title": "Entrega del proyecto",
 						"items": [
 							{
-								"title": "Outsourcing de desarrollo",
-								"text": "Un equipo externo que aporta desarrollo con visibilidad, coordinación y foco en los objetivos de tu proyecto.",
+								"title": "Desarrollo del proyecto",
+								"text": "Desarrollamos y entregamos la solución con comunicación y revisiones claras, según el alcance acordado.",
 								"image": {
 									"src": "./images/servicios/acordeones/outsourcing-desarrollo.webp",
 									"alt": "Equipo de desarrollo colaborando de forma remota en un proyecto."
 								}
 							},
 							{
-								"title": "Equipos a medida",
-								"text": "Perfiles técnicos seleccionados según el alcance, la tecnología y el tiempo que tu negocio realmente necesita.",
+								"title": "Alcance a la medida",
+								"text": "Definimos la solución y el alcance según el objetivo, las restricciones y el tiempo del proyecto.",
 								"image": {
 									"src": "./images/servicios/acordeones/equipos-medida.webp",
 									"alt": "Equipo técnico reunido para definir perfiles y alcance de un proyecto."
 								}
 							},
 							{
-								"title": "Equipos de largo plazo",
-								"text": "Construimos colaboraciones estables para iniciativas que requieren continuidad y evolución técnica.",
+								"title": "Continuidad",
+								"text": "Cuando el proyecto lo requiere, seguimos con soporte, mejoras y evolución posterior.",
 								"image": {
 									"src": "./images/servicios/acordeones/equipos-largo-plazo.webp",
 									"alt": "Colaboración de largo plazo entre un equipo técnico y un cliente."
@@ -214,27 +214,27 @@
 						]
 					},
 					{
-						"title": "Refuerzo e integración",
+						"title": "Acompañamiento",
 						"items": [
 							{
-								"title": "Refuerzo técnico",
-								"text": "Apoyo puntual para resolver necesidades de frontend, backend, WordPress, calidad o integración, sin contratar una estructura permanente.",
+								"title": "Acompañamiento técnico",
+								"text": "Apoyo para avanzar en una necesidad concreta del proyecto, con una ejecución ordenada.",
 								"image": {
 									"src": "./images/servicios/acordeones/refuerzo-tecnico.webp",
 									"alt": "Persona aportando refuerzo técnico frente a un monitor con código."
 								}
 							},
 							{
-								"title": "Integración de talento remoto",
-								"text": "Sumamos perfiles especializados que se integran al ritmo, las herramientas y los objetivos de tu equipo.",
+								"title": "Ejecución coordinada",
+								"text": "El trabajo avanza con coordinación clara, alineada a los objetivos y al ritmo del negocio.",
 								"image": {
 									"src": "./images/servicios/acordeones/integracion-talento-remoto.webp",
 									"alt": "Integración de talento remoto colaborando por videollamada y herramientas digitales."
 								}
 							},
 							{
-								"title": "Perfiles especializados",
-								"text": "Acceso a diseño UX/UI, desarrollo, QA y gestión de producto o proyecto según el alcance que necesitás.",
+								"title": "Experiencia según el alcance",
+								"text": "El proyecto cuenta con la experiencia técnica que el alcance necesita para llegar a una entrega.",
 								"image": {
 									"src": "./images/servicios/acordeones/perfiles-especializados.webp",
 									"alt": "Perfiles especializados de diseño, desarrollo y calidad trabajando en conjunto."
@@ -243,11 +243,11 @@
 						]
 					},
 					{
-						"title": "Incorporación",
+						"title": "Inicio de uso",
 						"items": [
 							{
-								"title": "Capacitación y onboarding",
-								"text": "Facilitamos la incorporación de personas, procesos y herramientas para que el trabajo empiece con claridad.",
+								"title": "Puesta en marcha",
+								"text": "Acompañamos el inicio de uso de la solución para que tu equipo pueda operarla con claridad.",
 								"image": {
 									"src": "./images/servicios/acordeones/capacitacion-onboarding.webp",
 									"alt": "Sesión de capacitación y onboarding con un equipo frente a una laptop."
@@ -261,20 +261,20 @@
 				"id": "automatizacion",
 				"number": "05",
 				"theme": "cream",
-				"indexLabel": "Inteligencia artificial y automatización",
-				"title": "Automatizá tareas y atendé mejor",
-				"description": "Conectamos WhatsApp, formularios, CRM y datos para reducir trabajo manual, responder más rápido y no perder oportunidades. Integramos IA cuando aporta valor real al proceso.",
+				"indexLabel": "Automatización e IA",
+				"title": "Atendé mejor y reducí trabajo manual.",
+				"description": "Diseñamos soluciones para ordenar procesos, responder consultas, conectar herramientas y liberar tiempo. Aplicamos IA cuando aporta valor al proceso.",
 				"placeholder": "Placeholder — flujo de automatización conectado entre WhatsApp, CRM, datos y una aplicación web",
 				"image": {
 					"src": "./images/servicios/automatizacion.webp",
 					"alt": "Persona organizando tarjetas y un flujo en la laptop para diseñar un proceso digital."
 				},
-				"cta": "Explorá soluciones con IA",
+				"cta": "Contanos qué querés mejorar",
 				"ctaHref": "/?servicio=automatizacion#contacto",
 				"items": [
 					{
-						"title": "WhatsApp Business, chatbots y agentes de IA",
-						"text": "Diseñamos conversaciones y agentes que ordenan consultas, responden con rapidez y acompañan a cada persona desde WhatsApp y otros canales de mensajería.",
+						"title": "WhatsApp y atención asistida",
+						"text": "Diseñamos la atención para ordenar consultas, responder con más rapidez y acompañar a cada persona desde WhatsApp y otros canales.",
 						"image": {
 							"src": "./images/servicios/acordeones/whatsapp-chatbots-agentes-ia.webp",
 							"alt": "Persona usando el teléfono junto a una laptop con burbujas de chat y notificaciones de atención."
@@ -289,16 +289,16 @@
 						}
 					},
 					{
-						"title": "Integraciones, CRM y datos con inteligencia artificial",
-						"text": "Unimos sistemas y fuentes de información para que tus datos trabajen a favor del negocio y, cuando corresponde, con inteligencia artificial para anticipar lo que necesitás.",
+						"title": "Integraciones y datos",
+						"text": "Conectamos las herramientas y la información del negocio para que el proceso tenga los datos que necesita.",
 						"image": {
 							"src": "./images/servicios/acordeones/integraciones-crm-datos-ia.webp",
 							"alt": "Integración de CRM, datos e inteligencia artificial en un tablero digital."
 						}
 					},
 					{
-						"title": "Soluciones a medida con inteligencia artificial",
-						"text": "Desarrollamos plataformas y herramientas propias cuando una necesidad no se resuelve con un producto genérico. La inteligencia artificial entra solo si ayuda a vender, atender u operar mejor.",
+						"title": "Soluciones a medida",
+						"text": "Desarrollamos herramientas propias cuando una necesidad no se resuelve con un producto genérico. La IA entra solo si ayuda a atender, vender u operar mejor.",
 						"image": {
 							"src": "./images/servicios/acordeones/soluciones-medida-ia.webp",
 							"alt": "Desarrollo de una solución a medida con inteligencia artificial integrada."
@@ -335,7 +335,7 @@
 						}
 					},
 					{
-						"title": "Static and animated HTML5 banners",
+						"title": "Static and animated banners",
 						"text": "Graphic and interactive pieces for digital media: static and animated formats, responsive and ready for different environments.",
 						"image": {
 							"src": "./images/servicios/acordeones/banners-html5-estaticos-animados.webp",
@@ -422,11 +422,11 @@
 								}
 							},
 							{
-								"title": "WordPress and content management",
-								"text": "Manageable sites so your team can update content without depending on development for every change.",
+								"title": "Sites that are easy to manage",
+								"text": "Sites your team can update without depending on a development cycle for every change.",
 								"image": {
 									"src": "./images/servicios/acordeones/wordpress-gestion-contenido.webp",
-									"alt": "Person managing WordPress content from a laptop."
+									"alt": "Person updating a website’s content from a laptop."
 								}
 							},
 							{
@@ -482,39 +482,39 @@
 				"id": "equipos",
 				"number": "04",
 				"theme": "gray",
-				"indexLabel": "Extended teams and technology capacity",
-				"title": "Add technical capacity when you need it",
-				"description": "We bring in design, development, and specialized profiles so your team can move forward without taking on the cost or complexity of hiring a full internal structure.",
+				"indexLabel": "Custom development",
+				"title": "Turn a digital idea into a real project.",
+				"description": "We move digital projects forward with tailored solutions, an organized execution, and accompaniment matched to each business’s goals.",
 				"placeholder": "Placeholder — multidisciplinary team collaborating on a digital board",
 				"image": {
 					"src": "./images/servicios/capacidadtecnica.webp",
-					"alt": "Two people collaborating in front of a code editor and a laptop, with technical sketches in a notebook."
+					"alt": "Two people review a digital project together on a monitor and a laptop."
 				},
-				"cta": "Request an initial diagnosis",
+				"cta": "Tell us what you need to solve",
 				"ctaHref": "/?servicio=equipos#contacto",
 				"groups": [
 					{
-						"title": "Collaboration and capacity",
+						"title": "Project delivery",
 						"items": [
 							{
-								"title": "Development outsourcing",
-								"text": "An external team that brings development with visibility, coordination, and focus on the project goals.",
+								"title": "Project development",
+								"text": "We develop and deliver the solution with clear communication and reviews, according to the agreed scope.",
 								"image": {
 									"src": "./images/servicios/acordeones/outsourcing-desarrollo.webp",
 									"alt": "Development team collaborating remotely on a project."
 								}
 							},
 							{
-								"title": "Tailored teams",
-								"text": "Technical profiles selected according to the scope, technology, and time your organization actually needs.",
+								"title": "Scope matched to the project",
+								"text": "We define the solution and the scope according to the goal, the constraints, and the time of the project.",
 								"image": {
 									"src": "./images/servicios/acordeones/equipos-medida.webp",
 									"alt": "Technical team meeting to define profiles and project scope."
 								}
 							},
 							{
-								"title": "Long-term teams",
-								"text": "We build stable collaborations for initiatives that need continuity and technical evolution.",
+								"title": "Continuity",
+								"text": "When the project requires it, we continue with support, improvements, and later evolution.",
 								"image": {
 									"src": "./images/servicios/acordeones/equipos-largo-plazo.webp",
 									"alt": "Long-term collaboration between a technical team and a client."
@@ -523,27 +523,27 @@
 						]
 					},
 					{
-						"title": "Reinforcement and integration",
+						"title": "Accompaniment",
 						"items": [
 							{
-								"title": "Technical reinforcement",
-								"text": "Targeted support to solve frontend, backend, WordPress, React, Laravel, quality, or integration needs.",
+								"title": "Technical accompaniment",
+								"text": "Support to move a concrete project need forward, with an orderly execution.",
 								"image": {
 									"src": "./images/servicios/acordeones/refuerzo-tecnico.webp",
 									"alt": "Person providing technical reinforcement in front of a code editor."
 								}
 							},
 							{
-								"title": "Remote talent integration",
-								"text": "We add specialized profiles that fit the pace, tools, and goals of your team.",
+								"title": "Coordinated execution",
+								"text": "The work moves forward with clear coordination, aligned to the goals and the pace of the business.",
 								"image": {
 									"src": "./images/servicios/acordeones/integracion-talento-remoto.webp",
 									"alt": "Remote talent collaborating by video call and digital tools."
 								}
 							},
 							{
-								"title": "Specialized profiles",
-								"text": "Access to UX/UI design, development, QA, and product or project management according to the scope.",
+								"title": "Experience matched to the scope",
+								"text": "The project has the technical experience the scope needs in order to reach a delivery.",
 								"image": {
 									"src": "./images/servicios/acordeones/perfiles-especializados.webp",
 									"alt": "Specialized design, development, and quality profiles working together."
@@ -552,11 +552,11 @@
 						]
 					},
 					{
-						"title": "Onboarding",
+						"title": "Getting started",
 						"items": [
 							{
-								"title": "Training and onboarding",
-								"text": "We support the adoption of people, processes, and tools so the work starts with clarity.",
+								"title": "Launch support",
+								"text": "We support the start of use so your team can operate the solution with clarity.",
 								"image": {
 									"src": "./images/servicios/acordeones/capacitacion-onboarding.webp",
 									"alt": "Training and onboarding session with a team around a laptop."
@@ -570,20 +570,20 @@
 				"id": "automatizacion",
 				"number": "05",
 				"theme": "cream",
-				"indexLabel": "Artificial intelligence and automation",
-				"title": "Automate tasks and serve people better",
-				"description": "We connect WhatsApp, forms, CRM, and data to reduce manual work, respond faster, and avoid lost opportunities. We integrate AI when it adds real value to the process.",
+				"indexLabel": "Automation and AI",
+				"title": "Serve people better and reduce manual work.",
+				"description": "We design solutions to organize processes, answer inquiries, connect tools, and free up time. We apply AI when it adds value to the process.",
 				"placeholder": "Placeholder — automation flow connecting WhatsApp, CRM, data, and a web application",
 				"image": {
 					"src": "./images/servicios/automatizacion.webp",
 					"alt": "Person arranging cards and a flowchart on a laptop to design a digital process."
 				},
-				"cta": "Explore AI solutions",
+				"cta": "Tell us what you want to improve",
 				"ctaHref": "/?servicio=automatizacion#contacto",
 				"items": [
 					{
-						"title": "WhatsApp Business, chatbots, and AI agents",
-						"text": "We design conversations and agents that understand context, organize inquiries, and accompany every customer from messaging channels.",
+						"title": "WhatsApp and assisted support",
+						"text": "We design support that organizes inquiries, answers more quickly, and stays with each person from WhatsApp and other channels.",
 						"image": {
 							"src": "./images/servicios/acordeones/whatsapp-chatbots-agentes-ia.webp",
 							"alt": "Person using a phone next to a laptop with chat bubbles and support notifications."
@@ -598,16 +598,16 @@
 						}
 					},
 					{
-						"title": "Integrations, CRM, and data with artificial intelligence",
-						"text": "We bring systems and information sources together with AI to build processes that are more connected, measurable, and able to anticipate what the business needs.",
+						"title": "Integrations and data",
+						"text": "We connect the business tools and information so the process has the data it needs.",
 						"image": {
 							"src": "./images/servicios/acordeones/integraciones-crm-datos-ia.webp",
 							"alt": "CRM, data, and artificial intelligence integration on a digital dashboard."
 						}
 					},
 					{
-						"title": "Custom solutions with artificial intelligence",
-						"text": "We develop platforms and tools when a specific need cannot be solved with a generic product, with AI integrated from the design—not added later.",
+						"title": "Custom solutions",
+						"text": "We develop purpose-built tools when a need cannot be solved with a generic product. AI is included only if it helps you serve, sell, or operate better.",
 						"image": {
 							"src": "./images/servicios/acordeones/soluciones-medida-ia.webp",
 							"alt": "Custom solution being developed with artificial intelligence built in."

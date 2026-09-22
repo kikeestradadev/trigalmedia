@@ -1,28 +1,16 @@
 {
 	"es": {
-		"eyebrow": "Alianzas con potencial",
-		"title": "¿Buscás un socio tecnológico para validar un nuevo producto digital?",
-		"lead": "Además de vender y ejecutar servicios profesionales para clientes, evaluamos alianzas selectivas con emprendimientos que ya tienen un problema, mercado y compromiso de ejecución definidos.",
-		"highlight": "Esta vía no reemplaza nuestro trabajo por proyecto. Si necesitás un sitio, una automatización o un equipo técnico, empezamos por un servicio. Las alianzas son solo para casos muy específicos, cuando hay un problema real y capacidad de ejecutarlo juntos.",
-		"cta": "Evaluemos tu idea o proceso",
-		"ctaHref": "https://wa.me/50670118183?text=Hola%2C%20quiero%20conversar%20sobre%20una%20idea%20de%20negocio%20y%20una%20posible%20alianza%20tecnol%C3%B3gica.",
-		"visualLabel": "Dos personas colaborando sobre bocetos y una laptop para dar forma a una idea",
-		"image": {
-			"src": "./images/home/idea.webp",
-			"alt": "Dos personas trabajando juntas frente a una laptop, con bocetos de interfaz y un cuaderno sobre la mesa."
-		}
+		"eyebrow": "Colaboraciones selectivas",
+		"title": "¿Tenés una oportunidad de negocio validada?",
+		"text": "Además de nuestros servicios por proyecto, evaluamos colaboraciones excepcionales con negocios que ya cuentan con demanda comprobable, objetivos claros y un equipo comprometido con la ejecución. La evaluación inicial no implica aceptación ni compromiso.",
+		"cta": "Presentar una oportunidad",
+		"ctaHref": "https://wa.me/50670118183?text=Hola%2C%20quiero%20presentar%20una%20oportunidad%20de%20negocio%20validada."
 	},
 	"en": {
-		"eyebrow": "Alliances with potential",
-		"title": "Are you looking for a technology partner to validate a new digital product?",
-		"lead": "In addition to selling and delivering professional services for clients, we evaluate selective alliances with ventures that already have a defined problem, market, and commitment to execution.",
-		"highlight": "This path does not replace our project work. If you need a website, an automation, or a technical team, we start with a service. Alliances are only for very specific cases, when there is a real problem and the capacity to execute it together.",
-		"cta": "Let’s evaluate your idea or process",
-		"ctaHref": "https://wa.me/50670118183?text=Hi%2C%20I%20want%20to%20talk%20about%20a%20business%20idea%20and%20a%20possible%20technology%20partnership.",
-		"visualLabel": "Two people collaborating over sketches and a laptop to shape an idea",
-		"image": {
-			"src": "./images/home/idea.webp",
-			"alt": "Two people working together in front of a laptop, with interface sketches and a notebook on the table."
-		}
+		"eyebrow": "Selective collaborations",
+		"title": "Do you have a validated business opportunity?",
+		"text": "In addition to our project services, we evaluate exceptional collaborations with businesses that already have demonstrable demand, clear goals, and a team committed to execution. The initial review does not imply acceptance or commitment.",
+		"cta": "Present an opportunity",
+		"ctaHref": "https://wa.me/50670118183?text=Hi%2C%20I%20want%20to%20present%20a%20validated%20business%20opportunity."
 	}
 }

@@ -1,283 +1,376 @@
 {
 	"imageBase": "https://kikeestradadev.github.io/kikeestradadev/images/pf/",
+	"featured": [5, 1, 2, 7],
 	"es": {
 		"eyebrow": "Trabajo seleccionado",
-		"title": "Portafolio",
-		"lead": "Casos de educación, turismo, marca país y plataformas digitales. En cada uno priorizamos la necesidad y la solución; las tecnologías quedan como referencia.",
-		"note": "Hay trabajo adicional disponible bajo solicitud, incluidos proyectos de software, salud y educación con restricciones de confidencialidad.",
+		"title": "Proyectos que demuestran cómo una solución digital puede avanzar un negocio.",
+		"moreCta": "Ver portafolio completo",
+		"moreHref": "/portafolio.html",
 		"visitLabel": "Ver proyecto",
-		"techLabel": "Tecnologías",
+		"backLabel": "← Volver al inicio",
+		"backHref": "/",
+		"pageEyebrow": "Portafolio",
+		"pageTitle": "Casos para explorar",
+		"pageLead": "Cada caso indica el tipo de negocio, el objetivo, la solución entregada y la contribución.",
+		"note": "Hay trabajo adicional disponible bajo solicitud, incluidos proyectos con restricciones de confidencialidad.",
+		"homeLabels": {
+			"need": "Necesidad",
+			"solution": "Solución",
+			"benefit": "Beneficio"
+		},
+		"caseLabels": {
+			"sector": "Sector",
+			"objective": "Objetivo",
+			"solution": "Solución",
+			"role": "Contribución",
+			"reference": "Referencia"
+		},
+		"meta": {
+			"title": "Portafolio | Trigal Media",
+			"description": "Casos de plataformas, turismo, contenido y comercio digital. Cada uno describe el objetivo, la solución y la contribución.",
+			"keywords": "portafolio Trigal Media, proyectos digitales, sitios web, plataformas, turismo, contenido",
+			"ogImageAlt": "Logotipo de Trigal Media, soluciones digitales para negocios"
+		},
 		"items": [
 			{
 				"id": "ahorrando-para-tu-futuro",
 				"name": "Ahorrando para tu Futuro",
+				"sector": "Educación financiera",
 				"image": "pf_ahorrando.png",
-				"imageAlt": "Captura del proyecto Ahorrando para tu Futuro",
-				"summary": "Plataforma educativa para que las personas aprendan a ahorrar, desarrollada para BAC San José.",
-				"tech": [
-					"Laravel",
-					"PHP"
-				],
+				"imageAlt": "Captura del proyecto Ahorrando para tu Futuro, plataforma educativa de ahorro.",
+				"need": "Un espacio para que las personas aprendan a ahorrar.",
+				"objective": "Ofrecer una plataforma educativa para aprender a ahorrar, desarrollada para BAC San José.",
+				"solution": "Plataforma educativa de ahorro.",
+				"benefit": "Las personas cuentan con un lugar para aprender a ahorrar.",
+				"role": "Plataforma educativa desarrollada para BAC San José.",
+				"tech": ["Laravel", "PHP"],
 				"href": "https://kikeestrada.github.io/portfolio-ahorrando/"
 			},
 			{
 				"id": "esencial-costa-rica",
 				"name": "Esencial Costa Rica",
+				"sector": "Marca país",
 				"image": "pf_esencialcr.png",
-				"imageAlt": "Captura del proyecto Esencial Costa Rica",
-				"summary": "Sitio de la marca país de Costa Rica para presentar el programa de marca nacional.",
-				"tech": [
-					"HTML",
-					"CSS",
-					"JavaScript"
-				],
+				"imageAlt": "Captura del proyecto Esencial Costa Rica, sitio de la marca país.",
+				"need": "Presentar el programa de marca país de Costa Rica.",
+				"objective": "Presentar el programa de marca nacional de Costa Rica.",
+				"solution": "Sitio para explicar el programa y su propuesta.",
+				"benefit": "Quien visita el sitio puede conocer el programa en un solo lugar.",
+				"role": "Sitio web para presentar el programa de marca país.",
+				"tech": ["HTML", "CSS", "JavaScript"],
 				"href": "https://kikeestrada.github.io/portfolioEsencialcrWebSite/"
 			},
 			{
 				"id": "villa-lapas",
-				"name": "Villa Lapas",
+				"name": "Hotel Villa Lapas",
+				"sector": "Turismo",
 				"image": "pf_villalapas.png",
-				"imageAlt": "Captura del proyecto Villa Lapas",
-				"summary": "Sitio de turismo para Hotel Villa Lapas, pensado para mostrar la experiencia y facilitar la consulta.",
-				"tech": [
-					"WordPress"
-				],
+				"imageAlt": "Captura del proyecto Hotel Villa Lapas, sitio de turismo del hotel.",
+				"need": "Mostrar la experiencia del hotel y facilitar la consulta.",
+				"objective": "Presentar Hotel Villa Lapas y facilitar la consulta de quien visita el sitio.",
+				"solution": "Sitio de turismo orientado a la experiencia del hotel.",
+				"benefit": "Quien llega al sitio puede conocer la experiencia y consultar con más facilidad.",
+				"role": "Sitio web de turismo para el hotel.",
+				"tech": ["WordPress"],
 				"href": "https://kikeestrada.github.io/portfolioVillaLapasWebSite/"
 			},
 			{
 				"id": "maratones",
 				"name": "Maratones",
+				"sector": "Eventos",
 				"image": "pf_maratones.png",
-				"imageAlt": "Captura del proyecto Maratones",
-				"summary": "Sitio de un evento especial para informar y convocar a una carrera de maratón.",
-				"tech": [
-					"HTML",
-					"CSS",
-					"JavaScript"
-				],
+				"imageAlt": "Captura del proyecto Maratones, sitio de un evento de carrera.",
+				"need": "Informar y convocar a una carrera de maratón.",
+				"objective": "Informar sobre el evento y facilitar que las personas se sumen.",
+				"solution": "Sitio del evento con la información de la carrera.",
+				"benefit": "Quien visita el sitio encuentra la información para conocer la carrera.",
+				"role": "Sitio web de un evento de maratón.",
+				"tech": ["HTML", "CSS", "JavaScript"],
 				"href": "https://kikeestrada.github.io/portfolio-maratones/"
 			},
 			{
 				"id": "crypto-tutorials",
 				"name": "Crypto Tutorials",
+				"sector": "Contenido",
 				"image": "crypto.png",
-				"imageAlt": "Captura del proyecto Crypto Tutorials",
-				"summary": "Producto de contenido para explicar temas de cripto y mantener actualizaciones de forma continua.",
-				"tech": [
-					"React"
-				],
+				"imageAlt": "Captura del proyecto Crypto Tutorials, sitio de contenido sobre cripto.",
+				"need": "Explicar temas de cripto y mantener el contenido actualizado.",
+				"objective": "Publicar explicaciones de temas de cripto y poder actualizarlas en el tiempo.",
+				"solution": "Sitio de contenido de publicación continua.",
+				"benefit": "Los temas quedan explicados en un sitio que se puede seguir actualizando.",
+				"role": "Sitio de contenido para explicar temas de cripto.",
+				"tech": ["React"],
 				"href": "https://crypto-tutorials.com/"
 			},
 			{
 				"id": "betanysports",
 				"name": "BetAnySports",
+				"sector": "Apuestas deportivas",
 				"image": "bet.png",
-				"imageAlt": "Captura del proyecto BetAnySports",
-				"summary": "Modernización de una plataforma de apuestas deportivas de alto tráfico, con nueva identidad y experiencia de uso.",
-				"tech": [
-					"React",
-					"Remix",
-					"Strapi"
-				],
+				"imageAlt": "Captura del proyecto BetAnySports, plataforma de apuestas deportivas.",
+				"need": "Modernizar la experiencia de una plataforma de apuestas deportivas de alto tráfico.",
+				"objective": "Actualizar la identidad y la experiencia de uso de una plataforma de apuestas deportivas.",
+				"solution": "Nueva identidad y experiencia de uso para la plataforma.",
+				"benefit": "Quienes usan la plataforma encuentran una experiencia más clara y actual.",
+				"role": "Modernización de la identidad y la experiencia de uso de la plataforma.",
+				"tech": ["React", "Remix", "Strapi"],
 				"href": "https://www.betanything.eu/"
 			},
 			{
 				"id": "master-affiliates",
 				"name": "Master Affiliates",
+				"sector": "Programa de afiliados",
 				"image": "pf_master.png",
-				"imageAlt": "Captura del proyecto Master Affiliates",
-				"summary": "Sitio para atraer y convertir afiliados de un programa de apuestas y casino.",
-				"tech": [
-					"React"
-				],
+				"imageAlt": "Captura del proyecto Master Affiliates, sitio de un programa de afiliados.",
+				"need": "Presentar un programa de afiliados de apuestas y casino.",
+				"objective": "Tener un sitio para explicar el programa a posibles afiliados.",
+				"solution": "Sitio orientado a presentar el programa de afiliados.",
+				"benefit": "El programa cuenta con un sitio para explicar su propuesta.",
+				"role": "Sitio web para presentar un programa de afiliados.",
+				"tech": ["React"],
 				"href": "https://masteraffiliates.eu/"
 			},
 			{
 				"id": "insiders",
 				"name": "Insiders",
+				"sector": "Contenido deportivo",
 				"image": "insiders.png",
-				"imageAlt": "Captura del proyecto Insiders",
-				"summary": "Plataforma editorial para publicar y organizar contenido deportivo de alto volumen.",
-				"tech": [
-					"WordPress"
-				],
+				"imageAlt": "Captura del proyecto Insiders, plataforma editorial de contenido deportivo.",
+				"need": "Publicar y organizar contenido deportivo de alto volumen.",
+				"objective": "Ordenar la publicación continua de contenido deportivo.",
+				"solution": "Plataforma editorial para ese contenido.",
+				"benefit": "El contenido queda organizado para publicarse y consultarse.",
+				"role": "Plataforma editorial para publicar y organizar contenido deportivo.",
+				"tech": ["WordPress"],
 				"href": "https://insidersbettingdigest.com/"
 			},
 			{
 				"id": "cryptovig",
 				"name": "Cryptovig",
+				"sector": "Apuestas deportivas",
 				"image": "cryptovig.png",
-				"imageAlt": "Captura del proyecto Cryptovig",
-				"summary": "Sitio para presentar una marca de apuestas deportivas y orientar a sus visitantes.",
-				"tech": [
-					"WordPress"
-				],
+				"imageAlt": "Captura del proyecto Cryptovig, sitio de una marca de apuestas deportivas.",
+				"need": "Presentar una marca de apuestas deportivas y orientar a sus visitantes.",
+				"objective": "Explicar la marca y orientar a quien llega al sitio.",
+				"solution": "Sitio de presentación de la marca.",
+				"benefit": "Quien visita el sitio puede conocer la marca y orientarse.",
+				"role": "Sitio web para presentar la marca.",
+				"tech": ["WordPress"],
 				"href": "https://cryptovig.com/"
 			},
 			{
 				"id": "sport-betting-ai",
 				"name": "Sport Betting AI",
+				"sector": "Medios",
 				"image": "sbai.png",
-				"imageAlt": "Captura del proyecto Sport Betting AI",
-				"summary": "Revista digital de apuestas deportivas, enfocada en contenido y visibilidad en buscadores.",
-				"tech": [
-					"WordPress",
-					"SEO"
-				],
+				"imageAlt": "Captura del proyecto Sport Betting AI, revista digital de apuestas deportivas.",
+				"need": "Publicar contenido de apuestas deportivas en un sitio propio.",
+				"objective": "Tener una revista digital para publicar ese contenido.",
+				"solution": "Revista digital de apuestas deportivas.",
+				"benefit": "El contenido tiene un sitio propio para publicarse y encontrarse.",
+				"role": "Revista digital de contenido sobre apuestas deportivas.",
+				"tech": ["WordPress", "SEO"],
 				"href": "https://sportbettingai.com/"
 			},
 			{
 				"id": "my-bookie",
 				"name": "My Bookie",
+				"sector": "Apuestas y casino",
 				"image": "mb.png",
-				"imageAlt": "Captura del proyecto My Bookie",
-				"summary": "Sistemas de entrega digital para un sportsbook y casino con varias marcas.",
-				"tech": [
-					"WordPress",
-					"PHP",
-					"JavaScript"
-				],
+				"imageAlt": "Captura del proyecto My Bookie, entrega digital para un sportsbook y casino.",
+				"need": "Entregar contenido digital para un sportsbook y casino con varias marcas.",
+				"objective": "Publicar y entregar contenido digital para varias marcas del mismo grupo.",
+				"solution": "Sistemas de entrega digital para esas marcas.",
+				"benefit": "Las marcas cuentan con una forma de publicar y entregar su contenido digital.",
+				"role": "Sistemas de entrega digital para varias marcas del sportsbook y casino.",
+				"tech": ["WordPress", "PHP", "JavaScript"],
 				"href": "https://www.mybookie.ag/"
 			}
 		]
 	},
 	"en": {
 		"eyebrow": "Selected work",
-		"title": "Portfolio",
-		"lead": "Education, tourism, country-brand, and digital platform cases. In each one we prioritize the need and the solution; technologies remain as reference.",
-		"note": "Additional work available on request, including software, healthcare, and education projects with confidentiality restrictions.",
+		"title": "Projects that show how a digital solution can move a business forward.",
+		"moreCta": "View the full portfolio",
+		"moreHref": "/portafolio.html",
 		"visitLabel": "View project",
-		"techLabel": "Technologies",
+		"backLabel": "← Back to home",
+		"backHref": "/",
+		"pageEyebrow": "Portfolio",
+		"pageTitle": "Cases to explore",
+		"pageLead": "Each case states the kind of business, the goal, the solution delivered, and the contribution.",
+		"note": "Additional work is available on request, including projects with confidentiality restrictions.",
+		"homeLabels": {
+			"need": "Need",
+			"solution": "Solution",
+			"benefit": "Benefit"
+		},
+		"caseLabels": {
+			"sector": "Sector",
+			"objective": "Goal",
+			"solution": "Solution",
+			"role": "Contribution",
+			"reference": "Reference"
+		},
+		"meta": {
+			"title": "Portfolio | Trigal Media",
+			"description": "Cases across platforms, tourism, content, and digital commerce. Each one describes the goal, the solution, and the contribution.",
+			"keywords": "Trigal Media portfolio, digital projects, websites, platforms, tourism, content",
+			"ogImageAlt": "Trigal Media logo, digital solutions for businesses"
+		},
 		"items": [
 			{
 				"id": "ahorrando-para-tu-futuro",
 				"name": "Ahorrando para tu Futuro",
+				"sector": "Financial education",
 				"image": "pf_ahorrando.png",
-				"imageAlt": "Screenshot of the Ahorrando para tu Futuro project",
-				"summary": "Educational platform that helps people learn to save, built for BAC San José.",
-				"tech": [
-					"Laravel",
-					"PHP"
-				],
+				"imageAlt": "Screenshot of Ahorrando para tu Futuro, an educational savings platform.",
+				"need": "A place for people to learn how to save.",
+				"objective": "Offer an educational platform for learning to save, built for BAC San José.",
+				"solution": "Educational savings platform.",
+				"benefit": "People have a place to learn how to save.",
+				"role": "Educational platform built for BAC San José.",
+				"tech": ["Laravel", "PHP"],
 				"href": "https://kikeestrada.github.io/portfolio-ahorrando/"
 			},
 			{
 				"id": "esencial-costa-rica",
 				"name": "Esencial Costa Rica",
+				"sector": "Country brand",
 				"image": "pf_esencialcr.png",
-				"imageAlt": "Screenshot of the Esencial Costa Rica project",
-				"summary": "Country brand website for Costa Rica’s national brand program.",
-				"tech": [
-					"HTML",
-					"CSS",
-					"JavaScript"
-				],
+				"imageAlt": "Screenshot of Esencial Costa Rica, the country-brand website.",
+				"need": "Present Costa Rica’s country-brand program.",
+				"objective": "Present Costa Rica’s national brand program.",
+				"solution": "A website that explains the program and its offer.",
+				"benefit": "Visitors can learn about the program in one place.",
+				"role": "Website to present the country-brand program.",
+				"tech": ["HTML", "CSS", "JavaScript"],
 				"href": "https://kikeestrada.github.io/portfolioEsencialcrWebSite/"
 			},
 			{
 				"id": "villa-lapas",
-				"name": "Villa Lapas",
+				"name": "Hotel Villa Lapas",
+				"sector": "Tourism",
 				"image": "pf_villalapas.png",
-				"imageAlt": "Screenshot of the Villa Lapas project",
-				"summary": "Tourism website for Hotel Villa Lapas, designed to present the experience and make inquiries easier.",
-				"tech": [
-					"WordPress"
-				],
+				"imageAlt": "Screenshot of Hotel Villa Lapas, the hotel’s tourism website.",
+				"need": "Show the hotel experience and make inquiries easier.",
+				"objective": "Present Hotel Villa Lapas and make it easier for visitors to inquire.",
+				"solution": "A tourism website focused on the hotel experience.",
+				"benefit": "Visitors can learn about the experience and inquire more easily.",
+				"role": "Tourism website for the hotel.",
+				"tech": ["WordPress"],
 				"href": "https://kikeestrada.github.io/portfolioVillaLapasWebSite/"
 			},
 			{
 				"id": "maratones",
 				"name": "Maratones",
+				"sector": "Events",
 				"image": "pf_maratones.png",
-				"imageAlt": "Screenshot of the Maratones project",
-				"summary": "Special-event website to inform and invite people to a marathon race.",
-				"tech": [
-					"HTML",
-					"CSS",
-					"JavaScript"
-				],
+				"imageAlt": "Screenshot of Maratones, a race event website.",
+				"need": "Inform people about a marathon and invite them to take part.",
+				"objective": "Share the event information and make it easier for people to join.",
+				"solution": "An event website with the race information.",
+				"benefit": "Visitors find the information they need to learn about the race.",
+				"role": "Website for a marathon event.",
+				"tech": ["HTML", "CSS", "JavaScript"],
 				"href": "https://kikeestrada.github.io/portfolio-maratones/"
 			},
 			{
 				"id": "crypto-tutorials",
 				"name": "Crypto Tutorials",
+				"sector": "Content",
 				"image": "crypto.png",
-				"imageAlt": "Screenshot of the Crypto Tutorials project",
-				"summary": "Content product to explain crypto topics and keep updates flowing over time.",
-				"tech": [
-					"React"
-				],
+				"imageAlt": "Screenshot of Crypto Tutorials, a crypto content website.",
+				"need": "Explain crypto topics and keep the content up to date.",
+				"objective": "Publish explanations of crypto topics and be able to update them over time.",
+				"solution": "A content site for ongoing publication.",
+				"benefit": "The topics are explained on a site that can keep being updated.",
+				"role": "Content website to explain crypto topics.",
+				"tech": ["React"],
 				"href": "https://crypto-tutorials.com/"
 			},
 			{
 				"id": "betanysports",
 				"name": "BetAnySports",
+				"sector": "Sports betting",
 				"image": "bet.png",
-				"imageAlt": "Screenshot of the BetAnySports project",
-				"summary": "Modernization of a high-traffic sports betting platform, with a new identity and user experience.",
-				"tech": [
-					"React",
-					"Remix",
-					"Strapi"
-				],
+				"imageAlt": "Screenshot of BetAnySports, a sports betting platform.",
+				"need": "Modernize the experience of a high-traffic sports betting platform.",
+				"objective": "Update the identity and user experience of a sports betting platform.",
+				"solution": "A new identity and user experience for the platform.",
+				"benefit": "People using the platform find a clearer, more current experience.",
+				"role": "Modernization of the platform’s identity and user experience.",
+				"tech": ["React", "Remix", "Strapi"],
 				"href": "https://www.betanything.eu/"
 			},
 			{
 				"id": "master-affiliates",
 				"name": "Master Affiliates",
+				"sector": "Affiliate program",
 				"image": "pf_master.png",
-				"imageAlt": "Screenshot of the Master Affiliates project",
-				"summary": "Website to attract and convert affiliates for a sportsbook and casino program.",
-				"tech": [
-					"React"
-				],
+				"imageAlt": "Screenshot of Master Affiliates, an affiliate program website.",
+				"need": "Present a sportsbook and casino affiliate program.",
+				"objective": "Give the program a website that explains it to potential affiliates.",
+				"solution": "A website built to present the affiliate program.",
+				"benefit": "The program has a site that explains its offer.",
+				"role": "Website to present an affiliate program.",
+				"tech": ["React"],
 				"href": "https://masteraffiliates.eu/"
 			},
 			{
 				"id": "insiders",
 				"name": "Insiders",
+				"sector": "Sports content",
 				"image": "insiders.png",
-				"imageAlt": "Screenshot of the Insiders project",
-				"summary": "Publishing platform to organize and publish high-volume sports content.",
-				"tech": [
-					"WordPress"
-				],
+				"imageAlt": "Screenshot of Insiders, a sports editorial platform.",
+				"need": "Publish and organize a high volume of sports content.",
+				"objective": "Organize the ongoing publication of sports content.",
+				"solution": "An editorial platform for that content.",
+				"benefit": "The content is organized so it can be published and read.",
+				"role": "Editorial platform to publish and organize sports content.",
+				"tech": ["WordPress"],
 				"href": "https://insidersbettingdigest.com/"
 			},
 			{
 				"id": "cryptovig",
 				"name": "Cryptovig",
+				"sector": "Sports betting",
 				"image": "cryptovig.png",
-				"imageAlt": "Screenshot of the Cryptovig project",
-				"summary": "Website to present a sports betting brand and guide its visitors.",
-				"tech": [
-					"WordPress"
-				],
+				"imageAlt": "Screenshot of Cryptovig, a sports betting brand website.",
+				"need": "Present a sports betting brand and guide its visitors.",
+				"objective": "Explain the brand and orient people who arrive at the site.",
+				"solution": "A website that presents the brand.",
+				"benefit": "Visitors can learn about the brand and find their way.",
+				"role": "Website to present the brand.",
+				"tech": ["WordPress"],
 				"href": "https://cryptovig.com/"
 			},
 			{
 				"id": "sport-betting-ai",
 				"name": "Sport Betting AI",
+				"sector": "Media",
 				"image": "sbai.png",
-				"imageAlt": "Screenshot of the Sport Betting AI project",
-				"summary": "Digital sports betting magazine focused on content and search visibility.",
-				"tech": [
-					"WordPress",
-					"SEO"
-				],
+				"imageAlt": "Screenshot of Sport Betting AI, a digital sports betting magazine.",
+				"need": "Publish sports betting content on its own site.",
+				"objective": "Have a digital magazine for publishing that content.",
+				"solution": "A digital sports betting magazine.",
+				"benefit": "The content has its own site where it can be published and found.",
+				"role": "Digital magazine for sports betting content.",
+				"tech": ["WordPress", "SEO"],
 				"href": "https://sportbettingai.com/"
 			},
 			{
 				"id": "my-bookie",
 				"name": "My Bookie",
+				"sector": "Sportsbook and casino",
 				"image": "mb.png",
-				"imageAlt": "Screenshot of the My Bookie project",
-				"summary": "Digital delivery systems for a multi-brand sportsbook and casino.",
-				"tech": [
-					"WordPress",
-					"PHP",
-					"JavaScript"
-				],
+				"imageAlt": "Screenshot of My Bookie, digital delivery for a sportsbook and casino.",
+				"need": "Deliver digital content for a multi-brand sportsbook and casino.",
+				"objective": "Publish and deliver digital content for several brands in the same group.",
+				"solution": "Digital delivery systems for those brands.",
+				"benefit": "The brands have a way to publish and deliver their digital content.",
+				"role": "Digital delivery systems for several sportsbook and casino brands.",
+				"tech": ["WordPress", "PHP", "JavaScript"],
 				"href": "https://www.mybookie.ag/"
 			}
 		]

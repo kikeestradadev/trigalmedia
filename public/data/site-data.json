@@ -15,33 +15,31 @@
 		},
 		"meta": {
 			"siteName": "Trigal Media",
-			"title": "Trigal Media | Inteligencia artificial y automatización para negocios en Costa Rica",
-			"description": "Trigal Media crea sitios web, automatizaciones y agentes de IA para negocios en Costa Rica. Aplicamos inteligencia artificial para vender, atender y operar mejor.",
-			"keywords": "Trigal Media, Trigal Media Costa Rica, socio tecnológico Costa Rica, desarrollo web Costa Rica, diseño web, ecommerce Costa Rica, WordPress, automatización de procesos, aplicaciones web, integración Stripe, PayPal, BAC Credomatic, SINPE Móvil, chatbots WhatsApp, agentes de IA, software a medida, agencia digital Costa Rica",
-			"ogImageAlt": "Logotipo de Trigal Media, socio tecnológico en Costa Rica",
+			"title": "Trigal Media | Soluciones digitales para negocios",
+			"description": "Creamos y entregamos sitios web, e-commerce, contenido, automatizaciones, soluciones con IA y desarrollo a la medida para ayudarte a atraer, vender y operar mejor.",
+			"keywords": "Trigal Media, soluciones digitales para negocios, sitios web, ecommerce, contenido, campañas, video, automatización, inteligencia artificial aplicada, desarrollo a medida, Costa Rica",
+			"ogImageAlt": "Logotipo de Trigal Media, soluciones digitales para negocios",
 			"ogLocale": "es_CR",
 			"ogLocaleAlternate": "en_US"
 		},
 		"seo": {
-			"slogan": "IA para vender, atender y operar mejor.",
-			"disambiguatingDescription": "Socio tecnológico con sede en Costa Rica, especializado en desarrollo web, ecommerce, automatización y software a medida para empresas, fundaciones e instituciones.",
+			"slogan": "Más clientes, mejores procesos y tecnología que impulsa tu negocio.",
+			"disambiguatingDescription": "Empresa que crea y entrega soluciones digitales para negocios: sitios web, e-commerce, contenido, automatizaciones, soluciones con IA y desarrollo a la medida.",
 			"knowsAbout": [
-				"Desarrollo web",
+				"Sitios web",
 				"Ecommerce",
-				"Automatización de procesos",
-				"Integraciones de pago",
-				"Chatbots",
-				"Agentes de IA",
-				"Software a medida",
-				"WordPress"
+				"Contenido y campañas",
+				"Video y animación",
+				"Automatización",
+				"Inteligencia artificial aplicada",
+				"Desarrollo a medida"
 			],
 			"serviceType": [
-				"Desarrollo web",
-				"Ecommerce",
-				"Automatización",
-				"Integraciones de pago",
-				"Chatbots y agentes de IA",
-				"Software a medida"
+				"Contenido y campañas",
+				"Video y animación",
+				"Sitios web y e-commerce",
+				"Desarrollo a la medida",
+				"Automatización e IA"
 			]
 		}
 	},
@@ -53,33 +51,31 @@
 		},
 		"meta": {
 			"siteName": "Trigal Media",
-			"title": "Trigal Media | Artificial intelligence and automation for businesses in Costa Rica",
-			"description": "Trigal Media creates websites, automations, and AI agents for businesses in Costa Rica. We apply artificial intelligence to help you sell, serve, and operate better.",
-			"keywords": "Trigal Media, Trigal Media Costa Rica, technology partner Costa Rica, web development Costa Rica, web design, ecommerce Costa Rica, WordPress, process automation, web applications, Stripe integration, PayPal, payment gateways, WhatsApp chatbots, AI agents, custom software, digital agency Costa Rica",
-			"ogImageAlt": "Trigal Media logo, technology partner in Costa Rica",
+			"title": "Trigal Media | Digital solutions for businesses",
+			"description": "We create and deliver websites, e-commerce, content, automations, AI solutions, and custom development to help you attract, sell, and operate better.",
+			"keywords": "Trigal Media, digital solutions for businesses, websites, ecommerce, content, campaigns, video, automation, applied artificial intelligence, custom development, Costa Rica",
+			"ogImageAlt": "Trigal Media logo, digital solutions for businesses",
 			"ogLocale": "en_US",
 			"ogLocaleAlternate": "es_CR"
 		},
 		"seo": {
-			"slogan": "AI to sell, serve, and operate better.",
-			"disambiguatingDescription": "Technology partner based in Costa Rica, specialized in web development, ecommerce, automation, and custom software for companies, foundations, and institutions.",
+			"slogan": "More customers, better processes, and technology that moves your business forward.",
+			"disambiguatingDescription": "A company that creates and delivers digital solutions for businesses: websites, e-commerce, content, automations, AI solutions, and custom development.",
 			"knowsAbout": [
-				"Web development",
+				"Websites",
 				"Ecommerce",
-				"Process automation",
-				"Payment integrations",
-				"Chatbots",
-				"AI agents",
-				"Custom software",
-				"WordPress"
+				"Content and campaigns",
+				"Video and animation",
+				"Automation",
+				"Applied artificial intelligence",
+				"Custom development"
 			],
 			"serviceType": [
-				"Web development",
-				"Ecommerce",
-				"Automation",
-				"Payment integrations",
-				"Chatbots and AI agents",
-				"Custom software"
+				"Content and campaigns",
+				"Video and animation",
+				"Websites and e-commerce",
+				"Custom development",
+				"Automation and AI"
 			]
 		}
 	}

@@ -4,10 +4,11 @@
 	"email": "trigalmedia@gmail.com",
 	"facebookHref": "https://www.facebook.com/profile.php?id=100067163003115",
 	"es": {
-		"eyebrow": "Siguiente paso",
-		"title": "Contanos qué querés mejorar",
-		"lead": "Contanos el objetivo de tu negocio. Empezamos por entenderlo, no por vender una herramienta.",
-		"primaryCta": "Escribinos por WhatsApp y te orientamos",
+		"eyebrow": "Contacto",
+		"title": "Contanos qué querés mejorar.",
+		"lead": "Empezamos por entender el objetivo de tu negocio y orientarte hacia la solución digital más adecuada.",
+		"note": "Adaptamos cada solución al contexto, objetivos y forma de operar de cada organización.",
+		"primaryCta": "Escribinos por WhatsApp",
 		"secondaryCta": "Enviar un correo",
 		"facebookLabel": "Facebook",
 		"contextMessages": {
@@ -15,16 +16,17 @@
 			"animacion-audiovisual": "Hola, quiero evaluar una idea de contenido audiovisual.",
 			"desarrollo-web": "Hola, quiero mejorar mi sitio web, e-commerce o presencia digital.",
 			"diseno-desarrollo-web": "Hola, quiero mejorar mi sitio web, e-commerce o presencia digital.",
-			"equipos": "Hola, necesito capacidad técnica para mi equipo.",
-			"equipos-extendidos": "Hola, necesito capacidad técnica para mi equipo.",
+			"equipos": "Hola, quiero convertir una idea digital en un proyecto.",
+			"equipos-extendidos": "Hola, quiero convertir una idea digital en un proyecto.",
 			"automatizacion": "Hola, quiero ordenar o automatizar mi operación."
 		}
 	},
 	"en": {
-		"eyebrow": "Next step",
-		"title": "Tell us what you want to improve",
-		"lead": "Tell us the goal of your business. We start by understanding it, not by selling a tool.",
-		"primaryCta": "Message us on WhatsApp and we’ll guide you",
+		"eyebrow": "Contact",
+		"title": "Tell us what you want to improve.",
+		"lead": "We start by understanding your business goal and pointing you toward the most suitable digital solution.",
+		"note": "We adapt each solution to the context, goals, and way of operating of each organization.",
+		"primaryCta": "Message us on WhatsApp",
 		"secondaryCta": "Send an email",
 		"facebookLabel": "Facebook",
 		"contextMessages": {
@@ -32,8 +34,8 @@
 			"animacion-audiovisual": "Hi, I want to evaluate an audiovisual content idea.",
 			"desarrollo-web": "Hi, I want to improve my website, e-commerce, or digital presence.",
 			"diseno-desarrollo-web": "Hi, I want to improve my website, e-commerce, or digital presence.",
-			"equipos": "Hi, I need technical capacity for my team.",
-			"equipos-extendidos": "Hi, I need technical capacity for my team.",
+			"equipos": "Hi, I want to turn a digital idea into a project.",
+			"equipos-extendidos": "Hi, I want to turn a digital idea into a project.",
 			"automatizacion": "Hi, I want to organize or automate my operation."
 		}
 	}

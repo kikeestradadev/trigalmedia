@@ -1,0 +1,86 @@
+-
+	var portfolioOrder = portfolioData.featured.slice()
+	portfolioData.es.items.forEach(function(item, index) {
+		if (portfolioData.featured.indexOf(index) === -1) portfolioOrder.push(index)
+	})
+
+section(class='portfolio-cases')
+	div(class='main-container portfolio-cases__shell')
+		div(class='container portfolio-cases__container')
+			header(class='portfolio-cases__header')
+				a(
+					class='portfolio-cases__back',
+					href=portfolioData.es.backHref,
+					data-i18n='portfolio.backLabel'
+				)= portfolioData.es.backLabel
+				p(class='portfolio-cases__eyebrow', data-i18n='portfolio.pageEyebrow')= portfolioData.es.pageEyebrow
+				h1(class='portfolio-cases__title', data-i18n='portfolio.pageTitle')= portfolioData.es.pageTitle
+				p(class='portfolio-cases__lead', data-i18n='portfolio.pageLead')= portfolioData.es.pageLead
+
+			div(class='portfolio-cases__list')
+				each sourceIndex in portfolioOrder
+					- var item = portfolioData.es.items[sourceIndex]
+					article(class='portfolio-cases__case')
+						figure(class='portfolio-cases__visual')
+							img(
+								class='portfolio-cases__image',
+								src=`${portfolioData.imageBase}${item.image}`,
+								alt=item.imageAlt,
+								width='640',
+								height='400',
+								loading='lazy',
+								decoding='async',
+								data-i18n-alt=`portfolio.items.${sourceIndex}.imageAlt`
+							)
+						div(class='portfolio-cases__body')
+							p(
+								class='portfolio-cases__sector',
+								data-i18n=`portfolio.items.${sourceIndex}.sector`
+							)= item.sector
+							h2(class='portfolio-cases__name')= item.name
+							dl(class='portfolio-cases__facts')
+								div(class='portfolio-cases__fact')
+									dt(
+										class='portfolio-cases__fact-label',
+										data-i18n='portfolio.caseLabels.objective'
+									)= portfolioData.es.caseLabels.objective
+									dd(
+										class='portfolio-cases__fact-text',
+										data-i18n=`portfolio.items.${sourceIndex}.objective`
+									)= item.objective
+								div(class='portfolio-cases__fact')
+									dt(
+										class='portfolio-cases__fact-label',
+										data-i18n='portfolio.caseLabels.solution'
+									)= portfolioData.es.caseLabels.solution
+									dd(
+										class='portfolio-cases__fact-text',
+										data-i18n=`portfolio.items.${sourceIndex}.solution`
+									)= item.solution
+								div(class='portfolio-cases__fact')
+									dt(
+										class='portfolio-cases__fact-label',
+										data-i18n='portfolio.caseLabels.role'
+									)= portfolioData.es.caseLabels.role
+									dd(
+										class='portfolio-cases__fact-text',
+										data-i18n=`portfolio.items.${sourceIndex}.role`
+									)= item.role
+							if item.tech && item.tech.length
+								p(class='portfolio-cases__reference')
+									span(
+										class='portfolio-cases__reference-label',
+										data-i18n='portfolio.caseLabels.reference'
+									)= portfolioData.es.caseLabels.reference
+									span= item.tech.join(', ')
+							if item.href
+								a(
+									class='portfolio-cases__link',
+									href=item.href,
+									target='_blank',
+									rel='noopener noreferrer',
+									title=item.name
+								)
+									span(data-i18n='portfolio.visitLabel')= portfolioData.es.visitLabel
+
+			p(class='portfolio-cases__note', data-i18n='portfolio.note')= portfolioData.es.note

@@ -11,7 +11,7 @@
 		"logoAlt": "Trigal Media",
 		"navLabel": "Pie de página",
 		"contactLabel": "Contacto",
-		"about": "Trigal Media crea sitios web, e-commerce, automatizaciones y software a medida para negocios, fundaciones e instituciones en Costa Rica. Empezamos por el negocio, no por la herramienta.",
+		"about": "Trigal Media ofrece soluciones digitales para negocios: sitios web, e-commerce, contenido, automatizaciones, soluciones con IA y desarrollo a la medida.",
 		"rights": "Todos los derechos reservados.",
 		"whatsapp": "WhatsApp",
 		"facebook": "Facebook",
@@ -19,7 +19,7 @@
 			{ "href": "/#inicio", "label": "Inicio" },
 			{ "href": "/servicios.html", "label": "Servicios" },
 			{ "href": "/#como-trabajamos", "label": "Cómo trabajamos" },
-			{ "href": "/#portafolio", "label": "Portafolio" },
+			{ "href": "/portafolio.html", "label": "Portafolio" },
 			{ "href": "/#preguntas-frecuentes", "label": "Preguntas frecuentes" },
 			{ "href": "/#contacto", "label": "Contacto" }
 		]
@@ -28,7 +28,7 @@
 		"logoAlt": "Trigal Media",
 		"navLabel": "Footer",
 		"contactLabel": "Contact",
-		"about": "Trigal Media builds websites, e-commerce, automations, and custom software for businesses, foundations, and institutions in Costa Rica. We start with the business, not the tool.",
+		"about": "Trigal Media offers digital solutions for businesses: websites, e-commerce, content, automations, AI solutions, and custom development.",
 		"rights": "All rights reserved.",
 		"whatsapp": "WhatsApp",
 		"facebook": "Facebook",
@@ -36,7 +36,7 @@
 			{ "href": "/#inicio", "label": "Home" },
 			{ "href": "/servicios.html", "label": "Services" },
 			{ "href": "/#como-trabajamos", "label": "How we work" },
-			{ "href": "/#portafolio", "label": "Portfolio" },
+			{ "href": "/portafolio.html", "label": "Portfolio" },
 			{ "href": "/#preguntas-frecuentes", "label": "FAQ" },
 			{ "href": "/#contacto", "label": "Contact" }
 		]

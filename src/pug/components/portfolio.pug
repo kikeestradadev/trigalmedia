@@ -4,12 +4,11 @@ section(class='portfolio', id='portafolio', data-article-grid='')
 			header(class='portfolio__header')
 				p(class='portfolio__eyebrow', data-i18n='portfolio.eyebrow')= portfolioData.es.eyebrow
 				h2(class='portfolio__title', data-i18n='portfolio.title')= portfolioData.es.title
-				p(class='portfolio__lead', data-i18n='portfolio.lead')= portfolioData.es.lead
-				p(class='portfolio__note', data-i18n='portfolio.note')= portfolioData.es.note
 
 			div(class='swiper portfolio__slider')
 				div(class='swiper-wrapper portfolio__track')
-					each item, index in portfolioData.es.items
+					each sourceIndex, slideIndex in portfolioData.featured
+						- var item = portfolioData.es.items[sourceIndex]
 						article(class='swiper-slide portfolio__card')
 							a(
 								class='portfolio__card-link',
@@ -25,20 +24,44 @@ section(class='portfolio', id='portafolio', data-article-grid='')
 										alt=item.imageAlt,
 										width='640',
 										height='400',
-										loading=index < 2 ? 'eager' : 'lazy',
+										loading=slideIndex < 2 ? 'eager' : 'lazy',
 										decoding='async',
-										data-i18n-alt=`portfolio.items.${index}.imageAlt`
+										data-i18n-alt=`portfolio.items.${sourceIndex}.imageAlt`
 									)
 								div(class='portfolio__body')
-									h3(class='portfolio__name')= item.name
 									p(
-										class='portfolio__summary',
-										data-i18n=`portfolio.items.${index}.summary`
-									)= item.summary
-									p(class='portfolio__tech-label', data-i18n='portfolio.techLabel')= portfolioData.es.techLabel
-									ul(class='portfolio__tech')
-										each tech in item.tech
-											li(class='portfolio__tech-item')= tech
+										class='portfolio__sector',
+										data-i18n=`portfolio.items.${sourceIndex}.sector`
+									)= item.sector
+									h3(class='portfolio__name')= item.name
+									dl(class='portfolio__facts')
+										div(class='portfolio__fact')
+											dt(
+												class='portfolio__fact-label',
+												data-i18n='portfolio.homeLabels.need'
+											)= portfolioData.es.homeLabels.need
+											dd(
+												class='portfolio__fact-text',
+												data-i18n=`portfolio.items.${sourceIndex}.need`
+											)= item.need
+										div(class='portfolio__fact')
+											dt(
+												class='portfolio__fact-label',
+												data-i18n='portfolio.homeLabels.solution'
+											)= portfolioData.es.homeLabels.solution
+											dd(
+												class='portfolio__fact-text',
+												data-i18n=`portfolio.items.${sourceIndex}.solution`
+											)= item.solution
+										div(class='portfolio__fact')
+											dt(
+												class='portfolio__fact-label',
+												data-i18n='portfolio.homeLabels.benefit'
+											)= portfolioData.es.homeLabels.benefit
+											dd(
+												class='portfolio__fact-text',
+												data-i18n=`portfolio.items.${sourceIndex}.benefit`
+											)= item.benefit
 									span(
 										class='btn btn--outline btn--small portfolio__cta',
 										data-i18n='portfolio.visitLabel'
@@ -56,3 +79,13 @@ section(class='portfolio', id='portafolio', data-article-grid='')
 						data-i18n-aria='site.articleGrid.nextLabel',
 						aria-label=siteData.es.articleGrid.nextLabel
 					)
+
+			div(class='portfolio__footer')
+				a(
+					class='btn btn--primary',
+					href=portfolioData.es.moreHref,
+					title=portfolioData.es.moreCta,
+					data-i18n='portfolio.moreCta',
+					data-i18n-title='portfolio.moreCta',
+					data-i18n-href='portfolio.moreHref'
+				)= portfolioData.es.moreCta

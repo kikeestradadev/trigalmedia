@@ -1,0 +1,27 @@
+extends ../config/template
+
+block append config
+	- currentPage = 'portafolio';
+	- pagePath = '/portafolio.html';
+	- pageMetaPath = 'portfolio.meta';
+	- siteName = siteData.es.meta.siteName;
+	- pageTitle = portfolioData.es.meta.title;
+	- pageDescription = portfolioData.es.meta.description;
+	- pageKeywords = portfolioData.es.meta.keywords;
+	- pageOgImageAlt = portfolioData.es.meta.ogImageAlt;
+
+block main-header
+	include ../components/site-header
+
+block main-container
+	include ../components/portfolio-cases
+
+block main-footer
+	include ../components/site-footer
+
+block after-footer
+	include ../components/floating-contact
+
+block data
+	script(type='application/json', id='i18n-bundle')
+		!= JSON.stringify({ site: siteData, siteHeader: siteHeaderData, portfolio: portfolioData, siteFooter: siteFooterData, floatingContact: floatingContactData })

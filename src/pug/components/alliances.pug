@@ -4,27 +4,14 @@ section(class='alliances', id='alianzas')
 			div(class='alliances__copy')
 				p(class='alliances__eyebrow', data-i18n='alliances.eyebrow')= alliancesData.es.eyebrow
 				h2(class='alliances__title', data-i18n='alliances.title')= alliancesData.es.title
-				p(class='alliances__lead', data-i18n='alliances.lead')= alliancesData.es.lead
-				p(class='alliances__highlight', data-i18n='alliances.highlight')= alliancesData.es.highlight
-				a(
-					class='btn btn--gold alliances__cta',
-					href=alliancesData.es.ctaHref,
-					target='_blank',
-					rel='noopener noreferrer',
-					title=alliancesData.es.cta,
-					data-i18n='alliances.cta',
-					data-i18n-title='alliances.cta',
-					data-i18n-href='alliances.ctaHref'
-				)= alliancesData.es.cta
-
-			figure(class='alliances__visual')
-				img(
-					class='alliances__image',
-					src=alliancesData.es.image.src,
-					alt=alliancesData.es.image.alt,
-					width='1254',
-					height='1254',
-					loading='lazy',
-					decoding='async',
-					data-i18n-alt='alliances.image.alt'
-				)
+				p(class='alliances__text', data-i18n='alliances.text')= alliancesData.es.text
+			a(
+				class='btn btn--outline btn--small alliances__cta',
+				href=alliancesData.es.ctaHref,
+				target='_blank',
+				rel='noopener noreferrer',
+				title=alliancesData.es.cta,
+				data-i18n='alliances.cta',
+				data-i18n-title='alliances.cta',
+				data-i18n-href='alliances.ctaHref'
+			)= alliancesData.es.cta

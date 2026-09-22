@@ -42,7 +42,7 @@
 	&__title {
 		margin: 0 0 1rem;
 		color: var(--color-white);
-		max-width: 14ch;
+		max-width: 12em;
 
 		@media (width < $l) {
 			margin-inline: auto;
@@ -51,7 +51,7 @@
 
 	&__text {
 		margin: 0 0 1.75rem;
-		max-width: 42ch;
+		max-width: 46ch;
 		color: color-mix(in srgb, var(--color-white) 86%, var(--color-cyan));
 
 		@media (width < $l) {
